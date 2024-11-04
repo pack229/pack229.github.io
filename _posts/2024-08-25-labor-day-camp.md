@@ -3,7 +3,7 @@ layout: post
 title:  "Labor Day Camp"
 date:   2024-08-25
 featured_image: default.jpg
-tags: [Camping]
+tags: [Camping, Labor Day Camp]
 ---
 
 I can’t believe the school year is right around the corner, I hope you’ve all had a wonderful summer!

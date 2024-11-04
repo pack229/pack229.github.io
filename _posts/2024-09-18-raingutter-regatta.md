@@ -3,7 +3,7 @@ layout: post
 title:  "Raingutter Regatta"
 date:   2024-08-25
 featured_image: default.jpg
-tags: [raingutter-regatta]
+tags: [Raingutter Regatta]
 ---
 
 It’s time to get out the paint and glue and put on your creative caps for our annual Raingutter Regatta! You should have received your boat kit at the pack meeting last week, please reach out to your Den leader if you still need one.

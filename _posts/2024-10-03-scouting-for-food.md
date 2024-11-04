@@ -14,7 +14,7 @@ Scouting for Food is an ongoing annual program of the Boy Scouts of America, beg
 
 This year we will be collecting for Sacred Heart Community Center.
 
-We'll distribute door hangers at the [October Pack meeting](/2024/10/01/october-pack-meeting/) which you should then distribute around your neighborhood.
+We'll hand out door hangers at the [October Pack meeting](/2024/10/01/october-pack-meeting/) which you should then distribute around your neighborhood.
 
 Then on Saturday November 2nd at 9:00 AM you'll return to collect any donations that are left out.
 

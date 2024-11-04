@@ -2,7 +2,7 @@
 layout: post
 title:  "Veterans Day Assembly"
 date:   2024-11-02
-featured_image: default.jpg
+featured_image: veterans.jpg
 tags: [Veterans Day]
 ---
 

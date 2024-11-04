@@ -27,4 +27,3 @@ featured_image: about.jpg
 * Other volunteer opportunities include the following:
 * Planning a Pack activity or outing
 * Organizing a Pack Campout
-* See the following document for more details about volunteer openings and requirements

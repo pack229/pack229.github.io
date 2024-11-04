@@ -10,6 +10,10 @@ tags: [Veterans Day]
 * ⏰ Time: Morning School Assembly
 * 📍 Location: HSS Gym
 
-Please have your scout wear their Class A Uniforms to school on Friday November 8th so they can participate in the annual veterans day assembly.
+In observance of Veteran’s Day, the Scouts will be holding a Veteran’s Day assembly on Friday, November 8th at 8 AM in the Holy Spirit Gym. Please have your scout wear their Class A Uniforms to school this day.
 
-The scouts will form an honor guard for the flag ceremony and then hear from veterans of HSS students before a blessing.
+* Cub Scout Pack 229 will form an Honor Guard for the flag ceremony - one scout will be assigned the honor of reading the commands.
+* The remaining Pack and Girl Scout Troops will line the middle aisle for the flag procession.
+* Following the flag ceremony, a veteran will address the school.
+* Flag procession will proceed to the back of the gym, with all Scouts to follow.
+* Please remain with the Pack/Troop for a quick group photo after the assembly.

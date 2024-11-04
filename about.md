@@ -2,7 +2,7 @@
 layout: page
 title: HSS Pack 229
 description: About Our Pack
-featured_image: aboutPage.jpg
+featured_image: about.jpg
 ---
 
 # About Pack 229

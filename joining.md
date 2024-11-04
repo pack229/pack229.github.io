@@ -2,7 +2,7 @@
 layout: page
 title: Joining Pack 229
 description: How to Join
-featured_image: aboutPage.jpg
+featured_image: joining.jpg
 ---
 
 # Ready to Join?

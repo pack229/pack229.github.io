@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SJ Sharks Scout Night"
-date:   2024-10-02
+date:   2024-10-05
 featured_image: sharks.jpg
 tags: [Scout Night]
 ---

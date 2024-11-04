@@ -10,9 +10,9 @@ I can’t believe the school year is right around the corner, I hope you’ve al
 
 We thought it would be great to jump right into scouting and join the annual [Labor Day Family Camp Weekend at Camp Cheesebrough](https://scoutingevent.com/055-FamilyCampCSR).
 
-* When: Friday, August 30 - Sunday, September 1
-* Where: Camp Cheesebrough, 26005 Hwy 9, Los Gatos, CA
-* Cost: $70 per camper
+* 🗓️ Date: Friday, August 30 - Sunday, September 1
+* 📍 Location: Camp Cheesebrough, 26005 Hwy 9, Los Gatos, CA
+* 💵 Cost: $70 per camper
 
 We’ll need to register by August 25. Please register/pay directly via the [website](https://scoutingevent.com/055-FamilyCampCSR). Please also add your family to [this list](https://docs.google.com/spreadsheets/d/17-_tOvmeSYTuumce2Mk-9PU-ohjQXNvCLDuPO_KcfQE/edit?usp=sharing) so we can coordinate as a Pack.
 

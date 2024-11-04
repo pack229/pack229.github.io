@@ -8,7 +8,7 @@ tags: [Christmas in the Park, Events]
 
 * 🗓️ Date: Monday, November 25th
 * ⏰ Time: 4 PM
-* 📇 Contact: [Rosanna Gamez](rosannamgamez@gmail.com)
+* 📇 Contact: [Rosanna Gamez](mailto:rosannamgamez@gmail.com)
 
 Pack 229 will again be decorating a Christmas Tree at the San Jose [Christmas in the Park](https://christmasinthepark.com) event.
 

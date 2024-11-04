@@ -8,7 +8,7 @@ tags: [Scouting for Food]
 
 * 🗓️ Date: Saturday, November 2nd
 * ⏰ Time: 9 AM
-* 📇 Contact: [Jennifer Schneider](jennsj15@gmail.com)
+* 📇 Contact: [Jennifer Schneider](mailto:jennsj15@gmail.com)
 
 Scouting for Food is an ongoing annual program of the Boy Scouts of America, begun in 1985 by the Greater Saint Louis Area Council. The program involves collecting for local food banks. It is organized at the local level throughout the country. Scouting for Food is a project rooted in the very foundation of the Scouting movement and its dedication to implement the Scout Slogan and do a good turn daily.
 
@@ -24,4 +24,4 @@ Then on Saturday November 2nd at 9:00 AM you'll return to collect any donations 
 * At the [November Pack Meeting](/2024/11/01/november-pack-meeting/)
 * After school pick-up time on Monday November 4th.
 
-Please reach out to this year's organizer [Jennifer Schneider](jennsj15@gmail.com) if you can't make any of these times.
+Please reach out to this year's organizer [Jennifer Schneider](mailto:jennsj15@gmail.com) if you can't make any of these times.

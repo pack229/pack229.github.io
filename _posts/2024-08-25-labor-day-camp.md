@@ -2,7 +2,7 @@
 layout: post
 title:  "Labor Day Camp"
 date:   2024-08-25
-featured_image: default.jpg
+featured_image: svmbc.jpg
 tags: [Camping, Labor Day Camp, Events]
 ---
 

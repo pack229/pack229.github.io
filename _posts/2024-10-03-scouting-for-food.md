@@ -2,7 +2,7 @@
 layout: post
 title:  "Scouting for Food"
 date:   2024-10-03
-featured_image: default.jpg
+featured_image: food.jpg
 tags: [Scouting for Food]
 ---
 

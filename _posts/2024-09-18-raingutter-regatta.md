@@ -2,7 +2,7 @@
 layout: post
 title:  "Raingutter Regatta"
 date:   2024-09-25
-featured_image: default.jpg
+featured_image: raingutter.jpg
 tags: [Raingutter Regatta, Events]
 ---
 

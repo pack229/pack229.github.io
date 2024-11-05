@@ -2,7 +2,7 @@
 layout: post
 title:  "November Pack Meeting"
 date:   2024-11-01
-featured_image: default.jpg
+featured_image: packmeeting.jpg
 tags: [Meetings, Scouting for Food, Christmas in the Park]
 ---
 

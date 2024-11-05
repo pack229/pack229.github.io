@@ -2,7 +2,7 @@
 layout: post
 title:  "October Pack Meeting"
 date:   2024-10-01
-featured_image: default.jpg
+featured_image: packmeeting.jpg
 tags: [Meetings]
 ---
 

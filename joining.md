@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Joining Pack 229
+title: Ready to Join?
 description: How to Join
 featured_image: joining.jpg
 ---
-
-# Ready to Join?
 
 ### Register with Scouting America
 
@@ -19,7 +17,8 @@ If your student is ready to sign up as a Scout Member of Pack 229, please follow
 
 ### Pack Fees
 
-The remaining fees ($120) will go to Pack 229 via Paypal (hsspack229@gmail.com) first pack meeting in September (Venmo / Check can be arranged as required). (The pack fee reduces to $100 following 1st year with the pack)
+* The remaining fees of $120 will go to Pack 229 via Paypal (hsspack229@gmail.com) at the first pack meeting in September (Venmo / Check can be arranged as required).
+* The pack fee reduces to $100 following 1st year with the pack.
 
 ### Uniforms
 

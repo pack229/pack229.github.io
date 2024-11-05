@@ -1,29 +1,31 @@
 ---
 layout: page
-title: HSS Pack 229
+title: About HSS Pack 229
 description: About Our Pack
 featured_image: about.jpg
 ---
 
-# About Pack 229
+Cub Scouts is for boys and girls, kindergarten to 5th grade. It is a program where youth develop the foundations for leadership, citizenship, and personal fitness through fun activities. Dens are organized by grade. [Cub Scouting](https://www.scouting.org/programs/) activities are designed for Scouting families to get in on the fun, and include exploring the outdoors, building projects, making friends, and developing a lifelong love of learning as Cub Scouts earn patches related to their grades.
 
-## ACTIVITIES
+Pack 229 meets at [Holy Spirit School](https://www.holyspirit-school.org) in San Jose, CA and is a part of the [Silicon Valley Monterey Bay Council](https://svmbc.org/) of [Scouting America](https://www.scouting.org). We welcome students from Holy Spirit School or [Parish](https://holyspiritchurch.org) and other surrounding schools.
 
-* Our Pack goes camping twice a year (Spring/Fall)
-* Pack 229 hosts a Pinewood Derby every February
-* Various other outdoor activities planned based on interests. These include crabbing, fishing, scout sport nights, and other overnights.
-* The Pack coordinates the Rain Gutter Regatta every Fall
+## Pack Activities
 
-## MEETINGS
+* Pack 229 hosts a [Raingutter Regatta](https://en.wikipedia.org/wiki/Raingutter_regatta) every fall and a [Pinewood Derby](https://en.wikipedia.org/wiki/Pinewood_derby) every spring.
+* Our Pack participates in Council run campouts like [Labor Day Family Camp](https://svmbc.org/event/2024-labor-day-family-camp-csr/) and [Boo-Fest](https://svmbc.org/event/boo-fest-2024/).
+* We host a family campout in the spring.
+* The Pack coordinates the other events such as Crabbing, Fishing, and Sporting Event [Scout](https://www.nhl.com/sharks/tickets/group-nights) [Nights](https://www.nba.com/warriors/tickets/group-theme-nights-and-giveaways) and other Overnights.
 
-* Pack 229 meets 1x a month at the school gym during the school year
-* Dens meet individually approximately 1x a month (TBD by Den Leader)
-* Events for the entire pack are scheduled throughout the year (Calendar published in August)
+## Meetings
 
-## VOLUNTEERS
+* Pack 229 meets once a month at the school library during the school year.
+* Grade Level Dens meet individually approximately once a month.
+* Events for the entire pack are scheduled throughout the year.
 
-* All families are asked to volunteer by Planning, Organizing and Leading their Den in one of the required adventures for that rank.
+## Volunteers
+
+* All families are asked to volunteer by planning, organizing and leading their Den in one of the required adventures for that rank.
+* Other volunteer opportunities include:
+  * Planning a Pack activity or outing
+  * Organizing a Pack campout
 * These volunteer hours may count towards your required school volunteer hours
-* Other volunteer opportunities include the following:
-* Planning a Pack activity or outing
-* Organizing a Pack Campout

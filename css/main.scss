@@ -297,11 +297,19 @@ ul.search-results {
     letter-spacing: -1px;
     margin: 0;
     a {
+        background: url('/images/229.jpg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 110px 70px;
+        height: 70px;
+        width: 110px;
+
         background-color: $accent-color;
         color: #fff;
         display: inline-block;
-        padding: 15px 30px;
         text-decoration: none;
+        text-indent: -999em;
         &:hover {
             background-color: #606669;
         }
@@ -662,6 +670,7 @@ ul.search-results {
 
 .widget-recent-posts .post-thumb {
     background-size: cover;
+    background-position: center;
     border-radius: 2px;
     float: right;
     height: 48px;

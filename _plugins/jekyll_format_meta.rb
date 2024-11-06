@@ -15,6 +15,9 @@ end
 
 module Jekyll
   module FormatMeta
+    def link(name, url)
+      "<a href=\"#{url}\">#{name}</a>"
+    end
     def format_meta(input)
       type = input[0].to_sym
       data = input[1]
@@ -32,17 +35,19 @@ module Jekyll
       data = if type == :signup
         [data].flatten.map do |l|
           if l.is_a?(Hash)
-            "<a href=\"#{l["url"]}\">#{l["title"]}</a>"
+            link(l["title"], l["url"])
           else
             l
           end
         end.join(" and ")
+      elsif type == :location && data == "Camp Cheesebrough"
+        [ link("Camp Cheesebrough", "https://svmbc.org/chesebrough-scout-reservation/"), link("26005 Big Basin Wy, Los Gatos, CA 95033", "https://maps.apple.com/?address=26005%20CA-9,%20Los%20Gatos,%20CA%20%2095033,%20United%20States&auid=10538835573111821490&ll=37.248338,-122.145724&lsp=9902&q=Camp%20Cheesebrough") ].join(" | ")
       elsif type == :date || type == :deadline
         data = [data].flatten.map{ |d| d.strftime("%A %B #{d.day.ordinalize} %Y") }.join(" - ")
       elsif type == :contact && data.is_a?(Hash)
-        "<a href=\"mailto:#{data["email"]}\">#{data["name"]}</a>"
+        link(data["name"], "mailto:#{data["email"]}")
       elsif type == :more_info
-        "<a href=\"mailto:#{data}\">More Info</a>"
+        link("More Info", data)
       else
         data
       end

@@ -3,7 +3,7 @@ layout: post
 title:  "Christmas in the Park"
 date:   2024-11-03
 featured_image: christmas.jpg
-tags: [Christmas in the Park, Events]
+tags: [Christmas in the Park, Events, Upcoming]
 meta:
   date: 2024-11-25
   time: 4:00 PM

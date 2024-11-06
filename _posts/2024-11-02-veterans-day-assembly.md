@@ -3,7 +3,7 @@ layout: post
 title:  "Veterans Day Assembly"
 date:   2024-11-02
 featured_image: veterans.jpg
-tags: [Veterans Day]
+tags: [Veterans Day, Upcoming]
 meta:
   date: 2024-11-08
   time: 7:30 AM

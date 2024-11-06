@@ -31,7 +31,6 @@ module Jekyll
         signup: "📋 Signup",
         more_info: "🌐 Link",
       }[type]
-      # * 📍 Location: Camp Cheesebrough, 26005 Hwy 9, Los Gatos, CA
       data = if type == :signup
         [data].flatten.map do |l|
           if l.is_a?(Hash)

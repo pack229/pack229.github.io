@@ -4,6 +4,10 @@ title:  "September Pack Meeting"
 date:   2024-09-05
 featured_image: packmeeting.jpg
 tags: [Meetings]
+meta:
+  date: 2024-09-09
+  time: 6:30 PM
+  location: HSS Library
 ---
 
 Welcome back Scouts! We will be having our first pack meeting of the school year this Monday September 9th at 6:30 PM in the library.

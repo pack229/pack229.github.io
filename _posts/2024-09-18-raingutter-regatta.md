@@ -4,13 +4,13 @@ title:  "Raingutter Regatta"
 date:   2024-09-25
 featured_image: raingutter.jpg
 tags: [Raingutter Regatta, Events]
+meta:
+  date: 2024-09-28
+  time: 11:00 AM - 2:00 PM
+  location: HSS Courtyard
 ---
 
 It’s time to get out the paint and glue and put on your creative caps for our annual Raingutter Regatta! You should have received your boat kit at the pack meeting last week, please reach out to your Den leader if you still need one.
-
-* 🗓️ Date: Saturday, September 28th
-* ⏰ Time: 11am - 2pm
-* 📍 Location: Holy Spirit School Courtyard
 
 Siblings are welcome! We kindly request a $10 donation to cover the cost of the kit and awards for non Scounts.
 

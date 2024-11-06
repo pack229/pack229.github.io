@@ -4,11 +4,11 @@ title:  "Veterans Day Assembly"
 date:   2024-11-02
 featured_image: veterans.jpg
 tags: [Veterans Day]
+meta:
+  date: 2024-11-08
+  time: 7:30 AM
+  location: HSS Gym
 ---
-
-* 🗓️ Date: Friday, November 8th at 7:30 AM
-* ⏰ Time: Morning School Assembly
-* 📍 Location: HSS Gym
 
 In observance of Veteran’s Day, the Scouts will be participating in a Veteran’s Day assembly on Friday, November 8th at 8:00 AM in the Holy Spirit Gym. Please have your scout wear their Class A Uniforms to school this day and arrive in the Gym by 7:30 AM if possible.
 

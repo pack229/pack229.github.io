@@ -4,6 +4,10 @@ title:  "October Pack Meeting"
 date:   2024-10-01
 featured_image: packmeeting.jpg
 tags: [Meetings]
+meta:
+  date: 2024-10-14
+  time: 6:30 PM
+  location: HSS Library
 ---
 
 Just a quick reminder about our Pack Meeting on Monday October 14th at 6:30 PM in the library.

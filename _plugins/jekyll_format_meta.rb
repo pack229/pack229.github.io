@@ -28,6 +28,7 @@ module Jekyll
         signup: "📋 Signup",
       }[type]
       data = data.strftime("%A %B #{data.day.ordinalize} %Y") if type == :date
+      data = "<a href=\"mailto:#{data["email"]}\">#{data["name"]}</a>" if type == :contact && data.is_a?(Hash)
       "#{title}: #{data}"
     end
   end

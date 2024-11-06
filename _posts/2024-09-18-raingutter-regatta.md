@@ -34,6 +34,8 @@ Whether you're a seasoned sailor or a first-time boat builder, this event promis
 
 Can’t wait to see you all out there!
 
+Read More to see the Regatta Rules...
+
 <!--more-->
 
 <a name="rules"></a>

@@ -30,27 +30,6 @@ layout: default
                     </div>--><!-- .share-post -->
                 </footer><!-- .entry-footer -->
             </div><!-- .entry-box -->
-            <div class="author-box">
-                <div class="author-info">
-                    {% if site.author_image %}
-                    <div class="author-image">
-                        <a class="author-avatar" style="background-image: url({{ site.baseurl }}/images/{{ site.author_image }})"><span class="screen-reader-text">{{ site.author_name }}'s Picture</span></a>
-                    </div>
-                    {% endif %}
-                    <div class="author-details">
-                        <h2 class="author-title">About {{ site.author_name }}</h2>
-                        <p class="author-bio">{{ site.author_bio }}</p>
-                        <p class="author-links">
-                            {% if site.author_location %}
-                            <span class="author-location"><i class="fa-map-marker" aria-hidden="true"></i> {{ site.author_location }}</span>
-                            {% endif %}
-                            {% if site.author_url %}
-                            <span class="author-website"><a href="{{ site.author_url }}" target="_blank"><i class="fa-chain" aria-hidden="true"></i> {{ site.author_url }}</a></span>
-                            {% endif %}
-                        </p>
-                    </div><!-- .author-details -->
-                </div><!-- .author-info -->
-            </div><!-- .author-box -->
         </article><!-- .post -->
         <nav class="post-nav">
             <h2 class="screen-reader-text">Post navigation</h2>

@@ -559,3 +559,28 @@ a.post-thumbnail:hover img {
         transform: translateY(0);
     }
 }
+
+.calendar-card {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0px;
+  margin: 10px;
+  min-width: 200px;
+  p {
+    padding: 5px 8px;
+    margin: 0;
+    text-align: center;
+  }
+  a, a:hover, a:visited {
+    text-decoration: none
+  }
+  p.date {
+    background: #d90823;
+    color: #fff;
+  }
+  p.name {
+    padding: 8px 8px;
+    color: #000;
+  }
+}

@@ -13,11 +13,12 @@ layout: default
 {% assign upcoming = paginator.posts | where_exp:"item", "item.tags contains 'Upcoming'" | sort: "meta.date" %}
 {% if upcoming.size > 0 %}
   <h3>Upcoming Event Calendar</h3>
-  <ul>
-    {% for post in upcoming %}
-      <li>{{post.meta["date"] | date: "%A %-m/%-d" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+  {% for post in upcoming %}
+    <div class="calendar-card">
+      <a href="{{ site.baseurl }}{{ post.url }}"><p class="date">{{post.meta["date"] | date: "%A %-m/%-d" }}</p></a>
+      <a href="{{ site.baseurl }}{{ post.url }}"><p class="name">{{ post.title }}</p></a>
+    </div>
+  {% endfor %}
 {% endif %}
 
                 </div><!-- .entry-content -->

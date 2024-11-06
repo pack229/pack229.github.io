@@ -4,6 +4,10 @@ title:  "November Pack Meeting"
 date:   2024-11-01
 featured_image: packmeeting.jpg
 tags: [Meetings, Scouting for Food, Christmas in the Park, Veterans Day]
+meta:
+  date: 2024-11-04
+  time: 6:30 PM
+  location: HSS Library
 ---
 
 Just a quick reminder about our Pack Meeting on Monday November 4th at 6:30 PM in the library.

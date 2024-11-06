@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "December Pack Meeting"
-date:   2024-11-01
+date:   2024-11-06
 featured_image: packmeeting.jpg
 tags: [Meetings, Upcoming]
 meta:

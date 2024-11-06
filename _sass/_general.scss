@@ -2,8 +2,11 @@
  * General
  * ----------------------------------------
  */
+
+@use "variables";
+
 html {
-    font-family: $base-font;
+    font-family: variables.$base-font;
 }
 
 body {
@@ -13,7 +16,7 @@ body {
 }
 
 a {
-    color: $accent-color;
+    color: variables.$accent-color;
     text-decoration: underline;
     -webkit-transition: .3s;
     transition: .3s;
@@ -30,7 +33,7 @@ h4,
 h5,
 h6 {
     color: #30373d;
-    font-family: $heading-font;
+    font-family: variables.$heading-font;
     font-weight: bold;
     line-height: 1.2;
     margin: 36px 0 24px;
@@ -204,7 +207,7 @@ form p {
 }
 
 label {
-    font-family: $alt-font;
+    font-family: variables.$alt-font;
     font-size: 16px;
     font-weight: bold;
 }
@@ -220,7 +223,7 @@ textarea {
     border-radius: 2px;
     color: #606669;
     display: inline-block;
-    font-family: $alt-font;
+    font-family: variables.$alt-font;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -245,7 +248,7 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-    background-color: $accent-color;
+    background-color: variables.$accent-color;
     color: #fff;
     font-weight: bold;
     height: 40px;

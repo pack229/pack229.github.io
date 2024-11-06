@@ -7,7 +7,10 @@
  */
 
 // Import
-@import "variables","icons","reset","general";
+@use "variables";
+@use "icons";
+@use "reset";
+@use "general";
 
 /**
  * Structure
@@ -68,7 +71,7 @@
 }
 
 .nav-menu {
-    font: bold 12px/1.5 $alt-font;
+    font: bold 12px/1.5 variables.$alt-font;
     padding-right: 60px;
     text-transform: uppercase;
     ul {
@@ -113,7 +116,7 @@
 .nav-menu li:hover>a,
 .nav-menu .nav-current>a,
 .search-toggle:hover {
-    color: $accent-color;
+    color: variables.$accent-color;
 }
 
 .menu-toggle {
@@ -293,7 +296,7 @@ ul.search-results {
 }
 
 .site-title {
-    font: bold 34px/1.2 $heading-font;
+    font: bold 34px/1.2 variables.$heading-font;
     letter-spacing: -1px;
     margin: 0;
     a {
@@ -305,7 +308,7 @@ ul.search-results {
         height: 70px;
         width: 110px;
 
-        background-color: $accent-color;
+        background-color: variables.$accent-color;
         color: #fff;
         display: inline-block;
         text-decoration: none;
@@ -318,7 +321,7 @@ ul.search-results {
 
 .site-description {
     color: #aeb0b1;
-    font: 14px/1.5 $alt-font;
+    font: 14px/1.5 variables.$alt-font;
     margin: 8px 0 0;
 }
 
@@ -348,7 +351,7 @@ ul.search-results {
         color: #30373d;
         text-decoration: none;
         &:hover {
-            color: $accent-color;
+            color: variables.$accent-color;
         }
     }
 }
@@ -356,7 +359,7 @@ ul.search-results {
 .entry-meta,
 .entry-footer {
     color: #aeb0b1;
-    font: 14px/1.5 $alt-font;
+    font: 14px/1.5 variables.$alt-font;
 }
 
 .entry-footer {
@@ -411,11 +414,11 @@ ul.search-results {
     border-radius: 2px;
     color: #fff;
     display: inline-block;
-    font: bold 14px/1.5 $alt-font;
+    font: bold 14px/1.5 variables.$alt-font;
     padding: 8px 30px;
     text-decoration: none;
     &:hover {
-        background-color: $accent-color;
+        background-color: variables.$accent-color;
         color: #fff;
     }
 }
@@ -460,7 +463,7 @@ ul.search-results {
 }
 
 .author-links {
-    font: 14px/1.66667 $alt-font;
+    font: 14px/1.66667 variables.$alt-font;
     margin-bottom: 0;
     margin-top: 12px;
 }
@@ -472,7 +475,7 @@ ul.search-results {
 }
 
 .author-links a {
-    color: $accent-color;
+    color: variables.$accent-color;
     display: inline-block;
     &:hover {
         color: #aeb0b1;
@@ -488,7 +491,7 @@ ul.search-results {
     border-radius: 2px;
     color: #606669;
     display: inline-block;
-    font: 14px/1.5 $alt-font;
+    font: 14px/1.5 variables.$alt-font;
     margin: 0 2px 6px 0;
     padding: 4px 10px;
     text-decoration: none;
@@ -501,7 +504,7 @@ ul.search-results {
 
 .archive-tags-list a:hover,
 .archive-top-link:hover {
-    background-color: $accent-color;
+    background-color: variables.$accent-color;
     color: #fff;
 }
 
@@ -515,7 +518,7 @@ ul.search-results {
 
 .archive-meta {
     color: #aeb0b1;
-    font: 14px/1.5 $alt-font;
+    font: 14px/1.5 variables.$alt-font;
 }
 
 /* Comments */
@@ -538,7 +541,7 @@ ul.search-results {
 
 .pagination,
 .post-nav {
-    font: bold 14px/1.5 $alt-font;
+    font: bold 14px/1.5 variables.$alt-font;
     margin-bottom: 48px;
     position: relative;
     text-align: center;
@@ -561,7 +564,7 @@ ul.search-results {
 
 .pagination a:hover,
 .post-nav a:hover {
-    background-color: $accent-color;
+    background-color: variables.$accent-color;
     color: #fff;
 }
 
@@ -679,7 +682,7 @@ ul.search-results {
 
 .widget-recent-posts .post-date {
     display: block;
-    font-family: $alt-font;
+    font-family: variables.$alt-font;
     font-size: 14px;
 }
 
@@ -693,12 +696,12 @@ ul.search-results {
     border-radius: 2px;
     color: #aeb0b1;
     display: inline-block;
-    font: 14px/1.5 $alt-font;
+    font: 14px/1.5 variables.$alt-font;
     margin: 0 2px 6px 0;
     padding: 6px 10px;
     text-decoration: none;
     &:hover {
-        background-color: $accent-color;
+        background-color: variables.$accent-color;
         color: #fff;
     }
 }
@@ -746,7 +749,7 @@ ul.search-results {
 
 .social-links a:hover,
 .copyright a:hover {
-    color: $accent-color;
+    color: variables.$accent-color;
 }
 
 .top-link {
@@ -761,7 +764,7 @@ ul.search-results {
     text-decoration: none;
     width: 36px;
     &:hover {
-        background-color: $accent-color;
+        background-color: variables.$accent-color;
         color: #fff;
     }
 }

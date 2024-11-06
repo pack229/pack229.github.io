@@ -10,15 +10,15 @@ layout: default
             <div class="entry-box">
                 <header class="entry-header">
                     <h1 class="entry-title">{{ page.title }}</h1>
-                    <div class="entry-meta">
-                        Posted <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time> by {{ site.author_name }}
-                    </div><!-- .entry-meta -->
                 </header><!-- .entry-header -->
                 <div class="entry-content">
                     {{content}}
                 </div><!-- .entry-content -->
                 <footer class="entry-footer">
                     {% if page.tags.size > 0 %}
+                    <div class="entry-meta">
+                        Posted <time class="post-date" datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time> by {{ site.author_name }}
+                    </div><!-- .entry-meta -->
                     <div class="post-tags">
                         Tags: {% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/#{{ tag | cgi_escape | downcase }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
                     </div>

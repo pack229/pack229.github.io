@@ -27,7 +27,10 @@ module Jekyll
         deadline: "🏁 Deadline",
         signup: "📋 Signup",
       }[type]
-      data = data.strftime("%A %B #{data.day.ordinalize} %Y") if type == :date
+      if type == :signup
+        data = [data].flatten.map{ |l| "<a href=\"mailto:#{l["link"]}\">#{l["title"]}</a>" }.join(" and ")
+      end
+      data = data.strftime("%A %B #{data.day.ordinalize} %Y") if type == :date || type == :deadline
       data = "<a href=\"mailto:#{data["email"]}\">#{data["name"]}</a>" if type == :contact && data.is_a?(Hash)
       "#{title}: #{data}"
     end

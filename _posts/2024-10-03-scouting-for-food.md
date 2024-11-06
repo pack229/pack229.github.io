@@ -4,11 +4,13 @@ title:  "Scouting for Food"
 date:   2024-10-03
 featured_image: food.jpg
 tags: [Scouting for Food]
+meta:
+  date: 2024-11-02
+  time: 9:00 AM
+  contact:
+    name: Jennifer Schneider
+    email: jennsj15@gmail.com
 ---
-
-* 🗓️ Date: Saturday, November 2nd
-* ⏰ Time: 9 AM
-* 📇 Contact: [Jennifer Schneider](mailto:jennsj15@gmail.com)
 
 Scouting for Food is an ongoing annual program of the Boy Scouts of America, begun in 1985 by the Greater Saint Louis Area Council. The program involves collecting for local food banks. It is organized at the local level throughout the country. Scouting for Food is a project rooted in the very foundation of the Scouting movement and its dedication to implement the Scout Slogan and do a good turn daily.
 

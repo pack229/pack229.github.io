@@ -10,13 +10,15 @@ layout: default
 <h2>Welcome</h2>
 <p>Welcome to the new Holy Spirit School Pack 229 Website. In the coming weeks we'll be adding an event calendar, photo gallery, as well as contact info for all of the troop volunteer leadership. For now please see updates on upcoming Pack events below.
 
-<h3>Upcoming Event Calendar</h3>
-<ul>
-<li>11/4: <a href="/2024/11/01/november-pack-meeting/">November Pack Meeting</a></li>
-<li>11/8: <a href="/2024/11/02/veterans-day-assembly/">Veterans Day Assembly</a></li>
-<li>11/25: <a href="/2024/11/03/christmas-in-the-park/">Christmas in the Park</a></li>
-<li>12/9: December Pack Meeting</li>
-</ul>
+{% assign upcoming = paginator.posts | where_exp:"item", "item.tags contains 'Upcoming'" | sort: "meta.date" %}
+{% if upcoming.size > 0 %}
+  <h3>Upcoming Event Calendar</h3>
+  <ul>
+    {% for post in upcoming %}
+      <li>{{post.meta["date"] | date: "%A %-m/%-d" }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
 
                 </div><!-- .entry-content -->
             </div><!-- .entry-box -->

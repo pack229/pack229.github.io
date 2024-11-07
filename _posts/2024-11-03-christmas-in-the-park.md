@@ -8,9 +8,6 @@ meta:
   date: 2024-11-25
   time: 4:00 PM
   location: Christmas in the Park
-  contact:
-    name: Rosanna Gamez
-    email: rosannamgamez@gmail.com
 ---
 
 Pack 229 will again be decorating a Christmas Tree at the San Jose [Christmas in the Park](https://christmasinthepark.com) event.

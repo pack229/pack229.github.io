@@ -29,7 +29,7 @@ sass:
 
 # Site navigation - each item must have a title and a url.
 navigation:
-- text: Updates
+- text: Home
   url: /
 - text: About
   url: /about/

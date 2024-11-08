@@ -30,6 +30,7 @@ module Jekyll
         deadline: "🏁 Deadline",
         signup: "📋 Signup",
         more_info: "🌐 Link",
+        photo_download: "📸",
       }[type]
       data = if type == :signup
         [data].flatten.map do |l|
@@ -47,6 +48,8 @@ module Jekyll
         link(data["name"], "mailto:#{data["email"]}")
       elsif type == :more_info
         link("More Info", data)
+      elsif type == :photo_download
+        link("Download Photo", data)
       else
         data
       end

@@ -5,7 +5,7 @@ date:   2024-11-06
 featured_image: packmeeting.jpg
 tags: [Meetings, Upcoming]
 meta:
-  date: 2024-12-09
+  date: 2024-12-16
   time: 6:30 PM
   location: HSS Library
 ---

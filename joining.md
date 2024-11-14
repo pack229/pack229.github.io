@@ -5,6 +5,10 @@ description: How to Join
 featured_image: joining.jpg
 ---
 
+### About Pack 229
+
+Please read more [about our pack](/about) or [contact us](mailto:contact@hsspack229.org) if you have any questions.
+
 ### Register with Scouting America
 
 If your student is ready to sign up as a Scout Member of Pack 229, please follow these steps:

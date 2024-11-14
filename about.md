@@ -29,3 +29,7 @@ Pack 229 meets at [Holy Spirit School](https://www.holyspirit-school.org) in San
   * Planning a Pack activity or outing
   * Organizing a Pack campout
 * These volunteer hours may count towards your required school volunteer hours
+
+## Joining
+
+Ready to [join](/joining)?

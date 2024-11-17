@@ -25,7 +25,9 @@ cal.event do |e|
   e.url = 'https://hsspack229.org/2024/11/06/december-pack-meeting/'
   e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
 end
+# DTSTAMP:20241117T202728Z
+# UID:7942265c-f8ad-4569-8b3c-715647798bea
 
 puts cal.to_ical
 
-$cwd.join("../calendar/pack229.ics").write(cal.to_ical)
+$cwd.join("../ics/pack229.ics").write(cal.to_ical)

@@ -6,6 +6,7 @@ require 'pathname'
 
 $cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
 cal = Icalendar::Calendar.new
+cal.x_wr_calname = 'Pack 229'
 
 event_start = DateTime.new 2024, 12, 16, 18, 30, 0
 event_end = DateTime.new 2024, 12, 16, 19, 30, 0
@@ -20,7 +21,7 @@ cal.event do |e|
   e.description = "Details"
   e.dtstart = Icalendar::Values::DateTime.new event_start, 'tzid' => tzid
   e.dtend   = Icalendar::Values::DateTime.new event_end, 'tzid' => tzid
-  # e.ip_class    = "PRIVATE"
+  e.ip_class    = "PUBLIC"
   e.url = 'https://hsspack229.org/2024/11/06/december-pack-meeting/'
   e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
 end

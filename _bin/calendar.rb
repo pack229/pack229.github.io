@@ -26,7 +26,8 @@ class PackCalendar
     posts = cwd.join("../_posts")
     posts.entries.each do |e|
       unless e.basename.to_s[0] == "."
-        parts = posts.join(e).read.split("---")
+        path = posts.join(e)
+        parts = path.read.split("---")
         head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
@@ -46,16 +47,16 @@ class PackCalendar
           event_start = DateTime.parse("#{date} #{time}")
           duration = 60.minutes
           event_end = event_start + duration
-
           cal.event do |e|
             e.summary     = title
             e.description = "Details"
-            e.dtstart = Icalendar::Values::DateTime.new event_start, 'tzid' => @tzid
-            e.dtend   = Icalendar::Values::DateTime.new event_end, 'tzid' => @tzid
-            e.ip_class    = "PUBLIC"
+            e.dtstart = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+            e.dtend   = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+            e.ip_class = "PUBLIC"
             # e.url = 'https://hsspack229.org/2024/11/06/december-pack-meeting/'
             e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
             e.uid = head["uuid"].downcase
+            e.dtstamp = Icalendar::Values::DateTime.new(path.mtime, tzid: @tzid)
           end
 
         else

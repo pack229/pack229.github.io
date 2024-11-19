@@ -4,6 +4,7 @@ title:  "Scouting for Food"
 date:   2024-10-03
 featured_image: food.jpg
 tags: [Scouting for Food]
+uuid: FD2C2C8D-B0C7-4E51-A605-A19DF808B5C4
 meta:
   date: 2024-11-02
   time: 9:00 AM

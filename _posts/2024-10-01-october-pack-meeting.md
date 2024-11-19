@@ -4,6 +4,7 @@ title:  "October Pack Meeting"
 date:   2024-10-01
 featured_image: packmeeting.jpg
 tags: [Meetings]
+uuid: EACD9E36-0710-4A90-8E8B-7B906A33E95A
 meta:
   date: 2024-10-14
   time: 6:30 PM

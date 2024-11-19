@@ -4,6 +4,7 @@ title:  "September Pack Meeting"
 date:   2024-09-05
 featured_image: packmeeting.jpg
 tags: [Meetings]
+uuid: 652289FA-F026-41FB-9297-A8C13B373253
 meta:
   date: 2024-09-09
   time: 6:30 PM

@@ -31,8 +31,12 @@ class PackCalendar
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
         title = head["title"]
+
         date = head["meta"]["date"]
         time = head["meta"]["time"]
+
+        next if (head["calendar"] || "").split(",").include?("skip")
+
         if date.is_a?(Array) && date.length == 2
           # TODO multi day events
         elsif date.is_a?(Date)
@@ -51,6 +55,7 @@ class PackCalendar
             e.ip_class    = "PUBLIC"
             # e.url = 'https://hsspack229.org/2024/11/06/december-pack-meeting/'
             e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
+            e.uid = head["uuid"].downcase
           end
 
         else

@@ -4,6 +4,7 @@ title:  "November Pack Meeting"
 date:   2024-11-01
 featured_image: packmeeting.jpg
 tags: [Meetings, Scouting for Food, Christmas in the Park, Veterans Day]
+uuid: F39F6674-F8B3-45D1-9F7B-23689632458D
 meta:
   date: 2024-11-04
   time: 6:30 PM

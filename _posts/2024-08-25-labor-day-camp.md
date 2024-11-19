@@ -4,6 +4,7 @@ title:  "Labor Day Camp"
 date:   2024-08-25
 featured_image: svmbc.jpg
 tags: [Camping, Labor Day Camp, Events]
+uuid: 25513C08-DE59-40B4-B6DB-4C3F5DC07C8E
 meta:
   date:
     - 2024-08-30

@@ -4,6 +4,7 @@ title:  "Veterans Day Assembly"
 date:   2024-11-02
 featured_image: veterans.jpg
 tags: [Veterans Day]
+uuid: 1A990D63-AA47-411D-B0AC-288009BB51BC
 meta:
   date: 2024-11-08
   time: 7:30 AM

@@ -4,6 +4,8 @@ title:  "Rescheduled: December Pack Meeting"
 date:   2024-11-14
 featured_image: packmeeting.jpg
 tags: [Meetings]
+uuid: 9570B62C-1B3A-4642-AFF4-4464A3C8DD5B
+calendar: skip
 meta:
   date: 2024-12-16
   time: 6:30 PM

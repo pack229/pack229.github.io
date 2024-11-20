@@ -6,6 +6,7 @@ require 'pathname'
 
 require 'kramdown'
 require 'kramdown-parser-gfm'
+require 'nokogiri'
 
 class PackCalendar
   attr_accessor :cal, :cwd
@@ -31,12 +32,22 @@ class PackCalendar
         head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
-        title = head["title"]
+        body = Nokogiri::HTML(body)
+        # body.css("p").each do |tag|
+        #   tag.after("#{tag.inner_text}\n\n")
+        #   tag.remove
+        # end
+        body = body.at("body").inner_html
 
+        title = head["title"]
         date = head["meta"]["date"]
         time = head["meta"]["time"]
 
+        url_parts = File.basename(e.to_s, ".md").split("-")
+        url = "https://hsspack229.org/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
+
         next if (head["calendar"] || "").split(",").include?("skip")
+        title = "Pack Meeting" if title.match(" Pack Meeting")
 
         if date.is_a?(Array) && date.length == 2
           # TODO multi day events
@@ -48,8 +59,9 @@ class PackCalendar
           duration = 60.minutes
           event_end = event_start + duration
           cal.event do |e|
-            e.summary     = title
-            e.description = "Details"
+            e.summary = "Pack 229: #{title}"
+            e.description = body
+            e.url = url
             e.dtstart = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
             e.dtend   = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
             e.ip_class = "PUBLIC"

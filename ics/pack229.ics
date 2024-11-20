@@ -21,6 +21,19 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241119T204943
+UID:23e78e0d-7ce9-4dd5-b7c9-bc1756b50277
+DTSTART;TZID=America/Los_Angeles:20250113T183000
+DTEND;TZID=America/Los_Angeles:20250113T193000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2025/01/01/janurary-pack-meeting\n\nPlea
+ se join us for the first Pack Meeting of 2025!\n\nScouts at HSS can wear C
+ lass A uniforms to school on pack meeting days!\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2025/01/01/janurary-pack-meeting
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125403
 UID:652289fa-f026-41fb-9297-a8c13b373253
 DTSTART;TZID=America/Los_Angeles:20240909T183000

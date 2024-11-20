@@ -33,11 +33,31 @@ class PackCalendar
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
         body = Nokogiri::HTML(body)
-        # body.css("p").each do |tag|
-        #   tag.after("#{tag.inner_text}\n\n")
-        #   tag.remove
-        # end
-        body = body.at("body").inner_html
+        body.css("a").each do |tag|
+          link = tag.attr("href")
+          text = if link == nil or link.match(/mailto\:/)
+            tag.inner_text
+          else
+            link = "https://hsspack229.org#{link}" unless link.match(/^http/)
+            "#{tag.inner_text} (#{link})"
+          end
+          tag.after(text)
+          tag.remove
+        end
+        body.css("ul").each do |tag|
+          tag.css("li").each do |item|
+            tag.after(" * #{item.inner_html}\n")
+          end
+          tag.remove
+        end
+        # TODO simple formating for H tags?
+        %w[ h1 h2 h3 h4 h5 h6 p span ].each do |t|
+          body.css(t).each do |tag|
+            tag.after("#{tag.inner_text}\n")
+            tag.remove
+          end
+        end
+        body = body.at("body").inner_html # .gsub("\n\n\n", "\n\n").to_s
 
         title = head["title"]
         date = head["meta"]["date"]

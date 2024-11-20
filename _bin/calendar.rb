@@ -32,6 +32,9 @@ class PackCalendar
         head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
+        url_parts = File.basename(e.to_s, ".md").split("-")
+        url = "https://hsspack229.org/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
+
         body = Nokogiri::HTML(body)
         body.css("a").each do |tag|
           link = tag.attr("href")
@@ -57,14 +60,13 @@ class PackCalendar
             tag.remove
           end
         end
-        body = body.at("body").inner_html # .gsub("\n\n\n", "\n\n").to_s
+        # <!--more-->
+        body = body.at("body").inner_html # .gsub(/\n{3,}/, "\n\n").to_s
+        body = "#{url}\n\n#{body}" unless url.nil?
 
         title = head["title"]
         date = head["meta"]["date"]
         time = head["meta"]["time"]
-
-        url_parts = File.basename(e.to_s, ".md").split("-")
-        url = "https://hsspack229.org/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
 
         next if (head["calendar"] || "").split(",").include?("skip")
         title = "Pack Meeting" if title.match(" Pack Meeting")
@@ -81,7 +83,7 @@ class PackCalendar
           cal.event do |e|
             e.summary = "Pack 229: #{title}"
             e.description = body
-            e.url = url
+            e.url = url unless url.nil?
             e.dtstart = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
             e.dtend   = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
             e.ip_class = "PUBLIC"

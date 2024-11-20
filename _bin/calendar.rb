@@ -9,13 +9,16 @@ require 'kramdown-parser-gfm'
 require 'nokogiri'
 
 class PackCalendar
-  attr_accessor :cal, :cwd
+  attr_accessor :cal
   def initialize(cwd)
     @cwd = cwd
     @cal = Icalendar::Calendar.new
+    @markdown = []
     cal.x_wr_calname = 'Pack 229'
     setup_time_zones!
     load_from_posts!
+    save_ics!
+    save_markdown!
   end
   def setup_time_zones!
     @tzid = "America/Los_Angeles"
@@ -24,11 +27,15 @@ class PackCalendar
     cal.add_timezone(timezone)
   end
   def load_from_posts!
-    posts = cwd.join("../_posts")
+    current_year = nil
+    current_month = nil
+
+    posts = @cwd.join("../_posts")
     posts.entries.each do |e|
       unless e.basename.to_s[0] == "."
         path = posts.join(e)
         parts = path.read.split("---")
+        next if parts[1].nil?
         head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
@@ -80,7 +87,7 @@ class PackCalendar
           event_start = DateTime.parse("#{date} #{time}")
           duration = 60.minutes
           event_end = event_start + duration
-          cal.event do |e|
+          evnt = cal.event do |e|
             e.summary = "Pack 229: #{title}"
             e.description = body
             e.url = url unless url.nil?
@@ -93,6 +100,17 @@ class PackCalendar
             e.dtstamp = Icalendar::Values::DateTime.new(path.mtime, tzid: @tzid)
           end
 
+            # Markdown
+          if evnt.dtstart.year != current_year
+            @markdown << "# #{evnt.dtstart.year}"
+            current_year = evnt.dtstart.year
+          end
+          if evnt.dtstart.month != current_month
+            @markdown << "## #{evnt.dtstart.strftime("%B")}"
+            current_month = evnt.dtstart.month
+          end
+          @markdown << " * __#{evnt.dtstart.strftime("%a %m/%d")}:__ [#{evnt.summary.sub(/^Pack 229:/, '').strip}](#{evnt.url})"
+
         else
           # puts "Skipping: #{title}"
         end
@@ -100,11 +118,16 @@ class PackCalendar
       end
     end
   end
-  def add_standard_event
-
+  def save_ics!
+    @cwd.join("../ics/pack229.ics").write(@cal.to_ical)
+  end
+  def save_markdown!
+    token = "<!-- Generated Calendar -->"
+    file = @cwd.join("../calendar.md")
+    calendar = file.read.split(token)[0] + token + "\n\n" + @markdown.join("\n\n")
+    file.write(calendar)
   end
 end
 
-$cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
-pack = PackCalendar.new($cwd)
-$cwd.join("../ics/pack229.ics").write(pack.cal.to_ical)
+cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
+pack = PackCalendar.new(cwd)

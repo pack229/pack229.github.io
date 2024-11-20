@@ -61,7 +61,7 @@ class PackCalendar
           end
         end
         # <!--more-->
-        body = body.at("body").inner_html # .gsub(/\n{3,}/, "\n\n").to_s
+        body = body.at("body").inner_html.gsub(/\n{3,}/, "\n\n").to_s
         body = "#{url}\n\n#{body}" unless url.nil?
 
         title = head["title"]

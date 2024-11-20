@@ -21,6 +21,9 @@ class PackCalendar
         url_parts = File.basename(path.to_s, ".md").split("-")
         @url = "https://hsspack229.org/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
 
+        post_date = Icalendar::Values::DateTime.new(head['date'], tzid: tzid)
+        @url = nil if post_date > Time.now
+
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
         @body = clean_body(body)
 
@@ -110,7 +113,7 @@ class PackCalendar
     posts = @cwd.join("../_posts")
     posts.entries.map do |e|
       Event.new(posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
-    end.compact.select{ |e| e.valid? } # .sort_by{ |e| e.event_start }
+    end.compact.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
   end
   def load_from_posts!
     current_year = nil
@@ -139,7 +142,12 @@ class PackCalendar
         @markdown << "## #{post.event_end.strftime("%B")}"
         current_month = post.event_end.month
       end
-      @markdown << " * __#{post.event_start.strftime("%a %m/%d")}:__ [#{post.title}](#{post.url})"
+      titl = if post.url
+        "[#{post.title}](#{post.url})"
+      else
+        post.title
+      end
+      @markdown << " * __#{post.event_start.strftime("%a %m/%d")}:__ #{titl}"
 
     end
   end

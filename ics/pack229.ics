@@ -21,19 +21,6 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241119T204943
-UID:23e78e0d-7ce9-4dd5-b7c9-bc1756b50277
-DTSTART;TZID=America/Los_Angeles:20250113T183000
-DTEND;TZID=America/Los_Angeles:20250113T193000
-CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2025/01/01/janurary-pack-meeting\n\nPlea
- se join us for the first Pack Meeting of 2025!\n\nScouts at HSS can wear C
- lass A uniforms to school on pack meeting days!\n\n
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Pack Meeting
-URL;VALUE=URI:https://hsspack229.org/2025/01/01/janurary-pack-meeting
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125403
 UID:652289fa-f026-41fb-9297-a8c13b373253
 DTSTART;TZID=America/Los_Angeles:20240909T183000
@@ -49,90 +36,6 @@ DESCRIPTION:https://hsspack229.org/2024/09/05/september-pack-meeting\n\nWel
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/09/05/september-pack-meeting
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241119T125521
-UID:fd2c2c8d-b0c7-4e51-a605-a19df808b5c4
-DTSTART;TZID=America/Los_Angeles:20241102T090000
-DTEND;TZID=America/Los_Angeles:20241102T100000
-CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2024/10/03/scouting-for-food\n\nScouting
-  for Food is an ongoing annual program of the Boy Scouts of America\, begu
- n in 1985 by the Greater Saint Louis Area Council. The program involves co
- llecting for local food banks. It is organized at the local level througho
- ut the country. Scouting for Food is a project rooted in the very foundati
- on of the Scouting movement and its dedication to implement the Scout Slog
- an and do a good turn daily.\n\nThis year we will be collecting for Sacred
-  Heart Community Center.\n\nWe’ll hand out door hangers at the October P
- ack meeting (https://hsspack229.org/2024/10/01/october-pack-meeting/) whic
- h you should then distribute around your neighborhood.\n\nThen on Saturday
-  November 2nd at 9:00 AM you’ll return to collect any donations that are
-  left out.\n\nFood Drop Off\n\n * After school pick-up time on Monday Nove
- mber 4th.\n * At the November Pack Meeting (https://hsspack229.org/2024/11
- /01/november-pack-meeting/)\n * At the Holy Spirit Courtyard by the Church
-  on Saturday\, November 2nd from 11am to 1pm\n\nPlease reach out to this y
- ear’s organizer Jennifer Schneider if you can’t make any of these time
- s.\n\n
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Scouting for Food
-URL;VALUE=URI:https://hsspack229.org/2024/10/03/scouting-for-food
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241119T125618
-UID:f39f6674-f8b3-45d1-9f7b-23689632458d
-DTSTART;TZID=America/Los_Angeles:20241104T183000
-DTEND;TZID=America/Los_Angeles:20241104T193000
-CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2024/11/01/november-pack-meeting\n\nJust
-  a quick reminder about our Pack Meeting on Monday November 4th at 6:30 PM
-  in the library.\n\nWe’ll be reminiscing about recent activities\, handi
- ng out awards\, creating our Christmas in the Park (https://hsspack229.org
- /2024/11/03/christmas-in-the-park/) decorations\, and preparing for the up
- coming Veteran’s Day assembly (https://hsspack229.org/2024/11/02/veteran
- s-day-assembly/).\n\nScouts at HSS can wear Class A uniforms to school on 
- pack meeting days!\n\nAlso\, please remember to bring any additional cans 
- for our Scouting for Food drive. Your contributions make a difference!\n\n
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Pack Meeting
-URL;VALUE=URI:https://hsspack229.org/2024/11/01/november-pack-meeting
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241119T125515
-UID:51f323f0-683d-451a-abee-9a4a0e6fdda6
-DTSTART;TZID=America/Los_Angeles:20241019T100000
-DTEND;TZID=America/Los_Angeles:20241019T110000
-CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2024/10/02/crabbing\n\nSpace is limited 
- to 16 crabbers so sign up soon!\n\n * Since space is limited\, the experie
- nce is currently open to Cub Scouts and their siblings in our pack. (For t
- he Lions and Tigers\, we need a 1:1 ratio of adults and kids.)\n * The eve
- nt happens on land near the shore\, so there is no boat involved.\n * Equi
- pment will be provided by Alex who is an expert crabber. But bring your bu
- cket so you can take home your crabs to cook and eat for dinner.\n * We wi
- ll need a minimum of 6 crabbing participants\, with 16 being the max.\n * 
- Parent Chaperones will not have to pay if they share a pole with a child o
- r are not participating.\n\nMore information from our crabber\, Alex…\n\
- n<!--more-->\n\nWe will meet at a pier in the Marina/Presidio district of 
- San Francisco where we will be located near the Golden Gate Bridge. The vi
- ews of the water will be spectacular and because of the size of the pier w
- e will have more than enough room to spread out and try our techniques. Ma
- ke sure to arrive early so you can find parking and pay for it if need be 
- near The Warming Hut cafe. The best place to park is in the public parking
-  lot next to The Warming Hut Cafe by way of Mason street. Don’t take Lon
- g Ave as it will lead to the other side of the parking lot and parking is 
- scarce on that side.\n\nOnce all the guests have arrived we will learn to 
- set up the equipment we will supply with a very detailed explanation of ho
- w and why we use particular gear. Once we have set up our rods\, filled ou
- r bait in our traps we will learn the different forms of casting and the t
- echnique of reeling. Because we are fishing for crab there is a different 
- approach to how you catch crab off of a rod and reel.\n\nWe will be catchi
- ng rock &amp\; red crab which are edible and delicious crabs to take home.
-  This experience is an all weather endeavor so rain or shine we will make 
- it happen.\n\nPlease add your name to the list\, even if there are already
-  16 participants and we will try to open up another session.\n\n
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
-URL;VALUE=URI:https://hsspack229.org/2024/10/02/crabbing
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125450
@@ -198,17 +101,121 @@ SUMMARY:Pack 229: Raingutter Regatta
 URL;VALUE=URI:https://hsspack229.org/2024/09/18/raingutter-regatta
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241119T125642
-UID:e36452df-a2b2-4c46-9cea-81fac72207b8
-DTSTART;TZID=America/Los_Angeles:20241216T183000
-DTEND;TZID=America/Los_Angeles:20241216T193000
+DTSTAMP;TZID=America/Los_Angeles:20241119T125506
+UID:eacd9e36-0710-4a90-8e8b-7b906a33e95a
+DTSTART;TZID=America/Los_Angeles:20241014T183000
+DTEND;TZID=America/Los_Angeles:20241014T193000
 CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2024/11/06/december-pack-meeting\n\nPlea
- se join us for the last Pack Meeting of 2024!\n\nScouts at HSS can wear Cl
- ass A uniforms to school on pack meeting days!\n\n
+DESCRIPTION:https://hsspack229.org/2024/10/01/october-pack-meeting\n\nJust 
+ a quick reminder about our Pack Meeting on Monday October 14th at 6:30 PM 
+ in the library.\n\nWe’ll be reviewing recent activities and we have a fu
+ n Halloween-themed Scout activity.\n\nScouts at HSS can wear Class A unifo
+ rms to school on pack meeting days!\n\n
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
-URL;VALUE=URI:https://hsspack229.org/2024/11/06/december-pack-meeting
+URL;VALUE=URI:https://hsspack229.org/2024/10/01/october-pack-meeting
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241119T125515
+UID:51f323f0-683d-451a-abee-9a4a0e6fdda6
+DTSTART;TZID=America/Los_Angeles:20241019T100000
+DTEND;TZID=America/Los_Angeles:20241019T110000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/10/02/crabbing\n\nSpace is limited 
+ to 16 crabbers so sign up soon!\n\n * Since space is limited\, the experie
+ nce is currently open to Cub Scouts and their siblings in our pack. (For t
+ he Lions and Tigers\, we need a 1:1 ratio of adults and kids.)\n * The eve
+ nt happens on land near the shore\, so there is no boat involved.\n * Equi
+ pment will be provided by Alex who is an expert crabber. But bring your bu
+ cket so you can take home your crabs to cook and eat for dinner.\n * We wi
+ ll need a minimum of 6 crabbing participants\, with 16 being the max.\n * 
+ Parent Chaperones will not have to pay if they share a pole with a child o
+ r are not participating.\n\nMore information from our crabber\, Alex…\n\
+ n<!--more-->\n\nWe will meet at a pier in the Marina/Presidio district of 
+ San Francisco where we will be located near the Golden Gate Bridge. The vi
+ ews of the water will be spectacular and because of the size of the pier w
+ e will have more than enough room to spread out and try our techniques. Ma
+ ke sure to arrive early so you can find parking and pay for it if need be 
+ near The Warming Hut cafe. The best place to park is in the public parking
+  lot next to The Warming Hut Cafe by way of Mason street. Don’t take Lon
+ g Ave as it will lead to the other side of the parking lot and parking is 
+ scarce on that side.\n\nOnce all the guests have arrived we will learn to 
+ set up the equipment we will supply with a very detailed explanation of ho
+ w and why we use particular gear. Once we have set up our rods\, filled ou
+ r bait in our traps we will learn the different forms of casting and the t
+ echnique of reeling. Because we are fishing for crab there is a different 
+ approach to how you catch crab off of a rod and reel.\n\nWe will be catchi
+ ng rock &amp\; red crab which are edible and delicious crabs to take home.
+  This experience is an all weather endeavor so rain or shine we will make 
+ it happen.\n\nPlease add your name to the list\, even if there are already
+  16 participants and we will try to open up another session.\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
+URL;VALUE=URI:https://hsspack229.org/2024/10/02/crabbing
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241119T125521
+UID:fd2c2c8d-b0c7-4e51-a605-a19df808b5c4
+DTSTART;TZID=America/Los_Angeles:20241102T090000
+DTEND;TZID=America/Los_Angeles:20241102T100000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/10/03/scouting-for-food\n\nScouting
+  for Food is an ongoing annual program of the Boy Scouts of America\, begu
+ n in 1985 by the Greater Saint Louis Area Council. The program involves co
+ llecting for local food banks. It is organized at the local level througho
+ ut the country. Scouting for Food is a project rooted in the very foundati
+ on of the Scouting movement and its dedication to implement the Scout Slog
+ an and do a good turn daily.\n\nThis year we will be collecting for Sacred
+  Heart Community Center.\n\nWe’ll hand out door hangers at the October P
+ ack meeting (https://hsspack229.org/2024/10/01/october-pack-meeting/) whic
+ h you should then distribute around your neighborhood.\n\nThen on Saturday
+  November 2nd at 9:00 AM you’ll return to collect any donations that are
+  left out.\n\nFood Drop Off\n\n * After school pick-up time on Monday Nove
+ mber 4th.\n * At the November Pack Meeting (https://hsspack229.org/2024/11
+ /01/november-pack-meeting/)\n * At the Holy Spirit Courtyard by the Church
+  on Saturday\, November 2nd from 11am to 1pm\n\nPlease reach out to this y
+ ear’s organizer Jennifer Schneider if you can’t make any of these time
+ s.\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Scouting for Food
+URL;VALUE=URI:https://hsspack229.org/2024/10/03/scouting-for-food
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241119T125609
+UID:b607a86f-e704-4384-951c-816051f4345a
+DTSTART;TZID=America/Los_Angeles:20241102T190000
+DTEND;TZID=America/Los_Angeles:20241102T200000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/10/05/sharks-scout-night\n\nPlease 
+ join us on Saturday\, November 2nd at 7pm for the 2024 San Jose Sharks Sco
+ ut Night! It’s sure to be a fun-filled night rooting on our hometown Sha
+ rks with your fellow Scouts as they take on the Vancouver Canucks! We will
+  receive special pricing just for scouts when you purchase your tickets vi
+ a this link (https://fevo-enterprise.com/event/Scoutnight55). Our Scouts w
+ ill also receive a patch and a post-game group photo on the ice.\n\nTry to
+  get tickets in Section 121 so we can sit closer together.\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: SJ Sharks Scout Night
+URL;VALUE=URI:https://hsspack229.org/2024/10/05/sharks-scout-night
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241119T125618
+UID:f39f6674-f8b3-45d1-9f7b-23689632458d
+DTSTART;TZID=America/Los_Angeles:20241104T183000
+DTEND;TZID=America/Los_Angeles:20241104T193000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/11/01/november-pack-meeting\n\nJust
+  a quick reminder about our Pack Meeting on Monday November 4th at 6:30 PM
+  in the library.\n\nWe’ll be reminiscing about recent activities\, handi
+ ng out awards\, creating our Christmas in the Park (https://hsspack229.org
+ /2024/11/03/christmas-in-the-park/) decorations\, and preparing for the up
+ coming Veteran’s Day assembly (https://hsspack229.org/2024/11/02/veteran
+ s-day-assembly/).\n\nScouts at HSS can wear Class A uniforms to school on 
+ pack meeting days!\n\nAlso\, please remember to bring any additional cans 
+ for our Scouting for Food drive. Your contributions make a difference!\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2024/11/01/november-pack-meeting
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125623
@@ -233,39 +240,6 @@ SUMMARY:Pack 229: Veterans Day Assembly
 URL;VALUE=URI:https://hsspack229.org/2024/11/02/veterans-day-assembly
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241119T125609
-UID:b607a86f-e704-4384-951c-816051f4345a
-DTSTART;TZID=America/Los_Angeles:20241102T190000
-DTEND;TZID=America/Los_Angeles:20241102T200000
-CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2024/10/05/sharks-scout-night\n\nPlease 
- join us on Saturday\, November 2nd at 7pm for the 2024 San Jose Sharks Sco
- ut Night! It’s sure to be a fun-filled night rooting on our hometown Sha
- rks with your fellow Scouts as they take on the Vancouver Canucks! We will
-  receive special pricing just for scouts when you purchase your tickets vi
- a this link (https://fevo-enterprise.com/event/Scoutnight55). Our Scouts w
- ill also receive a patch and a post-game group photo on the ice.\n\nTry to
-  get tickets in Section 121 so we can sit closer together.\n\n
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: SJ Sharks Scout Night
-URL;VALUE=URI:https://hsspack229.org/2024/10/05/sharks-scout-night
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241119T125506
-UID:eacd9e36-0710-4a90-8e8b-7b906a33e95a
-DTSTART;TZID=America/Los_Angeles:20241014T183000
-DTEND;TZID=America/Los_Angeles:20241014T193000
-CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2024/10/01/october-pack-meeting\n\nJust 
- a quick reminder about our Pack Meeting on Monday October 14th at 6:30 PM 
- in the library.\n\nWe’ll be reviewing recent activities and we have a fu
- n Halloween-themed Scout activity.\n\nScouts at HSS can wear Class A unifo
- rms to school on pack meeting days!\n\n
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Pack Meeting
-URL;VALUE=URI:https://hsspack229.org/2024/10/01/october-pack-meeting
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125628
 UID:01feabfb-0056-46fd-83da-2c6b62cb2831
 DTSTART;TZID=America/Los_Angeles:20241125T160000
@@ -283,5 +257,29 @@ DESCRIPTION:https://hsspack229.org/2024/11/03/christmas-in-the-park\n\nPack
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Christmas in the Park
 URL;VALUE=URI:https://hsspack229.org/2024/11/03/christmas-in-the-park
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241119T125642
+UID:e36452df-a2b2-4c46-9cea-81fac72207b8
+DTSTART;TZID=America/Los_Angeles:20241216T183000
+DTEND;TZID=America/Los_Angeles:20241216T193000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/11/06/december-pack-meeting\n\nPlea
+ se join us for the last Pack Meeting of 2024!\n\nScouts at HSS can wear Cl
+ ass A uniforms to school on pack meeting days!\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2024/11/06/december-pack-meeting
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241119T204943
+UID:23e78e0d-7ce9-4dd5-b7c9-bc1756b50277
+DTSTART;TZID=America/Los_Angeles:20250113T183000
+DTEND;TZID=America/Los_Angeles:20250113T193000
+CLASS:PUBLIC
+DESCRIPTION:Please join us for the first Pack Meeting of 2025!\n\nScouts at
+  HSS can wear Class A uniforms to school on pack meeting days!\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
 END:VCALENDAR

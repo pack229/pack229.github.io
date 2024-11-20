@@ -86,7 +86,9 @@ class PackCalendar
         end
       end
       # <!--more-->
-      body = body.at("body").inner_html.gsub(/\n{3,}/, "\n\n").to_s
+      body_tag = body.at("body")
+      return "" if body_tag.nil?
+      body = body_tag.inner_html.gsub(/\n{3,}/, "\n\n").to_s
       body = "#{@url}\n\n#{body}" unless @url.nil?
       body
     end
@@ -98,6 +100,8 @@ class PackCalendar
     @cal = Icalendar::Calendar.new
     @markdown = []
     cal.x_wr_calname = 'Pack 229'
+    @sorted_posts = get_sorted_posts
+    check_posts!
     setup_time_zones!
     load_from_posts!
     save_ics!
@@ -109,17 +113,20 @@ class PackCalendar
     timezone = tz.ical_timezone(Time.now)
     cal.add_timezone(timezone)
   end
-  def sorted_posts
+  def get_sorted_posts
     posts = @cwd.join("../_posts")
     posts.entries.map do |e|
       Event.new(posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
     end.compact.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
   end
+  def check_posts!
+    raise "Duplicate UUIDs" if @sorted_posts.map(&:uuid).count != @sorted_posts.map(&:uuid).uniq.count
+  end
   def load_from_posts!
     current_year = nil
     current_month = nil
 
-    sorted_posts.each do |post|
+    @sorted_posts.each do |post|
 
       cal.event do |e|
         e.summary = "Pack 229: #{post.title}"

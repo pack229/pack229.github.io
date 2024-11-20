@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "March Pack Meeting"
-date: 2025-02-20
+title: "April Pack Meeting"
+date: 2025-03-20
 featured_image: packmeeting.jpg
 tags: [Meetings, Upcoming]
-uuid: 46C27FC1-6923-4006-B45E-7F205686CDE0
+uuid: 0807D58A-6468-407A-A0A7-B7A454B8CC5E
 meta:
-  date: 2025-03-10
+  date: 2025-04-07
   time: 6:30 PM
   location: HSS Library
 ---

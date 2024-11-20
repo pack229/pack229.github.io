@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Raingutter Regatta"
-date:   2024-09-25
+date:   2024-09-18
 featured_image: raingutter.jpg
 tags: [Raingutter Regatta, Events]
 uuid: 70222718-10CA-43E3-9298-962645D43AE2

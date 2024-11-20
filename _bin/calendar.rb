@@ -10,13 +10,15 @@ require 'nokogiri'
 
 class PackCalendar
   class Event
-    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime
+    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head
     def initialize(dir, path, contents, tzid)
+      @file = dir.join(path)
+
       @valid = true
       parts = contents.split("---")
       @valid = !parts[1].nil?
       if @valid
-        head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
+        @head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
 
         url_parts = File.basename(path.to_s, ".md").split("-")
         @url = "https://hsspack229.org/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
@@ -113,14 +115,23 @@ class PackCalendar
     timezone = tz.ical_timezone(Time.now)
     cal.add_timezone(timezone)
   end
-  def get_sorted_posts
+  def get_all_posts
     posts = @cwd.join("../_posts")
     posts.entries.map do |e|
       Event.new(posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
-    end.compact.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
+    end.compact
+  end
+  def get_sorted_posts
+    get_all_posts.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
   end
   def check_posts!
-    raise "Duplicate UUIDs" if @sorted_posts.map(&:uuid).count != @sorted_posts.map(&:uuid).uniq.count
+    # raise "Duplicate UUIDs" if get_all_posts.map(&:uuid).count != get_all_posts.map(&:uuid).uniq.count
+    used_uuids = []
+    get_all_posts.each do |p|
+      raise "Duplicate UUID for #{p.file}" if used_uuids.include?(p.uuid)
+      used_uuids << p.uuid
+      raise "Check Date for #{p.file}" if p.head['date'].strftime("%Y-%m-%d") != File.basename(p.file).split("-")[0..2].join("-")
+    end
   end
   def load_from_posts!
     current_year = nil

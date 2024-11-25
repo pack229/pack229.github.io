@@ -42,6 +42,8 @@ module Jekyll
         end.join(" and ")
       elsif type == :location && data == "Camp Cheesebrough"
         [ link("Camp Cheesebrough", "https://svmbc.org/chesebrough-scout-reservation/"), link("26005 Big Basin Wy, Los Gatos, CA 95033", "https://maps.apple.com/?address=26005%20CA-9,%20Los%20Gatos,%20CA%20%2095033,%20United%20States&auid=10538835573111821490&ll=37.248338,-122.145724&lsp=9902&q=Camp%20Cheesebrough") ].join(" | ")
+      elsif type == :location && data == "Christmas in the Park"
+        [ link("Christmas in the Park", "https://maps.apple.com/?address=1%20Paseo%20de%20San%20Antonio%0ASan%20Jose,%20CA%20%2095113%0AUnited%20States&auid=12608692531698440874&ll=37.333000,-121.890210&lsp=9902&q=Christmas%20in%20the%20Park") ].join(" | ")
       elsif type == :date || type == :deadline
         data = [data].flatten.map{ |d| d.strftime("%A %B #{d.day.ordinalize} %Y") }.join(" - ")
       elsif type == :contact && data.is_a?(Hash)

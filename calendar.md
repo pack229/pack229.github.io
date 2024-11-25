@@ -39,7 +39,9 @@ featured_image: about.jpg
 
  * __Fri 11/08:__ [Veterans Day Assembly](https://hsspack229.org/2024/11/02/veterans-day-assembly)
 
- * __Mon 11/25:__ [Christmas in the Park](https://hsspack229.org/2024/11/03/christmas-in-the-park)
+ * __Wed 11/27:__ [Christmas in the Park](https://hsspack229.org/2024/11/03/christmas-in-the-park)
+
+ * __Wed 11/27:__ [Christmas in the Park - Rescheduled](https://hsspack229.org/2024/11/25/christmas-in-the-park-rescheduled)
 
 ## December
 

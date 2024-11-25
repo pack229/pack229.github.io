@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Christmas in the Park - Rescheduled"
+title:  "Rescheduled: Christmas in the Park"
 date:   2024-11-25
 featured_image: christmas.jpg
 tags: [Christmas in the Park, Events]

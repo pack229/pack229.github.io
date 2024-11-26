@@ -45,7 +45,6 @@ class PackCalendar
             @valid = false # TODO
           elsif date.is_a?(Date)
             # TODO time ranges or durations
-            # TODO time zones
             event_start = DateTime.parse("#{date} #{time}")
             duration = 60.minutes
             event_end = event_start + duration
@@ -62,6 +61,7 @@ class PackCalendar
       @valid
     end
     def clean_body(body)
+      links = []
       body = Nokogiri::HTML(body)
       body.css("a").each do |tag|
         link = tag.attr("href")
@@ -69,7 +69,8 @@ class PackCalendar
           tag.inner_text
         else
           link = "https://hsspack229.org#{link}" unless link.match(/^http/)
-          "#{tag.inner_text} (#{link})"
+          links << link
+          "#{tag.inner_text} [#{links.count}]"
         end
         tag.after(text)
         tag.remove
@@ -92,6 +93,11 @@ class PackCalendar
       return "" if body_tag.nil?
       body = body_tag.inner_html.gsub(/\n{3,}/, "\n\n").to_s
       body = "#{@url}\n\n#{body}" unless @url.nil?
+      if links.any?
+        links.each_with_index do |l, i|
+          body << "[#{i+1}] #{l}\n\n"
+        end
+      end
       body
     end
   end

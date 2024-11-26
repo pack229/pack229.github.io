@@ -25,6 +25,21 @@ module Jekyll
         end.compact.join("\n\n") + "\n\n"
       end
     end
+    def location_map(value)
+      map = {
+        "Camp Cheesebrough" => {
+          site: "https://svmbc.org/chesebrough-scout-reservation/",
+          address: "26005 Big Basin Wy, Los Gatos, CA 95033",
+          map: "https://maps.apple.com/?address=26005%20CA-9,%20Los%20Gatos,%20CA%20%2095033,%20United%20States&auid=10538835573111821490&ll=37.248338,-122.145724&lsp=9902&q=Camp%20Cheesebrough",
+        },
+        "Christmas in the Park" => {
+          site: "https://christmasinthepark.com",
+          address: "194 S Market St, San Jose, CA 95113",
+          map: "https://maps.apple.com/?ll=37.333191,-121.890210&q=Downtown%20San%20Jose%20%E2%80%94%20San%20Jose&spn=0.009366,0.016926&t=m",
+        }
+      }[value]
+      map ? map[:map] : nil
+    end
     def format_meta(input)
       type = input[0].to_sym
       data = input[1]

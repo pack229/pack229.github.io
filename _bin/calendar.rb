@@ -17,7 +17,7 @@ end
 
 class PackCalendar
   class Event
-    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head
+    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
     def initialize(dir, path, contents, tzid)
       @file = dir.join(path)
 
@@ -37,6 +37,11 @@ class PackCalendar
         meta = Meta.new.format_meta_for_email(@head) || ""
 
         @body = clean_body(meta + body)
+
+        if loc = @head["meta"]["location"]
+          loc = Meta.new.location_map(loc)
+          @location = loc
+        end
 
         @title = head["title"]
         @title = "Pack Meeting" if @title.match(" Pack Meeting")
@@ -166,6 +171,7 @@ class PackCalendar
         e.dtstart = post.event_start
         e.dtend   = post.event_end
         e.ip_class = "PUBLIC"
+        e.location = post.location if post.location
         e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
         e.uid = post.uuid
         e.dtstamp = Icalendar::Values::DateTime.new(post.mtime, tzid: @tzid)

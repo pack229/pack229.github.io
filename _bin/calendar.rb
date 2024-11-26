@@ -84,7 +84,7 @@ class PackCalendar
             links << link
             links.count
           end
-          "#{tag.inner_text} [#{num}]"
+          "#{tag.inner_text} [Link ##{num}]"
         end
         tag.after(text)
         tag.remove
@@ -109,7 +109,7 @@ class PackCalendar
       body = "#{@url}\n\n#{body}" unless @url.nil?
       if links.any?
         links.each_with_index do |l, i|
-          body << "[#{i+1}] #{l}\n\n"
+          body << "[Link ##{i+1}] #{l}\n\n"
         end
       end
       body

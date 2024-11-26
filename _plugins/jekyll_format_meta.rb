@@ -18,6 +18,13 @@ module Jekyll
     def link(name, url)
       "<a href=\"#{url}\">#{name}</a>"
     end
+    def format_meta_for_email(body)
+      if body["meta"]
+        body["meta"].map do |i|
+          format_meta(i) unless [ :date, :time ].include?(i[0].to_sym)
+        end.compact.join("\n\n") + "\n\n"
+      end
+    end
     def format_meta(input)
       type = input[0].to_sym
       data = input[1]
@@ -59,4 +66,5 @@ module Jekyll
     end
   end
 end
-Liquid::Template.register_filter(Jekyll::FormatMeta)
+
+Liquid::Template.register_filter(Jekyll::FormatMeta) if Module.const_defined?("Liquid::Template")

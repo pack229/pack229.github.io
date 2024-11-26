@@ -8,6 +8,13 @@ require 'kramdown'
 require 'kramdown-parser-gfm'
 require 'nokogiri'
 
+cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
+
+require cwd.join("../_plugins/jekyll_format_meta")
+class Meta
+  include Jekyll::FormatMeta
+end
+
 class PackCalendar
   class Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head
@@ -27,7 +34,9 @@ class PackCalendar
         @url = nil if post_date > Time.now
 
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
-        @body = clean_body(body)
+        meta = Meta.new.format_meta_for_email(@head) || ""
+
+        @body = clean_body(meta + body)
 
         @title = head["title"]
         @title = "Pack Meeting" if @title.match(" Pack Meeting")
@@ -69,8 +78,13 @@ class PackCalendar
           tag.inner_text
         else
           link = "https://hsspack229.org#{link}" unless link.match(/^http/)
-          links << link
-          "#{tag.inner_text} [#{links.count}]"
+          num = if pos = links.index(link)
+            pos
+          else
+            links << link
+            links.count
+          end
+          "#{tag.inner_text} [#{num}]"
         end
         tag.after(text)
         tag.remove
@@ -186,5 +200,4 @@ class PackCalendar
   end
 end
 
-cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
 pack = PackCalendar.new(cwd)

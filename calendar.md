@@ -41,8 +41,6 @@ featured_image: about.jpg
 
  * __Wed 11/27:__ [Christmas in the Park](https://hsspack229.org/2024/11/03/christmas-in-the-park)
 
- * __Wed 11/27:__ [Christmas in the Park - Rescheduled](https://hsspack229.org/2024/11/25/christmas-in-the-park-rescheduled)
-
 ## December
 
  * __Mon 12/16:__ [Pack Meeting](https://hsspack229.org/2024/11/06/december-pack-meeting)

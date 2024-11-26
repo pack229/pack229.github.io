@@ -23,7 +23,7 @@ class PackCalendar
         url_parts = File.basename(path.to_s, ".md").split("-")
         @url = "https://hsspack229.org/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
 
-        post_date = Icalendar::Values::DateTime.new(head['date'], tzid: tzid)
+        post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
         @url = nil if post_date > Time.now
 
         body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
@@ -49,8 +49,8 @@ class PackCalendar
             event_start = DateTime.parse("#{date} #{time}")
             duration = 60.minutes
             event_end = event_start + duration
-            @event_start = Icalendar::Values::DateTime.new(event_start, tzid: tzid)
-            @event_end = Icalendar::Values::DateTime.new(event_end, tzid: tzid)
+            @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+            @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
           else
             @valid = false
           end
@@ -113,7 +113,7 @@ class PackCalendar
     @tzid = "America/Los_Angeles"
     tz = TZInfo::Timezone.get(@tzid)
     timezone = tz.ical_timezone(Time.now)
-    cal.add_timezone(timezone)
+    @cal.add_timezone(timezone)
   end
   def get_all_posts
     posts = @cwd.join("../_posts")

@@ -7,8 +7,8 @@ tags: [Camping, Labor Day Camp, Events]
 uuid: 25513C08-DE59-40B4-B6DB-4C3F5DC07C8E
 meta:
   date:
-    - 2024-08-30
-    - 2024-09-01
+    - 2024-08-30 5:00 PM
+    - 2024-09-01 12:00 PM
   location: Camp Cheesebrough
   signup:
     - title: Council Signup

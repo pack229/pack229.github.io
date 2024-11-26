@@ -19,6 +19,7 @@ class PackCalendar
   class Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
     def initialize(dir, path, contents, tzid)
+      @tzid = tzid
       @file = dir.join(path)
 
       @valid = true
@@ -56,7 +57,11 @@ class PackCalendar
         if @valid
 
           if date.is_a?(Array) && date.length == 2
-            @valid = false # TODO
+            event_start = DateTime.parse(date[0])
+            @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+            event_end = DateTime.parse(date[1])
+            @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+            @valid = true
           elsif date.is_a?(Date)
             # TODO time ranges or durations
             event_start = DateTime.parse("#{date} #{time}")
@@ -140,6 +145,9 @@ class PackCalendar
     timezone = tz.ical_timezone(Time.now)
     @cal.add_timezone(timezone)
   end
+  def all_posts
+    @all_posts ||= get_all_posts
+  end
   def get_all_posts
     posts = @cwd.join("../_posts")
     posts.entries.map do |e|
@@ -147,12 +155,12 @@ class PackCalendar
     end.compact
   end
   def get_sorted_posts
-    get_all_posts.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
+    all_posts.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
   end
   def check_posts!
     # raise "Duplicate UUIDs" if get_all_posts.map(&:uuid).count != get_all_posts.map(&:uuid).uniq.count
     used_uuids = []
-    get_all_posts.each do |p|
+    all_posts.each do |p|
       raise "Duplicate UUID for #{p.file}" if used_uuids.include?(p.uuid)
       used_uuids << p.uuid
       raise "Check Date for #{p.file}" if p.head['date'].strftime("%Y-%m-%d") != File.basename(p.file).split("-")[0..2].join("-")

@@ -34,6 +34,7 @@ DESCRIPTION:https://hsspack229.org/2024/09/05/september-pack-meeting\n\n
  nture.\n\nScouts at HSS can wear Class A uniforms to school on pack meetin
  g days!\n\n[Link #1] https://hsspack229.org/2024/08/25/raingutter-regatta/
  \n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/09/05/september-pack-meeting
@@ -49,6 +50,7 @@ DESCRIPTION:https://hsspack229.org/2024/10/01/october-pack-meeting\n\n📍
  onday October 14th at 6:30 PM in the library.\n\nWe’ll be reviewing rece
  nt activities and we have a fun Halloween-themed Scout activity.\n\nScouts
   at HSS can wear Class A uniforms to school on pack meeting days!\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/10/01/october-pack-meeting
@@ -75,6 +77,7 @@ DESCRIPTION:https://hsspack229.org/2024/10/02/crabbing\n\n📍 Location: Sa
  from our crabber\, Alex…\n\n... [See Website][Link #1] https://docs.goog
  le.com/spreadsheets/d/1zi77y1AGy0Id9MYOSsg5NCdy-mfJqiCNAwo7wz-laF8/edit?gi
  d=0#gid=0\n\n
+LOCATION:San Francisco
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
 URL;VALUE=URI:https://hsspack229.org/2024/10/02/crabbing
@@ -125,6 +128,7 @@ DESCRIPTION:https://hsspack229.org/2024/10/05/sharks-scout-night\n\n📍 Lo
  r.\n\n[Link #1] https://fevo-enterprise.com/event/Scoutnight55\n\n[Link #2
  ] https://docs.google.com/spreadsheets/d/1PjWuPOZQSK4cT2oRNHoZB7SLTYdtjZe9
  1H9a73GW3To/edit?usp=sharing\n\n
+LOCATION:SAP Center\, San Jose
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: SJ Sharks Scout Night
 URL;VALUE=URI:https://hsspack229.org/2024/10/05/sharks-scout-night
@@ -145,6 +149,7 @@ DESCRIPTION:https://hsspack229.org/2024/11/01/november-pack-meeting\n\n📍
   cans for our Scouting for Food drive. Your contributions make a differenc
  e!\n\n[Link #1] https://hsspack229.org/2024/11/03/christmas-in-the-park/\n
  \n[Link #2] https://hsspack229.org/2024/11/02/veterans-day-assembly/\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/11/01/november-pack-meeting
@@ -168,6 +173,7 @@ DESCRIPTION:https://hsspack229.org/2024/11/02/veterans-day-assembly\n\n📍
   * Cub Scout Pack 229 Webelos Den will form an Color Guard for the flag ce
  remony - one Boy Scout from 8th Grade will be assigned the honor of readin
  g the commands.\n\n
+LOCATION:HSS Gym
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Veterans Day Assembly
 URL;VALUE=URI:https://hsspack229.org/2024/11/02/veterans-day-assembly
@@ -188,8 +194,6 @@ DESCRIPTION:https://hsspack229.org/2024/11/03/christmas-in-the-park\n\n📍
  =12608692531698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christmas%20in%
  20the%20Park\n\n[Link #2] https://christmasinthepark.com\n\n[Link #3] http
  s://hsspack229.org/2024/11/01/november-pack-meeting/\n\n
-LOCATION:https://maps.apple.com/?ll=37.333191\,-121.890210&q=Downtown%20San
- %20Jose%20%E2%80%94%20San%20Jose&spn=0.009366\,0.016926&t=m
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Christmas in the Park
 URL;VALUE=URI:https://hsspack229.org/2024/11/03/christmas-in-the-park
@@ -204,6 +208,7 @@ DESCRIPTION:https://hsspack229.org/2024/11/06/december-pack-meeting\n\n📍
   Location: HSS Library\n\nPlease join us for the last Pack Meeting of 2024
  !\n\nScouts at HSS can wear Class A uniforms to school on pack meeting day
  s!\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/11/06/december-pack-meeting
@@ -217,6 +222,7 @@ CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Library\n\nPlease join us for the first Pack
   Meeting of 2025!\n\nScouts at HSS can wear Class A uniforms to school on 
  pack meeting days!\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
@@ -229,6 +235,7 @@ CLASS:PUBLIC
 DESCRIPTION:📍 Location: Holy Spirit Church\n\nTypically\, we like to hav
  e the Scouts usher at the 9:30 Mass and encourage all Scouts to wear their
   uniforms to Mass.\n\n
+LOCATION:Holy Spirit Church
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Founders Day Mass
 END:VEVENT
@@ -240,6 +247,7 @@ DTEND;TZID=:20250210T193000
 CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Library\n\nScouts at HSS can wear Class A un
  iforms to school on pack meeting days!\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
@@ -250,6 +258,7 @@ DTSTART;TZID=:20250307T183000
 DTEND;TZID=:20250307T193000
 CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Gym\n\n
+LOCATION:HSS Gym
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Check In
 END:VEVENT
@@ -260,6 +269,7 @@ DTSTART;TZID=:20250308T093000
 DTEND;TZID=:20250308T103000
 CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Gym\n\n
+LOCATION:HSS Gym
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Races
 END:VEVENT
@@ -270,6 +280,7 @@ DTSTART;TZID=:20250308T120000
 DTEND;TZID=:20250308T130000
 CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Gym\n\n
+LOCATION:HSS Gym
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Blue & Gold BBQ
 END:VEVENT
@@ -281,6 +292,7 @@ DTEND;TZID=:20250310T193000
 CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Library\n\nScouts at HSS can wear Class A un
  iforms to school on pack meeting days!\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
@@ -292,6 +304,7 @@ DTEND;TZID=:20250407T193000
 CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Library\n\nScouts at HSS can wear Class A un
  iforms to school on pack meeting days!\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
@@ -316,6 +329,7 @@ DESCRIPTION:https://hsspack229.org/2024/11/26/warriors-scout-day\n\n📍 Lo
  ecember 8th\, but note that you are not obligated to purchase based on int
  erest.\n\n[Link #1] https://docs.google.com/spreadsheets/d/1gA-W5oOWwnadd2
  3mmMZNDeEWwrTVq5tP2ev2JB0aQWs/edit?usp=sharing\n\n
+LOCATION:Chase Center\, San Francisco
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Golden State Warriors Scout Day 2025
 URL;VALUE=URI:https://hsspack229.org/2024/11/26/warriors-scout-day
@@ -328,6 +342,7 @@ DTEND;TZID=:20250512T193000
 CLASS:PUBLIC
 DESCRIPTION:📍 Location: HSS Library\n\nScouts at HSS can wear Class A un
  iforms to school on pack meeting days!\n\n
+LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT

@@ -19,10 +19,17 @@ module Jekyll
       "<a href=\"#{url}\">#{name}</a>"
     end
     def format_meta(meta)
+      umks = (meta.keys.map(&:to_sym) - meta_categories.keys)
+      if umks.any?
+        raise "Unknown Meta Key: #{umks.inspect}"
+      end
+      # Formating
       if meta
         h = ["<ul>"]
-        meta.map do |i|
-          h << "<li>" + format_meta_item(i) + "</li>"
+        meta_categories.keys.each do |k|
+          if i = meta[k.to_s]
+            h << "<li>" + format_meta_item([k.to_s, i]) + "</li>"
+          end
         end
         h << "</ul>"
         h.join("\n")
@@ -52,14 +59,14 @@ module Jekyll
     end
     def meta_categories
       {
-        location: "📍 Location",
         date: "🗓️ Date",
         time: "⏰ Time",
-        cost: "💵 Cost",
-        contact: "📇 Contact",
-        deadline: "🏁 Deadline",
+        location: "📍 Location",
         signup: "📋 Signup",
+        deadline: "🏁 Deadline",
+        cost: "💵 Cost",
         more_info: "🌐 Link",
+        contact: "📇 Contact",
         photo_download: "📸",
       }
     end

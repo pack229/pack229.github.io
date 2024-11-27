@@ -18,10 +18,20 @@ module Jekyll
     def link(name, url)
       "<a href=\"#{url}\">#{name}</a>"
     end
+    def format_meta(meta)
+      if meta
+        h = ["<ul>"]
+        meta.map do |i|
+          h << "<li>" + format_meta_item(i) + "</li>"
+        end
+        h << "</ul>"
+        h.join("\n")
+      end
+    end
     def format_meta_for_email(body)
       if body["meta"]
         body["meta"].map do |i|
-          format_meta(i) unless [ :date, :time ].include?(i[0].to_sym)
+          format_meta_item(i) unless [ :date, :time ].include?(i[0].to_sym)
         end.compact.join("\n\n") + "\n\n"
       end
     end
@@ -40,10 +50,8 @@ module Jekyll
       }[value]
       map ? map[:map] : nil
     end
-    def format_meta(input)
-      type = input[0].to_sym
-      data = input[1]
-      title = {
+    def meta_categories
+      {
         location: "📍 Location",
         date: "🗓️ Date",
         time: "⏰ Time",
@@ -53,7 +61,12 @@ module Jekyll
         signup: "📋 Signup",
         more_info: "🌐 Link",
         photo_download: "📸",
-      }[type]
+      }
+    end
+    def format_meta_item(input)
+      type = input[0].to_sym
+      data = input[1]
+      title = meta_categories[type]
       data = if type == :signup
         [data].flatten.map do |l|
           if l.is_a?(Hash)

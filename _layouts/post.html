@@ -12,13 +12,7 @@ layout: default
                     <h1 class="entry-title">{{ page.title }}</h1>
                 </header><!-- .entry-header -->
                 <div class="entry-content">
-                  {% if page.meta != nil %}
-                    <ul>
-                    {% for m in page.meta %}
-                      <li>{{m | format_meta}}</li>
-                    {% endfor %}
-                    </ul>
-                  {% endif %}
+                  {{page.meta | format_meta}}
                   {{content}}
                 </div><!-- .entry-content -->
                 <footer class="entry-footer">

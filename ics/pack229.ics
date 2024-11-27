@@ -313,7 +313,7 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241126T211132
+DTSTAMP;TZID=America/Los_Angeles:20241126T211547
 UID:ec26c86e-e2f9-434e-9e5b-3f7b52a4afcb
 DTSTART;TZID=:20250413T123000
 DTEND;TZID=:20250413T133000
@@ -334,7 +334,7 @@ DESCRIPTION:https://hsspack229.org/2024/11/26/warriors-scout-day\n\n📍 Lo
  erest.\n\n[Link #1] https://docs.google.com/spreadsheets/d/1gA-W5oOWwnadd2
  3mmMZNDeEWwrTVq5tP2ev2JB0aQWs/edit?usp=sharing\n\n
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Golden State Warriors Scout Day
+SUMMARY:Pack 229: Golden State Warriors Scout Day 2025
 URL;VALUE=URI:https://hsspack229.org/2024/11/26/warriors-scout-day
 END:VEVENT
 BEGIN:VEVENT

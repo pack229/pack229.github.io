@@ -227,9 +227,11 @@ class PackCalendar
     ical_string = @cal.to_ical
 
     ical_string.gsub!(/LOCATION.*\n/) do |m|
+      if m.match(/LOCATION:http/)
+        m = m.sub(/LOCATION:http/, 'LOCATION;ALTREP="http') + '"'
+      end
       m
     end
-    # LOCATION;ALTREP=
 
     @cwd.join("../ics/pack229.ics").write(ical_string)
   end

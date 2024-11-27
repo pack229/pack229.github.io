@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:Christmas in the Park
+site.LABEL:Site
+map.LABEL:Map
+site.URL:https://christmasinthepark.com
+map.URL:https://maps.apple.com/?ll=37.333191,-121.890210&q=Downtown%20San%2
+ 0Jose%20%E2%80%94%20San%20Jose&spn=0.009366,0.016926&t=m
+END:VCARD

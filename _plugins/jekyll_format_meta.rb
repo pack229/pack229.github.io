@@ -43,7 +43,7 @@ module Jekyll
       end
     end
     def location_map(value)
-      map = {
+      {
         "Camp Cheesebrough" => {
           site: "https://svmbc.org/chesebrough-scout-reservation/",
           address: "26005 Big Basin Wy, Los Gatos, CA 95033",
@@ -55,7 +55,6 @@ module Jekyll
           map: "https://maps.apple.com/?ll=37.333191,-121.890210&q=Downtown%20San%20Jose%20%E2%80%94%20San%20Jose&spn=0.009366,0.016926&t=m",
         }
       }[value]
-      map ? map[:map] : nil
     end
     def meta_categories
       {

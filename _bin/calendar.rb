@@ -2,6 +2,7 @@
 
 require 'icalendar'
 require 'icalendar/tzinfo'
+require 'vcardigan'
 require 'pathname'
 
 require 'kramdown'
@@ -9,6 +10,8 @@ require 'kramdown-parser-gfm'
 require 'nokogiri'
 
 cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
+$base_url = "https://hsspack229.org"
+# $base_url = "http://localhost:4000"
 
 require cwd.join("../_plugins/jekyll_format_meta")
 class Meta
@@ -18,7 +21,8 @@ end
 class PackCalendar
   class Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
-    def initialize(dir, path, contents, tzid)
+    def initialize(cwd, dir, path, contents, tzid)
+      @cwd = cwd
       @tzid = tzid
       @file = dir.join(path)
 
@@ -29,7 +33,7 @@ class PackCalendar
         @head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
 
         url_parts = File.basename(path.to_s, ".md").split("-")
-        @url = "https://hsspack229.org/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
+        @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
 
         post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
         @url = nil if post_date > Time.now
@@ -40,8 +44,25 @@ class PackCalendar
         @body = clean_body(meta + body)
 
         if loc = @head["meta"]["location"]
-          loc = Meta.new.location_map(loc)
-          @location = loc
+          loc_data = Meta.new.location_map(loc)
+          @location = if loc_data.nil?
+            loc
+          else
+            file_name = "#{loc.downcase.gsub(" ", "_")}.vcf"
+            card = VCardigan.create
+            card.fullname(loc)
+
+            card[:site].label('Site')
+            card[:site].url(loc_data[:site])
+
+            card[:map].label('Map')
+            card[:map].url(loc_data[:map])
+
+            loc_data[:address]
+
+            @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
+            "#{$base_url}/ics/vcard/#{file_name}"
+          end
         end
 
         @title = head["title"]
@@ -87,7 +108,7 @@ class PackCalendar
         text = if link == nil or link.match(/mailto\:/)
           tag.inner_text
         else
-          link = "https://hsspack229.org#{link}" unless link.match(/^http/)
+          link = "#{$base_url}#{link}" unless link.match(/^http/)
           num = if pos = links.index(link)
             pos
           else
@@ -150,7 +171,7 @@ class PackCalendar
   def get_all_posts
     posts = @cwd.join("../_posts")
     posts.entries.map do |e|
-      Event.new(posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
+      Event.new(@cwd, posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
     end.compact
   end
   def get_sorted_posts
@@ -203,7 +224,14 @@ class PackCalendar
     end
   end
   def save_ics!
-    @cwd.join("../ics/pack229.ics").write(@cal.to_ical)
+    ical_string = @cal.to_ical
+
+    ical_string.gsub!(/LOCATION.*\n/) do |m|
+      m
+    end
+    # LOCATION;ALTREP=
+
+    @cwd.join("../ics/pack229.ics").write(ical_string)
   end
   def save_markdown!
     token = "<!-- Generated Calendar -->"

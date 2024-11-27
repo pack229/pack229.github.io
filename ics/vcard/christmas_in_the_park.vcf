@@ -1,9 +1,14 @@
 BEGIN:VCARD
-VERSION:4.0
+VERSION:3.0
+PRODID:-//Apple Inc.//macOS 15.1//EN
+N:;;;;
 FN:Christmas in the Park
-site.LABEL:Site
-map.LABEL:Map
-site.URL:https://christmasinthepark.com
-map.URL:https://maps.apple.com/?ll=37.333191,-121.890210&q=Downtown%20San%2
- 0Jose%20%E2%80%94%20San%20Jose&spn=0.009366,0.016926&t=m
+ORG:Christmas in the Park;
+item1.ADR;type=pref:;;194 S Market St;San Jose;CA;95113;
+item1.X-ABLabel:location
+item2.URL;type=pref:https://christmasinthepark.com
+item2.X-ABLabel:_$!<HomePage>!$_
+item3.URL:https://maps.apple.com/?ll=37.333191\,-121.890210&q=Downtown%20San%20Jose%20%E2%80%94%20San%20Jose&spn=0.009366\,0.016926&t=m
+item3.X-ABLabel:map
+X-ABShowAs:COMPANY
 END:VCARD

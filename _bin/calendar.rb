@@ -112,10 +112,9 @@ class PackCalendar
           tag.remove
         end
       end
-      # <!--more-->
       body_tag = body.at("body")
       return "" if body_tag.nil?
-      body = body_tag.inner_html.gsub(/\n{3,}/, "\n\n").to_s
+      body = body_tag.inner_html.gsub(/<!--more-->.*$/m, "... [See Website]").to_s.gsub(/<!--.*?-->/, "").to_s.gsub(/\n{3,}/, "\n\n").to_s
       body = "#{@url}\n\n#{body}" unless @url.nil?
       if links.any?
         links.each_with_index do |l, i|

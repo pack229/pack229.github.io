@@ -21,8 +21,6 @@ featured_image: about.jpg
 
  * __Mon 09/09:__ [Pack Meeting](https://hsspack229.org/2024/09/05/september-pack-meeting)
 
- * __Sat 09/28:__ [Raingutter Regatta](https://hsspack229.org/2024/09/18/raingutter-regatta)
-
 ## October
 
  * __Mon 10/14:__ [Pack Meeting](https://hsspack229.org/2024/10/01/october-pack-meeting)
@@ -50,6 +48,12 @@ featured_image: about.jpg
 ## January
 
  * __Mon 01/13:__ Pack Meeting
+
+## February
+
+ * __Sun 02/02:__ Founders Day Mass
+
+ * __Mon 02/10:__ Pack Meeting
 
 ## March
 

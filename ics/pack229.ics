@@ -313,6 +313,31 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241126T211132
+UID:ec26c86e-e2f9-434e-9e5b-3f7b52a4afcb
+DTSTART;TZID=:20250413T123000
+DTEND;TZID=:20250413T133000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/11/26/warriors-scout-day\n\n📍 Lo
+ cation: Chase Center\, San Francisco\n\n📋 Signup: Interest Form [Link #
+ 1]\n\n💵 Cost: TBD ($100-$200)\n\n🏁 Deadline: Sunday December 8th 202
+ 4\n\nIt’s almost time to purchase our tickets for the ‘24-‘25 Golden
+  State Warriors Scout Day when the Warriors take on the LA Clippers! As if
+  watching our Warriors play wasn’t enough\, our Scouts will also receive
+  a Scout Day Shirt and have the opportunity for post-game free-throws on t
+ he court!\n\nWe will receive special group pricing but we will need an app
+ roximate headcount in order to get our blocks of seats. The ticket range s
+ hould be between $100-$200 per ticket\, ticket prices will be confirmed so
+ metime in December\, at which time a link to purchase will also be sent ou
+ t. Please add your family details to this interest form [Link #0] before D
+ ecember 8th\, but note that you are not obligated to purchase based on int
+ erest.\n\n[Link #1] https://docs.google.com/spreadsheets/d/1gA-W5oOWwnadd2
+ 3mmMZNDeEWwrTVq5tP2ev2JB0aQWs/edit?usp=sharing\n\n
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Golden State Warriors Scout Day
+URL;VALUE=URI:https://hsspack229.org/2024/11/26/warriors-scout-day
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241120T095250
 UID:d448588a-1001-4ae3-a223-880a8a4f2cd1
 DTSTART;TZID=:20250512T183000

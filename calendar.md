@@ -69,6 +69,8 @@ featured_image: about.jpg
 
  * __Mon 04/07:__ Pack Meeting
 
+ * __Sun 04/13:__ [Golden State Warriors Scout Day](https://hsspack229.org/2024/11/26/warriors-scout-day)
+
 ## May
 
  * __Mon 05/12:__ Pack Meeting

@@ -67,7 +67,13 @@ module Jekyll
       elsif type == :location && data == "Christmas in the Park"
         [ link("Christmas in the Park", "https://maps.apple.com/?address=1%20Paseo%20de%20San%20Antonio%0ASan%20Jose,%20CA%20%2095113%0AUnited%20States&auid=12608692531698440874&ll=37.333000,-121.890210&lsp=9902&q=Christmas%20in%20the%20Park") ].join(" | ")
       elsif type == :date || type == :deadline
-        data = [data].flatten.map{ |d| d.strftime("%A %B #{d.day.ordinalize} %Y") }.join(" - ")
+        data = [data].flatten.map do |d|
+          d = Date.parse(d) unless d.is_a?(Date)
+          d.strftime("%A %B #{d.day.ordinalize} %Y")
+        end.join(" - ")
+      elsif type == :time
+        data = data.join(" to ") if data.is_a?(Array)
+        data
       elsif type == :contact && data.is_a?(Hash)
         link(data["name"], "mailto:#{data["email"]}")
       elsif type == :more_info

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Golden State Warriors Scout Day
+title:  Golden State Warriors Scout Day 2025
 date:   2024-11-26
 featured_image: warriors.jpg
 tags: [Scout Night, Events]

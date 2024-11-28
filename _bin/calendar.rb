@@ -50,6 +50,7 @@ class PackCalendar
           else
             file_name = "#{loc.downcase.gsub(" ", "_")}.vcf"
             card = VCardigan.create
+            card.name(loc)
             card.fullname(loc)
 
             card[:site].label('Site')
@@ -61,7 +62,7 @@ class PackCalendar
             loc_data[:address]
 
             @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
-            "#{$base_url}/ics/vcard/#{file_name}"
+            "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
           end
         end
 
@@ -225,14 +226,7 @@ class PackCalendar
   end
   def save_ics!
     ical_string = @cal.to_ical
-
-    ical_string.gsub!(/LOCATION.*\n/) do |m|
-      if m.match(/LOCATION:http/)
-        m = m.sub(/LOCATION:http/, 'LOCATION;ALTREP="http') + '"'
-      end
-      m
-    end
-
+    ical_string.gsub!("LOCATION:ALTREP", "LOCATION;ALTREP")
     @cwd.join("../ics/pack229.ics").write(ical_string)
   end
   def save_markdown!

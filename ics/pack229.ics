@@ -195,7 +195,8 @@ DESCRIPTION:https://hsspack229.org/2024/11/03/christmas-in-the-park\n\n📍
  20the%20Park\n\n[Link #2] https://christmasinthepark.com\n\n[Link #3] http
  s://hsspack229.org/2024/11/01/november-pack-meeting/\n\n
 LOCATION;ALTREP="https://hsspack229.org/ics/vcard/christmas_in_the_park.vcf
-"ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+ ": Christmas in the Park
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Christmas in the Park
 URL;VALUE=URI:https://hsspack229.org/2024/11/03/christmas-in-the-park
 END:VEVENT

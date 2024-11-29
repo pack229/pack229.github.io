@@ -3,7 +3,7 @@ layout: post
 title:  "Christmas in the Park"
 date:   2024-11-03
 featured_image: christmas.jpg
-tags: [Christmas in the Park, Events, Upcoming]
+tags: [Christmas in the Park, Events]
 uuid: 01FEABFB-0056-46FD-83DA-2C6B62CB2831
 meta:
   date: 2024-11-27

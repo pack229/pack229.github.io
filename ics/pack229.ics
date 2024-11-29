@@ -201,6 +201,37 @@ SUMMARY:Pack 229: Christmas in the Park
 URL;VALUE=URI:https://hsspack229.org/2024/11/03/christmas-in-the-park
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241129T113256
+UID:ff927e7f-3a5c-4a86-94cf-e6d2bfcfdcc7
+DTSTART;TZID=:20241207T094500
+DTEND;TZID=:20241207T104500
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/11/28/los-gatos-christmas-parade\n\
+ n📍 Location: Los Gatos\, Spot 141 [Link #1]\n\n📋 Signup: RSVP [Link 
+ #2]\n\nWe are excited to invite you and your Scouts to participate in the 
+ Los Gatos Christmas Parade on the morning of Saturday\, December 7th. This
+  wonderful event has been a cherished tradition for our community\, with t
+ he Dad’s Club proudly organizing and sponsoring our entry for several ye
+ ars.\n\nThis year\, we’d love to have a few scouts join us to carry the 
+ Holy Spirit School banner in front of our float. It’s a fun and memorabl
+ e experience\, and we’d be so grateful for your help in making our pack 
+ shine!\n\nCommitment: Scouts and parents need to arrive early to line up w
+ ith the float. The parade runs rain or shine.\n\nWhat to Wear: Class A uni
+ forms are preferred for Scouts carrying the banner. Theme is Toy Story\, s
+ o others can dress up as their favorite Toy Story characters.\n\nIf your S
+ cout would like to participate\, please RSVP [Link #1].\n\nThank you for y
+ our support in representing Holy Spirit School and our amazing pack. We lo
+ ok forward to seeing you there!\n\nMeet at 9:45 AM at Spot 141 [Link #0]. 
+ Parade starts at 11:00 AM.\n\n[Link #1] https://app.paradecloud.com/lineup
+ /1146/737bf7ceade1abbe80c3d78d41638912\n\n[Link #2] https://forms.gle/5cjk
+ WHaCec3bBXRp8\n\n
+LOCATION:Los Gatos\, <a href="https://app.paradecloud.com/lineup/1146/737bf
+ 7ceade1abbe80c3d78d41638912">Spot 141</a>
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Los Gatos Christmas Parade
+URL;VALUE=URI:https://hsspack229.org/2024/11/28/los-gatos-christmas-parade
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241126T205641
 UID:e36452df-a2b2-4c46-9cea-81fac72207b8
 DTSTART;TZID=:20241216T183000

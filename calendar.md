@@ -41,6 +41,8 @@ featured_image: about.jpg
 
 ## December
 
+ * __Sat 12/07:__ [Los Gatos Christmas Parade](https://hsspack229.org/2024/11/28/los-gatos-christmas-parade)
+
  * __Mon 12/16:__ [Pack Meeting](https://hsspack229.org/2024/11/06/december-pack-meeting)
 
 # 2025

@@ -3,7 +3,7 @@ layout: post
 title: Los Gatos Christmas Parade
 date: 2024-11-28
 featured_image: christmas-parade.jpg
-tags: [Events, Upcoming]
+tags: [Events]
 uuid: FF927E7F-3A5C-4A86-94CF-E6D2BFCFDCC7
 meta:
   date: 2024-12-07

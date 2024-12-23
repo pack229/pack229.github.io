@@ -285,6 +285,63 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241223T154041
+UID:22a4f8ce-8ee5-4511-9a29-527997238e97
+DTSTART;TZID=:20250215T180000
+DTEND;TZID=:20250215T190000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/12/23/penguins-pajamas-sleepover\n\
+ n📍 Location: California Academy of Sciences\, San Francisco\n\n📋 Sig
+ nup: Purchase Tickets [Link #1] and Pack Signup [Link #2]\n\n💵 Cost: Ad
+ ults and Children $135\, Members $121\n\n🌐 Link: More Info [Link #3]\n\
+ nExperience our very own night at the museum at the California Academy of 
+ Sciences Penguins+Pajamas [Link #2] Sleepover event! Explore the exhibits 
+ after-hours and discover the deepest depths of the oceans\, travel to the 
+ tops of rainforests\, blast off into outer space at your own private plane
+ tarium show\, and then settle in for story time after snacking on milk and
+  cookies.\n\nWhen the lights go out\, roll out your sleeping bag in one th
+ e museum’s iconic exhibits. Snooze next to the African Penguin colony\, 
+ dream beside fish in the Philippine Coral Reef\, or drift off in a world o
+ f color at Color of Life! In the morning\, rise and shine\, then head over
+  to the Academy Café for breakfast — and continue your adventure with c
+ omplimentary next-day admission to the museum.\n\nWe will each purchase ou
+ r own tickets via the event link [Link #0]\, but please include your famil
+ y info on this spreadsheet [Link #1] for Pack planning purposes.\n\nAfter 
+ the Sleepover ends at 8:00 AM\, the museum must be vacated to prepare for 
+ opening. Since next-day admission to the museum is included with your slee
+ pover ticket\, feel free to get your hand stamped and re-enter when the bu
+ ilding opens to the public for the day.\n\nWhat is included?\n\n * Next da
+ y admission to the Academy\n * Secure overnight parking in Music Concourse
+  Garage\n * Late night snack and early morning breakfast\n * Planetarium s
+ howings\n * Rainforest access until 8:00 PM\n * Overnight stay in an exhib
+ it area\n\nWhat do I need to bring?\n\n * <strong>Optional</strong>: Air m
+ attresses*\, earplugs\, sleep mask.\n * <strong>Do Not Bring</strong>: Fla
+ shlights\, tents\, outside food/drink (unless related to a special diet)\,
+  coolers\, balloons\, radios\, weapons.\n * <strong>Do Bring</strong>: A p
+ illow\, sleeping bag\, toiletries (showers not available)\, hard-soled sho
+ es/slippers\n\nThe aquarium and California: State of Nature are exhibits w
+ ith many winding paths and tighter corridors. Due to safety and evacuation
+  regulations\, air mattresses are not permitted in the aquarium or Califor
+ nia: State of Nature overnight. The only sleeping gear allowed in these ex
+ hibit spaces are sleeping pads or single cots.\n\nWaiver of Liability:\n\n
+ The Academy requires each adult and child attending a sleepover to electro
+ nically sign a waiver of liability [Link #4] in advance. After buying your
+  tickets\, please click on the waiver link [Link #3] and complete one subm
+ ission for each participant. For children\, the waiver must be signed by t
+ he child’s parent or guardian. The waiver of liability must identify the
+  adult who will be responsible for the child during the sleepover. No one 
+ can be admitted without having completed their waiver.\n\n[Link #1] https:
+ //www.calacademy.org/buy-tickets/?type=sleepover#step=performance\n\n[Link
+  #2] https://docs.google.com/spreadsheets/d/1z4HHPp-EN9_rwDOcX51hv1RhQVxnE
+ p3gHbMAAH71ZNQ/edit?usp=sharing\n\n[Link #3] https://www.calacademy.org/pe
+ nguinspajamas-sleepovers\n\n[Link #4] https://docs.google.com/forms/d/e/1F
+ AIpQLSeRdmHw4Dptr-p4dRicsX_ykK_mrzKqiUnTLirHylZmDF8waQ/viewform\n\n
+LOCATION:California Academy of Sciences\, San Francisco
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: California Academy of Sciences Penguins+Pajamas Sleepover
+URL;VALUE=URI:https://hsspack229.org/2024/12/23/penguins-pajamas-sleepover
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T221202
 UID:7935f149-5fe3-413e-8c65-5ea81dd39000
 DTSTART;TZID=:20250307T183000

@@ -57,6 +57,8 @@ featured_image: about.jpg
 
  * __Mon 02/10:__ Pack Meeting
 
+ * __Sat 02/15:__ [California Academy of Sciences Penguins+Pajamas Sleepover](https://hsspack229.org/2024/12/23/penguins-pajamas-sleepover)
+
 ## March
 
  * __Fri 03/07:__ Pinewood Derby: Check In

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Janurary Pack Meeting"
+title: "January Pack Meeting"
 date: 2024-12-22
 featured_image: packmeeting.jpg
 tags: [Meetings, Upcoming]

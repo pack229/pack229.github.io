@@ -49,7 +49,7 @@ featured_image: about.jpg
 
 ## January
 
- * __Mon 01/13:__ [Pack Meeting](https://hsspack229.org/2024/12/22/janurary-pack-meeting)
+ * __Mon 01/13:__ [Pack Meeting](https://hsspack229.org/2024/12/22/january-pack-meeting)
 
 ## February
 

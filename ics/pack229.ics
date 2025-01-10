@@ -247,19 +247,19 @@ SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/11/06/december-pack-meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241223T154211
+DTSTAMP;TZID=America/Los_Angeles:20250109T164653
 UID:23e78e0d-7ce9-4dd5-b7c9-bc1756b50277
 DTSTART;TZID=:20250113T183000
 DTEND;TZID=:20250113T193000
 CLASS:PUBLIC
-DESCRIPTION:https://hsspack229.org/2024/12/22/janurary-pack-meeting\n\n📍
-  Location: HSS Library\n\nPlease join us for the first Pack Meeting of 202
- 5!\n\nScouts at HSS can wear Class A uniforms to school on pack meeting da
- ys!\n\n
+DESCRIPTION:https://hsspack229.org/2024/12/22/january-pack-meeting\n\n📍 
+ Location: HSS Library\n\nPlease join us for the first Pack Meeting of 2025
+ !\n\nScouts at HSS can wear Class A uniforms to school on pack meeting day
+ s!\n\n
 LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
-URL;VALUE=URI:https://hsspack229.org/2024/12/22/janurary-pack-meeting
+URL;VALUE=URI:https://hsspack229.org/2024/12/22/january-pack-meeting
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241126T205011

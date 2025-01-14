@@ -7,8 +7,8 @@ featured_image: about.jpg
 
 ## Subscribe
 
-[Add to Apple Calendar](webcal://hsspack229.org/ics/pack229.ics)
-[Add to Google Calendar](https://calendar.google.com/calendar/embed?src=hsspack229.org%2Fics%2Fpack229.ics)
+* [Add to Apple Calendar](webcal://hsspack229.org/ics/pack229.ics)
+* [Add to Google Calendar](https://calendar.google.com/calendar/embed?src=hsspack229.org%2Fics%2Fpack229.ics)
 
 * You can subscribe in Apple Calendar, Google Calendar, or any other application that supports `.ics` files.
 * We recommend setting `Auto-refresh` to `Daily` so you always have the latest information.
@@ -53,9 +53,11 @@ featured_image: about.jpg
 
 ## February
 
- * __Sun 02/02:__ Founders Day Mass
+ * __Sun 02/02:__ [Founders Day Mass](https://hsspack229.org/2025/01/13/founders-day-mass)
 
- * __Mon 02/10:__ Pack Meeting
+ * __Mon 02/10:__ [Religious Emblems Program Review](https://hsspack229.org/2025/01/13/religious-emblems-program-review)
+
+ * __Mon 02/10:__ [Pack Meeting](https://hsspack229.org/2025/01/13/february-pack-meeting)
 
  * __Sat 02/15:__ [California Academy of Sciences Penguins+Pajamas Sleepover](https://hsspack229.org/2024/12/23/penguins-pajamas-sleepover)
 

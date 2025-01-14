@@ -31,6 +31,8 @@ sass:
 navigation:
 - text: Home
   url: /
+- text: Calendar
+  url: /calendar/
 - text: About
   url: /about/
 - text: Joining

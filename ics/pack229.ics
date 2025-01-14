@@ -247,7 +247,7 @@ SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/11/06/december-pack-meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250109T164653
+DTSTAMP;TZID=America/Los_Angeles:20250113T185931
 UID:23e78e0d-7ce9-4dd5-b7c9-bc1756b50277
 DTSTART;TZID=:20250113T183000
 DTEND;TZID=:20250113T193000
@@ -262,29 +262,55 @@ SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/12/22/january-pack-meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241126T205011
+DTSTAMP;TZID=America/Los_Angeles:20250113T185951
 UID:ce0e8155-f348-4a08-8208-80c80d51e4ea
-DTSTART;TZID=:20250202T093000
-DTEND;TZID=:20250202T103000
+DTSTART;TZID=:20250202T091500
+DTEND;TZID=:20250202T101500
 CLASS:PUBLIC
-DESCRIPTION:📍 Location: Holy Spirit Church\n\nTypically\, we like to hav
- e the Scouts usher at the 9:30 Mass and encourage all Scouts to wear their
-  uniforms to Mass.\n\n
+DESCRIPTION:https://hsspack229.org/2025/01/13/founders-day-mass\n\n📍 Loc
+ ation: Holy Spirit Church\n\nScouts should wear their Class-A uniform to 9
+ :30 mass for the annual Founders Day Scout Mass. Scouts should arrive a fe
+ w minutes early to help greet other parishioners.\n\n
 LOCATION:Holy Spirit Church
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Founders Day Mass
+URL;VALUE=URI:https://hsspack229.org/2025/01/13/founders-day-mass
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241126T205624
+DTSTAMP;TZID=America/Los_Angeles:20250113T190531
+UID:efc617ac-f1be-4d42-acf3-2e9c4331ec95
+DTSTART;TZID=:20250210T180000
+DTEND;TZID=:20250210T190000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2025/01/13/religious-emblems-program-rev
+ iew\n\n📍 Location: HSS Library\n\nIf you are participating in the Relig
+ ious Emblems Program [Link #1] please come to the February Pack Meeting [L
+ ink #2] 30 minutes early so we can review with Fr. Robert.\n\nPaperwork ne
+ eds to be submitted by 2/15 and the scouts will receive their awards from 
+ the Bishop in a ceremony at the Basilica on Sunday\, March 30.\n\n[Link #1
+ ] https://hsspack229.org/2024/09/28/religious-emblems/\n\n[Link #2] https:
+ //hsspack229.org/2025/01/13/february-pack-meeting/\n\n
+LOCATION:HSS Library
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Religious Emblems Program Review
+URL;VALUE=URI:https://hsspack229.org/2025/01/13/religious-emblems-program-r
+ eview
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20250113T190212
 UID:deebceb5-c9e9-4e8e-8169-4e7db0793315
 DTSTART;TZID=:20250210T183000
 DTEND;TZID=:20250210T193000
 CLASS:PUBLIC
-DESCRIPTION:📍 Location: HSS Library\n\nScouts at HSS can wear Class A un
- iforms to school on pack meeting days!\n\n
+DESCRIPTION:https://hsspack229.org/2025/01/13/february-pack-meeting\n\n📍
+  Location: HSS Library\n\nPlease join us for our February Pack Meeting. We
+ ’ll be preparing for the Founders Day Mass\, Pinewood Derby and Blue and
+  Gold BBQ.\n\nScouts at HSS can wear Class A uniforms to school on pack me
+ eting days!\n\n
 LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2025/01/13/february-pack-meeting
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241223T154308

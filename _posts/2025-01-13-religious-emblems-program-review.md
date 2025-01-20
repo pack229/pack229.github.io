@@ -2,7 +2,7 @@
 layout: post
 title: "Religious Emblems Program Review"
 date: 2025-01-13
-featured_image: packmeeting.jpg
+featured_image: default.jpg
 tags: [Meetings, Religious Emblems, Upcoming]
 uuid: EFC617AC-F1BE-4D42-ACF3-2E9C4331EC95
 meta:

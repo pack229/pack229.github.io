@@ -19,6 +19,7 @@ module Jekyll
       "<a href=\"#{url}\">#{name}</a>"
     end
     def format_meta(meta)
+      return "" if meta.nil?
       umks = (meta.keys.map(&:to_sym) - meta_categories.keys)
       if umks.any?
         raise "Unknown Meta Key: #{umks.inspect}"
@@ -53,6 +54,11 @@ module Jekyll
           site: "https://christmasinthepark.com",
           address: "194 S Market St, San Jose, CA 95113",
           map: "https://maps.apple.com/?ll=37.333191,-121.890210&q=Downtown%20San%20Jose%20%E2%80%94%20San%20Jose&spn=0.009366,0.016926&t=m",
+        },
+        "Ed R. Levin County Park" => {
+          site: "https://parks.santaclaracounty.gov/locations/ed-r-levin-county-park",
+          address: "3100 Calaveras Road, Milpitas, CA 95035",
+          map: "https://maps.apple.com/?address=3100%20Calaveras%20Rd,%20Milpitas,%20CA%20%2095035,%20United%20States&auid=14976263126931611544&ll=37.446093,-121.856453&lsp=9902&q=Youth%20Area%20Group%20Campsite&t=h"
         }
       }[value]
     end

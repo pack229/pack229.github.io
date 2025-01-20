@@ -2,7 +2,7 @@
 layout: post
 title: "Founders Day Mass"
 date: 2025-01-13
-featured_image: packmeeting.jpg
+featured_image: default.jpg
 tags: [Founders Day, Upcoming]
 uuid: CE0E8155-F348-4A08-8208-80C80D51E4EA
 meta:

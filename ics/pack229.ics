@@ -185,15 +185,18 @@ DTSTART;TZID=:20241127T110000
 DTEND;TZID=:20241127T120000
 CLASS:PUBLIC
 DESCRIPTION:https://hsspack229.org/2024/11/03/christmas-in-the-park\n\n📍
-  Location: Christmas in the Park [Link #1]\n\nPack 229 will again be decor
- ating a Christmas Tree at the San Jose Christmas in the Park [Link #2] eve
- nt.\n\nJoin us at the November Pack Meeting [Link #3] to help make ornamen
- ts and then on at 11/27 at 11:00 AM at Plaza de Cesar Chavez [Link #0] to 
- decorate our tree!\n\n[Link #1] https://maps.apple.com/?address=1%20Paseo%
- 20de%20San%20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20States&auid
- =12608692531698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christmas%20in%
- 20the%20Park\n\n[Link #2] https://christmasinthepark.com\n\n[Link #3] http
- s://hsspack229.org/2024/11/01/november-pack-meeting/\n\n
+  Location: Christmas in the Park [Link #1] | 194 S Market St\, San Jose\, 
+ CA 95113 [Link #2]\n\nPack 229 will again be decorating a Christmas Tree a
+ t the San Jose Christmas in the Park [Link #0] event.\n\nJoin us at the No
+ vember Pack Meeting [Link #3] to help make ornaments and then on at 11/27 
+ at 11:00 AM at Plaza de Cesar Chavez [Link #4] to decorate our tree!\n\n[L
+ ink #1] https://christmasinthepark.com\n\n[Link #2] https://maps.apple.com
+ /?ll=37.333191\,-121.890210&q=Downtown%20San%20Jose%20%E2%80%94%20San%20Jo
+ se&spn=0.009366\,0.016926&t=m\n\n[Link #3] https://hsspack229.org/2024/11/
+ 01/november-pack-meeting/\n\n[Link #4] https://maps.apple.com/?address=1%2
+ 0Paseo%20de%20San%20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20Stat
+ es&auid=12608692531698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christma
+ s%20in%20the%20Park\n\n
 LOCATION;ALTREP="https://hsspack229.org/ics/vcard/christmas_in_the_park.vcf
  ": Christmas in the Park
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
@@ -262,22 +265,26 @@ SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/12/22/january-pack-meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250113T185951
+DTSTAMP;TZID=America/Los_Angeles:20250119T235438
 UID:ce0e8155-f348-4a08-8208-80c80d51e4ea
 DTSTART;TZID=:20250202T091500
 DTEND;TZID=:20250202T101500
 CLASS:PUBLIC
 DESCRIPTION:https://hsspack229.org/2025/01/13/founders-day-mass\n\n📍 Loc
- ation: Holy Spirit Church\n\nScouts should wear their Class-A uniform to 9
- :30 mass for the annual Founders Day Scout Mass. Scouts should arrive a fe
- w minutes early to help greet other parishioners.\n\n
+ ation: Holy Spirit Church\n\n📇 Contact: Lauren McLane\n\nAttention all 
+ Cub Scouts\, Girl Scouts\, and  Scouts BSA: Please join us for our annual 
+ Scout Mass on Sunday February 2nd\, at 9:30 AM. Please wear your Scout (Cl
+ ass A) uniform to Mass and plan to arrive 15 minutes early. We will need G
+ reeters\, Bulletin Distributors\, Readers\, Ushers\, and Gift Presenters. 
+ If your son or daughter is interested in helping\, please contact Lauren M
+ cLane.\n\n
 LOCATION:Holy Spirit Church
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Founders Day Mass
+SUMMARY:Pack 229: Founders Day Scout Mass
 URL;VALUE=URI:https://hsspack229.org/2025/01/13/founders-day-mass
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250113T190531
+DTSTAMP;TZID=America/Los_Angeles:20250119T234820
 UID:efc617ac-f1be-4d42-acf3-2e9c4331ec95
 DTSTART;TZID=:20250210T180000
 DTEND;TZID=:20250210T190000
@@ -297,16 +304,15 @@ URL;VALUE=URI:https://hsspack229.org/2025/01/13/religious-emblems-program-r
  eview
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250113T190212
+DTSTAMP;TZID=America/Los_Angeles:20250119T235457
 UID:deebceb5-c9e9-4e8e-8169-4e7db0793315
 DTSTART;TZID=:20250210T183000
 DTEND;TZID=:20250210T193000
 CLASS:PUBLIC
 DESCRIPTION:https://hsspack229.org/2025/01/13/february-pack-meeting\n\n📍
   Location: HSS Library\n\nPlease join us for our February Pack Meeting. We
- ’ll be preparing for the Founders Day Mass\, Pinewood Derby and Blue and
-  Gold BBQ.\n\nScouts at HSS can wear Class A uniforms to school on pack me
- eting days!\n\n
+ ’ll be preparing for the Pinewood Derby and Blue and Gold BBQ.\n\nScouts
+  at HSS can wear Class A uniforms to school on pack meeting days!\n\n
 LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting

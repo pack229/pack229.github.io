@@ -43,12 +43,13 @@ class PackCalendar
 
         @body = clean_body(meta + body)
 
-        if loc = @head["meta"]["location"]
+
+        if @head["meta"] && loc = @head["meta"]["location"]
           loc_data = Meta.new.location_map(loc)
           @location = if loc_data.nil?
             loc
           else
-            file_name = "#{loc.downcase.gsub(" ", "_")}.vcf"
+            file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
             card = VCardigan.create
             card.name(loc)
             card.fullname(loc)
@@ -72,8 +73,10 @@ class PackCalendar
         @uuid = head["uuid"].downcase
         @mtime = dir.join(path).mtime
 
-        date = head["meta"]["date"]
-        time = head["meta"]["time"]
+        if @head["meta"]
+          date = head["meta"]["date"]
+          time = head["meta"]["time"]
+        end
 
         @valid = !(head["calendar"] || "").split(",").include?("skip")
         if @valid

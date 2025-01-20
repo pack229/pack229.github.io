@@ -2,6 +2,7 @@
 layout: post
 title: January Pack Meeting Recap
 date: 2025-01-18
+calendar: skip
 tags: [Meetings]
 uuid: 49C65B1A-B922-4FD2-ABD8-275E55DEFA5F
 featured_image: packmeeting.jpg

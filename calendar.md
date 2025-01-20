@@ -53,7 +53,7 @@ featured_image: about.jpg
 
 ## February
 
- * __Sun 02/02:__ [Founders Day Mass](https://hsspack229.org/2025/01/13/founders-day-mass)
+ * __Sun 02/02:__ [Founders Day Scout Mass](https://hsspack229.org/2025/01/13/founders-day-mass)
 
  * __Mon 02/10:__ [Religious Emblems Program Review](https://hsspack229.org/2025/01/13/religious-emblems-program-review)
 

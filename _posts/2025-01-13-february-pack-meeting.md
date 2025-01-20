@@ -11,6 +11,6 @@ meta:
   location: HSS Library
 ---
 
-Please join us for our February Pack Meeting. We'll be preparing for the Founders Day Mass, Pinewood Derby and Blue and Gold BBQ.
+Please join us for our February Pack Meeting. We'll be preparing for the Pinewood Derby and Blue and Gold BBQ.
 
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!

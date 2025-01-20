@@ -156,10 +156,18 @@ class PackCalendar
     @cal = Icalendar::Calendar.new
     @markdown = []
     cal.x_wr_calname = 'Pack 229'
-    @sorted_posts = get_sorted_posts
+    @other_posts = []
+  end
+  def add_other_post(data)
+    pp data
+  end
+  def run!
     check_posts!
     setup_time_zones!
     load_from_posts!
+  end
+  def sorted_posts
+    @sorted_posts ||= get_sorted_posts
   end
   def setup_time_zones!
     @tzid = "America/Los_Angeles"
@@ -168,7 +176,7 @@ class PackCalendar
     @cal.add_timezone(timezone)
   end
   def all_posts
-    @all_posts ||= get_all_posts
+    @all_posts ||= get_all_posts + @other_posts
   end
   def get_all_posts
     posts = @cwd.join("../_posts")
@@ -192,7 +200,7 @@ class PackCalendar
     current_year = nil
     current_month = nil
 
-    @sorted_posts.each do |post|
+    sorted_posts.each do |post|
 
       cal.event do |e|
         e.summary = "Pack 229: #{post.title}"
@@ -236,12 +244,22 @@ class PackCalendar
     calendar = file.read.split(token)[0] + token + "\n\n" + @markdown.join("\n\n")
     file.write(calendar)
   end
+  def load_events!(file)
+    data = YAML.load(@cwd.join("../_data/calendar_#{file}.yaml").read, permitted_classes: [Date])
+    data.each do |event|
+      add_other_post(event)
+    end
+  end
 end
 
 pack = PackCalendar.new(cwd)
+pack.run!
 pack.save_ics!("pack229")
 pack.save_markdown!
 
-
-den6 = PackCalendar.new(cwd)
-den6.save_ics!("pack229-den6")
+[ "6" ].each do |den_number|
+  den = PackCalendar.new(cwd)
+  den.load_events!("den#{den_number}")
+  den.run!
+  den.save_ics!("pack229-den#{den_number}")
+end

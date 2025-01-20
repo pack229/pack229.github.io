@@ -160,8 +160,6 @@ class PackCalendar
     check_posts!
     setup_time_zones!
     load_from_posts!
-    save_ics!
-    save_markdown!
   end
   def setup_time_zones!
     @tzid = "America/Los_Angeles"
@@ -227,10 +225,10 @@ class PackCalendar
 
     end
   end
-  def save_ics!
+  def save_ics!(file_name)
     ical_string = @cal.to_ical
     ical_string.gsub!("LOCATION:ALTREP", "LOCATION;ALTREP")
-    @cwd.join("../ics/pack229.ics").write(ical_string)
+    @cwd.join("../ics/#{file_name}.ics").write(ical_string)
   end
   def save_markdown!
     token = "<!-- Generated Calendar -->"
@@ -241,3 +239,9 @@ class PackCalendar
 end
 
 pack = PackCalendar.new(cwd)
+pack.save_ics!("pack229")
+pack.save_markdown!
+
+
+den6 = PackCalendar.new(cwd)
+den6.save_ics!("pack229-den6")

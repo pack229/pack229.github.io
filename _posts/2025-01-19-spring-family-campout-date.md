@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spring Family Campout Date
+title: Spring Family Campout - Save The Date
 date: 2025-01-19
 tags: [Events, Upcoming, Date]
 uuid: F5890112-2A48-4C7D-8AFE-E1DBDE7050A1

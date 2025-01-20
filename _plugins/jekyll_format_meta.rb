@@ -110,6 +110,11 @@ module Jekyll
       end
       "#{title}: #{data}"
     end
+
+    def first_date(date, format)
+      date = DateTime.parse(date.first) if date.is_a?(Array)
+      date.strftime(format)
+    end
   end
 end
 

@@ -19,6 +19,16 @@ class Meta
 end
 
 class PackCalendar
+
+  class NewEvent
+    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
+    def initialize(cwd, tzid, data)
+      @cwd = cwd
+      @tzid = tzid
+
+    end
+  end
+
   class Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
     def initialize(cwd, dir, path, contents, tzid)
@@ -159,7 +169,7 @@ class PackCalendar
     @other_posts = []
   end
   def add_other_post(data)
-    pp data
+    @other_posts << NewEvent.new(@cwd, @tzid, data)
   end
   def run!
     check_posts!

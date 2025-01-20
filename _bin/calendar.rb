@@ -224,11 +224,11 @@ class PackCalendar
   end
 
   attr_accessor :cal
-  def initialize(cwd)
+  def initialize(cwd, calendar_title)
     @cwd = cwd
     @cal = Icalendar::Calendar.new
     @markdown = []
-    cal.x_wr_calname = 'Pack 229'
+    cal.x_wr_calname = calendar_title
     @other_posts = []
   end
   def add_other_post(data, source_file)
@@ -326,13 +326,13 @@ class PackCalendar
   end
 end
 
-pack = PackCalendar.new(cwd)
+pack = PackCalendar.new(cwd, 'Pack 229')
 pack.run!
 pack.save_ics!("pack229")
 pack.save_markdown!
 
 [ "6" ].each do |den_number|
-  den = PackCalendar.new(cwd)
+  den = PackCalendar.new(cwd, "Pack 229 & Den #{den_number}")
   den.load_events!("den#{den_number}")
   den.run!
   den.save_ics!("pack229-den#{den_number}")

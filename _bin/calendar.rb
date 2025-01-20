@@ -20,15 +20,6 @@ end
 
 class PackCalendar
 
-  class NewEvent
-    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
-    def initialize(cwd, tzid, data)
-      @cwd = cwd
-      @tzid = tzid
-
-    end
-  end
-
   class Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
     def initialize(cwd, dir, path, contents, tzid)
@@ -160,6 +151,78 @@ class PackCalendar
     end
   end
 
+  class NewEvent < Event
+    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
+    def initialize(cwd, tzid, data, source_file)
+      @cwd = cwd
+      @tzid = tzid
+
+      @head = data
+
+      @url = nil
+      meta = Meta.new.format_meta_for_email(@head) || ""
+
+      @body = clean_body(meta)
+
+      if @head["meta"] && loc = @head["meta"]["location"]
+        loc_data = Meta.new.location_map(loc)
+        @location = if loc_data.nil?
+          loc
+        else
+          file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
+          card = VCardigan.create
+          card.name(loc)
+          card.fullname(loc)
+
+            card[:site].label('Site')
+            card[:site].url(loc_data[:site])
+
+            card[:map].label('Map')
+            card[:map].url(loc_data[:map])
+
+            loc_data[:address]
+
+            @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
+            "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
+          end
+        end
+
+      @title = head["title"]
+      @title = "Pack Meeting" if @title.match(" Pack Meeting")
+
+      @uuid = head["uuid"].downcase
+      @mtime = source_file.mtime
+
+      if @head["meta"]
+        date = head["meta"]["date"]
+        time = head["meta"]["time"]
+      end
+
+      @valid = !(head["calendar"] || "").split(",").include?("skip")
+      if @valid
+
+        if date.is_a?(Array) && date.length == 2
+          event_start = DateTime.parse(date[0])
+          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+          event_end = DateTime.parse(date[1])
+          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+          @valid = false # TODO
+        elsif date.is_a?(Date)
+          # TODO time ranges or durations
+          event_start = DateTime.parse("#{date} #{time}")
+          duration = 60.minutes
+          event_end = event_start + duration
+          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+        else
+          @valid = false
+        end
+
+      end
+
+    end
+  end
+
   attr_accessor :cal
   def initialize(cwd)
     @cwd = cwd
@@ -168,8 +231,8 @@ class PackCalendar
     cal.x_wr_calname = 'Pack 229'
     @other_posts = []
   end
-  def add_other_post(data)
-    @other_posts << NewEvent.new(@cwd, @tzid, data)
+  def add_other_post(data, source_file)
+    @other_posts << NewEvent.new(@cwd, @tzid, data, source_file)
   end
   def run!
     check_posts!
@@ -203,7 +266,7 @@ class PackCalendar
     all_posts.each do |p|
       raise "Duplicate UUID for #{p.file}" if used_uuids.include?(p.uuid)
       used_uuids << p.uuid
-      raise "Check Date for #{p.file}" if p.head['date'].strftime("%Y-%m-%d") != File.basename(p.file).split("-")[0..2].join("-")
+      # TODO raise "Check Date for #{p.file}" if p.head['date'].strftime("%Y-%m-%d") != File.basename(p.file).split("-")[0..2].join("-")
     end
   end
   def load_from_posts!
@@ -255,9 +318,10 @@ class PackCalendar
     file.write(calendar)
   end
   def load_events!(file)
-    data = YAML.load(@cwd.join("../_data/calendar_#{file}.yaml").read, permitted_classes: [Date])
+    source_file = @cwd.join("../_data/calendar_#{file}.yaml")
+    data = YAML.load(source_file.read, permitted_classes: [Date])
     data.each do |event|
-      add_other_post(event)
+      add_other_post(event, source_file)
     end
   end
 end

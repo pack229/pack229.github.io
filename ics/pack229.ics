@@ -58,7 +58,7 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Labor Day Camp
 URL;VALUE=URI:https://hsspack229.org/2024/08/25/labor-day-camp
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big 
- Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:39.336032,-76.622119
+ Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241125T222124
@@ -172,7 +172,7 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Boo-Fest Family Campout
 URL;VALUE=URI:https://hsspack229.org/2024/09/14/boo-fest
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big 
- Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:39.336032,-76.622119
+ Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125521
@@ -294,7 +294,7 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Christmas in the Park
 URL;VALUE=URI:https://hsspack229.org/2024/11/03/christmas-in-the-park
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Christmas in the Park;X-ADDRESS="194 S 
- Market St, San Jose, CA 95113";VALUE=URI:geo:39.336032,-76.622119
+ Market St, San Jose, CA 95113";VALUE=URI:geo:37.333191,-121.890210
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241217T123243
@@ -571,7 +571,7 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Spring Family Campout
 URL;VALUE=URI:https://hsspack229.org/2025/01/19/spring-family-campout-date
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Ed R. Levin County Park;X-ADDRESS="3100
-  Calaveras Road, Milpitas, CA 95035";VALUE=URI:geo:39.336032,-76.622119
+  Calaveras Road, Milpitas, CA 95035";VALUE=URI:geo:37.446093,-121.856453
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241120T095250

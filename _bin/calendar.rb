@@ -4,6 +4,7 @@ require 'icalendar'
 require 'icalendar/tzinfo'
 require 'vcardigan'
 require 'pathname'
+require 'rack'
 
 require 'kramdown'
 require 'kramdown-parser-gfm'
@@ -152,7 +153,9 @@ class PackCalendar
     def location_structured
       if loc = @meta["location"]
         if loc_data = Meta.new.location_map(loc)
-          Icalendar::Values::Uri.new("geo:39.336032,-76.622119", {
+          params = Rack::Utils.parse_query(URI(loc_data[:map]).query)
+          raise "missing ll from map" if params["ll"].nil?
+          Icalendar::Values::Uri.new("geo:#{params["ll"]}", {
             "X-TITLE" => loc,
             "X-ADDRESS" => loc_data[:address]
           })

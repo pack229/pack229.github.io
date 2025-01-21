@@ -132,21 +132,33 @@ class PackCalendar
         if loc_data.nil?
           loc
         else
-          file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
-          card = VCardigan.create
-          card.name(loc)
-          card.fullname(loc)
+          "#{loc}\n#{loc_data[:address]}"
 
-          card[:site].label('Site')
-          card[:site].url(loc_data[:site])
+          # file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
+          # card = VCardigan.create
+          # card.name(loc)
+          # card.fullname(loc)
+          # card[:site].label('Site')
+          # card[:site].url(loc_data[:site])
+          # card[:map].label('Map')
+          # card[:map].url(loc_data[:map])
+          # loc_data[:address]
+          # @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
+          # "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
+        end
+      end
+    end
 
-          card[:map].label('Map')
-          card[:map].url(loc_data[:map])
+    def location_structured
+      if loc = @meta["location"]
+        if loc_data = Meta.new.location_map(loc)
+          Icalendar::Values::Uri.new("geo:39.336032,-76.622119", {
+            "X-TITLE" => loc,
+            "X-ADDRESS" => loc_data[:address]
+          })
 
-          loc_data[:address]
+        # # 'X-APPLE-RADIUS' => '14130.83822349481',
 
-          @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
-          "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
         end
       end
     end
@@ -246,6 +258,7 @@ class PackCalendar
         e.dtend   = post.event_end
         e.ip_class = "PUBLIC"
         e.location = post.location if post.location
+        e.x_apple_structured_location = post.location_structured if post.location_structured
         e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
         e.uid = post.uuid
         e.dtstamp = Icalendar::Values::DateTime.new(post.mtime, tzid: tzid)
@@ -271,7 +284,7 @@ class PackCalendar
   end
   def save_ics!(file_name)
     ical_string = @cal.to_ical
-    ical_string.gsub!("LOCATION:ALTREP", "LOCATION;ALTREP")
+    # ical_string.gsub!("LOCATION:ALTREP", "LOCATION;ALTREP")
     @cwd.join("../ics/#{file_name}.ics").write(ical_string)
   end
   def save_markdown!

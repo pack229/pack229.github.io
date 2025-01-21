@@ -53,11 +53,12 @@ DESCRIPTION:https://hsspack229.org/2024/08/25/labor-day-camp\n\n📍 Locati
  2&q=Camp%20Cheesebrough\n\n[Link #3] https://scoutingevent.com/055-FamilyC
  ampCSR\n\n[Link #4] https://docs.google.com/spreadsheets/d/17-_tOvmeSYTuum
  ce2Mk-9PU-ohjQXNvCLDuPO_KcfQE/edit?usp=sharing\n\n
-LOCATION;ALTREP="https://hsspack229.org/ics/vcard/camp_cheesebrough.vcf": C
- amp Cheesebrough
+LOCATION:Camp Cheesebrough\n26005 Big Basin Wy\, Los Gatos\, CA 95033
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Labor Day Camp
 URL;VALUE=URI:https://hsspack229.org/2024/08/25/labor-day-camp
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big 
+ Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:39.336032,-76.622119
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241125T222124
@@ -166,11 +167,12 @@ DESCRIPTION:https://hsspack229.org/2024/09/14/boo-fest\n\n📍 Location: Ca
  #5] https://filestore.scouting.org/filestore/HealthSafety/pdf/680-001_AB.p
  df\n\n[Link #6] https://scoutingevent.com/Download/055131095/OR/2020CALIFO
  RNIABBFormsimplified.pdf\n\n
-LOCATION;ALTREP="https://hsspack229.org/ics/vcard/camp_cheesebrough.vcf": C
- amp Cheesebrough
+LOCATION:Camp Cheesebrough\n26005 Big Basin Wy\, Los Gatos\, CA 95033
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Boo-Fest Family Campout
 URL;VALUE=URI:https://hsspack229.org/2024/09/14/boo-fest
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big 
+ Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:39.336032,-76.622119
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125521
@@ -287,11 +289,12 @@ DESCRIPTION:https://hsspack229.org/2024/11/03/christmas-in-the-park\n\n📍
  0Paseo%20de%20San%20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20Stat
  es&auid=12608692531698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christma
  s%20in%20the%20Park\n\n
-LOCATION;ALTREP="https://hsspack229.org/ics/vcard/christmas_in_the_park.vcf
- ": Christmas in the Park
+LOCATION:Christmas in the Park\n194 S Market St\, San Jose\, CA 95113
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Christmas in the Park
 URL;VALUE=URI:https://hsspack229.org/2024/11/03/christmas-in-the-park
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Christmas in the Park;X-ADDRESS="194 S 
+ Market St, San Jose, CA 95113";VALUE=URI:geo:39.336032,-76.622119
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241217T123243
@@ -596,11 +599,12 @@ DESCRIPTION:https://hsspack229.org/2025/01/19/spring-family-campout-date\n\
  nk #2] https://maps.apple.com/?address=3100%20Calaveras%20Rd\,%20Milpitas\
  ,%20CA%20%2095035\,%20United%20States&auid=14976263126931611544&ll=37.4460
  93\,-121.856453&lsp=9902&q=Youth%20Area%20Group%20Campsite&t=h\n\n
-LOCATION;ALTREP="https://hsspack229.org/ics/vcard/ed_r_levin_county_park.vc
- f": Ed R. Levin County Park
+LOCATION:Ed R. Levin County Park\n3100 Calaveras Road\, Milpitas\, CA 95035
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Spring Family Campout
 URL;VALUE=URI:https://hsspack229.org/2025/01/19/spring-family-campout-date
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Ed R. Levin County Park;X-ADDRESS="3100
+  Calaveras Road, Milpitas, CA 95035";VALUE=URI:geo:39.336032,-76.622119
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241120T095250

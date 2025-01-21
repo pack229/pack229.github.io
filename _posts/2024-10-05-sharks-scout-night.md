@@ -9,7 +9,7 @@ meta:
   date: 2024-11-02
   time: 7:00 PM
   duration: 3 hours
-  location: SAP Center, San Jose
+  location: SAP Center
   signup:
     - title: Purchase Tickets
       url: https://fevo-enterprise.com/event/Scoutnight55

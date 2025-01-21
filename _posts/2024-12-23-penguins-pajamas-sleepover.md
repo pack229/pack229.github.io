@@ -8,7 +8,7 @@ uuid: 22A4F8CE-8EE5-4511-9A29-527997238E97
 meta:
   date: 2025-02-15
   time: 6:00 PM
-  location: California Academy of Sciences, San Francisco
+  location: California Academy of Sciences
   signup:
     - title: Purchase Tickets
       url: https://www.calacademy.org/buy-tickets/?type=sleepover#step=performance

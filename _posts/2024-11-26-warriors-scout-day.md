@@ -8,7 +8,7 @@ uuid: EC26C86E-E2F9-434E-9E5B-3F7B52A4AFCB
 meta:
   date: 2025-04-13
   time: 12:30 PM
-  location: Chase Center, San Francisco
+  location: Chase Center
   signup:
     - title: Interest Form
       url: https://docs.google.com/spreadsheets/d/1gA-W5oOWwnadd23mmMZNDeEWwrTVq5tP2ev2JB0aQWs/edit?usp=sharing

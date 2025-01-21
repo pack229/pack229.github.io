@@ -194,7 +194,7 @@ SUMMARY:Pack 229: Scouting for Food
 URL;VALUE=URI:https://hsspack229.org/2024/10/03/scouting-for-food
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250120T221521
+DTSTAMP;TZID=America/Los_Angeles:20250121T112955
 UID:b607a86f-e704-4384-951c-816051f4345a
 DTSTART;TZID=America/Los_Angeles:20241102T190000
 DTEND;TZID=America/Los_Angeles:20241102T220000
@@ -210,11 +210,12 @@ DESCRIPTION:https://hsspack229.org/2024/10/05/sharks-scout-night\n\n📋 Si
  n 121 so we can sit closer together.\n\n[Link #1] https://fevo-enterprise.
  com/event/Scoutnight55\n\n[Link #2] https://docs.google.com/spreadsheets/d
  /1PjWuPOZQSK4cT2oRNHoZB7SLTYdtjZe91H9a73GW3To/edit?usp=sharing\n\n
-LOCATION:SAP Center\, San Jose
+LOCATION:SAP Center\n525 W Santa Clara St\, San Jose\, CA 95113
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: SJ Sharks Scout Night
 URL;VALUE=URI:https://hsspack229.org/2024/10/05/sharks-scout-night
-X-APPLE-STRUCTURED-LOCATION:SAP Center\, San Jose
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=SAP Center;X-ADDRESS="525 W Santa Clara
+  St, San Jose, CA 95113";VALUE=URI:geo:37.332760,-121.902051
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125618
@@ -404,7 +405,7 @@ URL;VALUE=URI:https://hsspack229.org/2025/01/13/february-pack-meeting
 X-APPLE-STRUCTURED-LOCATION:HSS Library
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241223T154308
+DTSTAMP;TZID=America/Los_Angeles:20250121T112443
 UID:22a4f8ce-8ee5-4511-9a29-527997238e97
 DTSTART;TZID=America/Los_Angeles:20250215T180000
 DTEND;TZID=America/Los_Angeles:20250215T190000
@@ -455,11 +456,14 @@ DESCRIPTION:https://hsspack229.org/2024/12/23/penguins-pajamas-sleepover\n\
  my.org/penguinspajamas-sleepovers\n\n[Link #4] https://docs.google.com/for
  ms/d/e/1FAIpQLSeRdmHw4Dptr-p4dRicsX_ykK_mrzKqiUnTLirHylZmDF8waQ/viewform\n
  \n
-LOCATION:California Academy of Sciences\, San Francisco
+LOCATION:California Academy of Sciences\n55 Music Concourse Dr\, San Franci
+ sco\, CA 94118
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: California Academy of Sciences Penguins+Pajamas Sleepover
 URL;VALUE=URI:https://hsspack229.org/2024/12/23/penguins-pajamas-sleepover
-X-APPLE-STRUCTURED-LOCATION:California Academy of Sciences\, San Francisco
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=California Academy of Sciences;X-ADDRES
+ S="55 Music Concourse Dr, San Francisco, CA 94118";VALUE=URI:geo:37.769846
+ ,-122.466080
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20250120T122547
@@ -548,7 +552,7 @@ SUMMARY:Pack 229: Pack Meeting
 X-APPLE-STRUCTURED-LOCATION:HSS Library
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241126T211547
+DTSTAMP;TZID=America/Los_Angeles:20250121T112428
 UID:ec26c86e-e2f9-434e-9e5b-3f7b52a4afcb
 DTSTART;TZID=America/Los_Angeles:20250413T123000
 DTEND;TZID=America/Los_Angeles:20250413T133000
@@ -568,11 +572,12 @@ DESCRIPTION:https://hsspack229.org/2024/11/26/warriors-scout-day\n\n📋 Si
  ed to purchase based on interest.\n\n[Link #1] https://docs.google.com/spr
  eadsheets/d/1gA-W5oOWwnadd23mmMZNDeEWwrTVq5tP2ev2JB0aQWs/edit?usp=sharing\
  n\n
-LOCATION:Chase Center\, San Francisco
+LOCATION:Chase Center\n1 Warriors Way\, San Francisco\, CA 94158
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Golden State Warriors Scout Day 2025
 URL;VALUE=URI:https://hsspack229.org/2024/11/26/warriors-scout-day
-X-APPLE-STRUCTURED-LOCATION:Chase Center\, San Francisco
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Chase Center;X-ADDRESS="1 Warriors Way,
+  San Francisco, CA 94158";VALUE=URI:geo:37.767829,-122.387426
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20250120T122547

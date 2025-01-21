@@ -8,7 +8,8 @@ layout: default
               <div class="entry-content">
 
 <h2>Welcome</h2>
-<p>Welcome to the new Holy Spirit School Pack 229 Website. In the coming weeks we'll be adding an event calendar, photo gallery, as well as contact info for all of the troop volunteer leadership. For now please see updates on upcoming Pack events below.
+
+<p>Welcome to the new Holy Spirit School Pack 229 Website. Please see updates on upcoming Pack events below.</p>
 
 {% assign upcoming = paginator.posts | where_exp:"item", "item.tags contains 'Upcoming'" | sort: "meta.date" %}
 {% if upcoming.size > 0 %}

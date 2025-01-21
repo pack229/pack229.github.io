@@ -39,7 +39,7 @@ module Jekyll
     def format_meta_for_email(body)
       if body["meta"]
         body["meta"].map do |i|
-          format_meta_item(i) unless [ :date, :time ].include?(i[0].to_sym)
+          format_meta_item(i) unless [ :date, :time, :location ].include?(i[0].to_sym)
         end.compact.join("\n\n") + "\n\n"
       end
     end
@@ -61,6 +61,9 @@ module Jekyll
           map: "https://maps.apple.com/?address=3100%20Calaveras%20Rd,%20Milpitas,%20CA%20%2095035,%20United%20States&auid=14976263126931611544&ll=37.446093,-121.856453&lsp=9902&q=Youth%20Area%20Group%20Campsite&t=h"
         }
       }[value]
+    end
+    def unmapped_locations
+      []
     end
     def meta_categories
       {

@@ -159,9 +159,11 @@ class PackCalendar
             "X-TITLE" => loc,
             "X-ADDRESS" => loc_data[:address]
           })
-
-        # # 'X-APPLE-RADIUS' => '14130.83822349481',
-
+          # 'X-APPLE-RADIUS' => '14130.83822349481',
+        else
+          # RAISE if missing
+          # Meta.new.unmapped_locations
+          pp loc
         end
       end
     end

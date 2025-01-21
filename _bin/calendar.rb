@@ -21,7 +21,7 @@ end
 class PackCalendar
 
   class Event
-    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
+    attr_reader :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
 
     def initialize(cwd, tzid, data, source_file)
       @cwd = cwd
@@ -87,6 +87,15 @@ class PackCalendar
       body
     end
 
+    def title
+      return @title unless @title.nil?
+
+      @title = head["title"]
+      @title = "Pack Meeting" if @title.match(" Pack Meeting")
+      @title.sub!(" - Save The Date", "")
+      @title
+    end
+
     def get_post_data
 
       @meta = Meta.new.format_meta_for_email(@head) || ""
@@ -115,8 +124,6 @@ class PackCalendar
         end
       end
 
-      @title = head["title"]
-      @title = "Pack Meeting" if @title.match(" Pack Meeting")
       @uuid = head["uuid"].downcase
       @mtime = @source_file.mtime
 

@@ -83,6 +83,6 @@ featured_image: about.jpg
 
 ## May
 
- * __Fri 05/02:__ [Spring Family Campout - Save The Date](https://hsspack229.org/2025/01/19/spring-family-campout-date)
+ * __Fri 05/02:__ [Spring Family Campout](https://hsspack229.org/2025/01/19/spring-family-campout-date)
 
  * __Mon 05/12:__ Pack Meeting

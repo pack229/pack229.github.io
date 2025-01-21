@@ -86,7 +86,7 @@ class PackCalendar
           body << "#{l[:title]}: #{l[:url]}\n\n"
         end
       end
-      body
+      body.strip
     end
 
     def title

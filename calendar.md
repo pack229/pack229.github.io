@@ -19,6 +19,8 @@ featured_image: about.jpg
 
 ## September
 
+ * __Fri 08/30:__ [Labor Day Camp](https://hsspack229.org/2024/08/25/labor-day-camp)
+
  * __Mon 09/09:__ [Pack Meeting](https://hsspack229.org/2024/09/05/september-pack-meeting)
 
 ## October
@@ -26,6 +28,8 @@ featured_image: about.jpg
  * __Mon 10/14:__ [Pack Meeting](https://hsspack229.org/2024/10/01/october-pack-meeting)
 
  * __Sat 10/19:__ [Crabbing Under the Golden Gate Bridge](https://hsspack229.org/2024/10/02/crabbing)
+
+ * __Fri 10/25:__ [Boo-Fest Family Campout](https://hsspack229.org/2024/09/14/boo-fest)
 
 ## November
 
@@ -78,5 +82,7 @@ featured_image: about.jpg
  * __Sun 04/13:__ [Golden State Warriors Scout Day 2025](https://hsspack229.org/2024/11/26/warriors-scout-day)
 
 ## May
+
+ * __Fri 05/02:__ [Spring Family Campout - Save The Date](https://hsspack229.org/2025/01/19/spring-family-campout-date)
 
  * __Mon 05/12:__ Pack Meeting

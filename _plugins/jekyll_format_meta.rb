@@ -20,7 +20,7 @@ module Jekyll
     end
     def format_meta(meta)
       return "" if meta.nil?
-      umks = (meta.keys.map(&:to_sym) - meta_categories.keys)
+      umks = (meta.keys.map(&:to_sym) - meta_categories.keys - hidden_categories)
       if umks.any?
         raise "Unknown Meta Key: #{umks.inspect}"
       end
@@ -75,10 +75,13 @@ module Jekyll
         photo_download: "📸",
       }
     end
+    def hidden_categories
+      [ :duration ]
+    end
     def format_meta_item(input)
       type = input[0].to_sym
 
-      return nil if [ :duration ].include?(type)
+      return nil if hidden_categories.include?(type)
 
       data = input[1]
       title = meta_categories[type]

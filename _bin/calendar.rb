@@ -21,6 +21,59 @@ end
 class PackCalendar
 
   class Event
+
+    def valid?
+      @valid
+    end
+
+    def clean_body(body)
+      links = []
+      body = Nokogiri::HTML(body)
+      body.css("a").each do |tag|
+        link = tag.attr("href")
+        text = if link == nil or link.match(/mailto\:/)
+          tag.inner_text
+        else
+          link = "#{$base_url}#{link}" unless link.match(/^http/)
+          num = if pos = links.index(link)
+            pos
+          else
+            links << link
+            links.count
+          end
+          "#{tag.inner_text} [Link ##{num}]"
+        end
+        tag.after(text)
+        tag.remove
+      end
+      body.css("ul").each do |tag|
+        tag.css("li").each do |item|
+          tag.after(" * #{item.inner_html}\n")
+        end
+        tag.remove
+      end
+      # TODO simple formating for H tags?
+      %w[ h1 h2 h3 h4 h5 h6 p span ].each do |t|
+        body.css(t).each do |tag|
+          tag.after("#{tag.inner_text}\n")
+          tag.remove
+        end
+      end
+      body_tag = body.at("body")
+      return "" if body_tag.nil?
+      body = body_tag.inner_html.gsub(/<!--more-->.*$/m, "... [See Website]").to_s.gsub(/<!--.*?-->/, "").to_s.gsub(/\n{3,}/, "\n\n").to_s
+      body = "#{@url}\n\n#{body}" unless @url.nil?
+      if links.any?
+        links.each_with_index do |l, i|
+          body << "[Link ##{i+1}] #{l}\n\n"
+        end
+      end
+      body
+    end
+
+  end
+
+  class PostEvent < Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
     def initialize(cwd, dir, path, contents, tzid)
       @cwd = cwd
@@ -102,56 +155,9 @@ class PackCalendar
         end
       end
     end
-    def valid?
-      @valid
-    end
-    def clean_body(body)
-      links = []
-      body = Nokogiri::HTML(body)
-      body.css("a").each do |tag|
-        link = tag.attr("href")
-        text = if link == nil or link.match(/mailto\:/)
-          tag.inner_text
-        else
-          link = "#{$base_url}#{link}" unless link.match(/^http/)
-          num = if pos = links.index(link)
-            pos
-          else
-            links << link
-            links.count
-          end
-          "#{tag.inner_text} [Link ##{num}]"
-        end
-        tag.after(text)
-        tag.remove
-      end
-      body.css("ul").each do |tag|
-        tag.css("li").each do |item|
-          tag.after(" * #{item.inner_html}\n")
-        end
-        tag.remove
-      end
-      # TODO simple formating for H tags?
-      %w[ h1 h2 h3 h4 h5 h6 p span ].each do |t|
-        body.css(t).each do |tag|
-          tag.after("#{tag.inner_text}\n")
-          tag.remove
-        end
-      end
-      body_tag = body.at("body")
-      return "" if body_tag.nil?
-      body = body_tag.inner_html.gsub(/<!--more-->.*$/m, "... [See Website]").to_s.gsub(/<!--.*?-->/, "").to_s.gsub(/\n{3,}/, "\n\n").to_s
-      body = "#{@url}\n\n#{body}" unless @url.nil?
-      if links.any?
-        links.each_with_index do |l, i|
-          body << "[Link ##{i+1}] #{l}\n\n"
-        end
-      end
-      body
-    end
   end
 
-  class NewEvent < Event
+  class DenEvent < Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
     def initialize(cwd, tzid, data, source_file)
       @cwd = cwd
@@ -231,9 +237,6 @@ class PackCalendar
     cal.x_wr_calname = calendar_title
     @other_posts = []
   end
-  def add_other_post(data, source_file)
-    @other_posts << NewEvent.new(@cwd, @tzid, data, source_file)
-  end
   def run!
     check_posts!
     setup_time_zones!
@@ -254,7 +257,7 @@ class PackCalendar
   def get_all_posts
     posts = @cwd.join("../_posts")
     posts.entries.map do |e|
-      Event.new(@cwd, posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
+      PostEvent.new(@cwd, posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
     end.compact
   end
   def get_sorted_posts
@@ -321,7 +324,7 @@ class PackCalendar
     source_file = @cwd.join("../_data/calendar_#{file}.yaml")
     data = YAML.load(source_file.read, permitted_classes: [Date])
     data.each do |event|
-      add_other_post(event, source_file)
+      @other_posts << DenEvent.new(@cwd, @tzid, event, source_file)
     end
   end
 end

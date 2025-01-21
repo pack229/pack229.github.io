@@ -71,16 +71,50 @@ class PackCalendar
       body
     end
 
+    def get_post_data
+
+      if @head["meta"]
+        date = head["meta"]["date"]
+        time = head["meta"]["time"]
+      end
+
+      @valid = !(head["calendar"] || "").split(",").include?("skip")
+      if @valid
+        if date.is_a?(Array) && date.length == 2
+          event_start = DateTime.parse(date[0])
+          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+          event_end = DateTime.parse(date[1])
+          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+          @valid = false # TODO
+        elsif date.is_a?(Date)
+          # TODO time ranges or durations
+          event_start = DateTime.parse("#{date} #{time}")
+          duration = 60.minutes
+          event_end = event_start + duration
+          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+        else
+          @valid = false
+        end
+      end
+
+    end
+
   end
 
   class PostEvent < Event
+
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
+
+
+    # def initialize(cwd, tzid, data, source_file)
     def initialize(cwd, dir, path, contents, tzid)
       @cwd = cwd
       @tzid = tzid
       @file = dir.join(path)
 
       @valid = true
+
       parts = contents.split("---")
       @valid = !parts[1].nil?
       if @valid
@@ -127,32 +161,8 @@ class PackCalendar
         @uuid = head["uuid"].downcase
         @mtime = dir.join(path).mtime
 
-        if @head["meta"]
-          date = head["meta"]["date"]
-          time = head["meta"]["time"]
-        end
+        get_post_data
 
-        @valid = !(head["calendar"] || "").split(",").include?("skip")
-        if @valid
-
-          if date.is_a?(Array) && date.length == 2
-            event_start = DateTime.parse(date[0])
-            @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
-            event_end = DateTime.parse(date[1])
-            @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
-            @valid = false # TODO
-          elsif date.is_a?(Date)
-            # TODO time ranges or durations
-            event_start = DateTime.parse("#{date} #{time}")
-            duration = 60.minutes
-            event_end = event_start + duration
-            @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
-            @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
-          else
-            @valid = false
-          end
-
-        end
       end
     end
   end
@@ -193,38 +203,15 @@ class PackCalendar
           end
         end
 
+
+
       @title = head["title"]
       @title = "Pack Meeting" if @title.match(" Pack Meeting")
 
       @uuid = head["uuid"].downcase
       @mtime = source_file.mtime
 
-      if @head["meta"]
-        date = head["meta"]["date"]
-        time = head["meta"]["time"]
-      end
-
-      @valid = !(head["calendar"] || "").split(",").include?("skip")
-      if @valid
-
-        if date.is_a?(Array) && date.length == 2
-          event_start = DateTime.parse(date[0])
-          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
-          event_end = DateTime.parse(date[1])
-          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
-          @valid = false # TODO
-        elsif date.is_a?(Date)
-          # TODO time ranges or durations
-          event_start = DateTime.parse("#{date} #{time}")
-          duration = 60.minutes
-          event_end = event_start + duration
-          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
-          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
-        else
-          @valid = false
-        end
-
-      end
+      get_post_data
 
     end
   end
@@ -257,6 +244,9 @@ class PackCalendar
   def get_all_posts
     posts = @cwd.join("../_posts")
     posts.entries.map do |e|
+
+      # DenEvent.new(@cwd, @tzid, event, source_file)
+
       PostEvent.new(@cwd, posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
     end.compact
   end

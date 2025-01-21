@@ -108,10 +108,10 @@ class PackCalendar
 
 
     # def initialize(cwd, tzid, data, source_file)
-    def initialize(cwd, dir, path, contents, tzid)
+    def initialize(cwd, contents, tzid, source_file)
       @cwd = cwd
       @tzid = tzid
-      @file = dir.join(path)
+      @file = source_file
 
       @valid = true
 
@@ -120,7 +120,7 @@ class PackCalendar
       if @valid
         @head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
 
-        url_parts = File.basename(path.to_s, ".md").split("-")
+        url_parts = File.basename(source_file.to_s, ".md").split("-")
         @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
 
         post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
@@ -159,7 +159,9 @@ class PackCalendar
         @title = "Pack Meeting" if @title.match(" Pack Meeting")
 
         @uuid = head["uuid"].downcase
-        @mtime = dir.join(path).mtime
+
+
+        @mtime = source_file.mtime
 
         get_post_data
 
@@ -242,12 +244,15 @@ class PackCalendar
     @all_posts ||= get_all_posts + @other_posts
   end
   def get_all_posts
-    posts = @cwd.join("../_posts")
-    posts.entries.map do |e|
+    dir = @cwd.join("../_posts")
+    dir.entries.map do |path|
+      next if path.basename.to_s[0] == "."
 
       # DenEvent.new(@cwd, @tzid, event, source_file)
 
-      PostEvent.new(@cwd, posts, e, posts.join(e).read, @tzid) unless e.basename.to_s[0] == "."
+      source_file = dir.join(path)
+
+      PostEvent.new(@cwd, dir.join(path).read, @tzid, source_file)
     end.compact
   end
   def get_sorted_posts

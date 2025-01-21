@@ -8,6 +8,7 @@ uuid: EFC617AC-F1BE-4D42-ACF3-2E9C4331EC95
 meta:
   date: 2025-02-10
   time: 6:00 PM
+  duration: 30 minutes
   location: HSS Library
 ---
 

@@ -374,10 +374,10 @@ SUMMARY:Pack 229: Founders Day Scout Mass
 URL;VALUE=URI:https://hsspack229.org/2025/01/13/founders-day-mass
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250119T234820
+DTSTAMP;TZID=America/Los_Angeles:20250120T214505
 UID:efc617ac-f1be-4d42-acf3-2e9c4331ec95
 DTSTART;TZID=:20250210T180000
-DTEND;TZID=:20250210T190000
+DTEND;TZID=:20250210T183000
 CLASS:PUBLIC
 DESCRIPTION:https://hsspack229.org/2025/01/13/religious-emblems-program-rev
  iew\n\n📍 Location: HSS Library\n\nIf you are participating in the Relig

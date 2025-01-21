@@ -77,6 +77,9 @@ module Jekyll
     end
     def format_meta_item(input)
       type = input[0].to_sym
+
+      return nil if [ :duration ].include?(type)
+
       data = input[1]
       title = meta_categories[type]
       data = if type == :signup

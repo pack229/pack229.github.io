@@ -8,6 +8,7 @@ uuid: B607A86F-E704-4384-951C-816051F4345A
 meta:
   date: 2024-11-02
   time: 7:00 PM
+  duration: 3 hours
   location: SAP Center, San Jose
   signup:
     - title: Purchase Tickets

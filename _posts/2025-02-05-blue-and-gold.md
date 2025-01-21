@@ -8,6 +8,7 @@ uuid: FBB8E605-4BD6-4B50-9F27-8B6CBEB6EAF0
 meta:
   date: 2025-03-08
   time: 12:00 PM
+  duration: 2 hours
   location: HSS Gym
 ---
 

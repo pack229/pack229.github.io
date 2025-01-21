@@ -8,6 +8,7 @@ uuid: CE0E8155-F348-4A08-8208-80C80D51E4EA
 meta:
   date: 2025-02-02
   time: 9:15 AM
+  duration: 75 minutes
   location: Holy Spirit Church
   contact:
     name: Lauren McLane

@@ -23,18 +23,17 @@ class PackCalendar
   class Event
     attr_reader :body, :event_start, :event_end, :file, :head, :location, :tzid
 
-    def initialize(cwd, tzid, data, source_file)
+    def initialize(cwd, tzid, head, body, source_file)
       @cwd = cwd
       @tzid = tzid
       @source_file = source_file
-      @head = data
-      @body = ""
 
-      the_first_part
+      @head = head
+      @meta = Meta.new.format_meta_for_email(@head) || ""
+      @body = clean_body(@meta + (body || ""))
+
+      # the_first_part
       get_post_data
-    end
-
-    def the_first_part
     end
 
     def valid?
@@ -97,10 +96,12 @@ class PackCalendar
     def url
       return @url unless @url.nil?
 
-      post_date = Icalendar::Values::DateTime.new(head['date'], tzid: tzid)
-      if post_date < Time.now
-        url_parts = File.basename(@source_file.to_s, ".md").split("-")
-        @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
+      if head['date']
+        post_date = Icalendar::Values::DateTime.new(head['date'], tzid: tzid)
+        if post_date < Time.now
+          url_parts = File.basename(@source_file.to_s, ".md").split("-")
+          @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
+        end
       end
 
       @url
@@ -127,9 +128,6 @@ class PackCalendar
     end
 
     def get_post_data
-
-      @meta = Meta.new.format_meta_for_email(@head) || ""
-      @body = clean_body(@meta + @body)
 
       if @head["meta"] && loc = @head["meta"]["location"]
         loc_data = Meta.new.location_map(loc)
@@ -179,26 +177,6 @@ class PackCalendar
 
   end
 
-  class PostEvent < Event
-
-    def the_first_part
-      @valid = true
-
-      parts = @head.split("---")
-      @valid = !parts[1].nil?
-      if @valid
-        @head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
-        @body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
-      end
-    end
-  end
-
-  class DenEvent < Event
-    def url
-      nil
-    end
-  end
-
   attr_accessor :cal
   def initialize(cwd, calendar_title)
     @cwd = cwd
@@ -225,9 +203,8 @@ class PackCalendar
 
   def load_events_from_yaml!(file)
     source_file = @cwd.join("../_data/calendar_#{file}.yaml")
-    data = YAML.load(source_file.read, permitted_classes: [Date])
-    data.each do |event|
-      @posts << DenEvent.new(@cwd, tzid, event, source_file)
+    YAML.load(source_file.read, permitted_classes: [Date]).each do |data|
+      @posts << Event.new(@cwd, tzid, data, nil, source_file)
     end
   end
 
@@ -235,9 +212,11 @@ class PackCalendar
     dir = @cwd.join("../_posts")
     dir.entries.map do |path|
       next if path.basename.to_s[0] == "."
-
       source_file = dir.join(path)
-      @posts << PostEvent.new(@cwd, tzid, dir.join(path).read, source_file)
+      parts = source_file.read.split("---")
+      data = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
+      body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
+      @posts << Event.new(@cwd, tzid, data, body, source_file)
     end.compact
   end
 

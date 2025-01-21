@@ -162,7 +162,7 @@ class PackCalendar
           # 'X-APPLE-RADIUS' => '14130.83822349481',
         else
           # RAISE if missing
-          # Meta.new.unmapped_locations
+          # Meta.new.unmapped_location?(loc)
           pp loc
         end
       end

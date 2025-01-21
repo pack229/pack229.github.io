@@ -44,45 +44,12 @@ module Jekyll
       end
     end
     def location_map(value)
-      {
-        "Camp Cheesebrough" => {
-          site: "https://svmbc.org/chesebrough-scout-reservation/",
-          address: "26005 Big Basin Wy, Los Gatos, CA 95033",
-          map: "https://maps.apple.com/?address=26005%20CA-9,%20Los%20Gatos,%20CA%20%2095033,%20United%20States&auid=10538835573111821490&ll=37.248338,-122.145724&lsp=9902&q=Camp%20Cheesebrough",
-        },
-        "Christmas in the Park" => {
-          site: "https://christmasinthepark.com",
-          address: "194 S Market St, San Jose, CA 95113",
-          map: "https://maps.apple.com/?ll=37.333191,-121.890210&q=Downtown%20San%20Jose%20%E2%80%94%20San%20Jose&spn=0.009366,0.016926&t=m",
-        },
-        "Ed R. Levin County Park" => {
-          site: "https://parks.santaclaracounty.gov/locations/ed-r-levin-county-park",
-          address: "3100 Calaveras Road, Milpitas, CA 95035",
-          map: "https://maps.apple.com/?address=3100%20Calaveras%20Rd,%20Milpitas,%20CA%20%2095035,%20United%20States&auid=14976263126931611544&ll=37.446093,-121.856453&lsp=9902&q=Youth%20Area%20Group%20Campsite&t=h"
-        },
-        "California Academy of Sciences" => {
-          site: "https://www.calacademy.org/",
-          address: "55 Music Concourse Dr, San Francisco, CA 94118",
-          map: "https://maps.apple.com/?address=55%20Music%20Concourse%20Dr,%20San%20Francisco,%20CA%20%2094118,%20United%20States&auid=14911865229426143713&ll=37.769846,-122.466080&lsp=9902&q=California%20Academy%20of%20Sciences&t=h"
-        },
-        "Chase Center" => {
-          site: "https://www.chasecenter.com",
-          address: "1 Warriors Way, San Francisco, CA 94158",
-          map: "https://maps.apple.com/?address=1%20Warriors%20Way,%20San%20Francisco,%20CA%2094158,%20United%20States&auid=10109771882556141541&ll=37.767829,-122.387426&lsp=9902&q=Chase%20Center&t=h"
-        },
-        "SAP Center" => {
-          site: "https://www.sapcenter.com",
-          address: "525 W Santa Clara St, San Jose, CA 95113",
-          map: "https://maps.apple.com/?address=525%20W%20Santa%20Clara%20St,%20San%20Jose,%20CA%2095113,%20United%20States&auid=16379594824313942166&ll=37.332760,-121.902051&lsp=9902&q=SAP%20Center&t=h"
-        },
-        "Holy Spirit Parish" => {
-          site: "https://holyspiritchurch.org",
-          address: "1200 Redmond Ave, San Jose, CA  95120",
-          map: "https://maps.apple.com/?address=1200%20Redmond%20Ave,%20San%20Jose,%20CA%20%2095120,%20United%20States&auid=12969366485807214797&ll=37.228816,-121.874444&lsp=9902&q=Holy%20Spirit%20Parish&t=h"
-        }
-      }[value]
+      @location_map ||= YAML.load(Pathname.new(File.expand_path(File.dirname(__FILE__))).join("../_data/locations.yaml").read)
+      @location_map[value]
     end
-    def unmapped_locations
+    def unmapped_location?(value)
+      # @unmapped_locations ||= YAML.load(Pathname.new(File.expand_path(File.dirname(__FILE__))).join("../_data/locations.yaml").read)
+      # @unmapped_locations[value]
       []
     end
     def meta_categories

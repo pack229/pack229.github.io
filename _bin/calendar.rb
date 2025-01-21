@@ -28,9 +28,14 @@ class PackCalendar
       @tzid = tzid
       @source_file = source_file
       @head = data
+      @url = nil
+      @body = ""
 
       the_first_part
       get_post_data
+    end
+
+    def the_first_part
     end
 
     def valid?
@@ -164,11 +169,11 @@ class PackCalendar
       if @valid
         @head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
 
-        url_parts = File.basename(@source_file.to_s, ".md").split("-")
-        @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
-
         post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
-        @url = nil if post_date > Time.now
+        if post_date < Time.now
+          url_parts = File.basename(@source_file.to_s, ".md").split("-")
+          @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
+        end
 
         @body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
@@ -177,10 +182,6 @@ class PackCalendar
   end
 
   class DenEvent < Event
-    def the_first_part
-      @url = nil
-      @body = ""
-    end
   end
 
   attr_accessor :cal

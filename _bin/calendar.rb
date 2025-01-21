@@ -21,14 +21,13 @@ end
 class PackCalendar
 
   class Event
-    attr_reader :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
+    attr_reader :body, :event_start, :event_end, :file, :head, :location
 
     def initialize(cwd, tzid, data, source_file)
       @cwd = cwd
       @tzid = tzid
       @source_file = source_file
       @head = data
-      @url = nil
       @body = ""
 
       the_first_part
@@ -78,7 +77,7 @@ class PackCalendar
       body_tag = body.at("body")
       return "" if body_tag.nil?
       body = body_tag.inner_html.gsub(/<!--more-->.*$/m, "... [See Website]").to_s.gsub(/<!--.*?-->/, "").to_s.gsub(/\n{3,}/, "\n\n").to_s
-      body = "#{@url}\n\n#{body}" unless @url.nil?
+      body = "#{url}\n\n#{body}" unless url.nil?
       if links.any?
         links.each_with_index do |l, i|
           body << "[Link ##{i+1}] #{l}\n\n"
@@ -90,10 +89,29 @@ class PackCalendar
     def title
       return @title unless @title.nil?
 
-      @title = head["title"]
+      @title = head["title"].sub(" - Save The Date", "")
       @title = "Pack Meeting" if @title.match(" Pack Meeting")
-      @title.sub!(" - Save The Date", "")
       @title
+    end
+
+    def url
+      return @url unless @url.nil?
+
+      post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
+      if post_date < Time.now
+        url_parts = File.basename(@source_file.to_s, ".md").split("-")
+        @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
+      end
+
+      @url
+    end
+
+    def uuid
+      head["uuid"].downcase
+    end
+
+    def mtime
+      @source_file.mtime
     end
 
     def get_post_data
@@ -123,9 +141,6 @@ class PackCalendar
           "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
         end
       end
-
-      @uuid = head["uuid"].downcase
-      @mtime = @source_file.mtime
 
       if @head["meta"]
         date = head["meta"]["date"]
@@ -175,20 +190,15 @@ class PackCalendar
       @valid = !parts[1].nil?
       if @valid
         @head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
-
-        post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
-        if post_date < Time.now
-          url_parts = File.basename(@source_file.to_s, ".md").split("-")
-          @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
-        end
-
         @body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
-
       end
     end
   end
 
   class DenEvent < Event
+    def url
+      nil
+    end
   end
 
   attr_accessor :cal

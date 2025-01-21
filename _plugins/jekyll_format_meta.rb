@@ -75,6 +75,11 @@ module Jekyll
           address: "525 W Santa Clara St, San Jose, CA 95113",
           map: "https://maps.apple.com/?address=525%20W%20Santa%20Clara%20St,%20San%20Jose,%20CA%2095113,%20United%20States&auid=16379594824313942166&ll=37.332760,-121.902051&lsp=9902&q=SAP%20Center&t=h"
         },
+        "Holy Spirit Parish" => {
+          site: "https://holyspiritchurch.org",
+          address: "1200 Redmond Ave, San Jose, CA  95120",
+          map: "https://maps.apple.com/?address=1200%20Redmond%20Ave,%20San%20Jose,%20CA%20%2095120,%20United%20States&auid=12969366485807214797&ll=37.228816,-121.874444&lsp=9902&q=Holy%20Spirit%20Parish&t=h"
+        }
       }[value]
     end
     def unmapped_locations

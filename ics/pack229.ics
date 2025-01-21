@@ -349,7 +349,7 @@ URL;VALUE=URI:https://hsspack229.org/2024/12/22/january-pack-meeting
 X-APPLE-STRUCTURED-LOCATION:HSS Library
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250120T221447
+DTSTAMP;TZID=America/Los_Angeles:20250121T113358
 UID:ce0e8155-f348-4a08-8208-80c80d51e4ea
 DTSTART;TZID=America/Los_Angeles:20250202T091500
 DTEND;TZID=America/Los_Angeles:20250202T103000
@@ -361,11 +361,12 @@ DESCRIPTION:https://hsspack229.org/2025/01/13/founders-day-mass\n\n📇 Con
  rive 15 minutes early. We will need Greeters\, Bulletin Distributors\, Rea
  ders\, Ushers\, and Gift Presenters. If your son or daughter is interested
   in helping\, please contact Lauren McLane.\n\n
-LOCATION:Holy Spirit Church
+LOCATION:Holy Spirit Parish\n1200 Redmond Ave\, San Jose\, CA  95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Founders Day Scout Mass
 URL;VALUE=URI:https://hsspack229.org/2025/01/13/founders-day-mass
-X-APPLE-STRUCTURED-LOCATION:Holy Spirit Church
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
+ ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20250120T214505

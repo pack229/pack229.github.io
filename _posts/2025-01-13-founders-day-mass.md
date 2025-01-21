@@ -9,7 +9,7 @@ meta:
   date: 2025-02-02
   time: 9:15 AM
   duration: 75 minutes
-  location: Holy Spirit Church
+  location: Holy Spirit Parish
   contact:
     name: Lauren McLane
     email: mrs.mclane@gmail.com

@@ -114,6 +114,18 @@ class PackCalendar
       @source_file.mtime
     end
 
+    def duration
+      if duration_value = head["meta"]["duration"]
+        number, unit = *duration_value.split(" ")
+        number = number.to_i
+        unit = unit.to_sym
+        raise "bad unit" unless [ :minute, :minutes, :hour, :hours ].include?(unit)
+        number.send(unit)
+      else
+        60.minutes
+      end
+    end
+
     def get_post_data
 
       @meta = Meta.new.format_meta_for_email(@head) || ""
@@ -145,7 +157,6 @@ class PackCalendar
       if @head["meta"]
         date = head["meta"]["date"]
         time = head["meta"]["time"]
-        duration_value = head["meta"]["duration"]
       end
 
       @valid = !(head["calendar"] || "").split(",").include?("skip")
@@ -156,22 +167,9 @@ class PackCalendar
           event_end = DateTime.parse(date[1])
           @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
         elsif date.is_a?(Date)
-          # TODO time ranges or durations
           event_start = DateTime.parse("#{date} #{time}")
-
-          duration = if duration_value
-            number, unit = *duration_value.split(" ")
-            number = number.to_i
-            unit = unit.to_sym
-            raise "bad unit" unless [ :minutes, :minutes, :hour, :hours ].include?(unit)
-            number.send(unit)
-          else
-            60.minutes
-          end
-
-          event_end = event_start + duration
           @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
-          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+          @event_end = Icalendar::Values::DateTime.new(event_start + duration, tzid: @tzid)
         else
           @valid = false
         end

@@ -178,11 +178,11 @@ class PackCalendar
     @cal = Icalendar::Calendar.new
     @cal.add_timezone(TZInfo::Timezone.get(tzid).ical_timezone(Time.now))
     @cal.x_wr_calname = calendar_title
-    @markdown = []
     @posts = []
+    @markdown = []
   end
   def run!
-    load_posts_events!
+    load_events_from_posts!
     check_posts!
     generate!
   end
@@ -196,22 +196,28 @@ class PackCalendar
     "America/Los_Angeles"
   end
 
+  def yaml_load(data)
+    YAML.load(data, permitted_classes: [Date])
+  end
+
+  def markdown_load(data)
+    Kramdown::Document.new(data, input: 'GFM').to_html
+  end
+
   def load_events_from_yaml!(file)
     source_file = @cwd.join("../_data/calendar_#{file}.yaml")
-    YAML.load(source_file.read, permitted_classes: [Date]).each do |data|
+    yaml_load(source_file.read).each do |data|
       @posts << Event.new(@cwd, tzid, data, nil, source_file)
     end
   end
 
-  def load_posts_events!
+  def load_events_from_posts!
     dir = @cwd.join("../_posts")
     dir.entries.map do |path|
       next if path.basename.to_s[0] == "."
       source_file = dir.join(path)
       parts = source_file.read.split("---")
-      data = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
-      body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
-      @posts << Event.new(@cwd, tzid, data, body, source_file)
+      @posts << Event.new(@cwd, tzid, yaml_load("---\n" + parts[1].strip + "\n"), markdown_load(parts[2..-1].join("\n").strip), source_file)
     end.compact
   end
 

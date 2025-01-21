@@ -21,7 +21,7 @@ end
 class PackCalendar
 
   class Event
-    attr_reader :body, :event_start, :event_end, :file, :head, :location, :tzid
+    attr_reader :head, :body, :event_start, :event_end, :tzid
 
     def initialize(cwd, tzid, head, body, source_file)
       @cwd = cwd
@@ -30,11 +30,9 @@ class PackCalendar
 
       @head = head
       @meta = head["meta"] || {}
+      @body = clean_body((Meta.new.format_meta_for_email(@head) || "") + (body || ""))
 
-      meta_for_body = Meta.new.format_meta_for_email(@head) || ""
-      @body = clean_body(meta_for_body + (body || ""))
-
-      get_post_data
+      set_dates
     end
 
     def valid?
@@ -128,11 +126,10 @@ class PackCalendar
       end
     end
 
-    def get_post_data
-
+    def location
       if loc = @meta["location"]
         loc_data = Meta.new.location_map(loc)
-        @location = if loc_data.nil?
+        if loc_data.nil?
           loc
         else
           file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
@@ -152,7 +149,9 @@ class PackCalendar
           "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
         end
       end
+    end
 
+    def set_dates
       date = @meta["date"]
       @valid = !(head["calendar"] || "").split(",").include?("skip")
       if @valid
@@ -169,7 +168,6 @@ class PackCalendar
           @valid = false
         end
       end
-
     end
 
   end

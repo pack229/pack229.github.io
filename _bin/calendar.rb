@@ -23,6 +23,14 @@ class PackCalendar
   class Event
     attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
 
+    def initialize(cwd, tzid, data, source_file)
+      @cwd = cwd
+      @tzid = tzid
+      @source_file = source_file
+
+      the_first_part(cwd, tzid, data, source_file)
+    end
+
     def valid?
       @valid
     end
@@ -73,6 +81,9 @@ class PackCalendar
     end
 
     def get_post_data
+
+      @meta = Meta.new.format_meta_for_email(@head) || ""
+      @body = clean_body(@meta + @body)
 
       if @head["meta"] && loc = @head["meta"]["location"]
         loc_data = Meta.new.location_map(loc)
@@ -132,11 +143,8 @@ class PackCalendar
   end
 
   class PostEvent < Event
-    def initialize(cwd, tzid, data, source_file)
-      @cwd = cwd
-      @tzid = tzid
-      @source_file = source_file
 
+    def the_first_part(cwd, tzid, data, source_file)
       @valid = true
 
       parts = data.split("---")
@@ -150,10 +158,7 @@ class PackCalendar
         post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
         @url = nil if post_date > Time.now
 
-        body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
-        meta = Meta.new.format_meta_for_email(@head) || ""
-
-        @body = clean_body(meta + body)
+        @body = Kramdown::Document.new(parts[2..-1].join("\n").strip, input: 'GFM').to_html
 
         get_post_data
 
@@ -162,17 +167,12 @@ class PackCalendar
   end
 
   class DenEvent < Event
-    def initialize(cwd, tzid, data, source_file)
-      @cwd = cwd
-      @tzid = tzid
-      @source_file = source_file
+
+    def the_first_part(cwd, tzid, data, source_file)
 
       @head = data
-
       @url = nil
-      meta = Meta.new.format_meta_for_email(@head) || ""
-
-      @body = clean_body(meta)
+      @body = ""
 
       get_post_data
 

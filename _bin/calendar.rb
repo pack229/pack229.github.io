@@ -203,46 +203,55 @@ class PackCalendar
   def initialize(cwd, calendar_title)
     @cwd = cwd
     @cal = Icalendar::Calendar.new
-    @cal.add_timezone(timezone)
+    @cal.add_timezone(TZInfo::Timezone.get(tzid).ical_timezone(Time.now))
     @cal.x_wr_calname = calendar_title
     @markdown = []
     @posts = []
   end
   def run!
+    load_posts_events!
     check_posts!
-    load_from_posts!
+    generate!
+  end
+  def posts
+    @posts
   end
   def sorted_posts
-    @sorted_posts ||= all_posts.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
+    @sorted_posts ||= posts.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
   end
   def tzid
     "America/Los_Angeles"
   end
-  def timezone
-    TZInfo::Timezone.get(tzid).ical_timezone(Time.now)
+
+  def load_events_from_yaml!(file)
+    source_file = @cwd.join("../_data/calendar_#{file}.yaml")
+    data = YAML.load(source_file.read, permitted_classes: [Date])
+    data.each do |event|
+      @posts << DenEvent.new(@cwd, tzid, event, source_file)
+    end
   end
-  def all_posts
-    @all_posts ||= get_all_posts + @posts
-  end
-  def get_all_posts
+
+  def load_posts_events!
     dir = @cwd.join("../_posts")
     dir.entries.map do |path|
       next if path.basename.to_s[0] == "."
 
       source_file = dir.join(path)
-      PostEvent.new(@cwd, tzid, dir.join(path).read, source_file)
+      @posts << PostEvent.new(@cwd, tzid, dir.join(path).read, source_file)
     end.compact
   end
+
   def check_posts!
     # raise "Duplicate UUIDs" if get_all_posts.map(&:uuid).count != get_all_posts.map(&:uuid).uniq.count
     used_uuids = []
-    all_posts.each do |p|
+    posts.each do |p|
       raise "Duplicate UUID for #{p.file}" if used_uuids.include?(p.uuid)
       used_uuids << p.uuid
       # TODO raise "Check Date for #{p.file}" if p.head['date'].strftime("%Y-%m-%d") != File.basename(p.file).split("-")[0..2].join("-")
     end
   end
-  def load_from_posts!
+
+  def generate!
     current_year = nil
     current_month = nil
 
@@ -290,13 +299,6 @@ class PackCalendar
     file = @cwd.join("../calendar.md")
     calendar = file.read.split(token)[0] + token + "\n\n" + @markdown.join("\n\n")
     file.write(calendar)
-  end
-  def load_events_from_yaml!(file)
-    source_file = @cwd.join("../_data/calendar_#{file}.yaml")
-    data = YAML.load(source_file.read, permitted_classes: [Date])
-    data.each do |event|
-      @posts << DenEvent.new(@cwd, tzid, event, source_file)
-    end
   end
 end
 

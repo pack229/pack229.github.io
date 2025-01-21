@@ -21,6 +21,7 @@ end
 class PackCalendar
 
   class Event
+    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
 
     def valid?
       @valid
@@ -73,6 +74,34 @@ class PackCalendar
 
     def get_post_data
 
+      if @head["meta"] && loc = @head["meta"]["location"]
+        loc_data = Meta.new.location_map(loc)
+        @location = if loc_data.nil?
+          loc
+        else
+          file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
+          card = VCardigan.create
+          card.name(loc)
+          card.fullname(loc)
+
+          card[:site].label('Site')
+          card[:site].url(loc_data[:site])
+
+          card[:map].label('Map')
+          card[:map].url(loc_data[:map])
+
+          loc_data[:address]
+
+          @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
+          "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
+        end
+      end
+
+      @title = head["title"]
+      @title = "Pack Meeting" if @title.match(" Pack Meeting")
+      @uuid = head["uuid"].downcase
+      @mtime = @source_file.mtime
+
       if @head["meta"]
         date = head["meta"]["date"]
         time = head["meta"]["time"]
@@ -103,19 +132,14 @@ class PackCalendar
   end
 
   class PostEvent < Event
-
-    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
-
-
-    # def initialize(cwd, tzid, data, source_file)
-    def initialize(cwd, contents, tzid, source_file)
+    def initialize(cwd, tzid, data, source_file)
       @cwd = cwd
       @tzid = tzid
-      @file = source_file
+      @source_file = source_file
 
       @valid = true
 
-      parts = contents.split("---")
+      parts = data.split("---")
       @valid = !parts[1].nil?
       if @valid
         @head = YAML.load("---\n" + parts[1].strip + "\n", permitted_classes: [Date])
@@ -131,38 +155,6 @@ class PackCalendar
 
         @body = clean_body(meta + body)
 
-
-        if @head["meta"] && loc = @head["meta"]["location"]
-          loc_data = Meta.new.location_map(loc)
-          @location = if loc_data.nil?
-            loc
-          else
-            file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
-            card = VCardigan.create
-            card.name(loc)
-            card.fullname(loc)
-
-            card[:site].label('Site')
-            card[:site].url(loc_data[:site])
-
-            card[:map].label('Map')
-            card[:map].url(loc_data[:map])
-
-            loc_data[:address]
-
-            @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
-            "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
-          end
-        end
-
-        @title = head["title"]
-        @title = "Pack Meeting" if @title.match(" Pack Meeting")
-
-        @uuid = head["uuid"].downcase
-
-
-        @mtime = source_file.mtime
-
         get_post_data
 
       end
@@ -170,10 +162,10 @@ class PackCalendar
   end
 
   class DenEvent < Event
-    attr_reader :title, :url, :body, :event_start, :event_end, :uuid, :mtime, :file, :head, :location
     def initialize(cwd, tzid, data, source_file)
       @cwd = cwd
       @tzid = tzid
+      @source_file = source_file
 
       @head = data
 
@@ -181,37 +173,6 @@ class PackCalendar
       meta = Meta.new.format_meta_for_email(@head) || ""
 
       @body = clean_body(meta)
-
-      if @head["meta"] && loc = @head["meta"]["location"]
-        loc_data = Meta.new.location_map(loc)
-        @location = if loc_data.nil?
-          loc
-        else
-          file_name = "#{loc.downcase.gsub(/[^a-z0-9 ]/, "").gsub(" ", "_")}.vcf"
-          card = VCardigan.create
-          card.name(loc)
-          card.fullname(loc)
-
-            card[:site].label('Site')
-            card[:site].url(loc_data[:site])
-
-            card[:map].label('Map')
-            card[:map].url(loc_data[:map])
-
-            loc_data[:address]
-
-            @cwd.join("../ics/vcard/#{file_name}").write(card.to_s)
-            "ALTREP=\"#{$base_url}/ics/vcard/#{file_name}\": #{loc}"
-          end
-        end
-
-
-
-      @title = head["title"]
-      @title = "Pack Meeting" if @title.match(" Pack Meeting")
-
-      @uuid = head["uuid"].downcase
-      @mtime = source_file.mtime
 
       get_post_data
 
@@ -248,11 +209,8 @@ class PackCalendar
     dir.entries.map do |path|
       next if path.basename.to_s[0] == "."
 
-      # DenEvent.new(@cwd, @tzid, event, source_file)
-
       source_file = dir.join(path)
-
-      PostEvent.new(@cwd, dir.join(path).read, @tzid, source_file)
+      PostEvent.new(@cwd, @tzid, dir.join(path).read, source_file)
     end.compact
   end
   def get_sorted_posts

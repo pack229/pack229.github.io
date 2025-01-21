@@ -8,10 +8,11 @@ uuid: FF927E7F-3A5C-4A86-94CF-E6D2BFCFDCC7
 meta:
   date: 2024-12-07
   time: 9:45 AM
-  location: Los Gatos, <a href="https://app.paradecloud.com/lineup/1146/737bf7ceade1abbe80c3d78d41638912">Spot 141</a>
+  location: Los Gatos
   signup:
     - title: RSVP
       url: https://forms.gle/5cjkWHaCec3bBXRp8
+  more_info: https://app.paradecloud.com/lineup/1146/737bf7ceade1abbe80c3d78d41638912
 ---
 
 We are excited to invite you and your Scouts to participate in the Los Gatos Christmas Parade on the morning of Saturday, December 7th. This wonderful event has been a cherished tradition for our community, with the Dad’s Club proudly organizing and sponsoring our entry for several years.

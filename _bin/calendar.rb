@@ -159,11 +159,8 @@ class PackCalendar
             "X-TITLE" => loc,
             "X-ADDRESS" => loc_data[:address]
           })
-          # 'X-APPLE-RADIUS' => '14130.83822349481',
         else
-          # RAISE if missing
-          # Meta.new.unmapped_location?(loc)
-          pp loc
+          raise "missing location data: #{loc}" unless Meta.new.unmapped_location?(loc)
         end
       end
     end

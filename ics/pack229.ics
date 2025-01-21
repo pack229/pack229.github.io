@@ -118,7 +118,6 @@ LOCATION:San Francisco
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
 URL;VALUE=URI:https://hsspack229.org/2024/10/02/crabbing
-X-APPLE-STRUCTURED-LOCATION:San Francisco
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20250120T221254
@@ -319,8 +318,6 @@ LOCATION:Los Gatos\, <a href="https://app.paradecloud.com/lineup/1146/737bf
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Los Gatos Christmas Parade
 URL;VALUE=URI:https://hsspack229.org/2024/11/28/los-gatos-christmas-parade
-X-APPLE-STRUCTURED-LOCATION:Los Gatos\, <a href="https://app.paradecloud.co
- m/lineup/1146/737bf7ceade1abbe80c3d78d41638912">Spot 141</a>
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241217T123217

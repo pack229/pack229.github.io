@@ -48,9 +48,8 @@ module Jekyll
       @location_map[value]
     end
     def unmapped_location?(value)
-      # @unmapped_locations ||= YAML.load(Pathname.new(File.expand_path(File.dirname(__FILE__))).join("../_data/locations.yaml").read)
-      # @unmapped_locations[value]
-      []
+      @unmapped_locations ||= YAML.load(Pathname.new(File.expand_path(File.dirname(__FILE__))).join("../_data/unmapped_locations.yaml").read)
+      @unmapped_locations[value]
     end
     def meta_categories
       {

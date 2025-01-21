@@ -127,7 +127,6 @@ class PackCalendar
           @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
           event_end = DateTime.parse(date[1])
           @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
-          @valid = false # TODO
         elsif date.is_a?(Date)
           # TODO time ranges or durations
           event_start = DateTime.parse("#{date} #{time}")

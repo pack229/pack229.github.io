@@ -21,6 +21,45 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241127T002448
+UID:25513c08-de59-40b4-b6db-4c3f5dc07c8e
+DTSTART;TZID=:20240830T170000
+DTEND;TZID=:20240901T120000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/08/25/labor-day-camp\n\n📍 Locati
+ on: Camp Cheesebrough [Link #1] | 26005 Big Basin Wy\, Los Gatos\, CA 9503
+ 3 [Link #2]\n\n📋 Signup: Council Signup [Link #3] and Pack Signup [Link
+  #4]\n\n💵 Cost: $70 per camper\n\n🏁 Deadline: Sunday August 25th 202
+ 4\n\n🌐 Link: More Info [Link #2]\n\nI can’t believe the school year i
+ s right around the corner\, I hope you’ve all had a wonderful summer!\n\
+ nWe thought it would be great to jump right into scouting and join the ann
+ ual Labor Day Family Camp Weekend at Camp Cheesebrough [Link #2].\n\nWe’
+ ll need to register by August 25. Please register/pay directly via the web
+ site [Link #2]. Please also add your family to this list [Link #3] so we c
+ an coordinate as a Pack.\n\nChesebrough is situated in a majestic redwood 
+ forest and surrounded by a rich history born of the logging industry that 
+ will transport you and your family while still being a quick drive away. D
+ uring the weekend you will experience a full camp program with program are
+ as open for your families to enjoy including:\n\n * &amp\; More\n * Games\
+ n * Scout Skills\n * Metalwork\n * Climbing\n * Air-powered BB\n * Archery
+ \n * Nature\n * Crafts\n\nOn top of this\, the program will include a camp
+ fire\, guided hikes\, and ample time for recreation and relaxation!\n\nThi
+ s campout is an amazing opportunity to start our scouting year off with a 
+ bang and reconnect with families new and old! Please feel free to reach ou
+ t should you have any questions.\n\nHope to see you all there!\n\n[Link #1
+ ] https://svmbc.org/chesebrough-scout-reservation/\n\n[Link #2] https://ma
+ ps.apple.com/?address=26005%20CA-9\,%20Los%20Gatos\,%20CA%20%2095033\,%20U
+ nited%20States&auid=10538835573111821490&ll=37.248338\,-122.145724&lsp=990
+ 2&q=Camp%20Cheesebrough\n\n[Link #3] https://scoutingevent.com/055-FamilyC
+ ampCSR\n\n[Link #4] https://docs.google.com/spreadsheets/d/17-_tOvmeSYTuum
+ ce2Mk-9PU-ohjQXNvCLDuPO_KcfQE/edit?usp=sharing\n\n
+LOCATION;ALTREP="https://hsspack229.org/ics/vcard/camp_cheesebrough.vcf": C
+ amp Cheesebrough
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Labor Day Camp
+URL;VALUE=URI:https://hsspack229.org/2024/08/25/labor-day-camp
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241125T222124
 UID:652289fa-f026-41fb-9297-a8c13b373253
 DTSTART;TZID=:20240909T183000
@@ -81,6 +120,57 @@ LOCATION:San Francisco
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
 URL;VALUE=URI:https://hsspack229.org/2024/10/02/crabbing
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20241125T222130
+UID:298829da-39a2-4802-800a-435f501ec33b
+DTSTART;TZID=:20241025T170000
+DTEND;TZID=:20241026T170000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2024/09/14/boo-fest\n\n📍 Location: Ca
+ mp Cheesebrough [Link #1] | 26005 Big Basin Wy\, Los Gatos\, CA 95033 [Lin
+ k #2]\n\n📋 Signup: Council Signup [Link #3] and Pack Signup [Link #4]\n
+ \n💵 Cost: $70 per camper\n\n🏁 Deadline: Tuesday October 22nd 2024\n\
+ n🌐 Link: More Info [Link #2]\n\nCome join us for our annual Halloween c
+ ampout where participants get to make their own spooky area\, trick-or-tre
+ at down the haunted nature trail\, carve pumpkins\, and participate in tra
+ ditional scout activities with a spooky twist!\n\nActivities Include\n\n *
+  Trick or Treat! – Explore the haunted nature trail and discover some en
+ joyable treats along the way.\n * Cracker Barrel – Come have fun themed 
+ snacks and socialize with folks in your optional costume!\n * Daily Flag C
+ eremonies – Learn about the US flag ceremony and ceremonies!\n * Games 
+ – Plenty of tricks to be learned while playing games!\n * Fishing – Ca
+ tch a fish\, identify fish\, and tie a fishing knot!\n * Scout Skills – 
+ Learn things that help you care of yourself and others like knots!\n * Art
+ s &amp\; Crafts – Pumpkin carving\, costume decoration\, &amp\; more!\n 
+ * Archery &amp\; Air-powered BB guns - Get out on the range and practice y
+ our target skills!\n\nEvening treats\, Breakfast\, &amp\; Lunch included.\
+ n\nPlease eat dinner before you arrive on Friday or bring a sack dinner wi
+ th you.\n\nNo camping gear will be provided. Please plan on using a hand c
+ art to carry your tent and supplies to the upper campsites. If you will ne
+ ed assistance please let us know.\n\nIf you plan to attend\, please add yo
+ ur family info here [Link #3] for pack planning.\n\nImportant\n\nSince thi
+ s is an official BSA event\, please make sure to have your health forms [L
+ ink #5] filled out and remember to bring them with you as they are quite s
+ trict with these. There is also an optional BB Device permission form [Lin
+ k #6] to complete and bring should your Scout participate. Please note Cub
+  Scout Lions are not eligible to participate in shooting activities\, howe
+ ver\, they will be able to enjoy the archery range. I recommend you keep c
+ opies of these forms for future events so you do not have to complete them
+  again.\n\n[Link #1] https://svmbc.org/chesebrough-scout-reservation/\n\n[
+ Link #2] https://maps.apple.com/?address=26005%20CA-9\,%20Los%20Gatos\,%20
+ CA%20%2095033\,%20United%20States&auid=10538835573111821490&ll=37.248338\,
+ -122.145724&lsp=9902&q=Camp%20Cheesebrough\n\n[Link #3] https://scoutingev
+ ent.com/055-80416-194755\n\n[Link #4] https://docs.google.com/spreadsheets
+ /d/1IW_UPzoCoXVbjL8T38fvygH9gHDwTwQXomtopriVyCA/edit?usp=sharing\n\n[Link 
+ #5] https://filestore.scouting.org/filestore/HealthSafety/pdf/680-001_AB.p
+ df\n\n[Link #6] https://scoutingevent.com/Download/055131095/OR/2020CALIFO
+ RNIABBFormsimplified.pdf\n\n
+LOCATION;ALTREP="https://hsspack229.org/ics/vcard/camp_cheesebrough.vcf": C
+ amp Cheesebrough
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Boo-Fest Family Campout
+URL;VALUE=URI:https://hsspack229.org/2024/09/14/boo-fest
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241119T125521
@@ -490,6 +580,27 @@ DESCRIPTION:📍 Location: HSS Library\n\n
 LOCATION:HSS Library
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Den 6: April Meeting
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP;TZID=America/Los_Angeles:20250120T114934
+UID:f5890112-2a48-4c7d-8afe-e1dbde7050a1
+DTSTART;TZID=:20250502T170000
+DTEND;TZID=:20250504T110000
+CLASS:PUBLIC
+DESCRIPTION:https://hsspack229.org/2025/01/19/spring-family-campout-date\n\
+ n📍 Location: Ed R. Levin County Park [Link #1] | 3100 Calaveras Road\, 
+ Milpitas\, CA 95035 [Link #2]\n\nPlease save the date for the Spring Famil
+ y Cub Scout Campout at Ed R. Levin County Park on the weekend of May 2nd 2
+ 025. More information to come as we get closer to the event.\n\n[Link #1] 
+ https://parks.santaclaracounty.gov/locations/ed-r-levin-county-park\n\n[Li
+ nk #2] https://maps.apple.com/?address=3100%20Calaveras%20Rd\,%20Milpitas\
+ ,%20CA%20%2095035\,%20United%20States&auid=14976263126931611544&ll=37.4460
+ 93\,-121.856453&lsp=9902&q=Youth%20Area%20Group%20Campsite&t=h\n\n
+LOCATION;ALTREP="https://hsspack229.org/ics/vcard/ed_r_levin_county_park.vc
+ f": Ed R. Levin County Park
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Spring Family Campout - Save The Date
+URL;VALUE=URI:https://hsspack229.org/2025/01/19/spring-family-campout-date
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP;TZID=America/Los_Angeles:20241120T095250

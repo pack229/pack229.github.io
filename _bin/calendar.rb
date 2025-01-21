@@ -43,29 +43,32 @@ class PackCalendar
     def clean_body(body)
       links = []
       body = Nokogiri::HTML(body)
+
       body.css("a").each do |tag|
         link = tag.attr("href")
         text = if link == nil or link.match(/mailto\:/)
           tag.inner_text
         else
           link = "#{$base_url}#{link}" unless link.match(/^http/)
-          num = if pos = links.index(link)
-            pos
+          num = if pos = links.map{ |it| it[:url] }.index(link)
+            pos+1
           else
-            links << link
+            links << { url: link, title: tag.inner_text }
             links.count
           end
-          "#{tag.inner_text} [Link ##{num}]"
+          "#{tag.inner_text} [see link below]"
         end
         tag.after(text)
         tag.remove
       end
+
       body.css("ul").each do |tag|
         tag.css("li").each do |item|
           tag.after(" * #{item.inner_html}\n")
         end
         tag.remove
       end
+
       # TODO simple formating for H tags?
       %w[ h1 h2 h3 h4 h5 h6 p span ].each do |t|
         body.css(t).each do |tag|
@@ -73,12 +76,14 @@ class PackCalendar
           tag.remove
         end
       end
+
       body_tag = body.at("body")
       return "" if body_tag.nil?
       body = body_tag.inner_html.gsub(/<!--more-->.*$/m, "... [See Website]").to_s.gsub(/<!--.*?-->/, "").to_s.gsub(/\n{3,}/, "\n\n").to_s
+
       if links.any?
         links.each_with_index do |l, i|
-          body << "[Link ##{i+1}] #{l}\n\n"
+          body << "#{l[:title]}: #{l[:url]}\n\n"
         end
       end
       body

@@ -40,7 +40,7 @@ module Jekyll
       if body["meta"]
         body["meta"].map do |i|
           format_meta_item(i) unless [ :date, :time, :location ].include?(i[0].to_sym)
-        end.compact.join("\n\n") + "\n\n"
+        end.compact.join("\n") + "\n\n"
       end
     end
     def location_map(value)

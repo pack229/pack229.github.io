@@ -29,10 +29,11 @@ class PackCalendar
       @source_file = source_file
 
       @head = head
-      @meta = Meta.new.format_meta_for_email(@head) || ""
-      @body = clean_body(@meta + (body || ""))
+      @meta = head["meta"] || {}
 
-      # the_first_part
+      meta_for_body = Meta.new.format_meta_for_email(@head) || ""
+      @body = clean_body(meta_for_body + (body || ""))
+
       get_post_data
     end
 
@@ -116,7 +117,7 @@ class PackCalendar
     end
 
     def duration
-      if duration_value = head["meta"]["duration"]
+      if duration_value = @meta["duration"]
         number, unit = *duration_value.split(" ")
         number = number.to_i
         unit = unit.to_sym
@@ -129,7 +130,7 @@ class PackCalendar
 
     def get_post_data
 
-      if @head["meta"] && loc = @head["meta"]["location"]
+      if loc = @meta["location"]
         loc_data = Meta.new.location_map(loc)
         @location = if loc_data.nil?
           loc
@@ -152,11 +153,7 @@ class PackCalendar
         end
       end
 
-      if @head["meta"]
-        date = head["meta"]["date"]
-        time = head["meta"]["time"]
-      end
-
+      date = @meta["date"]
       @valid = !(head["calendar"] || "").split(",").include?("skip")
       if @valid
         if date.is_a?(Array) && date.length == 2
@@ -165,7 +162,7 @@ class PackCalendar
           event_end = DateTime.parse(date[1])
           @event_end = Icalendar::Values::DateTime.new(event_end, tzid: tzid)
         elsif date.is_a?(Date)
-          event_start = DateTime.parse("#{date} #{time}")
+          event_start = DateTime.parse("#{date} #{@meta["time"]}")
           @event_start = Icalendar::Values::DateTime.new(event_start, tzid: tzid)
           @event_end = Icalendar::Values::DateTime.new(event_start + duration, tzid: tzid)
         else

@@ -563,12 +563,13 @@ a.post-thumbnail:hover img {
 .calendar-cards {
   display: grid;
   gap: 10px;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(auto-fill, 208px);
 }
 .calendar-card {
   border: 1px solid black;
   border-radius: 5px;
-  width: 210px;
+  xwidth: 210px;
+  overflow: hidden;
   p {
     padding: 5px 8px;
     margin: 0;
@@ -578,11 +579,15 @@ a.post-thumbnail:hover img {
     text-decoration: none
   }
   p.date {
+    border-radius-top-left: 4px;
+    border-radius-top-right: 4px;
     background: #d90823;
     color: #fff;
   }
   p.name {
     padding: 8px 8px;
+    margin-bottom: -2px;
+    overflow: hidden;
     color: #000;
     display: -webkit-box;
     -webkit-line-clamp: 2;

@@ -21,7 +21,7 @@ end
 class PackCalendar
 
   class Event
-    attr_reader :body, :event_start, :event_end, :file, :head, :location
+    attr_reader :body, :event_start, :event_end, :file, :head, :location, :tzid
 
     def initialize(cwd, tzid, data, source_file)
       @cwd = cwd
@@ -97,7 +97,7 @@ class PackCalendar
     def url
       return @url unless @url.nil?
 
-      post_date = Icalendar::Values::DateTime.new(head['date'], tzid: @tzid)
+      post_date = Icalendar::Values::DateTime.new(head['date'], tzid: tzid)
       if post_date < Time.now
         url_parts = File.basename(@source_file.to_s, ".md").split("-")
         @url = "#{$base_url}/#{url_parts[0..2].join("/")}/#{url_parts[3..-1].join("-")}"
@@ -163,13 +163,13 @@ class PackCalendar
       if @valid
         if date.is_a?(Array) && date.length == 2
           event_start = DateTime.parse(date[0])
-          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
+          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: tzid)
           event_end = DateTime.parse(date[1])
-          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: @tzid)
+          @event_end = Icalendar::Values::DateTime.new(event_end, tzid: tzid)
         elsif date.is_a?(Date)
           event_start = DateTime.parse("#{date} #{time}")
-          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: @tzid)
-          @event_end = Icalendar::Values::DateTime.new(event_start + duration, tzid: @tzid)
+          @event_start = Icalendar::Values::DateTime.new(event_start, tzid: tzid)
+          @event_end = Icalendar::Values::DateTime.new(event_start + duration, tzid: tzid)
         else
           @valid = false
         end
@@ -203,26 +203,26 @@ class PackCalendar
   def initialize(cwd, calendar_title)
     @cwd = cwd
     @cal = Icalendar::Calendar.new
+    @cal.add_timezone(timezone)
+    @cal.x_wr_calname = calendar_title
     @markdown = []
-    cal.x_wr_calname = calendar_title
-    @other_posts = []
+    @posts = []
   end
   def run!
     check_posts!
-    setup_time_zones!
     load_from_posts!
   end
   def sorted_posts
-    @sorted_posts ||= get_sorted_posts
+    @sorted_posts ||= all_posts.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
   end
-  def setup_time_zones!
-    @tzid = "America/Los_Angeles"
-    tz = TZInfo::Timezone.get(@tzid)
-    timezone = tz.ical_timezone(Time.now)
-    @cal.add_timezone(timezone)
+  def tzid
+    "America/Los_Angeles"
+  end
+  def timezone
+    TZInfo::Timezone.get(tzid).ical_timezone(Time.now)
   end
   def all_posts
-    @all_posts ||= get_all_posts + @other_posts
+    @all_posts ||= get_all_posts + @posts
   end
   def get_all_posts
     dir = @cwd.join("../_posts")
@@ -230,11 +230,8 @@ class PackCalendar
       next if path.basename.to_s[0] == "."
 
       source_file = dir.join(path)
-      PostEvent.new(@cwd, @tzid, dir.join(path).read, source_file)
+      PostEvent.new(@cwd, tzid, dir.join(path).read, source_file)
     end.compact
-  end
-  def get_sorted_posts
-    all_posts.select{ |e| e.valid? }.sort_by{ |e| e.event_start }
   end
   def check_posts!
     # raise "Duplicate UUIDs" if get_all_posts.map(&:uuid).count != get_all_posts.map(&:uuid).uniq.count
@@ -251,6 +248,7 @@ class PackCalendar
 
     sorted_posts.each do |post|
 
+      # iCal
       cal.event do |e|
         e.summary = "Pack 229: #{post.title}"
         e.description = post.body
@@ -261,7 +259,7 @@ class PackCalendar
         e.location = post.location if post.location
         e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
         e.uid = post.uuid
-        e.dtstamp = Icalendar::Values::DateTime.new(post.mtime, tzid: @tzid)
+        e.dtstamp = Icalendar::Values::DateTime.new(post.mtime, tzid: tzid)
       end
 
       # Markdown
@@ -293,11 +291,11 @@ class PackCalendar
     calendar = file.read.split(token)[0] + token + "\n\n" + @markdown.join("\n\n")
     file.write(calendar)
   end
-  def load_events!(file)
+  def load_events_from_yaml!(file)
     source_file = @cwd.join("../_data/calendar_#{file}.yaml")
     data = YAML.load(source_file.read, permitted_classes: [Date])
     data.each do |event|
-      @other_posts << DenEvent.new(@cwd, @tzid, event, source_file)
+      @posts << DenEvent.new(@cwd, tzid, event, source_file)
     end
   end
 end
@@ -309,7 +307,7 @@ pack.save_markdown!
 
 [ "6" ].each do |den_number|
   den = PackCalendar.new(cwd, "Pack 229 & Den #{den_number}")
-  den.load_events!("den#{den_number}")
+  den.load_events_from_yaml!("den#{den_number}")
   den.run!
   den.save_ics!("pack229-den#{den_number}")
 end

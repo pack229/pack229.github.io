@@ -97,7 +97,8 @@ module Jekyll
       elsif type == :more_info
         link("More Info", data)
       elsif type == :photo_download
-        link("Download Photo", data)
+        photo_title = File.extname(data) == ".zip" ? "Download Photos" : "Download Photo"
+        link(photo_title, data)
       else
         data
       end

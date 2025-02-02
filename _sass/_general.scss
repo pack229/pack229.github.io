@@ -311,6 +311,17 @@ a.post-thumbnail:hover img {
     margin: 0 -30px 24px;
 }
 
+/* Thumbnails */
+figure.thumb {
+  display: inline-block;
+  vertical-align: top;
+  img {
+    width: 330px;
+    margin: 0 25px 25px 0;
+  }
+}
+
+
 /* Image captions */
 .caption-text {
     color: #aeb0b1;

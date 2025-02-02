@@ -3,7 +3,7 @@ layout: post
 title: "Founders Day Scout Mass"
 date: 2025-01-13
 featured_image: church.jpg
-tags: [Founders Day, Upcoming, Scout Mass]
+tags: [Founders Day, Scout Mass]
 uuid: CE0E8155-F348-4A08-8208-80C80D51E4EA
 meta:
   date: 2025-02-02

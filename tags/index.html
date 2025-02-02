@@ -19,17 +19,19 @@ title: Post Archives
                         {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
                         {% assign sortedTags = site_tags | split:',' | sort %}
                         {% for tag in sortedTags %}
-                        <a href="#{{ tag | cgi_escape }}">{{ tag }} </a>
+                        <a href="#{{ tag | cgi_escape | downcase }}">{{ tag }} </a>
                         {% endfor %}
                     </div><!-- .archive-tags-list -->
                     {% for tag in sortedTags %}
-                    <h2 id="{{ tag | cgi_escape }}">{{ tag }}</h2>
-                    <ul class="archive-posts-list">
-                        {% for post in site.tags[tag] %}
-                        <li><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a> <span class="archive-meta"> — <time class="published" datetime="{{ post.date | date: "%Y" }}">{{ post.date | date: "%Y" }}</time></span></li>
-                        {% endfor %}
-                    </ul>
-                    <p><a href="#page" class="archive-top-link">Return to top <i class="fa fa-angle-up" aria-hidden="true"></i></a></p>
+                    <div id="{{ tag | cgi_escape | downcase }}">
+                      <h2>{{ tag }}</h2>
+                      <ul class="archive-posts-list">
+                          {% for post in site.tags[tag] %}
+                          <li><a href="{{ site.baseurl }}{{ post.url }}" rel="bookmark">{{ post.title }}</a> <span class="archive-meta"> — <time class="published" datetime="{{ post.date | date: "%Y" }}">{{ post.date | date: "%Y" }}</time></span></li>
+                          {% endfor %}
+                      </ul>
+                      <p><a href="#page" class="archive-top-link">Return to top <i class="fa fa-angle-up" aria-hidden="true"></i></a></p>
+                    </div>
                     {% endfor %}
                 </div><!-- .entry-content -->
             </div><!-- .entry-box -->

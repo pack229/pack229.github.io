@@ -67,13 +67,13 @@ featured_image: about.jpg
 
 ## March
 
- * __Fri 03/07:__ Pinewood Derby: Check In
-
- * __Sat 03/08:__ Pinewood Derby: Races
-
- * __Sat 03/08:__ Blue & Gold BBQ
-
  * __Mon 03/10:__ Pack Meeting
+
+ * __Fri 03/21:__ Pinewood Derby: Check In
+
+ * __Sat 03/22:__ Pinewood Derby: Races
+
+ * __Sat 03/22:__ Blue & Gold BBQ
 
 ## April
 

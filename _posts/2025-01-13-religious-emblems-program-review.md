@@ -3,7 +3,7 @@ layout: post
 title: "Religious Emblems Program Review"
 date: 2025-01-13
 featured_image: religious.jpg
-tags: [Meetings, Religious Emblems, Upcoming]
+tags: [Meetings, Religious Emblems]
 uuid: EFC617AC-F1BE-4D42-ACF3-2E9C4331EC95
 meta:
   date: 2025-02-10

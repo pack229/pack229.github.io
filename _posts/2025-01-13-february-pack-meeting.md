@@ -3,7 +3,7 @@ layout: post
 title: "February Pack Meeting"
 date: 2025-01-13
 featured_image: packmeeting.jpg
-tags: [Meetings, Upcoming]
+tags: [Meetings]
 uuid: DEEBCEB5-C9E9-4E8E-8169-4E7DB0793315
 meta:
   date: 2025-02-10

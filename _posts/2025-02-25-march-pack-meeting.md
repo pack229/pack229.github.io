@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "March Pack Meeting"
-date: 2025-02-24
+date: 2025-02-25
 featured_image: packmeeting.jpg
 tags: [Meetings, Upcoming]
 uuid: 46C27FC1-6923-4006-B45E-7F205686CDE0

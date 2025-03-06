@@ -88,8 +88,14 @@ module Jekyll
 
     def format_upcoming_item(p)
       h = ['<div class="calendar-card">']
-      h << "<a href=\"#{p.url}\"><p class=\"date\">#{p.upcoming_cal_date_time_formated}</p></a>"
-      h << "<a href=\"#{p.url}\"><p class=\"name\">#{p.cal_title}</p></a>"
+      date = "<p class=\"date\">#{p.upcoming_cal_date_time_formated}</p>"
+      name = "<p class=\"name\">#{p.cal_title}</p>"
+      if p.url
+        date = "<a href=\"#{p.url}\">#{date}</a>"
+        name = "<a href=\"#{p.url}\">#{name}</a>"
+      end
+      h << date
+      h << name
       h << '</div>'
       h.join("\n")
     end

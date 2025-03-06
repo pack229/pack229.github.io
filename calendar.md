@@ -174,8 +174,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<a href=""><p class="date">Mon 4/7 @  6:30 PM</p></a>
-<a href=""><p class="name">April Pack Meeting</p></a>
+<p class="date">Mon 4/7 @  6:30 PM</p>
+<p class="name">April Pack Meeting</p>
 </div>
 
 <div class="calendar-card">
@@ -195,6 +195,6 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<a href=""><p class="date">Mon 5/12 @  6:30 PM</p></a>
-<a href=""><p class="name">May Pack Meeting</p></a>
+<p class="date">Mon 5/12 @  6:30 PM</p>
+<p class="name">May Pack Meeting</p>
 </div>

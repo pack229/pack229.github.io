@@ -152,7 +152,7 @@ module Jekyll
       [ :date, :time, :location, :event ]
     end
     def hidden_categories
-      [ :duration ]
+      [ :duration, :uuid ]
     end
     def format_meta_item(input, meta)
       type = input[0].to_sym

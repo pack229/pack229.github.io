@@ -78,11 +78,11 @@ class PackCalendar
         tag.remove
       end
 
-      body.css("table").each do |tag|
-        tag.css("tr").each do |row|
-          tag.after(row.css("th,td").map{ |cell| cell.inner_text }.join(" | ") + "\n")
+      body.css("table").each do |table|
+        table.css("tr").each do |row|
+          table.after(row.css("th,td").map{ |cell| cell.inner_text }.join(" | ") + "\n")
         end
-        tag.remove
+        table.remove
       end
 
       # TODO simple formating for H tags?

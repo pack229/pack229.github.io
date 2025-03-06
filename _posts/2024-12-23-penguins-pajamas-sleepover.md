@@ -3,7 +3,7 @@ layout: post
 title:  California Academy of Sciences Penguins+Pajamas Sleepover
 date:   2024-12-23
 featured_image: penguins.jpg
-tags: [Overnight, California Academy of Sciences, Events, Upcoming]
+tags: [Overnight, California Academy of Sciences, Events]
 uuid: 22A4F8CE-8EE5-4511-9A29-527997238E97
 meta:
   date: 2025-02-15

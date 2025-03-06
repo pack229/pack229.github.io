@@ -78,6 +78,13 @@ class PackCalendar
         tag.remove
       end
 
+      body.css("table").each do |tag|
+        tag.css("tr").each do |row|
+          tag.after(row.css("th,td").map{ |cell| cell.inner_text }.join(" | ") + "\n")
+        end
+        tag.remove
+      end
+
       # TODO simple formating for H tags?
       %w[ h1 h2 h3 h4 h5 h6 p span ].each do |t|
         body.css(t).each do |tag|
@@ -251,7 +258,7 @@ class PackCalendar
       if data["meta"].is_a?(Array)
         data["meta"].each do |m|
           new_data = data.clone
-          new_data["meta"] = m
+          new_data["meta"] = m.clone
           @posts << Event.new(@cwd, tzid, new_data, head, source_file)
         end
       else

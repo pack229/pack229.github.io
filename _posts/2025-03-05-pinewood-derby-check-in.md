@@ -6,7 +6,7 @@ featured_image: pwd.jpg
 tags: [Pinewood Derby, Upcoming]
 uuid: 7935F149-5FE3-413E-8C65-5EA81DD39000
 meta:
-  - event: "Pinewood Derby: Car Check In"
+  - event: "Pinewood Derby: Check In"
     date: 2025-03-21
     time: 6:30 PM
     duration: 1 hour

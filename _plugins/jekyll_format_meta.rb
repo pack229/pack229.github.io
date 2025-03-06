@@ -25,6 +25,39 @@ class Integer
   end
 end
 
+class UpcomingPost
+  def initialize(post, meta)
+    @p = post
+    @m = meta
+  end
+  def date
+    @m['date']
+  end
+  def data
+    @p.data
+  end
+  def url
+    @p.url
+  end
+  def upcoming_cal_date
+    data = [@m['date']].flatten.first
+    data = Date.parse(data) if data.is_a?(String)
+    data
+  end
+  def upcoming_cal_date_time_formated
+    data = upcoming_cal_date
+    data = data.strftime("%a %-m/%-d")
+    data = "#{data} @ #{@m["time"]}" if @m["time"]
+    data
+  end
+  def cal_title
+    @m['event'] || @p['title']
+  end
+end
+         # date = post['m']['date'] # .strftime("%A %-m/%-d")
+#title = post['m']['event'] || p['title']
+
+
 module Jekyll
   module FormatMeta
     def link(name, url)
@@ -32,17 +65,18 @@ module Jekyll
     end
 
     def format_upcoming(posts)
-      upcoming = posts.select{ |i| i["tags"].include?("Upcoming") } # .map{ |p| [p["meta"]].flatten.map{ |m| p.merge(m) } }.flatten
-      #  sort: "meta.date" %}
+      upcoming = posts.select{ |i| i['tags'].include?('Upcoming') }.map do |p|
+        [p['meta']].flatten.map do |m|
+          UpcomingPost.new(p, m)
+        end
+      end.flatten.select{ |p| p.date }.sort{ |p| p.upcoming_cal_date }
       if upcoming.any?
         h = ['<h3>Upcoming Event Calendar</h3>']
         h << '<div class="calendar-cards">'
-        upcoming.each do |post|
+        upcoming.each do |p|
           h << '<div class="calendar-card">'
-          # | first_date: "%A %-m/%-d
-          date = "date"
-          h << "<a href=\"#{post.url}\"><p class=\"date\">#{date}</p></a>"
-          h << "<a href=\"#{post.url}\"><p class=\"name\">#{post['title']}</p></a>"
+          h << "<a href=\"#{p.url}\"><p class=\"date\">#{p.upcoming_cal_date_time_formated}</p></a>"
+          h << "<a href=\"#{p.url}\"><p class=\"name\">#{p.cal_title}</p></a>"
           h << '</div>'
         end
         h << '</div>'

@@ -26,6 +26,9 @@ meta:
         url: https://evite.me/fFVxSmVQbJ
       - title: Volunteer to Help
         url: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
+    more_info:
+      title: Official Pack 229 PWD Rules
+      url: https://hsspack229.org/docs/pwd-rules
 ---
 
 Race into fun at our Pinewood Derby! Cub Scouts design and race custom pinewood cars in this exciting family-friendly event. Join us for a day of creativity, competition, and fast-paced thrills! 🏆

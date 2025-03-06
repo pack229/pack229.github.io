@@ -124,7 +124,11 @@ module Jekyll
       elsif type == :contact && data.is_a?(Hash)
         link(data["name"], "mailto:#{data["email"]}")
       elsif type == :more_info
-        link("More Info", data)
+        if data.is_a?(Hash)
+          link(data["title"], data["url"])
+        else
+          link("More Info", data)
+        end
       elsif type == :photo_download
         photo_title = File.extname(data) == ".zip" ? "Download Photos" : "Download Photo"
         link(photo_title, data)

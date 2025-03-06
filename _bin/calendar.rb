@@ -288,7 +288,8 @@ class PackCalendar
         e.x_apple_structured_location = post.location_structured if post.location_structured
         e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
         e.uid = post.uuid
-        e.dtstamp = Icalendar::Values::DateTime.new(post.dtstamp, tzid: tzid)
+        # e.dtstamp = Icalendar::Values::DateTime.new(post.dtstamp, tzid: tzid)
+        e.dtstamp = post.dtstamp.utc
       end
 
       # Markdown

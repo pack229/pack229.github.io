@@ -250,8 +250,9 @@ class PackCalendar
       head = markdown_load(parts[2..-1].join("\n").strip)
       if data["meta"].is_a?(Array)
         data["meta"].each do |m|
-          data["meta"] = m
-          @posts << Event.new(@cwd, tzid, data, head, source_file)
+          new_data = data.clone
+          new_data["meta"] = m
+          @posts << Event.new(@cwd, tzid, new_data, head, source_file)
         end
       else
         @posts << Event.new(@cwd, tzid, data, head, source_file)
@@ -307,12 +308,6 @@ class PackCalendar
         @markdown << '<div class="calendar-cards">'
         current_month = post.event_end.month
       end
-      # titl = if post.url
-      #   "[#{post.title}](#{post.url})"
-      # else
-      #   post.title
-      # end
-      # @markdown << " * __#{post.event_start.strftime("%a %m/%d")}:__ #{titl}"
 
       up = UpcomingPost.new(post.head, post.head["meta"])
       up.url = post.url

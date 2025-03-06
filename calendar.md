@@ -153,18 +153,18 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="date"></p></a>
-<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="name">Pinewood Derby & Blue & Gold BBQ</p></a>
+<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="date">Fri 3/21 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="name">Pinewood Derby: Check In</p></a>
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="date"></p></a>
-<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="name">Pinewood Derby & Blue & Gold BBQ</p></a>
+<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="date">Sat 3/22 @  9:30 AM</p></a>
+<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="name">Pinewood Derby: Races</p></a>
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="date"></p></a>
-<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="name">Pinewood Derby & Blue & Gold BBQ</p></a>
+<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="date">Sat 3/22 @ 12:30 PM</p></a>
+<a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="name">Blue & Gold BBQ</p></a>
 </div>
 
 </div>

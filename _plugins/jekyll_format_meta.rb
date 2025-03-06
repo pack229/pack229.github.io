@@ -1,15 +1,15 @@
 class Integer
-  def hours
+  def hours_x
     self * 60 * 60
   end
-  def hour
-    hours
+  def hour_x
+    hours_x
   end
-  def minutes
+  def minutes_x
     self * 60
   end
-  def minute
-    minutes
+  def minute_x
+    minutes_x
   end
   def ordinalize
     if (11..13).include?(self % 100)
@@ -177,7 +177,7 @@ module Jekyll
           number = number.to_i
           unit = unit.to_sym
           raise "bad unit" unless [ :minute, :minutes, :hour, :hours ].include?(unit)
-          time_length = number.send(unit)
+          time_length = number.send(:"#{unit}_x")
           #
 
           time_length = Time.parse(data) + time_length

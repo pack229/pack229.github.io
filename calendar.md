@@ -68,13 +68,13 @@ featured_image: about.jpg
 
 ## March
 
- * __Mon 03/10:__ Pack Meeting
+ * __Mon 03/10:__ [Pack Meeting](https://hsspack229.org/2025/03/04/march-pack-meeting)
 
- * __Fri 03/21:__ Pinewood Derby: Check In
+ * __Fri 03/21:__ [Pinewood Derby: Check In](https://hsspack229.org/2025/03/05/pinewood-derby-check-in)
 
- * __Sat 03/22:__ Pinewood Derby: Races
+ * __Sat 03/22:__ [Pinewood Derby: Races](https://hsspack229.org/2025/03/05/pinewood-derby-check-in)
 
- * __Sat 03/22:__ Blue & Gold BBQ
+ * __Sat 03/22:__ [Blue & Gold BBQ](https://hsspack229.org/2025/03/05/pinewood-derby-check-in)
 
 ## April
 

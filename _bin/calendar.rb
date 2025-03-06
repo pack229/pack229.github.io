@@ -33,7 +33,16 @@ class PackCalendar
       @meta = head["meta"] || {}
       @body = clean_body((Meta.new.format_meta_for_email(@head) || "") + (body || ""))
 
+      title
       set_dates
+    end
+
+    def cal_title
+      if @head["meta"] && @head["meta"]["event"]
+        @head["meta"]["event"]
+      else
+        @head["title"]
+      end
     end
 
     def valid?
@@ -92,7 +101,7 @@ class PackCalendar
     def title
       return @title unless @title.nil?
 
-      @title = head["title"].sub(" - Save The Date", "")
+      @title = cal_title.sub(": Save The Date", "")
       @title = "Pack Meeting" if @title.match(" Pack Meeting")
       @title
     end
@@ -115,7 +124,8 @@ class PackCalendar
       head["uuid"].downcase
     end
 
-    def mtime
+    def dtstamp
+      # @source_file.birthtime
       @source_file.mtime
     end
 
@@ -201,7 +211,7 @@ class PackCalendar
   end
   def run!
     load_events_from_posts!
-    check_posts!
+    # check_posts! # TODO
     generate!
   end
   def posts
@@ -235,7 +245,18 @@ class PackCalendar
       next if path.basename.to_s[0] == "."
       source_file = dir.join(path)
       parts = source_file.read.split("---")
-      @posts << Event.new(@cwd, tzid, yaml_load("---\n" + parts[1].strip + "\n"), markdown_load(parts[2..-1].join("\n").strip), source_file)
+
+      data = yaml_load("---\n" + parts[1].strip + "\n")
+      head = markdown_load(parts[2..-1].join("\n").strip)
+      if data["meta"].is_a?(Array)
+        data["meta"].each do |m|
+          data["meta"] = m
+          @posts << Event.new(@cwd, tzid, data, head, source_file)
+        end
+      else
+        @posts << Event.new(@cwd, tzid, data, head, source_file)
+      end
+
     end.compact
   end
 
@@ -267,7 +288,7 @@ class PackCalendar
         e.x_apple_structured_location = post.location_structured if post.location_structured
         e.organizer = Icalendar::Values::CalAddress.new("mailto:contact@hsspack229.org", cn: 'Pack 229')
         e.uid = post.uuid
-        e.dtstamp = Icalendar::Values::DateTime.new(post.mtime, tzid: tzid)
+        e.dtstamp = Icalendar::Values::DateTime.new(post.dtstamp, tzid: tzid)
       end
 
       # Markdown
@@ -285,6 +306,8 @@ class PackCalendar
         post.title
       end
       @markdown << " * __#{post.event_start.strftime("%a %m/%d")}:__ #{titl}"
+
+      # @markdown << Jekyll::FormatMeta.format_upcoming_item(UpcomingPost.new(post, post.head["meta"]))
 
     end
   end

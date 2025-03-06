@@ -402,7 +402,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250121T112443
+DTSTAMP;TZID=America/Los_Angeles:20250306T115031
 UID:22a4f8ce-8ee5-4511-9a29-527997238e97
 DTSTART;TZID=America/Los_Angeles:20250215T180000
 DTEND;TZID=America/Los_Angeles:20250215T190000
@@ -476,55 +476,155 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250224T110324
+DTSTAMP;TZID=America/Los_Angeles:20250305T230935
 UID:46c27fc1-6923-4006-b45e-7f205686cde0
 DTSTART;TZID=America/Los_Angeles:20250310T183000
 DTEND;TZID=America/Los_Angeles:20250310T193000
 CLASS:PUBLIC
-DESCRIPTION:Scouts at HSS can wear Class A uniforms to school on pack meeti
- ng days!
+DESCRIPTION:Please join us for our March Pack Meeting.\n\nScouts at HSS can
+  wear Class A uniforms to school on pack meeting days!
 LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2025/03/04/march-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250224T110327
+DTSTAMP;TZID=America/Los_Angeles:20250306T123936
 UID:7935f149-5fe3-413e-8c65-5ea81dd39000
 DTSTART;TZID=America/Los_Angeles:20250321T183000
 DTEND;TZID=America/Los_Angeles:20250321T193000
 CLASS:PUBLIC
-DESCRIPTION:
+DESCRIPTION:🪢: Pinewood Derby: Check In\n\nRace into fun at our Pinewood
+  Derby! Cub Scouts design and race custom pinewood cars in this exciting f
+ amily-friendly event. Join us for a day of creativity\, competition\, and 
+ fast-paced thrills! 🏆\n\nTentative Agenda for 3/22\n\n<table>\n  <thead
+ >\n    <tr>\n      <th>🕰️</th>\n      <th>⏰</th>\n      <th>📋</t
+ h>\n    </tr>\n    <tr>\n      <th> </th>\n      <th> </th>\n      <th>
+  </th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>8:30</td>\n
+       <td>9:00</td>\n      <td>Late Check-In</td>\n    </tr>\n    <tr>\n  
+     <td>9:00</td>\n      <td>10:00</td>\n      <td>Voting for Best Design<
+ /td>\n    </tr>\n    <tr>\n      <td>10:00</td>\n      <td>11:30</td>\n   
+    <td>Official Car Races</td>\n    </tr>\n    <tr>\n      <td>11:30</td>\
+ n      <td>12:00</td>\n      <td>Outlaw Races</td>\n    </tr>\n    <tr>\n 
+      <td>12:00</td>\n      <td>12:30</td>\n      <td>Awards</td>\n    </tr
+ >\n    <tr>\n      <td>12:30</td>\n      <td>2:30</td>\n      <td>Blue &am
+ p\; Gold Banquet</td>\n    </tr>\n  </tbody>\n</table>\n\nThings to Note\n
+ \n * Cars must be fully assembled before the event.\n * Check in will be f
+ rom 6:30 PM to 7:30 PM on Friday.\n * Please see rules [see link below] fo
+ r weight and size requirements.\n\nAfter the races\, please join us in cel
+ ebrating our scouting achievements at our Blue and Gold Banquet! Enjoy del
+ icious food\, ceremonies\, and entertainment as we recognize scouts’ acc
+ omplishments and strengthen our scouting community bonds. It’s a memorab
+ le occasion for all!\n\nPlease let us know if you will be attending the Bl
+ ue and Gold Banquet by RSVPing to the Evite [see link below] by March 20.\
+ n\n * We will need families to bring drinks\, chips\, etc. Please please s
+ ignup [see link below] to bring something to the pot-luck.\n * The Pack wi
+ ll supply and cook the main course (hamburgers\, hot dogs\, veggie burgers
+ ) and dessert.\n * We ask that you please send $20 per family via Zelle (2
+ 29@mrhowton.com) to help cover the cost of food.\n\nVolunteers Needed\n\n 
+ * If you’d like to help out with set-up of the Pinewood Derby and/or the
+  Blue and Gold\, please signup [see link below].\n\nrules: https://hsspack
+ 229.org/docs/pwd-rules\n\nRSVPing to the Evite: https://evite.me/fFVxSmVQb
+ J\n\nplease signup: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9Toh
+ KuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
 LOCATION:HSS Gym\n1198 Redmond Avenue\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Check In
+URL;VALUE=URI:https://hsspack229.org/2025/03/05/pinewood-derby-check-in
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
   San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250224T110329
-UID:8aef6619-3ac6-401c-87bb-5de6ac692b34
+DTSTAMP;TZID=America/Los_Angeles:20250306T123936
+UID:7935f149-5fe3-413e-8c65-5ea81dd39000
 DTSTART;TZID=America/Los_Angeles:20250322T093000
-DTEND;TZID=America/Los_Angeles:20250322T120000
+DTEND;TZID=America/Los_Angeles:20250322T123000
 CLASS:PUBLIC
-DESCRIPTION:
+DESCRIPTION:🪢: Pinewood Derby: Races\n\nRace into fun at our Pinewood De
+ rby! Cub Scouts design and race custom pinewood cars in this exciting fami
+ ly-friendly event. Join us for a day of creativity\, competition\, and fas
+ t-paced thrills! 🏆\n\nTentative Agenda for 3/22\n\n<table>\n  <thead>\n
+     <tr>\n      <th>🕰️</th>\n      <th>⏰</th>\n      <th>📋</th>\
+ n    </tr>\n    <tr>\n      <th> </th>\n      <th> </th>\n      <th> </
+ th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>8:30</td>\n    
+   <td>9:00</td>\n      <td>Late Check-In</td>\n    </tr>\n    <tr>\n      
+ <td>9:00</td>\n      <td>10:00</td>\n      <td>Voting for Best Design</td>
+ \n    </tr>\n    <tr>\n      <td>10:00</td>\n      <td>11:30</td>\n      <
+ td>Official Car Races</td>\n    </tr>\n    <tr>\n      <td>11:30</td>\n   
+    <td>12:00</td>\n      <td>Outlaw Races</td>\n    </tr>\n    <tr>\n     
+  <td>12:00</td>\n      <td>12:30</td>\n      <td>Awards</td>\n    </tr>\n 
+    <tr>\n      <td>12:30</td>\n      <td>2:30</td>\n      <td>Blue &amp\; 
+ Gold Banquet</td>\n    </tr>\n  </tbody>\n</table>\n\nThings to Note\n\n *
+  Cars must be fully assembled before the event.\n * Check in will be from 
+ 6:30 PM to 7:30 PM on Friday.\n * Please see rules [see link below] for we
+ ight and size requirements.\n\nAfter the races\, please join us in celebra
+ ting our scouting achievements at our Blue and Gold Banquet! Enjoy delicio
+ us food\, ceremonies\, and entertainment as we recognize scouts’ accompl
+ ishments and strengthen our scouting community bonds. It’s a memorable o
+ ccasion for all!\n\nPlease let us know if you will be attending the Blue a
+ nd Gold Banquet by RSVPing to the Evite [see link below] by March 20.\n\n 
+ * We will need families to bring drinks\, chips\, etc. Please please signu
+ p [see link below] to bring something to the pot-luck.\n * The Pack will s
+ upply and cook the main course (hamburgers\, hot dogs\, veggie burgers) an
+ d dessert.\n * We ask that you please send $20 per family via Zelle (229@m
+ rhowton.com) to help cover the cost of food.\n\nVolunteers Needed\n\n * If
+  you’d like to help out with set-up of the Pinewood Derby and/or the Blu
+ e and Gold\, please signup [see link below].\n\nrules: https://hsspack229.
+ org/docs/pwd-rules\n\nRSVPing to the Evite: https://evite.me/fFVxSmVQbJ\n\
+ nplease signup: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKt
+ mEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
 LOCATION:HSS Gym\n1198 Redmond Avenue\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Races
+URL;VALUE=URI:https://hsspack229.org/2025/03/05/pinewood-derby-check-in
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
   San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250223T183701
-UID:fbb8e605-4bd6-4b50-9f27-8b6cbeb6eaf0
-DTSTART;TZID=America/Los_Angeles:20250322T120000
-DTEND;TZID=America/Los_Angeles:20250322T140000
+DTSTAMP;TZID=America/Los_Angeles:20250306T123936
+UID:7935f149-5fe3-413e-8c65-5ea81dd39000
+DTSTART;TZID=America/Los_Angeles:20250322T123000
+DTEND;TZID=America/Los_Angeles:20250322T143000
 CLASS:PUBLIC
-DESCRIPTION:
+DESCRIPTION:🪢: Blue &amp\; Gold BBQ\n\nRace into fun at our Pinewood Der
+ by! Cub Scouts design and race custom pinewood cars in this exciting famil
+ y-friendly event. Join us for a day of creativity\, competition\, and fast
+ -paced thrills! 🏆\n\nTentative Agenda for 3/22\n\n<table>\n  <thead>\n 
+    <tr>\n      <th>🕰️</th>\n      <th>⏰</th>\n      <th>📋</th>\n
+     </tr>\n    <tr>\n      <th> </th>\n      <th> </th>\n      <th> </t
+ h>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>8:30</td>\n     
+  <td>9:00</td>\n      <td>Late Check-In</td>\n    </tr>\n    <tr>\n      <
+ td>9:00</td>\n      <td>10:00</td>\n      <td>Voting for Best Design</td>\
+ n    </tr>\n    <tr>\n      <td>10:00</td>\n      <td>11:30</td>\n      <t
+ d>Official Car Races</td>\n    </tr>\n    <tr>\n      <td>11:30</td>\n    
+   <td>12:00</td>\n      <td>Outlaw Races</td>\n    </tr>\n    <tr>\n      
+ <td>12:00</td>\n      <td>12:30</td>\n      <td>Awards</td>\n    </tr>\n  
+   <tr>\n      <td>12:30</td>\n      <td>2:30</td>\n      <td>Blue &amp\; G
+ old Banquet</td>\n    </tr>\n  </tbody>\n</table>\n\nThings to Note\n\n * 
+ Cars must be fully assembled before the event.\n * Check in will be from 6
+ :30 PM to 7:30 PM on Friday.\n * Please see rules [see link below] for wei
+ ght and size requirements.\n\nAfter the races\, please join us in celebrat
+ ing our scouting achievements at our Blue and Gold Banquet! Enjoy deliciou
+ s food\, ceremonies\, and entertainment as we recognize scouts’ accompli
+ shments and strengthen our scouting community bonds. It’s a memorable oc
+ casion for all!\n\nPlease let us know if you will be attending the Blue an
+ d Gold Banquet by RSVPing to the Evite [see link below] by March 20.\n\n *
+  We will need families to bring drinks\, chips\, etc. Please please signup
+  [see link below] to bring something to the pot-luck.\n * The Pack will su
+ pply and cook the main course (hamburgers\, hot dogs\, veggie burgers) and
+  dessert.\n * We ask that you please send $20 per family via Zelle (229@mr
+ howton.com) to help cover the cost of food.\n\nVolunteers Needed\n\n * If 
+ you’d like to help out with set-up of the Pinewood Derby and/or the Blue
+  and Gold\, please signup [see link below].\n\nrules: https://hsspack229.o
+ rg/docs/pwd-rules\n\nRSVPing to the Evite: https://evite.me/fFVxSmVQbJ\n\n
+ please signup: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtm
+ EWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
 LOCATION:HSS Gym\n1198 Redmond Avenue\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Blue & Gold BBQ
+URL;VALUE=URI:https://hsspack229.org/2025/03/05/pinewood-derby-check-in
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
   San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
@@ -596,7 +696,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20250120T114934
+DTSTAMP;TZID=America/Los_Angeles:20250306T131710
 UID:f5890112-2a48-4c7d-8afe-e1dbde7050a1
 DTSTART;TZID=America/Los_Angeles:20250502T170000
 DTEND;TZID=America/Los_Angeles:20250504T110000
@@ -612,7 +712,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Ed R. Levin County Park;X-ADDRESS="3100
   Calaveras Road, Milpitas, CA 95035";VALUE=URI:geo:37.446093,-121.856453
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP;TZID=America/Los_Angeles:20241120T095250
+DTSTAMP;TZID=America/Los_Angeles:20250305T231410
 UID:d448588a-1001-4ae3-a223-880a8a4f2cd1
 DTSTART;TZID=America/Los_Angeles:20250512T183000
 DTEND;TZID=America/Los_Angeles:20250512T193000

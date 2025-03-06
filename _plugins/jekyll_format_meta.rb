@@ -1,4 +1,16 @@
 class Integer
+  def hours
+    self * 60 * 60
+  end
+  def hour
+    hours
+  end
+  def minutes
+    self * 60
+  end
+  def minute
+    minutes
+  end
   def ordinalize
     if (11..13).include?(self % 100)
       "#{self}th"
@@ -20,6 +32,7 @@ module Jekyll
     end
     def format_meta(meta)
       return "" if meta.nil?
+      return meta.map{ |m| format_meta(m) }.join("\n") if meta.is_a?(Array)
       umks = (meta.keys.map(&:to_sym) - meta_categories.keys - hidden_categories)
       if umks.any?
         raise "Unknown Meta Key: #{umks.inspect}"
@@ -29,7 +42,7 @@ module Jekyll
         h = ["<ul>"]
         meta_categories.keys.each do |k|
           if i = meta[k.to_s]
-            h << "<li>" + format_meta_item([k.to_s, i]) + "</li>"
+            h << "<li>" + format_meta_item([k.to_s, i], meta) + "</li>"
           end
         end
         h << "</ul>"
@@ -39,7 +52,7 @@ module Jekyll
     def format_meta_for_email(body)
       if body["meta"]
         body["meta"].map do |i|
-          format_meta_item(i) unless [ :date, :time, :location ].include?(i[0].to_sym)
+          format_meta_item(i, body["meta"]) unless [ :date, :time, :location ].include?(i[0].to_sym)
         end.compact.join("\n") + "\n\n"
       end
     end
@@ -53,6 +66,7 @@ module Jekyll
     end
     def meta_categories
       {
+        event: "🪢",
         date: "🗓️ Date",
         time: "⏰ Time",
         location: "📍 Location",
@@ -67,7 +81,7 @@ module Jekyll
     def hidden_categories
       [ :duration ]
     end
-    def format_meta_item(input)
+    def format_meta_item(input, meta)
       type = input[0].to_sym
 
       return nil if hidden_categories.include?(type)
@@ -91,6 +105,21 @@ module Jekyll
         end.join(" - ")
       elsif type == :time
         data = data.join(" to ") if data.is_a?(Array)
+
+        if duration_value = meta["duration"]
+          # Pulled from Calendar RB
+          number, unit = *duration_value.split(" ")
+          number = number.to_i
+          unit = unit.to_sym
+          raise "bad unit" unless [ :minute, :minutes, :hour, :hours ].include?(unit)
+          time_length = number.send(unit)
+          #
+
+          time_length = Time.parse(data) + time_length
+          time_length = time_length.strftime("%l:%M %p")
+          data = [data,time_length].join(" to ")
+        end
+
         data
       elsif type == :contact && data.is_a?(Hash)
         link(data["name"], "mailto:#{data["email"]}")

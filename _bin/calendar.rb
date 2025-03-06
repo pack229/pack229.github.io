@@ -121,7 +121,7 @@ class PackCalendar
     end
 
     def uuid
-      head["uuid"].downcase
+      (head["meta"]["uuid"] || head["uuid"]).downcase
     end
 
     def dtstamp

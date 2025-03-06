@@ -11,16 +11,19 @@ meta:
     time: 6:30 PM
     duration: 1 hour
     location: HSS Gym
+    uuid: 38398B36-0F50-4762-B496-118CB91F7F45
   - event: "Pinewood Derby: Races"
     date: 2025-03-22
     time: 9:30 AM
     duration: 180 minutes
     location: HSS Gym
+    uuid: 839740B7-4C6D-45A0-9F15-198D739F6D97
   - event: "Blue & Gold BBQ"
     date: 2025-03-22
     time: 12:30 PM
     duration: 2 hours
     location: HSS Gym
+    uuid: 969BD8DF-F821-48A2-A81A-4FFED5EF0189
   - signup:
       - title: RSVP for Races (by 3/20)
         url: https://evite.me/fFVxSmVQbJ
@@ -56,7 +59,7 @@ Please let us know if you will be attending the Blue and Gold Banquet by [RSVPin
 
 * We ask that you please send $20 per family via Zelle (229@mrhowton.com) to help cover the cost of food.
 * The Pack will supply and cook the main course (hamburgers, hot dogs, veggie burgers) and dessert.
-* We will need families to bring drinks, chips, etc. Please [please signup](https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128) to bring something to the pot-luck.
+* We will need families to bring drinks, chips, etc. Please [please signup](https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4) to bring something to the pot-luck.
 
 ### Volunteers Needed
 

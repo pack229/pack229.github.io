@@ -8,28 +8,14 @@ layout: default
               <div class="entry-content">
 
 <h2>Welcome</h2>
-
 <p>Welcome to the new Holy Spirit School Pack 229 Website. Please see updates on upcoming Pack events below.</p>
-
-{% assign upcoming = paginator.posts | where_exp:"item", "item.tags contains 'Upcoming'" | sort: "meta.date" %}
-{% if upcoming.size > 0 %}
-  <h3>Upcoming Event Calendar</h3>
-  <div class="calendar-cards">
-  {% for post in upcoming %}
-    <div class="calendar-card">
-      <a href="{{ site.baseurl }}{{ post.url }}"><p class="date">{{post.meta["date"] | first_date: "%A %-m/%-d" }}</p></a>
-      <a href="{{ site.baseurl }}{{ post.url }}"><p class="name">{{ post.title }}</p></a>
-    </div>
-  {% endfor %}
-  </div>
-{% endif %}
+{{paginator.posts | format_upcoming}}
 
                 </div><!-- .entry-content -->
             </div><!-- .entry-box -->
         </article><!-- .post -->
     </div><!-- .inner -->
 </main><!-- .content -->
-
 
 <main class="content fade-in-down delay-0_75s">
     <div class="inner">

@@ -30,6 +30,32 @@ module Jekyll
     def link(name, url)
       "<a href=\"#{url}\">#{name}</a>"
     end
+
+    def format_upcoming(posts)
+      upcoming = posts.select{ |i| i["tags"].include?("Upcoming") } # .map{ |p| [p["meta"]].flatten.map{ |m| p.merge(m) } }.flatten
+      #  sort: "meta.date" %}
+      if upcoming.any?
+        h = ['<h3>Upcoming Event Calendar</h3>']
+        h << '<div class="calendar-cards">'
+        upcoming.each do |post|
+          h << '<div class="calendar-card">'
+          # | first_date: "%A %-m/%-d
+          date = "date"
+          h << "<a href=\"#{post.url}\"><p class=\"date\">#{date}</p></a>"
+          h << "<a href=\"#{post.url}\"><p class=\"name\">#{post['title']}</p></a>"
+          h << '</div>'
+        end
+        h << '</div>'
+        h.join("\n")
+      else
+        ""
+      end
+    end
+
+    #   <div class="calendar-card">
+   #
+    #
+
     def format_meta(meta)
       return "" if meta.nil?
       return meta.map{ |m| format_meta(m) }.join("\n") if meta.is_a?(Array)
@@ -143,6 +169,7 @@ module Jekyll
       date.strftime(format)
     end
   end
+
 end
 
 Liquid::Template.register_filter(Jekyll::FormatMeta) if Module.const_defined?("Liquid::Template")

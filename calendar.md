@@ -8,8 +8,8 @@ featured_image: about.jpg
 ## Subscribe
 
 * [Subscribe in Apple Calendar](webcal://hsspack229.org/ics/pack229.ics)
-* [Subscribe in Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=http://hsspack229.org/ics/pack229.ics)
-* [Copy Calendar Feed](https://hsspack229.org/ics/pack229.ics)
+<!-- * [Subscribe in Google Calendar](https://calendar.google.com/calendar/u/0/r?cid=http://hsspack229.org/ics/pack229.ics) -->
+* <a onclick='navigator.clipboard.writeText("https://hsspack229.org/ics/pack229.ics");alert("Copied to Clipboard")'>Copy Calendar Feed<a/>
 
 * You can subscribe in Apple Calendar, Google Calendar, or any other application that supports `.ics` files.
 * We recommend setting `Auto-refresh` to `Daily` so you always have the latest information.

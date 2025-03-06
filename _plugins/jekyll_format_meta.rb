@@ -26,18 +26,17 @@ class Integer
 end
 
 class UpcomingPost
+  attr_accessor :url
   def initialize(post, meta)
     @p = post
     @m = meta
+    @url = @p.url if @p.respond_to?(:url)
   end
   def date
     @m['date']
   end
   def data
     @p.data
-  end
-  def url
-    @p.url
   end
   def upcoming_cal_date
     data = [@m['date']].flatten.first

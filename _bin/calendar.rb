@@ -274,7 +274,7 @@ class PackCalendar
     current_year = nil
     current_month = nil
 
-    sorted_posts.each do |post|
+    sorted_posts.each_with_index do |post, i|
 
       # iCal
       cal.event do |e|
@@ -293,22 +293,30 @@ class PackCalendar
       end
 
       # Markdown
+
+      if post.event_end.month != current_month && i != 0
+        @markdown << '</div>'
+      end
+
       if post.event_start.year != current_year
-        @markdown << "# #{post.event_start.year}"
+        @markdown << "# #{post.event_start.year}\n"
         current_year = post.event_start.year
       end
       if post.event_end.month != current_month
         @markdown << "## #{post.event_end.strftime("%B")}"
+        @markdown << '<div class="calendar-cards">'
         current_month = post.event_end.month
       end
-      titl = if post.url
-        "[#{post.title}](#{post.url})"
-      else
-        post.title
-      end
-      @markdown << " * __#{post.event_start.strftime("%a %m/%d")}:__ #{titl}"
+      # titl = if post.url
+      #   "[#{post.title}](#{post.url})"
+      # else
+      #   post.title
+      # end
+      # @markdown << " * __#{post.event_start.strftime("%a %m/%d")}:__ #{titl}"
 
-      # @markdown << Jekyll::FormatMeta.format_upcoming_item(UpcomingPost.new(post, post.head["meta"]))
+      up = UpcomingPost.new(post.head, post.head["meta"])
+      up.url = post.url
+      @markdown << Meta.new.format_upcoming_item(up)
 
     end
   end

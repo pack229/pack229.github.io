@@ -122,7 +122,7 @@ module Jekyll
     def format_meta_for_email(body)
       if body["meta"]
         body["meta"].map do |i|
-          format_meta_item(i, body["meta"]) unless [ :date, :time, :location ].include?(i[0].to_sym)
+          format_meta_item(i, body["meta"]) unless hidden_from_calendar.include?(i[0].to_sym)
         end.compact.join("\n") + "\n\n"
       end
     end
@@ -147,6 +147,9 @@ module Jekyll
         contact: "📇 Contact",
         photo_download: "📸",
       }
+    end
+    def hidden_from_calendar
+      [ :date, :time, :location, :event ]
     end
     def hidden_categories
       [ :duration ]

@@ -59,12 +59,7 @@ class PackCalendar
           tag.inner_text
         else
           link = "#{$base_url}#{link}" unless link.match(/^http/)
-          num = if pos = links.map{ |it| it[:url] }.index(link)
-            pos+1
-          else
-            links << { url: link, title: tag.inner_text }
-            links.count
-          end
+          links << { url: link, title: tag.inner_text }
           "#{tag.inner_text} [see link below]"
         end
         tag.after(text)
@@ -97,13 +92,13 @@ class PackCalendar
       return "" if body_tag.nil?
       body = body_tag.inner_html.gsub(/<!--more-->.*$/m, "... [See Website]").to_s.gsub(/<!--.*?-->/, "").to_s.gsub(/\n{3,}/, "\n\n").to_s
 
-      clean_links = []
+      link_urls = []
       if links.any?
         links.each_with_index do |l, i|
-          clean_links << "#{l[:title]}: #{l[:url]}"
+          body << "#{l[:title]}: #{l[:url]}\n\n" unless link_urls.include?(l[:url])
+          link_urls << l[:url]
         end
       end
-      body << clean_links.uniq.join("\n\n")
 
       body.strip
     end

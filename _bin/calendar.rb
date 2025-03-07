@@ -80,7 +80,7 @@ class PackCalendar
 
       body.css("table").each do |table|
         table.css("tr").each do |row|
-          table.after(row.css("th,td").map{ |cell| cell.inner_text }.join(" | ") + "\n")
+          table.after(row.css("td").map{ |cell| cell.inner_text }.join(" | ") + "\n")
         end
         table.remove
       end
@@ -99,7 +99,7 @@ class PackCalendar
 
       if links.any?
         links.each_with_index do |l, i|
-          body << "#{l[:title]}: #{l[:url]}\n\n"
+          body << "#{l[:title].capitalize}: #{l[:url]}\n\n"
         end
       end
       body.strip
@@ -190,6 +190,7 @@ class PackCalendar
       date = @meta["date"]
       @valid = !(head["calendar"] || "").split(",").include?("skip")
       if @valid
+
         if date.is_a?(Array) && date.length == 2
           event_start = DateTime.parse(date[0])
           @event_start = Icalendar::Values::DateTime.new(event_start, tzid: tzid)
@@ -202,6 +203,7 @@ class PackCalendar
         else
           @valid = false
         end
+
       end
     end
 

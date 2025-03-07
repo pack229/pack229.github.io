@@ -25,7 +25,7 @@ meta:
     location: HSS Gym
     uuid: 969BD8DF-F821-48A2-A81A-4FFED5EF0189
   - signup:
-      - title: RSVP for Races (by 3/20)
+      - title: RSVP by 3/20
         url: https://evite.me/fFVxSmVQbJ
       - title: Volunteer to Help
         url: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
@@ -55,7 +55,7 @@ Race into fun at our Pinewood Derby! Cub Scouts design and race custom pinewood 
 
 After the races, please join us in celebrating our scouting achievements at our Blue and Gold Banquet! Enjoy delicious food, ceremonies, and entertainment as we recognize scouts' accomplishments and strengthen our scouting community bonds. It's a memorable occasion for all!
 
-Please let us know if you will be attending the Blue and Gold Banquet by [RSVPing to the Evite](https://evite.me/fFVxSmVQbJ) by March 20.
+Please [RSVP for the Blue and Gold Banquet](https://evite.me/fFVxSmVQbJ) by March 20.
 
 * We ask that you please send $20 per family via Zelle (229@mrhowton.com) to help cover the cost of food.
 * The Pack will supply and cook the main course (hamburgers, hot dogs, veggie burgers) and dessert.

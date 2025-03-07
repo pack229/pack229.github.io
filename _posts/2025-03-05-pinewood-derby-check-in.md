@@ -39,7 +39,7 @@ meta:
     signup:
       - title: RSVP by 3/20
         url: https://evite.me/fFVxSmVQbJ
-      - title: Volunteer to Help
+      - title: Potluck Signup & Volunteer to Help
         url: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=0#gid=0
 ---
 

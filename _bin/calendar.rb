@@ -97,11 +97,14 @@ class PackCalendar
       return "" if body_tag.nil?
       body = body_tag.inner_html.gsub(/<!--more-->.*$/m, "... [See Website]").to_s.gsub(/<!--.*?-->/, "").to_s.gsub(/\n{3,}/, "\n\n").to_s
 
+      clean_links = []
       if links.any?
         links.each_with_index do |l, i|
-          body << "#{l[:title].capitalize}: #{l[:url]}\n\n"
+          clean_links << "#{l[:title]}: #{l[:url]}"
         end
       end
+      body << clean_links.uniq.join("\n\n")
+
       body.strip
     end
 

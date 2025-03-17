@@ -174,8 +174,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 4/7 @  6:30 PM</p>
-<p class="name">April Pack Meeting</p>
+<a href="https://hsspack229.org/2025/03/16/april-pack-meeting"><p class="date">Mon 4/7 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/03/16/april-pack-meeting"><p class="name">April Pack Meeting</p></a>
 </div>
 
 <div class="calendar-card">

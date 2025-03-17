@@ -8,6 +8,8 @@ uuid: 49C65B1A-B922-4FD2-ABD8-275E55DEFA5F
 featured_image: packmeeting.jpg
 ---
 
+At the [January Pack Meeting](/2024/12/22/january-pack-meeting/):
+
  * Scouts designed their Den Flags, stay tuned for the results!
  * Please see the post about the [Founders Day Mass](/2025/01/13/founders-day-mass/) and [Religious Emblems Program Review](/2025/01/13/religious-emblems-program-review/).
  * If you still need a Pinewood Derby Car please [reach out](mailto:djd@davisca.org).

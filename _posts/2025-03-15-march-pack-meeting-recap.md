@@ -8,7 +8,7 @@ uuid: F79F3808-E6E0-40EC-B0EF-630D3BEF22FD
 featured_image: packmeeting.jpg
 ---
 
-At the March Pack meeting we had a scavenger hunt to learn about:
+At the [March Pack Meeting](/2025/03/04/march-pack-meeting/) we had a scavenger hunt to learn about:
 
   * The [History of Scouting](https://www.scout.org/who-we-are/scout-movement/scoutings-history)
   * The [6 Scout Knots](https://scoutingweb.com/boy-scout-knots/)

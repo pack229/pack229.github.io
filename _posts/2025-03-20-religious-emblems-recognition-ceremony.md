@@ -17,4 +17,6 @@ meta:
 
 For those scouts that participated, this year's [Catholic Religious Emblems](/2024/09/28/religious-emblems/) Recognition Ceremony will be held Sunday, March 30 at 4:00 P.M. at the [Cathedral Basilica of St. Joseph](https://www.stjosephcathedral.org) with Bishop Oscar Cantú presiding. Scouts should wear their full Class A uniforms and plan to arrive at 3:15 P.M. for check in. A simple reception will follow.
 
+See the the [flyer](/pdf/2025/2025-emblems-ceremony.pdf) for more information and fill out the [photo consent](/pdf/2025/2025-emblems-ceremony-photo-consent.pdf) to bring with you.
+
 Please [reach out](mailto:djd@apple.com) if you have any questions.

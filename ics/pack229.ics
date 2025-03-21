@@ -600,6 +600,31 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
   San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20250321T060136
+UID:7d085a50-b839-46db-b004-a9dd7956f89b
+DTSTART;TZID=America/Los_Angeles:20250330T151500
+DTEND;TZID=America/Los_Angeles:20250330T170000
+CLASS:PUBLIC
+DESCRIPTION:📇 Contact: DJ Davis\n\nFor those scouts that participated\, 
+ this year’s Catholic Religious Emblems [see link below] Recognition Cere
+ mony will be held Sunday\, March 30 at 4:00 P.M. at the Cathedral Basilica
+  of St. Joseph [see link below] with Bishop Oscar Cantú presiding. Scouts
+  should wear their full Class A uniforms and plan to arrive at 3:15 P.M. f
+ or check in. A simple reception will follow.\n\nPlease reach out if you ha
+ ve any questions.\n\nCatholic Religious Emblems: https://hsspack229.org/20
+ 24/09/28/religious-emblems/\n\nCathedral Basilica of St. Joseph: https://w
+ ww.stjosephcathedral.org
+LOCATION:Cathedral Basilica of St. Joseph\n80 S Market St\, San Jose\, CA 9
+ 5113
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Catholic Religious Emblems Recognition Ceremony
+URL;VALUE=URI:https://hsspack229.org/2025/03/20/religious-emblems-recogniti
+ on-ceremony
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Cathedral Basilica of St. Joseph;X-ADDR
+ ESS="80 S Market St, San Jose, CA 95113";VALUE=URI:geo:37.334034,-121.8905
+ 00
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20250317T001026
 UID:0807d58a-6468-407a-a0a7-b7a454b8cc5e
 DTSTART;TZID=America/Los_Angeles:20250407T183000

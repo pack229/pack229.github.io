@@ -3,7 +3,7 @@ layout: post
 title: March Pack Meeting Recap
 date: 2025-03-15
 calendar: skip
-tags: [Meetings]
+tags: [Meetings, Photos]
 uuid: F79F3808-E6E0-40EC-B0EF-630D3BEF22FD
 featured_image: packmeeting.jpg
 ---

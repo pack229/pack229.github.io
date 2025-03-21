@@ -5,10 +5,6 @@ date:   2024-09-28
 featured_image: religious.jpg
 tags: [Religious Emblems]
 uuid: B03EFFEE-7F48-4BEA-9FAE-30963FB9D0D4
-meta:
-  contact:
-    name: Jeannie Jakob
-    email: jeanne.duax@gmail.com
 ---
 
 If you are interested in fostering your scout's Catholic identity and faith, the [Religious Emblems](https://nccs-bsa.org/religious-emblems/) program is a great way to establish regular conversation on matters of faith and service. Upon completion of a parent-directed workbook, your scout will receive a religious emblem to pin to their uniform. They will receive this emblem at a Sunday, March 30th at 4:00 PM Catholic Scouting Prayer Service and Recognition Ceremony at the beautiful Cathedral Basilica of St. Joseph in downtown San Jose.

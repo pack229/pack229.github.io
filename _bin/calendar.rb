@@ -173,8 +173,9 @@ class PackCalendar
       if loc = @meta["location"]
         if loc_data = Meta.new.location_map(loc)
           params = Rack::Utils.parse_query(URI(loc_data[:map]).query)
-          raise "missing ll from map" if params["ll"].nil?
-          Icalendar::Values::Uri.new("geo:#{params["ll"]}", {
+          ll =  params["ll"] || params["coordinate"]
+          raise "missing ll/coordinate from map" if ll.nil?
+          Icalendar::Values::Uri.new("geo:#{ll}", {
             "X-TITLE" => loc,
             "X-ADDRESS" => loc_data[:address]
           })

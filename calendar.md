@@ -167,6 +167,11 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2025/03/05/pinewood-derby-check-in"><p class="name">Blue & Gold BBQ</p></a>
 </div>
 
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/03/20/religious-emblems-recognition-ceremony"><p class="date">Sun 3/30 @  3:15 PM</p></a>
+<a href="https://hsspack229.org/2025/03/20/religious-emblems-recognition-ceremony"><p class="name">Catholic Religious Emblems Recognition Ceremony</p></a>
+</div>
+
 </div>
 
 ## April

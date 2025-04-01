@@ -74,3 +74,6 @@ permalink: pretty
 markdown: kramdown
 kramdown:
     auto_ids: false
+
+imagesurl: "/images/events/"
+thumbsurl: "/images/events/"

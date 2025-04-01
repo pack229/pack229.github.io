@@ -2,7 +2,7 @@
 layout: post
 title: Pindwood Derby and Blue & Gold BBQ Photos
 date: 2025-03-31
-tags: [Pinewood Derby]
+tags: [Pinewood Derby,Photos]
 uuid: 70B07325-0716-4310-9F6A-38DA0CA27751
 featured_image: pwd.jpg
 ---

@@ -75,5 +75,8 @@ markdown: kramdown
 kramdown:
     auto_ids: false
 
-imagesurl: "/images/events/"
-thumbsurl: "/images/events/"
+defaults:
+  - scope:
+      path: "images/events"
+    values:
+      images_events: true

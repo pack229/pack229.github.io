@@ -11,3 +11,6 @@ https://jamstackthemes.dev/theme/blogbox-jekyll-theme/
 https://realfavicongenerator.net
 
 `jekyll s`
+
+mkdir thumbs
+sips -Z 880 *.jpg --out thumbs/

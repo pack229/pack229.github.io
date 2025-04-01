@@ -2,7 +2,7 @@
 layout: post
 title: Catholic Religious Emblems Recognition Ceremony
 date: 2025-03-20
-tags: [Events, Upcoming, Religious Emblems]
+tags: [Events, Religious Emblems]
 uuid: 7D085A50-B839-46DB-B004-A9DD7956F89B
 featured_image: religious.jpg
 meta:

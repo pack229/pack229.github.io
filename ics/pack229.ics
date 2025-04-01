@@ -365,7 +365,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
  ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250214T065135
+DTSTAMP:20250321T060306
 UID:efc617ac-f1be-4d42-acf3-2e9c4331ec95
 DTSTART;TZID=America/Los_Angeles:20250210T180000
 DTEND;TZID=America/Los_Angeles:20250210T183000
@@ -478,7 +478,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250307T002412
+DTSTAMP:20250322T064401
 UID:38398b36-0f50-4762-b496-118cb91f7f45
 DTSTART;TZID=America/Los_Angeles:20250321T183000
 DTEND;TZID=America/Los_Angeles:20250321T193000
@@ -519,7 +519,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
   San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250307T002412
+DTSTAMP:20250322T064401
 UID:839740b7-4c6d-45a0-9f15-198d739f6d97
 DTSTART;TZID=America/Los_Angeles:20250322T093000
 DTEND;TZID=America/Los_Angeles:20250322T123000
@@ -560,7 +560,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
   San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250307T002412
+DTSTAMP:20250322T064401
 UID:969bd8df-f821-48a2-a81a-4ffed5ef0189
 DTSTART;TZID=America/Los_Angeles:20250322T123000
 DTEND;TZID=America/Los_Angeles:20250322T143000
@@ -600,7 +600,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
   San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250321T060136
+DTSTAMP:20250401T050750
 UID:7d085a50-b839-46db-b004-a9dd7956f89b
 DTSTART;TZID=America/Los_Angeles:20250330T151500
 DTEND;TZID=America/Los_Angeles:20250330T170000
@@ -610,10 +610,14 @@ DESCRIPTION:📇 Contact: DJ Davis\n\nFor those scouts that participated\,
  mony will be held Sunday\, March 30 at 4:00 P.M. at the Cathedral Basilica
   of St. Joseph [see link below] with Bishop Oscar Cantú presiding. Scouts
   should wear their full Class A uniforms and plan to arrive at 3:15 P.M. f
- or check in. A simple reception will follow.\n\nPlease reach out if you ha
- ve any questions.\n\nCatholic Religious Emblems: https://hsspack229.org/20
- 24/09/28/religious-emblems/\n\nCathedral Basilica of St. Joseph: https://w
- ww.stjosephcathedral.org
+ or check in. A simple reception will follow.\n\nSee the the flyer [see lin
+ k below] for more information and fill out the photo consent [see link bel
+ ow] to bring with you.\n\nPlease reach out if you have any questions.\n\nC
+ atholic Religious Emblems: https://hsspack229.org/2024/09/28/religious-emb
+ lems/\n\nCathedral Basilica of St. Joseph: https://www.stjosephcathedral.o
+ rg\n\nflyer: https://hsspack229.org/pdf/2025/2025-emblems-ceremony.pdf\n\n
+ photo consent: https://hsspack229.org/pdf/2025/2025-emblems-ceremony-photo
+ -consent.pdf
 LOCATION:Cathedral Basilica of St. Joseph\n80 S Market St\, San Jose\, CA 9
  5113
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org

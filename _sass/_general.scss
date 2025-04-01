@@ -311,10 +311,14 @@ a.post-thumbnail:hover img {
     margin: 0 -30px 24px;
 }
 
+.gallery {
+
+}
+
 /* Thumbnails */
 figure.thumb {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   img {
     width: 330px;
     margin: 0 25px 25px 0;

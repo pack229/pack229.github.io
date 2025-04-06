@@ -312,7 +312,10 @@ a.post-thumbnail:hover img {
 }
 
 .gallery {
-
+  .count {
+    font-weight: bold;
+    text-align: center;
+  }
 }
 
 /* Thumbnails */

@@ -6,11 +6,17 @@ cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
 root = cwd.join("..")
 args = ARGV
 
-date = [args.shift,args.shift,args.shift]
+t = Time.now
+
+date = [t.strftime("%Y"),t.strftime("%m"),t.strftime("%d")]
 title = args.join(" ")
 args = args.map{ |it| it.downcase }
+title_slug = args.join("_")
 filename = root.join("_posts/#{(date+args).join("-")}.md")
 uuid = `uuidgen`.strip
+
+featured_image = "default.jpg"
+featured_image = "packmeeting.jpg" if title.match("Pack Meeting")
 
 contents = <<-END
 ---
@@ -19,7 +25,7 @@ title: #{title}
 date: #{date.join("-")}
 tags: [Events]
 uuid: #{uuid}
-featured_image: default.jpg
+featured_image: #{featured_image}
 meta:
   date:
     - 2024-10-25 5:00 PM
@@ -36,6 +42,10 @@ meta:
 ---
 
 CONTENT
+
+Scouts at HSS can wear Class A uniforms to school on pack meeting days!
+
+{% include gallery.html folder="2025/#{title_slug}" %}
 END
 
 filename.write(contents)

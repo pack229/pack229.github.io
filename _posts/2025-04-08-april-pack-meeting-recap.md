@@ -10,7 +10,7 @@ featured_image: packmeeting.jpg
 The scouts prepared for the [Spring Family Campout](/2025/01/19/spring-family-campout-date/) by:
 
 * Learning about campfire safety
-* Preparing a packing list
+* Preparing a packing list including the [Six Cub Scout Essentials](https://blog.scoutingmagazine.org/2017/08/08/cub-scout-six-essentials-half-dozen-items-pack-every-campout-hike/)
 * Suggesting meal plans
 * Reviewing [Leave No Trace](https://lnt.org) guidelines
 * Working on skits and songs for the campfire

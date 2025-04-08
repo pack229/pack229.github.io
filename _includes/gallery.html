@@ -9,7 +9,10 @@
     <img src="{{file.path | relative_url | replace_first: "/images/events/", "/images/thumbs/"}}" alt="{{filename}}" class="img-gallery" />
   </a></figure>
   {% if indx == 4 %}
-    <!--<p class="count">1 to 4 of {{sorted | size}} Photos</p>-->
+    {% capture footer_summary %}
+      <p class="count">1 to 4 of {{sorted | size}} Photos</p>
+    {% endcapture %}
+    {% assign page.footer_summary = footer_summary %}
     <!--more-->
   {% endif %}
 {% endfor %}

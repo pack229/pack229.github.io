@@ -200,6 +200,6 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<p class="date">Mon 5/12 @  6:30 PM</p>
-<p class="name">May Pack Meeting</p>
+<a href="https://hsspack229.org/2025/04/07/may-pack-meeting"><p class="date">Mon 5/12 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/04/07/may-pack-meeting"><p class="name">May Pack Meeting</p></a>
 </div>

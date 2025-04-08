@@ -62,6 +62,8 @@ Race into fun at our Pinewood Derby! Cub Scouts design and race custom pinewood 
  * Check in will be from 6:30 PM to 7:30 PM on Friday.
  * Cars must be fully assembled before the event.
 
+<!--more-->
+
 After the races, please join us in celebrating our scouting achievements at our Blue and Gold Banquet! Enjoy delicious food, ceremonies, and entertainment as we recognize scouts' accomplishments and strengthen our scouting community bonds. It's a memorable occasion for all!
 
 Please [RSVP for the Blue and Gold Banquet](https://evite.me/fFVxSmVQbJ) by March 20.

@@ -7,10 +7,8 @@ tags: [Raingutter Regatta, Events]
 uuid: 70222718-10CA-43E3-9298-962645D43AE2
 meta:
   date:
-    - 2024-09-28
-  time:
-    - 11:00 AM
-    - 2:00 PM
+    - 2024-09-28 11:00 AM
+    - 2024-09-28 2:00 PM
   location: HSS Courtyard
 ---
 

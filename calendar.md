@@ -34,6 +34,12 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2024/09/05/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
 </div>
 
+<div class="calendar-card">
+<a href="https://hsspack229.org/2024/09/18/raingutter-regatta"><p class="date">Sat 9/28 @ 11:00 AM</p></a>
+<a href="https://hsspack229.org/2024/09/18/raingutter-regatta"><p class="name">Raingutter Regatta</p></a>
+<a href="https://hsspack229.org/2024/09/18/raingutter-regatta"><p class="end">Until:  2:00 PM</p></a>
+</div>
+
 </div>
 
 ## October

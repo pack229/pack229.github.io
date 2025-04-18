@@ -75,6 +75,47 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20250418T225109
+UID:70222718-10ca-43e3-9298-962645d43ae2
+DTSTART;TZID=America/Los_Angeles:20240928T110000
+DTEND;TZID=America/Los_Angeles:20240928T140000
+CLASS:PUBLIC
+DESCRIPTION:It’s time to get out the paint and glue and put on your creat
+ ive caps for our annual Raingutter Regatta! You should have received your 
+ boat kit at the pack meeting last week\, please reach out to your Den lead
+ er if you still need one.\n\nSiblings are welcome! We kindly request a $10
+  donation to cover the cost of the kit and awards for non Scounts.\n\nBoat
+  Building: Before the races begin\, put on your creative cap and assemble 
+ your very own mini sailboat. This hands-on experience encourages problem-s
+ olving and craftsmanship.\n\nRace Day Excitement: Watch as your handcrafte
+ d sailboat takes to the water in friendly competition! Blow on the sails a
+ nd navigate your vessel along the rain gutter racetrack. It’s a test of 
+ precision and strategy.\n\nRefreshments: Enjoy a Pizza lunch as you mingle
+  with other Scouts and families. It’s a great time to share stories and 
+ build connections.\n\nWhat to Bring: Please bring your boat\, a sense of a
+ dventure\, and a willingness to have a blast!\n\nFriendly Competition: Com
+ pete against fellow Cub Scouts\, families\, and friends. Cheering\, encour
+ agement\, and sportsmanship are all part of the fun.\n\nAwards &amp\; Priz
+ es: Celebrate the winners and recognize the effort and creativity that wen
+ t into boat design. Prizes will be awarded to the top sailors and there wi
+ ll also be a design award for best design.\n\nRules: Please See More [see 
+ link below] for boat and race rules.\n\nDon’t miss this opportunity for 
+ your Cub Scout to learn about teamwork\, craftsmanship\, and the joy of fr
+ iendly competition. The Cub Scout Raingutter Regatta is a family-friendly 
+ event that combines fun and learning in a unique and exciting way.\n\nWhet
+ her you’re a seasoned sailor or a first-time boat builder\, this event p
+ romises memorable moments and a sense of accomplishment.\n\nCan’t wait t
+ o see you all out there!\n\nRead More to see the Regatta Rules…\n\n... [
+ See Website]See More: https://hsspack229.org/2024/08/25/raingutter-regatta
+ /#rules
+LOCATION:HSS Courtyard\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Raingutter Regatta
+URL;VALUE=URI:https://hsspack229.org/2024/09/18/raingutter-regatta
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Courtyard;X-ADDRESS="1198 Redmond A
+ ve, San Jose, CA 95120";VALUE=URI:geo:37.228396,-121.873264
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20241119T205506
 UID:eacd9e36-0710-4a90-8e8b-7b906a33e95a
 DTSTART;TZID=America/Los_Angeles:20241014T183000
@@ -683,7 +724,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Ed R. Levin County Park;X-ADDRESS="3100
   Calaveras Rd, Milpitas, CA 95035";VALUE=URI:geo:37.446093,-121.856453
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250418T212730
+DTSTAMP:20250418T215000
 UID:1582a1ab-fcf5-4fc6-8987-5d03ad373515
 DTSTART;TZID=America/Los_Angeles:20250510T100000
 DTEND;TZID=America/Los_Angeles:20250510T160000

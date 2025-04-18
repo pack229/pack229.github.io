@@ -55,11 +55,13 @@ class UpcomingPost
     end
   end
   def end_cal_date_formated
-    date = end_cal_date
-    format = if date && upcoming_cal_date && date.to_date == upcoming_cal_date.to_date
+    format = if same_day_event?
       "%l:%M %p"
     end
-    format_date(date, format = format)
+    format_date(end_cal_date, format = format)
+  end
+  def same_day_event?
+    end_cal_date && upcoming_cal_date && end_cal_date.to_date == upcoming_cal_date.to_date
   end
   def format_date(data, format = nil)
     if data.is_a?(DateTime)
@@ -195,10 +197,21 @@ module Jekyll
       elsif type == :location && location_data = location_map(data)
         [ link(data, location_data[:site]), link(location_data[:address], location_data[:map]) ].join(" | ")
       elsif type == :date || type == :deadline
-        data = [data].flatten.map do |d|
-          d = Date.parse(d) unless d.is_a?(Date)
-          d.strftime("%A %B #{d.day.ordinalize} %Y")
-        end.join(" - ")
+        if data.is_a?(Array)
+          s = data[0]
+          e = data[1]
+          s = DateTime.parse(s) unless s.is_a?(DateTime)
+          e = DateTime.parse(e) unless e.is_a?(DateTime)
+          end_formated = if s.to_date == e.to_date
+            e.strftime("%l:%M %p")
+          else
+            e.strftime("%A %B #{e.day.ordinalize} %Y @ %l:%M %p")
+          end
+          "#{s.strftime("%A %B #{s.day.ordinalize} %Y @ %l:%M %p")} - #{end_formated}"
+        else
+          data = Date.parse(data) unless data.is_a?(Date)
+          data.strftime("%A %B #{data.day.ordinalize} %Y")
+        end
       elsif type == :time
         data = data.join(" to ") if data.is_a?(Array)
 

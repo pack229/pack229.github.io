@@ -67,12 +67,12 @@ DESCRIPTION:Welcome back Scouts! We will be having our first pack meeting o
  ill work on the first advancement of the year: the Bobcat Adventure.\n\nSc
  outs at HSS can wear Class A uniforms to school on pack meeting days!\n\nR
  aingutter Regatta: https://hsspack229.org/2024/08/25/raingutter-regatta/
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/09/05/september-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20241119T205506
@@ -84,12 +84,12 @@ DESCRIPTION:Just a quick reminder about our Pack Meeting on Monday October
  14th at 6:30 PM in the library.\n\nWe’ll be reviewing recent activities 
  and we have a fun Halloween-themed Scout activity.\n\nScouts at HSS can we
  ar Class A uniforms to school on pack meeting days!
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/10/01/october-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20241119T205515
@@ -231,12 +231,12 @@ DESCRIPTION:Just a quick reminder about our Pack Meeting on Monday November
  !\n\nChristmas in the Park: https://hsspack229.org/2024/11/03/christmas-in
  -the-park/\n\nVeteran’s Day assembly: https://hsspack229.org/2024/11/02/
  veterans-day-assembly/
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/11/01/november-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20241119T205623
@@ -256,12 +256,12 @@ DESCRIPTION:In observance of Veteran’s Day\, the Scouts will be participa
  t Pack 229 Webelos Den will form an Color Guard for the flag ceremony - on
  e Boy Scout from 8th Grade will be assigned the honor of reading the comma
  nds.
-LOCATION:HSS Gym\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Veterans Day Assembly
 URL;VALUE=URI:https://hsspack229.org/2024/11/02/veterans-day-assembly
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
-  San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
+ n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20241129T193725
@@ -323,12 +323,12 @@ DTEND;TZID=America/Los_Angeles:20241216T193000
 CLASS:PUBLIC
 DESCRIPTION:Please join us for the last Pack Meeting of 2024!\n\nScouts at 
  HSS can wear Class A uniforms to school on pack meeting days!
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/11/06/december-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250114T025931
@@ -338,12 +338,12 @@ DTEND;TZID=America/Los_Angeles:20250113T193000
 CLASS:PUBLIC
 DESCRIPTION:Please join us for the first Pack Meeting of 2025!\n\nScouts at
   HSS can wear Class A uniforms to school on pack meeting days!
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2024/12/22/january-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250202T201843
@@ -377,13 +377,13 @@ DESCRIPTION:If you are participating in the Religious Emblems Program [see
  n a ceremony at the Basilica on Sunday\, March 30.\n\nReligious Emblems Pr
  ogram: https://hsspack229.org/2024/09/28/religious-emblems/\n\nFebruary Pa
  ck Meeting: https://hsspack229.org/2025/01/13/february-pack-meeting/
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Religious Emblems Program Review
 URL;VALUE=URI:https://hsspack229.org/2025/01/13/religious-emblems-program-r
  eview
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250214T065147
@@ -394,12 +394,12 @@ CLASS:PUBLIC
 DESCRIPTION:Please join us for our February Pack Meeting. We’ll be prepar
  ing for the Pinewood Derby and Blue and Gold BBQ.\n\nScouts at HSS can wea
  r Class A uniforms to school on pack meeting days!
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2025/01/13/february-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250306T195031
@@ -470,12 +470,12 @@ DTEND;TZID=America/Los_Angeles:20250310T193000
 CLASS:PUBLIC
 DESCRIPTION:Please join us for our March Pack Meeting.\n\nScouts at HSS can
   wear Class A uniforms to school on pack meeting days!
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2025/03/04/march-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250407T184920
@@ -499,12 +499,12 @@ DESCRIPTION:🌐 Link: Official Pack 229 PWD Rules [see link below]\n📋 S
  #gid=1345834128\n\nRSVP for the Blue and Gold Banquet: https://evite.me/fF
  VxSmVQbJ\n\nplease signup: https://docs.google.com/spreadsheets/d/1GLFxVjM
  hbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=0#gid=0
-LOCATION:HSS Gym\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Check In
 URL;VALUE=URI:https://hsspack229.org/2025/03/05/pinewood-derby-check-in
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
-  San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
+ n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250407T184920
@@ -528,12 +528,12 @@ DESCRIPTION:📋 Signup: Volunteer to Help [see link below]\n🌐 Link: Off
  /docs/pwd-rules\n\nRSVP for the Blue and Gold Banquet: https://evite.me/fF
  VxSmVQbJ\n\nplease signup: https://docs.google.com/spreadsheets/d/1GLFxVjM
  hbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=0#gid=0
-LOCATION:HSS Gym\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Races
 URL;VALUE=URI:https://hsspack229.org/2025/03/05/pinewood-derby-check-in
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
-  San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
+ n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250407T184920
@@ -557,25 +557,25 @@ DESCRIPTION:📋 Signup: RSVP by 3/20 [see link below] and Potluck Signup &
  ttps://hsspack229.org/docs/pwd-rules\n\nplease signup: https://docs.google
  .com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=
  1345834128#gid=1345834128
-LOCATION:HSS Gym\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Blue & Gold BBQ
 URL;VALUE=URI:https://hsspack229.org/2025/03/05/pinewood-derby-check-in
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Avenue,
-  San Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
+ n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250306T224423
+DTSTAMP:20250418T212800
 UID:dd37cd78-550e-4742-9831-bbb244619908
 DTSTART;TZID=America/Los_Angeles:20250324T150000
 DTEND;TZID=America/Los_Angeles:20250324T160000
 CLASS:PUBLIC
 DESCRIPTION:
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Den 6: March Meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250401T051322
@@ -614,12 +614,12 @@ DTEND;TZID=America/Los_Angeles:20250407T193000
 CLASS:PUBLIC
 DESCRIPTION:Scouts at HSS can wear Class A uniforms to school on pack meeti
  ng days!
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2025/03/16/april-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250121T192428
@@ -647,19 +647,6 @@ SUMMARY:Pack 229: Golden State Warriors Scout Day 2025
 URL;VALUE=URI:https://hsspack229.org/2024/11/26/warriors-scout-day
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Chase Center;X-ADDRESS="1 Warriors Way,
   San Francisco, CA 94158";VALUE=URI:geo:37.767829,-122.387426
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20250306T224423
-UID:c3c36d15-63e7-42f7-8537-08698494c1dd
-DTSTART;TZID=America/Los_Angeles:20250428T150000
-DTEND;TZID=America/Los_Angeles:20250428T160000
-CLASS:PUBLIC
-DESCRIPTION:
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Den 6: April Meeting
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250418T063626
@@ -701,12 +688,39 @@ DESCRIPTION:👤 Who: All Pack 229 Cub Scouts and their families. We encour
  : https://hsspack229.org/2025/04/17/spring-family-campout#bring-a-cup\n\nH
  ealth and Medical Record form: https://www.scouting.org/health-and-safety/
  ahmr/
-LOCATION:Ed R. Levin County Park\n3100 Calaveras Road\, Milpitas\, CA 95035
+LOCATION:Ed R. Levin County Park\n3100 Calaveras Rd\, Milpitas\, CA 95035
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Spring Family Campout
 URL;VALUE=URI:https://hsspack229.org/2025/04/17/spring-family-campout
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Ed R. Levin County Park;X-ADDRESS="3100
-  Calaveras Road, Milpitas, CA 95035";VALUE=URI:geo:37.446093,-121.856453
+  Calaveras Rd, Milpitas, CA 95035";VALUE=URI:geo:37.446093,-121.856453
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250418T212730
+UID:1582a1ab-fcf5-4fc6-8987-5d03ad373515
+DTSTART;TZID=America/Los_Angeles:20250510T100000
+DTEND;TZID=America/Los_Angeles:20250510T160000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Purchase Tickets [see link below]\n💵 Cost: $10 
+ – $12\n🌐 Link: More Info [see link below]\n\nIf you’re looking for 
+ a fantastic family outing\, Scout-O-Rama is the place to be. With 100+ int
+ eractive activities for all ages\, there’s something for everyone to enj
+ oy:\n\n * 🌲 Slacklining and more!\n * 🎨 Crafts and life-size mazes\n
+  * 🏁 Race pinewood derby cars\n * 🚒 Explore real firetrucks\n * 🚀
+  Water rocket launches\n * 🎯 Archery\n * 🪓 Tomahawk throwing\n\nFeel
+ ing hungry? We’ve got you covered with a variety of food trucks on-site 
+ – or bring your own picnic and enjoy the park!\n\nDon’t miss this incr
+ edible day of Scouting spirit\, community fun\, and unforgettable memories
+ .\n\n👉 Mark your calendar now and get ready for adventure!\n\nPurchase 
+ Tickets: https://www.eventbrite.com/e/scout-o-rama-family-festival-tickets
+ -1255947094569?aff=oddtdtcreator\n\nMore Info: https://svmbc.org/activitie
+ s/sor/
+LOCATION:San Jose’s History Park\n1650 Senter Rd\, San Jose\, CA 2095112
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Scout-O-Rama 2025
+URL;VALUE=URI:https://hsspack229.org/2025/04/18/scout-o-rama-2025
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=San Jose’s History Park;X-ADDRESS="16
+ 50 Senter Rd, San Jose, CA 2095112";VALUE=URI:geo:37.320028,-121.858286
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250408T162453
@@ -718,11 +732,11 @@ DESCRIPTION:Out final pack meeting of the year will include the Rank Advanc
  ement ceremony where scouts who have completed all requirements will recei
  ve their new rank award.\n\nScouts at HSS can wear Class A uniforms to sch
  ool on pack meeting days!
-LOCATION:HSS Library\n1198 Redmond Avenue\, San Jose\, CA 95120
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2025/04/07/may-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- nue, San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 END:VCALENDAR

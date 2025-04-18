@@ -1,11 +1,11 @@
 ---
 HSS Library:
   :site: https://www.holyspirit-school.org
-  :address: 1198 Redmond Avenue, San Jose, CA 95120
+  :address: 1198 Redmond Ave, San Jose, CA 95120
   :map: https://maps.apple.com/?ll=37.229046,-121.872859&q=Marked%20Location&t=h
 HSS Gym:
   :site: https://www.holyspirit-school.org
-  :address: 1198 Redmond Avenue, San Jose, CA 95120
+  :address: 1198 Redmond Ave, San Jose, CA 95120
   :map: https://maps.apple.com/?ll=37.228102,-121.873524&q=Marked%20Location&t=h
 Camp Cheesebrough:
   :site: https://svmbc.org/chesebrough-scout-reservation/
@@ -17,7 +17,7 @@ Christmas in the Park:
   :map: https://maps.apple.com/?ll=37.333191,-121.890210&q=Downtown%20San%20Jose%20%E2%80%94%20San%20Jose&spn=0.009366,0.016926&t=m
 Ed R. Levin County Park:
   :site: https://parks.santaclaracounty.gov/locations/ed-r-levin-county-park
-  :address: 3100 Calaveras Road, Milpitas, CA 95035
+  :address: 3100 Calaveras Rd, Milpitas, CA 95035
   :map: https://maps.apple.com/?address=3100%20Calaveras%20Rd,%20Milpitas,%20CA%20%2095035,%20United%20States&auid=14976263126931611544&ll=37.446093,-121.856453&lsp=9902&q=Youth%20Area%20Group%20Campsite&t=h
 California Academy of Sciences:
   :site: https://www.calacademy.org/
@@ -39,3 +39,7 @@ Cathedral Basilica of St. Joseph:
   :site: https://www.stjosephcathedral.org
   :address: 80 S Market St, San Jose, CA 95113
   :map: https://maps.apple.com/place?address=80%20S%20Market%20St,%20San%20Jose,%20CA%20%2095113,%20United%20States&coordinate=37.334034,-121.890500&name=Cathedral%20Basilica%20of%20St.%20Joseph&place-id=IC0B2B77C9A86831E&map=h
+San Jose’s History Park:
+  :site: https://historysanjose.org/plan-your-visit/history-park/
+  :address: 1650 Senter Rd, San Jose, CA 2095112
+  :map: https://maps.apple.com/place?address=1650%20Senter%20Rd,%20San%20Jose,%20CA%20%2095112,%20United%20States&coordinate=37.320028,-121.858286&name=Kelley%20Park%20-%20San%20Jose%20History%20Park&place-id=ICB4A8D64AB00D356&map=explore

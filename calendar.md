@@ -199,7 +199,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="date">Fri 5/2 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="name">Spring Family Campout</p></a>
-<a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="end">Until: Sun 5/4 @ 11:00 AM</p></a>
+<a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="end">Until: Sun 5/4 @ 10:00 AM</p></a>
 </div>
 
 <div class="calendar-card">

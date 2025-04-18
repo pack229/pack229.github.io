@@ -8,7 +8,7 @@ featured_image: campout.jpg
 meta:
   date:
     - 2025-05-02 5:00 PM
-    - 2025-05-04 11:00 AM
+    - 2025-05-04 10:00 AM
   location: Ed R. Levin County Park
   who: All Pack 229 Cub Scouts and their families. We encourage parents, siblings, and guardians to attend! Please note all Scouts must be accompanied by at least 1 parent/guardian.
   signup:

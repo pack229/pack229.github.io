@@ -9,7 +9,7 @@ calendar: skip
 meta:
   date:
     - 2025-05-02 5:00 PM
-    - 2025-05-04 11:00 AM
+    - 2025-05-04 10:00 AM
   location: Ed R. Levin County Park
 ---
 

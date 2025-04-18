@@ -195,8 +195,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/01/19/spring-family-campout-date"><p class="date">Fri 5/2</p></a>
-<a href="https://hsspack229.org/2025/01/19/spring-family-campout-date"><p class="name">Spring Family Campout: Save The Date</p></a>
+<a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="date">Fri 5/2</p></a>
+<a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="name">Spring Family Campout</p></a>
 </div>
 
 <div class="calendar-card">

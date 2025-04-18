@@ -140,6 +140,7 @@ module Jekyll
         date: "🗓️ Date",
         time: "⏰ Time",
         location: "📍 Location",
+        who: "👤 Who",
         signup: "📋 Signup",
         deadline: "🏁 Deadline",
         cost: "💵 Cost",

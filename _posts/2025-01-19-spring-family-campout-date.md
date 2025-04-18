@@ -2,9 +2,10 @@
 layout: post
 title: "Spring Family Campout: Save The Date"
 date: 2025-01-19
-tags: [Events, Upcoming]
+tags: [Events]
 uuid: F5890112-2A48-4C7D-8AFE-E1DBDE7050A1
 featured_image: campout.jpg
+calendar: skip
 meta:
   date:
     - 2025-05-02 5:00 PM

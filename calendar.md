@@ -205,7 +205,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="date">Sat 5/10 @ 10:00 AM</p></a>
 <a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="name">Scout-O-Rama 2025</p></a>
-<a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="end">Until: Sat 5/10 @  4:00 PM</p></a>
+<a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="end">Until:  4:00 PM</p></a>
 </div>
 
 <div class="calendar-card">

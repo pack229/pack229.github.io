@@ -55,13 +55,17 @@ class UpcomingPost
     end
   end
   def end_cal_date_formated
-    format_date(end_cal_date)
+    date = end_cal_date
+    format = if date && upcoming_cal_date && date.to_date == upcoming_cal_date.to_date
+      "%l:%M %p"
+    end
+    format_date(date, format = format)
   end
-  def format_date(data)
+  def format_date(data, format = nil)
     if data.is_a?(DateTime)
-      data.strftime("%a %-m/%-d @ %l:%M %p")
+      data.strftime(format || "%a %-m/%-d @ %l:%M %p")
     elsif data.is_a?(Date)
-      data.strftime("%a %-m/%-d")
+      data.strftime(format || "%a %-m/%-d")
     else
       data
     end

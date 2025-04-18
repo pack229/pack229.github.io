@@ -38,16 +38,26 @@ class UpcomingPost
   def data
     @p.data
   end
-  def upcoming_cal_date
-    data = [@m['date']].flatten.first
-    data = Date.parse(data) if data.is_a?(String)
+  def parse_date(data)
+    data = Date.parse(data) if data.is_a?(String) && data.length < 11
+    data = DateTime.parse(data) if data.is_a?(String) && data.length > 11
     if @m["time"]
       data = DateTime.parse("#{data.to_s} #{@m["time"]}")
     end
     data
   end
-  def upcoming_cal_date_time_formated
-    data = upcoming_cal_date
+  def upcoming_cal_date
+    parse_date([@m['date']].flatten.first)
+  end
+  def end_cal_date
+    if @m['date'].is_a?(Array)
+      parse_date(@m['date'].last)
+    end
+  end
+  def end_cal_date_formated
+    format_date(end_cal_date)
+  end
+  def format_date(data)
     if data.is_a?(DateTime)
       data.strftime("%a %-m/%-d @ %l:%M %p")
     elsif data.is_a?(Date)
@@ -55,6 +65,9 @@ class UpcomingPost
     else
       data
     end
+  end
+  def upcoming_cal_date_time_formated
+    format_date(upcoming_cal_date)
   end
   def cal_title
     @m['event'] || @p['title']
@@ -90,12 +103,17 @@ module Jekyll
       h = ['<div class="calendar-card">']
       date = "<p class=\"date\">#{p.upcoming_cal_date_time_formated}</p>"
       name = "<p class=\"name\">#{p.cal_title}</p>"
+      if p.end_cal_date_formated
+        end_date = "<p class=\"end\">Until: #{p.end_cal_date_formated}</p>"
+      end
       if p.url
         date = "<a href=\"#{p.url}\">#{date}</a>"
         name = "<a href=\"#{p.url}\">#{name}</a>"
+        end_date = "<a href=\"#{p.url}\">#{end_date}</a>" if end_date
       end
       h << date
       h << name
+      h << end_date if end_date
       h << '</div>'
       h.join("\n")
     end

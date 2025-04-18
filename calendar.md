@@ -24,8 +24,9 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2024/08/25/labor-day-camp"><p class="date">Fri 8/30</p></a>
+<a href="https://hsspack229.org/2024/08/25/labor-day-camp"><p class="date">Fri 8/30 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2024/08/25/labor-day-camp"><p class="name">Labor Day Camp</p></a>
+<a href="https://hsspack229.org/2024/08/25/labor-day-camp"><p class="end">Until: Sun 9/1 @ 12:00 PM</p></a>
 </div>
 
 <div class="calendar-card">
@@ -50,8 +51,9 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2024/09/14/boo-fest"><p class="date">Fri 10/25</p></a>
+<a href="https://hsspack229.org/2024/09/14/boo-fest"><p class="date">Fri 10/25 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2024/09/14/boo-fest"><p class="name">Boo-Fest Family Campout</p></a>
+<a href="https://hsspack229.org/2024/09/14/boo-fest"><p class="end">Until: Sat 10/26 @  5:00 PM</p></a>
 </div>
 
 </div>
@@ -195,8 +197,9 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="date">Fri 5/2</p></a>
+<a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="date">Fri 5/2 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="name">Spring Family Campout</p></a>
+<a href="https://hsspack229.org/2025/04/17/spring-family-campout"><p class="end">Until: Sun 5/4 @ 11:00 AM</p></a>
 </div>
 
 <div class="calendar-card">

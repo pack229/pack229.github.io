@@ -612,4 +612,15 @@ figure.thumb {
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  p.end {
+    padding: 5px 5px;
+    margin-bottom: -2px;
+    overflow: hidden;
+    color: #000;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+  }
 }

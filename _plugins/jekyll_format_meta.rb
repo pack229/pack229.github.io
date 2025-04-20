@@ -166,6 +166,7 @@ module Jekyll
         location: "📍 Location",
         who: "👤 Who",
         signup: "📋 Signup",
+        get_tickets: "🎟️ Get Tickets",
         deadline: "🏁 Deadline",
         cost: "💵 Cost",
         more_info: "🌐 Link",
@@ -186,7 +187,7 @@ module Jekyll
 
       data = input[1]
       title = meta_categories[type]
-      data = if type == :signup
+      data = if type == :signup || type == :get_tickets
         [data].flatten.map do |l|
           if l.is_a?(Hash)
             link(l["title"], l["url"])

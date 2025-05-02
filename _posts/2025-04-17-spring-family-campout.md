@@ -40,6 +40,9 @@ Questions? We've got answers!
 
 Whether you're a first-time camper or a seasoned pro, camping with your Cub Scout family is a fun and memorable experience. Below are some general FAQs to help guide you through what to expect and how to prepare for a successful Cub Scout family camping trip.
 
+##### How does arrival work?
+When arriving at the Park please check in with the entry gate. Tell them that you are with "Pack 229 / Eduardo Cortez".
+
 ##### Can I attend if my family can't camp overnight?
 Yes, absolutely! If overnight camping isn't for you, feel free to come on Saturday morning for a full day of activities. You can stay as long as you like and head home when you're ready.
 
@@ -78,7 +81,7 @@ See the [campout agenda](/docs/family-campout/agenda). It gives a general overvi
 Yes! The activities are designed for all ages, and siblings are welcome to participate in most of them. This is a great opportunity for the whole family to enjoy the outdoors together.
 
 ##### Will there be opportunities to fish?
-Yes, there are 2 lakes nearby. You will need to bring your own equipment.
+Yes, there are 2 lakes nearby. You will need to bring your own equipment. Youth don't need a fishing license but adults do if they are going to be fishing or helping out. You can learn more about fishing licences at the [Fish and Wildlife Website](https://wildlife.ca.gov/licenseapp).
 
 ##### What’s the Saturday Night Campfire like?
 The campfire is a highlight! We’ll gather for songs, den skits, a couple of campfire stories, and of course, roast marshmallows and make s’mores. It’s a fun and cozy way to close out the day.

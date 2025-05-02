@@ -21,7 +21,7 @@ TZNAME:PST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20241127T082448
+DTSTAMP:20250502T002152
 UID:25513c08-de59-40b4-b6db-4c3f5dc07c8e
 DTSTART;TZID=America/Los_Angeles:20240830T170000
 DTEND;TZID=America/Los_Angeles:20240901T120000
@@ -690,7 +690,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Chase Center;X-ADDRESS="1 Warriors Way,
   San Francisco, CA 94158";VALUE=URI:geo:37.767829,-122.387426
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250418T063626
+DTSTAMP:20250502T002539
 UID:84d3c1aa-e0d0-4edc-9f7d-bd778cd770f1
 DTSTART;TZID=America/Los_Angeles:20250502T170000
 DTEND;TZID=America/Los_Angeles:20250504T100000
@@ -727,8 +727,9 @@ DESCRIPTION:👤 Who: All Pack 229 Cub Scouts and their families. We encour
  nda: https://hsspack229.org/docs/family-campout/agenda\n\nmedical forms: h
  ttps://hsspack229.org/2025/04/17/spring-family-campout#medical-forms\n\nbr
  inging a cup: https://hsspack229.org/2025/04/17/spring-family-campout#brin
- g-a-cup\n\nHealth and Medical Record form: https://www.scouting.org/health
- -and-safety/ahmr/
+ g-a-cup\n\nFish and Wildlife Website: https://wildlife.ca.gov/licenseapp\n
+ \nHealth and Medical Record form: https://www.scouting.org/health-and-safe
+ ty/ahmr/
 LOCATION:Ed R. Levin County Park\n3100 Calaveras Rd\, Milpitas\, CA 95035
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Spring Family Campout
@@ -737,25 +738,25 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Ed R. Levin County Park;X-ADDRESS="3100
   Calaveras Rd, Milpitas, CA 95035";VALUE=URI:geo:37.446093,-121.856453
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250420T043708
+DTSTAMP:20250420T044110
 UID:1582a1ab-fcf5-4fc6-8987-5d03ad373515
 DTSTART;TZID=America/Los_Angeles:20250510T100000
 DTEND;TZID=America/Los_Angeles:20250510T160000
 CLASS:PUBLIC
-DESCRIPTION:🎟️ Get Tickets: Purchase Tickets [see link below]\n💵 Co
- st: $10 – $12\n🌐 Link: More Info [see link below]\n\nIf you’re look
- ing for a fantastic family outing\, Scout-O-Rama is the place to be. With 
- 100+ interactive activities for all ages\, there’s something for everyon
- e to enjoy:\n\n * 🌲 Slacklining and more!\n * 🎨 Crafts and life-size
-  mazes\n * 🏁 Race pinewood derby cars\n * 🚒 Explore real firetrucks\
- n * 🚀 Water rocket launches\n * 🎯 Archery\n * 🪓 Tomahawk throwing
- \n\nFeeling hungry? We’ve got you covered with a variety of food trucks 
- on-site – or bring your own picnic and enjoy the park!\n\nDon’t miss t
- his incredible day of Scouting spirit\, community fun\, and unforgettable 
- memories.\n\n👉 Mark your calendar now and get ready for adventure!\n\nP
- urchase Tickets: https://www.eventbrite.com/e/scout-o-rama-family-festival
- -tickets-1255947094569?aff=oddtdtcreator\n\nMore Info: https://svmbc.org/a
- ctivities/sor/
+DESCRIPTION:🎟️ Get Tickets: Scout-O-Rama Tickets [see link below]\n
+ 💵 Cost: $10 – $12\n🌐 Link: More Info [see link below]\n\nIf you’
+ re looking for a fantastic family outing\, Scout-O-Rama is the place to be
+ . With 100+ interactive activities for all ages\, there’s something for 
+ everyone to enjoy:\n\n * 🌲 Slacklining and more!\n * 🎨 Crafts and li
+ fe-size mazes\n * 🏁 Race pinewood derby cars\n * 🚒 Explore real fire
+ trucks\n * 🚀 Water rocket launches\n * 🎯 Archery\n * 🪓 Tomahawk t
+ hrowing\n\nFeeling hungry? We’ve got you covered with a variety of food 
+ trucks on-site – or bring your own picnic and enjoy the park!\n\nDon’t
+  miss this incredible day of Scouting spirit\, community fun\, and unforge
+ ttable memories.\n\n👉 Mark your calendar now and get ready for adventur
+ e!\n\nScout-O-Rama Tickets: https://www.eventbrite.com/e/scout-o-rama-fami
+ ly-festival-tickets-1255947094569?aff=oddtdtcreator\n\nMore Info: https://
+ svmbc.org/activities/sor/
 LOCATION:San Jose’s History Park\n1650 Senter Rd\, San Jose\, CA 2095112
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Scout-O-Rama 2025

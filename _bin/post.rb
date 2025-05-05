@@ -45,7 +45,7 @@ CONTENT
 
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!
 
-{% include gallery.html folder="2025/#{title_slug}" %}
+{% include gallery.html folder="2025/#{title_slug.gsub("_", "-").to_s}" %}
 END
 
 filename.write(contents)

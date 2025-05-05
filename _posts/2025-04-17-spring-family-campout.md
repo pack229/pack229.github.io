@@ -2,7 +2,7 @@
 layout: post
 title: Spring Family Campout
 date: 2025-04-17
-tags: [Events,Camping,Upcoming]
+tags: [Events,Camping]
 uuid: 84D3C1AA-E0D0-4EDC-9F7D-BD778CD770F1
 featured_image: campout.jpg
 meta:

@@ -16,7 +16,9 @@ images.each do |i|
 
   cf1 = "/" + i.split("/")[1..-2].join("/") + "/caption.txt"
   caption = if File.exist?(cf1)
-    Pathname.new(cf1).read
+    c = Pathname.new(cf1).read.strip
+    c = nil if c == ""
+    c
   else
     FileUtils::Verbose.touch(cf1)
     nil

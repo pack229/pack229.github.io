@@ -31,7 +31,7 @@ images.each do |i|
   slides << slide
 end
 
-# slides = slides.shuffle
+slides = slides.shuffle
 
 template.gsub!("<!--slides-->", slides.flatten.join("\n"))
 root.join("slideshow.html").write(template)

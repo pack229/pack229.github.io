@@ -24,13 +24,16 @@ images.each do |i|
     nil
   end
 
-  slides << '<div class="swiper-slide">'
-  slides << '  <img src="' + url + '" alt="' + (caption || "Image") + '" />'
-  slides << '  <div class="caption">' + caption + '</div>' if caption
-  slides << '</div>'
+  slide = [ '<div class="swiper-slide">' ]
+  slide << '  <img src="' + url + '" alt="' + (caption || "Image") + '" />'
+  slide << '  <div class="caption">' + caption + '</div>' if caption
+  slide << '</div>'
+  slides << slide
 end
 
-template.gsub!("<!--slides-->", slides.join("\n"))
+# slides = slides.shuffle
+
+template.gsub!("<!--slides-->", slides.flatten.join("\n"))
 root.join("slideshow.html").write(template)
 
 

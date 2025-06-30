@@ -190,7 +190,9 @@ module Jekyll
       data = if type == :signup || type == :get_tickets
         [data].flatten.map do |l|
           if l.is_a?(Hash)
-            link(l["title"], l["url"])
+            line = link(l["title"], l["url"])
+            line = "#{line} (#{l['info']})" if l['info']
+            line
           else
             l
           end

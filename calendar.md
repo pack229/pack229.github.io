@@ -218,3 +218,15 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2025/04/07/may-pack-meeting"><p class="date">Mon 5/12 @  6:30 PM</p></a>
 <a href="https://hsspack229.org/2025/04/07/may-pack-meeting"><p class="name">May Pack Meeting</p></a>
 </div>
+
+</div>
+
+## July
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="date">Thu 7/3 @  7:00 AM</p></a>
+<a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="name">Halibut Fishing in the Bay</p></a>
+<a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="end">Until:  2:00 PM</p></a>
+</div>

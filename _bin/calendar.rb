@@ -10,6 +10,9 @@ require 'kramdown'
 require 'kramdown-parser-gfm'
 require 'nokogiri'
 
+require 'active_support/core_ext/integer/time'
+require 'active_support/core_ext/numeric/time'
+
 cwd = Pathname.new(File.expand_path(File.dirname(__FILE__)))
 $base_url = "https://hsspack229.org"
 # $base_url = "http://localhost:4000"

@@ -738,7 +738,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Ed R. Levin County Park;X-ADDRESS="3100
   Calaveras Rd, Milpitas, CA 95035";VALUE=URI:geo:37.446093,-121.856453
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250420T044110
+DTSTAMP:20250630T224444
 UID:1582a1ab-fcf5-4fc6-8987-5d03ad373515
 DTSTART;TZID=America/Los_Angeles:20250510T100000
 DTEND;TZID=America/Los_Angeles:20250510T160000
@@ -765,7 +765,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=San Jose’s History Park;X-ADDRESS="16
  50 Senter Rd, San Jose, CA 2095112";VALUE=URI:geo:37.320028,-121.858286
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250408T162453
+DTSTAMP:20250630T224501
 UID:d448588a-1001-4ae3-a223-880a8a4f2cd1
 DTSTART;TZID=America/Los_Angeles:20250512T183000
 DTEND;TZID=America/Los_Angeles:20250512T193000
@@ -780,5 +780,37 @@ SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2025/04/07/may-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250630T230209
+UID:2c21a69b-29b9-4621-a533-699ae009f7e6
+DTSTART;TZID=America/Los_Angeles:20250703T070000
+DTEND;TZID=America/Los_Angeles:20250703T140000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Event Reservation [see link below] (Select July 3r
+ d – AM Trip) and Pack Signup [see link below] (For Pack Communication)\n
+ 💵 Cost: $160 per person\n📇 Contact: Neschae Fernando\n\nWe’re exci
+ ted to invite you to a halibut fishing adventure in the Bay on July 3rd! W
+ e’re planning a half-day morning trip (exact time TBD) aboard the Oaklan
+ d Anglers II\, and it’s going to be a fun\, family-friendly outing on th
+ e water. No Fishing Experience Needed! Never fished before? No problem at 
+ all! Fishing poles are included!\n\nWhat to Expect\n\nThe boat stays withi
+ n the Bay\, where waters are typically calm. You’ll enjoy amazing views 
+ of Alcatraz\, the Bay and Golden Gate Bridges\, and the surrounding cities
+  — all while having a blast with fellow Pack families. Just show up\, st
+ and there\, talk\, laugh\, and enjoy the day. The amazing deckhands will:\
+ n\n * And get you back in action for your next one\n * Handle the fish (in
+ cluding the “splashy” parts if the kids prefer not to!)\n * Coach you 
+ on reeling in your catch\n * Bait your hook\n * Set up your pole\n\nAdditi
+ onal costs to plan for:\n\n * Food available for purchase onboard\n * Grat
+ uity for the crew\n * $20 (optional) for fish filleting/cleaning\n * ~$10 
+ for live bait and tackle\n\nWe hope you can join us for this special outin
+ g! Let us know if you have any questions!\n\nEvent Reservation: https://em
+ eryville.fishingreservations.net/sales/?boat_filter%5B%5D=1176&month_filte
+ r=2025-07&submit=Filter\n\nPack Signup: https://docs.google.com/spreadshee
+ ts/d/160uHtccHJaEcrH2GtuVa7xF7wGlg7wadVBi9c37p1k8/edit?gid=0#gid=0
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Halibut Fishing in the Bay
+URL;VALUE=URI:https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay
 END:VEVENT
 END:VCALENDAR

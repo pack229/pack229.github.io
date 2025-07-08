@@ -769,7 +769,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250630T230209
+DTSTAMP:20250708T183144
 UID:2c21a69b-29b9-4621-a533-699ae009f7e6
 DTSTART;TZID=America/Los_Angeles:20250703T070000
 DTEND;TZID=America/Los_Angeles:20250703T140000
@@ -799,5 +799,39 @@ DESCRIPTION:📋 Signup: Event Reservation [see link below] (Select July 3r
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Halibut Fishing in the Bay
 URL;VALUE=URI:https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250708T184021
+UID:ee41978d-a2b2-44bd-9585-f62a08546a03
+DTSTART;TZID=America/Los_Angeles:20250719T170000
+DTEND;TZID=America/Los_Angeles:20250719T200000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Pack Signup [see link below]\n💵 Cost: $15-$60 p
+ er person\n📇 Contact: Neschae Fernando\n🏁 Deadline: Thursday July 10
+ th 2025\n🌐 Link: More Info [see link below]\n\nHope everyone is having 
+ a great summer! The SJ Giants Scout Night and Overnight is coming up on Sa
+ turday\, July 19th @ 5PM. We had a great time as a Pack sitting together l
+ ast year!\n\nEnjoy a pregame parade and post-game opportunity for your sco
+ ut to run the bases. Then camp out after the game in the very same outfiel
+ d the Giants just played on. The night finishes with a movie on the 36’ 
+ HD video board (last year it was Angels in the Outfield). The fun doesn’
+ t end there though as scouts receive a light breakfast in the morning and 
+ a special San Jose Giants Scout Night Commemorative Patch.\n\nThere are a 
+ few options to choose from:\n\n * You can attend the game and stay overnig
+ ht AND get a ticket for BBQ and a drink. $45 per child. $60 per adult.\n *
+  You can attend the game and stay overnight for $30 per person (youth/adul
+ ts are the same price). This does not include food.\n * You can attend the
+  game only for $15 per ticket (Only Sections E/F/G are available at this t
+ ime). This does not include food. (I’m unable to add the bbq package to 
+ a game only ticket. Sorry!).\n\nPlease Sign Up and Venmo Neschae by EOD Th
+ ursday\, July 10th. We’ll be contacting the box office on Friday to rese
+ rve our seats for the first round. If seats are still available\, I’ll p
+ lan to reach out to them next Tuesday as well.\n\nPack Signup: https://doc
+ s.google.com/spreadsheets/d/1iveCN_wnS_9fbC8_BFQM_Z7IOMFCnTX9DvXIUOvVGl4/e
+ dit?gid=0#gid=0\n\nMore Info: https://www.milb.com/san-jose/events/scout-n
+ ight
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: SJ Giants Scout Night
+URL;VALUE=URI:https://hsspack229.org/2025/07/08/sj-giants-scout-night
 END:VEVENT
 END:VCALENDAR

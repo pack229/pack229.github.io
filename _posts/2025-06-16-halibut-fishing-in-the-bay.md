@@ -2,7 +2,7 @@
 layout: post
 title: Halibut Fishing in the Bay
 date: 2025-06-16
-tags: [Events, Upcoming]
+tags: [Events]
 uuid: 2C21A69B-29B9-4621-A533-699AE009F7E6
 featured_image: fishing.jpg
 meta:

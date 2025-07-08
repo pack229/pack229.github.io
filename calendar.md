@@ -230,3 +230,9 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="name">Halibut Fishing in the Bay</p></a>
 <a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="end">Until:  2:00 PM</p></a>
 </div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="date">Sat 7/19 @  5:00 PM</p></a>
+<a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="name">SJ Giants Scout Night</p></a>
+<a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="end">Until:  8:00 PM</p></a>
+</div>

@@ -2,7 +2,7 @@
 layout: post
 title: SJ Giants Scout Night
 date: 2025-07-08
-tags: [Events,Upcoming]
+tags: [Events]
 uuid: EE41978D-A2B2-44BD-9585-F62A08546A03
 featured_image: sjgiants.jpg
 meta:

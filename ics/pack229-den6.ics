@@ -814,7 +814,7 @@ SUMMARY:Pack 229: Halibut Fishing in the Bay
 URL;VALUE=URI:https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250708T184021
+DTSTAMP:20250823T145551
 UID:ee41978d-a2b2-44bd-9585-f62a08546a03
 DTSTART;TZID=America/Los_Angeles:20250719T170000
 DTEND;TZID=America/Los_Angeles:20250719T200000
@@ -846,5 +846,59 @@ DESCRIPTION:📋 Signup: Pack Signup [see link below]\n💵 Cost: $15-$60 p
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: SJ Giants Scout Night
 URL;VALUE=URI:https://hsspack229.org/2025/07/08/sj-giants-scout-night
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250823T151824
+UID:9741fd58-d463-455e-be88-002f74cc3b66
+DTSTART;TZID=America/Los_Angeles:20250909T203000
+DTEND;TZID=America/Los_Angeles:20250909T212000
+CLASS:PUBLIC
+DESCRIPTION:💻 Virtual Meeting: Join via Google Meet [see link below]\n\n
+ New Parent Info Night\n\nWe are beginning to form new dens for the 2025-20
+ 26 school year. Come learn more about Pack 229 and how you can get involve
+ d in the 2025-26 Scouting Year.\n\nPlease forward to anyone with boys or g
+ irls ages K-5 interested in joining.\n\nPack Planning Meeting\n\nAs we gea
+ r up for an exciting year ahead filled with fun\, learning\, and adventure
+ \, we invite you all to our upcoming Cub Scout Pack Planning Meeting. Your
+  participation and input are invaluable as we finalize our plans for the y
+ ear and create an unforgettable experience for our scouts.\n\nYour involve
+ ment plays a vital role in shaping the scouting journey for our children i
+ n the upcoming year. If you are unable to attend the meeting but still wan
+ t to contribute your thoughts or express interest in volunteering\, please
+  don’t hesitate to let us know.\n\nLet’s work together to make this sc
+ outing year a memorable and enriching experience for all our Cubs. Your id
+ eas and enthusiasm are what make our Pack thrive!\n\nJoin via Google Meet:
+  https://meet.google.com/osp-cmpx-qao?hs=224
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Virtual Parent Info Night
+URL;VALUE=URI:https://hsspack229.org/2025/08/20/new-scouts-and-pack-plannin
+ g
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250823T151824
+UID:4fceaf13-6a1a-47d4-83e6-26ae7b18ffbf
+DTSTART;TZID=America/Los_Angeles:20250910T203000
+DTEND;TZID=America/Los_Angeles:20250910T212000
+CLASS:PUBLIC
+DESCRIPTION:💻 Virtual Meeting: Join via Google Meet [see link below]\n\n
+ New Parent Info Night\n\nWe are beginning to form new dens for the 2025-20
+ 26 school year. Come learn more about Pack 229 and how you can get involve
+ d in the 2025-26 Scouting Year.\n\nPlease forward to anyone with boys or g
+ irls ages K-5 interested in joining.\n\nPack Planning Meeting\n\nAs we gea
+ r up for an exciting year ahead filled with fun\, learning\, and adventure
+ \, we invite you all to our upcoming Cub Scout Pack Planning Meeting. Your
+  participation and input are invaluable as we finalize our plans for the y
+ ear and create an unforgettable experience for our scouts.\n\nYour involve
+ ment plays a vital role in shaping the scouting journey for our children i
+ n the upcoming year. If you are unable to attend the meeting but still wan
+ t to contribute your thoughts or express interest in volunteering\, please
+  don’t hesitate to let us know.\n\nLet’s work together to make this sc
+ outing year a memorable and enriching experience for all our Cubs. Your id
+ eas and enthusiasm are what make our Pack thrive!\n\nJoin via Google Meet:
+  https://meet.google.com/irk-gpcx-xki?hs=224
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Planning Meeting
+URL;VALUE=URI:https://hsspack229.org/2025/08/20/new-scouts-and-pack-plannin
+ g
 END:VEVENT
 END:VCALENDAR

@@ -236,3 +236,19 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="name">SJ Giants Scout Night</p></a>
 <a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="end">Until:  8:00 PM</p></a>
 </div>
+
+</div>
+
+## September
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Tue 9/9 @  8:30 PM</p></a>
+<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="name">Virtual Parent Info Night</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Wed 9/10 @  8:30 PM</p></a>
+<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="name">Pack Planning Meeting</p></a>
+</div>

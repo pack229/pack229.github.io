@@ -170,6 +170,7 @@ module Jekyll
         deadline: "🏁 Deadline",
         cost: "💵 Cost",
         more_info: "🌐 Link",
+        virtual_meeting: "💻 Virtual Meeting",
         contact: "📇 Contact",
         photo_download: "📸",
       }
@@ -235,7 +236,7 @@ module Jekyll
         data
       elsif type == :contact && data.is_a?(Hash)
         link(data["name"], "mailto:#{data["email"]}")
-      elsif type == :more_info
+      elsif type == :more_info or type == :virtual_meeting
         if data.is_a?(Hash)
           link(data["title"], data["url"])
         else

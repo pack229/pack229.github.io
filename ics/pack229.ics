@@ -835,14 +835,26 @@ SUMMARY:Pack 229: SJ Giants Scout Night
 URL;VALUE=URI:https://hsspack229.org/2025/07/08/sj-giants-scout-night
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T035640
+DTSTAMP:20250824T040833
 UID:e30801af-7c5f-4f30-9cb3-fe4713f7b56a
 DTSTART;TZID=America/Los_Angeles:20250908T183000
 DTEND;TZID=America/Los_Angeles:20250908T193000
 CLASS:PUBLIC
-DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nScouts at 
- HSS can wear Class A uniforms to school on pack meeting days!\n\nArrow of 
- Light: https://hsspack229.org/docs/service-den
+DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nWelcome ba
+ ck Scouts! We will be having our first pack meeting of the school year on 
+ Monday September 8th at 6:30 PM in the library.\n\nThe Arrow of Light scou
+ ts will be our first service den [see link below] for this meeting.\n\nWe
+ ’ll start the meeting with a uniform inspection [see link below] for the
+  new scouting year and discussing the Bobcat rank requirements.\n\nWe will
+  be distributing the Raingutter Regatta [see link below] boat kits and sta
+ rting to work on them in dens. Scouts will need to finish painting and dec
+ orating their boats at home after the meeting. If you are unable to make t
+ he meeting please reach out to get a regatta boat kit.\n\nFinally\, we wil
+ l work on the first advancement of the year: the Bobcat Adventure.\n\nScou
+ ts at HSS can wear Class A uniforms to school on pack meeting days!\n\nArr
+ ow of Light: https://hsspack229.org/docs/service-den\n\nuniform inspection
+ : https://hsspack229.org/docs/uniforms\n\nRaingutter Regatta: https://hssp
+ ack229.org/2025/08/23/raingutter-regatta/
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting

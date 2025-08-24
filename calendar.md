@@ -259,6 +259,12 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="name">Pack Planning Meeting</p></a>
 </div>
 
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="date">Sat 9/13 @ 11:00 AM</p></a>
+<a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="name">Raingutter Regatta</p></a>
+<a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="end">Until:  2:00 PM</p></a>
+</div>
+
 </div>
 
 ## October

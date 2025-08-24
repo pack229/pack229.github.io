@@ -14,7 +14,7 @@ meta:
 
 It’s time to get out the paint and glue and put on your creative caps for our annual Raingutter Regatta! You should have received your boat kit at the pack meeting last week, please reach out to your Den leader if you still need one.
 
-Siblings are welcome! We kindly request a $10 donation to cover the cost of the kit and awards for non Scounts.
+Siblings are welcome! We kindly request a $10 donation to cover the cost of the kit and awards for non Scouts.
 
 *Boat Building:* Before the races begin, put on your creative cap and assemble your very own mini sailboat. This hands-on experience encourages problem-solving and craftsmanship.
 

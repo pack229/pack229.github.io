@@ -75,7 +75,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250418T225109
+DTSTAMP:20250824T043520
 UID:70222718-10ca-43e3-9298-962645d43ae2
 DTSTART;TZID=America/Los_Angeles:20240928T110000
 DTEND;TZID=America/Los_Angeles:20240928T140000
@@ -84,30 +84,30 @@ DESCRIPTION:It’s time to get out the paint and glue and put on your creat
  ive caps for our annual Raingutter Regatta! You should have received your 
  boat kit at the pack meeting last week\, please reach out to your Den lead
  er if you still need one.\n\nSiblings are welcome! We kindly request a $10
-  donation to cover the cost of the kit and awards for non Scounts.\n\nBoat
-  Building: Before the races begin\, put on your creative cap and assemble 
- your very own mini sailboat. This hands-on experience encourages problem-s
- olving and craftsmanship.\n\nRace Day Excitement: Watch as your handcrafte
- d sailboat takes to the water in friendly competition! Blow on the sails a
- nd navigate your vessel along the rain gutter racetrack. It’s a test of 
- precision and strategy.\n\nRefreshments: Enjoy a Pizza lunch as you mingle
-  with other Scouts and families. It’s a great time to share stories and 
- build connections.\n\nWhat to Bring: Please bring your boat\, a sense of a
- dventure\, and a willingness to have a blast!\n\nFriendly Competition: Com
- pete against fellow Cub Scouts\, families\, and friends. Cheering\, encour
- agement\, and sportsmanship are all part of the fun.\n\nAwards &amp\; Priz
- es: Celebrate the winners and recognize the effort and creativity that wen
- t into boat design. Prizes will be awarded to the top sailors and there wi
- ll also be a design award for best design.\n\nRules: Please See More [see 
- link below] for boat and race rules.\n\nDon’t miss this opportunity for 
- your Cub Scout to learn about teamwork\, craftsmanship\, and the joy of fr
- iendly competition. The Cub Scout Raingutter Regatta is a family-friendly 
- event that combines fun and learning in a unique and exciting way.\n\nWhet
- her you’re a seasoned sailor or a first-time boat builder\, this event p
- romises memorable moments and a sense of accomplishment.\n\nCan’t wait t
- o see you all out there!\n\nRead More to see the Regatta Rules…\n\n... [
- See More On Website]\n\nSee More: https://hsspack229.org/2024/08/25/raingu
- tter-regatta/#rules
+  donation to cover the cost of the kit and awards for non Scouts.\n\nBoat 
+ Building: Before the races begin\, put on your creative cap and assemble y
+ our very own mini sailboat. This hands-on experience encourages problem-so
+ lving and craftsmanship.\n\nRace Day Excitement: Watch as your handcrafted
+  sailboat takes to the water in friendly competition! Blow on the sails an
+ d navigate your vessel along the rain gutter racetrack. It’s a test of p
+ recision and strategy.\n\nRefreshments: Enjoy a Pizza lunch as you mingle 
+ with other Scouts and families. It’s a great time to share stories and b
+ uild connections.\n\nWhat to Bring: Please bring your boat\, a sense of ad
+ venture\, and a willingness to have a blast!\n\nFriendly Competition: Comp
+ ete against fellow Cub Scouts\, families\, and friends. Cheering\, encoura
+ gement\, and sportsmanship are all part of the fun.\n\nAwards &amp\; Prize
+ s: Celebrate the winners and recognize the effort and creativity that went
+  into boat design. Prizes will be awarded to the top sailors and there wil
+ l also be a design award for best design.\n\nRules: Please See More [see l
+ ink below] for boat and race rules.\n\nDon’t miss this opportunity for y
+ our Cub Scout to learn about teamwork\, craftsmanship\, and the joy of fri
+ endly competition. The Cub Scout Raingutter Regatta is a family-friendly e
+ vent that combines fun and learning in a unique and exciting way.\n\nWheth
+ er you’re a seasoned sailor or a first-time boat builder\, this event pr
+ omises memorable moments and a sense of accomplishment.\n\nCan’t wait to
+  see you all out there!\n\nRead More to see the Regatta Rules…\n\n... [S
+ ee More On Website]\n\nSee More: https://hsspack229.org/2024/08/25/raingut
+ ter-regatta/#rules
 LOCATION:HSS Courtyard\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Raingutter Regatta
@@ -835,7 +835,7 @@ SUMMARY:Pack 229: SJ Giants Scout Night
 URL;VALUE=URI:https://hsspack229.org/2025/07/08/sj-giants-scout-night
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T040833
+DTSTAMP:20250824T043158
 UID:e30801af-7c5f-4f30-9cb3-fe4713f7b56a
 DTSTART;TZID=America/Los_Angeles:20250908T183000
 DTEND;TZID=America/Los_Angeles:20250908T193000
@@ -849,12 +849,12 @@ DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nWelcome ba
   be distributing the Raingutter Regatta [see link below] boat kits and sta
  rting to work on them in dens. Scouts will need to finish painting and dec
  orating their boats at home after the meeting. If you are unable to make t
- he meeting please reach out to get a regatta boat kit.\n\nFinally\, we wil
- l work on the first advancement of the year: the Bobcat Adventure.\n\nScou
- ts at HSS can wear Class A uniforms to school on pack meeting days!\n\nArr
- ow of Light: https://hsspack229.org/docs/service-den\n\nuniform inspection
- : https://hsspack229.org/docs/uniforms\n\nRaingutter Regatta: https://hssp
- ack229.org/2025/08/23/raingutter-regatta/
+ he meeting please reach out to get your regatta boat kit.\n\nFinally\, we 
+ will work on the first advancement of the year: the Bobcat Adventure.\n\nS
+ couts at HSS can wear Class A uniforms to school on pack meeting days!\n\n
+ Arrow of Light: https://hsspack229.org/docs/service-den\n\nuniform inspect
+ ion: https://hsspack229.org/docs/uniforms\n\nRaingutter Regatta: https://h
+ sspack229.org/2025/08/23/raingutter-regatta/
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -863,7 +863,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250823T151824
+DTSTAMP:20250824T042945
 UID:9741fd58-d463-455e-be88-002f74cc3b66
 DTSTART;TZID=America/Los_Angeles:20250909T203000
 DTEND;TZID=America/Los_Angeles:20250909T212000
@@ -890,7 +890,7 @@ URL;VALUE=URI:https://hsspack229.org/2025/08/20/new-scouts-and-pack-plannin
  g
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250823T151824
+DTSTAMP:20250824T042945
 UID:4fceaf13-6a1a-47d4-83e6-26ae7b18ffbf
 DTSTART;TZID=America/Los_Angeles:20250910T203000
 DTEND;TZID=America/Los_Angeles:20250910T212000
@@ -915,6 +915,50 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Planning Meeting
 URL;VALUE=URI:https://hsspack229.org/2025/08/20/new-scouts-and-pack-plannin
  g
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250824T043439
+UID:8d537af9-f143-4556-a497-d42d0b130b57
+DTSTART;TZID=America/Los_Angeles:20250913T110000
+DTEND;TZID=America/Los_Angeles:20250913T140000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Register Your Boat [see link below]\n\nIt’s time
+  to get out the paint and glue and put on your creative caps for our annua
+ l Raingutter Regatta! We’ll be starting to build our boats at the Septem
+ ber Pack Meeting [see link below]. If you are unable to make the meeting p
+ lease reach out to get your regatta boat kit.\n\nSiblings are welcome! We 
+ kindly request a $10 donation to cover the cost of the kit and awards for 
+ non Scouts.\n\nBoat Building: Before the races begin\, put on your creativ
+ e cap and assemble your very own mini sailboat. This hands-on experience e
+ ncourages problem-solving and craftsmanship. Please come up with a name an
+ d Register Your Boat [see link below] before the event.\n\nRace Day Excite
+ ment: Watch as your handcrafted sailboat takes to the water in friendly co
+ mpetition! Blow on the sails and navigate your vessel along the rain gutte
+ r racetrack. It’s a test of precision and strategy.\n\nRefreshments: Enj
+ oy a Pizza lunch as you mingle with other Scouts and families. It’s a gr
+ eat time to share stories and build connections.\n\nWhat to Bring: Please 
+ bring your boat\, a sense of adventure\, and a willingness to have a blast
+ !\n\nFriendly Competition: Compete against fellow Cub Scouts\, families\, 
+ and friends. Cheering\, encouragement\, and sportsmanship are all part of 
+ the fun.\n\nAwards &amp\; Prizes: Celebrate the winners and recognize the 
+ effort and creativity that went into boat design. Prizes will be awarded t
+ o the top sailors and there will also be awards for best design.\n\nRules:
+  Please review the Raingutter Regatta Rules [see link below].\n\nDon’t m
+ iss this opportunity for your Cub Scout to learn about teamwork\, craftsma
+ nship\, and the joy of friendly competition. The Cub Scout Raingutter Rega
+ tta is a family-friendly event that combines fun and learning in a unique 
+ and exciting way.\n\nWhether you’re a seasoned sailor or a first-time bo
+ at builder\, this event promises memorable moments and a sense of accompli
+ shment.\n\nCan’t wait to see you all out there!\n\nRegister Your Boat: h
+ ttps://docs.google.com/spreadsheets/...\n\nSeptember Pack Meeting: https:/
+ /hsspack229.org/2025/08/23/september-pack-meeting\n\nRaingutter Regatta Ru
+ les: https://hsspack229.org/docs/raingutter-regatta/rules
+LOCATION:HSS Courtyard\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Raingutter Regatta
+URL;VALUE=URI:https://hsspack229.org/2025/08/23/raingutter-regatta
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Courtyard;X-ADDRESS="1198 Redmond A
+ ve, San Jose, CA 95120";VALUE=URI:geo:37.228396,-121.873264
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250824T035640

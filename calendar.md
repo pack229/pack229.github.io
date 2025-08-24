@@ -37,7 +37,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2024/09/18/raingutter-regatta"><p class="date">Sat 9/28 @ 11:00 AM</p></a>
 <a href="https://hsspack229.org/2024/09/18/raingutter-regatta"><p class="name">Raingutter Regatta</p></a>
-<a href="https://hsspack229.org/2024/09/18/raingutter-regatta"><p class="end">Until:  2:00 PM</p></a>
+<a href="https://hsspack229.org/2024/09/18/raingutter-regatta"><p class="end">Until: 2:00 PM</p></a>
 </div>
 
 </div>
@@ -211,7 +211,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="date">Sat 5/10 @ 10:00 AM</p></a>
 <a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="name">Scout-O-Rama 2025</p></a>
-<a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="end">Until:  4:00 PM</p></a>
+<a href="https://hsspack229.org/2025/04/18/scout-o-rama-2025"><p class="end">Until: 4:00 PM</p></a>
 </div>
 
 <div class="calendar-card">
@@ -228,13 +228,13 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="date">Thu 7/3 @  7:00 AM</p></a>
 <a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="name">Halibut Fishing in the Bay</p></a>
-<a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="end">Until:  2:00 PM</p></a>
+<a href="https://hsspack229.org/2025/06/16/halibut-fishing-in-the-bay"><p class="end">Until: 2:00 PM</p></a>
 </div>
 
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="date">Sat 7/19 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="name">SJ Giants Scout Night</p></a>
-<a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="end">Until:  8:00 PM</p></a>
+<a href="https://hsspack229.org/2025/07/08/sj-giants-scout-night"><p class="end">Until: 8:00 PM</p></a>
 </div>
 
 </div>
@@ -262,7 +262,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="date">Sat 9/13 @ 11:00 AM</p></a>
 <a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="name">Raingutter Regatta</p></a>
-<a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="end">Until:  2:00 PM</p></a>
+<a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="end">Until: 2:00 PM</p></a>
 </div>
 
 </div>

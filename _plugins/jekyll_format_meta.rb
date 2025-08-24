@@ -65,9 +65,9 @@ class UpcomingPost
   end
   def format_date(data, format = nil)
     if data.is_a?(DateTime)
-      data.strftime(format || "%a %-m/%-d @ %l:%M %p")
+      data.strftime(format || "%a %-m/%-d @ %l:%M %p").strip
     elsif data.is_a?(Date)
-      data.strftime(format || "%a %-m/%-d")
+      data.strftime(format || "%a %-m/%-d").strip
     else
       data
     end

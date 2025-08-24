@@ -244,6 +244,11 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="date">Mon 9/8 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
+</div>
+
+<div class="calendar-card">
 <a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Tue 9/9 @  8:30 PM</p></a>
 <a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="name">Virtual Parent Info Night</p></a>
 </div>
@@ -251,4 +256,95 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Wed 9/10 @  8:30 PM</p></a>
 <a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="name">Pack Planning Meeting</p></a>
+</div>
+
+</div>
+
+## October
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 10/20 @  6:30 PM</p>
+<p class="name">October Pack Meeting</p>
+</div>
+
+</div>
+
+## November
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 11/3 @  6:30 PM</p>
+<p class="name">November Pack Meeting</p>
+</div>
+
+</div>
+
+## December
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 12/8 @  6:30 PM</p>
+<p class="name">December Pack Meeting</p>
+</div>
+
+</div>
+
+# 2026
+
+
+## January
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 1/12 @  6:30 PM</p>
+<p class="name">January Pack Meeting</p>
+</div>
+
+</div>
+
+## February
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 2/2 @  6:30 PM</p>
+<p class="name">February Pack Meeting</p>
+</div>
+
+</div>
+
+## March
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 3/9 @  6:30 PM</p>
+<p class="name">March Pack Meeting</p>
+</div>
+
+</div>
+
+## April
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 4/20 @  6:30 PM</p>
+<p class="name">April Pack Meeting</p>
+</div>
+
+</div>
+
+## May
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 5/11 @  6:30 PM</p>
+<p class="name">May Pack Meeting</p>
 </div>

@@ -7,6 +7,9 @@
   <meta name="description"
     content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:image" content="{% if page.featured_image %}/images/posts-cropped/{{ page.featured_image }}{% else %}/images/229.jpg{% endif %}" />
   <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
   <link rel="stylesheet" type="text/css"
     href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic%7COpen+Sans:400,700,400italic,700italic" />

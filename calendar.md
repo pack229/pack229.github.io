@@ -355,5 +355,5 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 5/11 @  6:30 PM</p>
 <p class="name">May Pack Meeting</p>
-<a href="/docs/service-den"><p class="note">Service Den: Bear</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Wolf</p></a>
 </div>

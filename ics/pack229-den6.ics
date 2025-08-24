@@ -848,13 +848,14 @@ SUMMARY:Pack 229: SJ Giants Scout Night
 URL;VALUE=URI:https://hsspack229.org/2025/07/08/sj-giants-scout-night
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:e30801af-7c5f-4f30-9cb3-fe4713f7b56a
 DTSTART;TZID=America/Los_Angeles:20250908T183000
 DTEND;TZID=America/Los_Angeles:20250908T193000
 CLASS:PUBLIC
-DESCRIPTION:: Arrow of Light\n\nScouts at HSS can wear Class A uniforms to 
- school on pack meeting days!
+DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nScouts at 
+ HSS can wear Class A uniforms to school on pack meeting days!\n\nArrow of 
+ Light: https://hsspack229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -917,13 +918,14 @@ URL;VALUE=URI:https://hsspack229.org/2025/08/20/new-scouts-and-pack-plannin
  g
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:767f8fef-e6e3-48da-9593-c2bbeca42aeb
 DTSTART;TZID=America/Los_Angeles:20251020T183000
 DTEND;TZID=America/Los_Angeles:20251020T193000
 CLASS:PUBLIC
-DESCRIPTION:: Webelos\n\nScouts at HSS can wear Class A uniforms to school 
- on pack meeting days!
+DESCRIPTION:🫡 Service Den: Webelos [see link below]\n\nScouts at HSS can
+  wear Class A uniforms to school on pack meeting days!\n\nWebelos: https:/
+ /hsspack229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -931,13 +933,14 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:b7c8fabc-557a-40d3-8741-de16d40bf976
 DTSTART;TZID=America/Los_Angeles:20251103T183000
 DTEND;TZID=America/Los_Angeles:20251103T193000
 CLASS:PUBLIC
-DESCRIPTION:: Bear\n\nScouts at HSS can wear Class A uniforms to school on 
- pack meeting days!
+DESCRIPTION:🫡 Service Den: Bear [see link below]\n\nScouts at HSS can we
+ ar Class A uniforms to school on pack meeting days!\n\nBear: https://hsspa
+ ck229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -945,13 +948,14 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:3ed877c8-a45e-4fc4-ab2e-90d1441107ec
 DTSTART;TZID=America/Los_Angeles:20251208T183000
 DTEND;TZID=America/Los_Angeles:20251208T193000
 CLASS:PUBLIC
-DESCRIPTION:: Wolf\n\nScouts at HSS can wear Class A uniforms to school on 
- pack meeting days!
+DESCRIPTION:🫡 Service Den: Wolf [see link below]\n\nScouts at HSS can we
+ ar Class A uniforms to school on pack meeting days!\n\nWolf: https://hsspa
+ ck229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -959,13 +963,14 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:547f3597-c0d3-4075-b413-c5601946c1c1
 DTSTART;TZID=America/Los_Angeles:20260112T183000
 DTEND;TZID=America/Los_Angeles:20260112T193000
 CLASS:PUBLIC
-DESCRIPTION:: Tiger\n\nScouts at HSS can wear Class A uniforms to school on
-  pack meeting days!
+DESCRIPTION:🫡 Service Den: Tiger [see link below]\n\nScouts at HSS can w
+ ear Class A uniforms to school on pack meeting days!\n\nTiger: https://hss
+ pack229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -973,13 +978,14 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:820b4e94-02b8-46a5-ad68-9cc50433c89f
 DTSTART;TZID=America/Los_Angeles:20260202T183000
 DTEND;TZID=America/Los_Angeles:20260202T193000
 CLASS:PUBLIC
-DESCRIPTION:: Lion\n\nScouts at HSS can wear Class A uniforms to school on 
- pack meeting days!
+DESCRIPTION:🫡 Service Den: Lion [see link below]\n\nScouts at HSS can we
+ ar Class A uniforms to school on pack meeting days!\n\nLion: https://hsspa
+ ck229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -987,13 +993,14 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:2f6714d4-a7dc-4e17-ae56-97afe00515af
 DTSTART;TZID=America/Los_Angeles:20260309T183000
 DTEND;TZID=America/Los_Angeles:20260309T193000
 CLASS:PUBLIC
-DESCRIPTION:: Arrow of Light\n\nScouts at HSS can wear Class A uniforms to 
- school on pack meeting days!
+DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nScouts at 
+ HSS can wear Class A uniforms to school on pack meeting days!\n\nArrow of 
+ Light: https://hsspack229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -1001,13 +1008,14 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:36283f78-2766-4529-bc4e-8b4417fc8a49
 DTSTART;TZID=America/Los_Angeles:20260420T183000
 DTEND;TZID=America/Los_Angeles:20260420T193000
 CLASS:PUBLIC
-DESCRIPTION:: Webelos\n\nScouts at HSS can wear Class A uniforms to school 
- on pack meeting days!
+DESCRIPTION:🫡 Service Den: Webelos [see link below]\n\nScouts at HSS can
+  wear Class A uniforms to school on pack meeting days!\n\nWebelos: https:/
+ /hsspack229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -1015,13 +1023,14 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T003804
+DTSTAMP:20250824T035640
 UID:8e4dacb9-bfea-4c6d-bc5d-f4b69cfc2c63
 DTSTART;TZID=America/Los_Angeles:20260511T183000
 DTEND;TZID=America/Los_Angeles:20260511T193000
 CLASS:PUBLIC
-DESCRIPTION:: Bear\n\nScouts at HSS can wear Class A uniforms to school on 
- pack meeting days!
+DESCRIPTION:🫡 Service Den: Wolf [see link below]\n\nScouts at HSS can we
+ ar Class A uniforms to school on pack meeting days!\n\nWolf: https://hsspa
+ ck229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting

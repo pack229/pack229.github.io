@@ -9,7 +9,7 @@ meta:
   date: 2026-05-11
   time: 6:30 PM
   location: HSS Library
-  service_den: Bear
+  service_den: Wolf
 ---
 
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!

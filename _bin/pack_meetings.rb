@@ -48,7 +48,10 @@ service_dens = [
   "Bear",
   "Wolf",
   "Tiger",
-  "Lion"
+  "Lion",
+  "Arrow of Light",
+  "Webelos",
+  "Wolf",
 ]
 
 template = <<-END

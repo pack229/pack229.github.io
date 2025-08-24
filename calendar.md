@@ -246,6 +246,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="date">Mon 9/8 @  6:30 PM</p></a>
 <a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
 </div>
 
 <div class="calendar-card">
@@ -267,6 +268,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 10/20 @  6:30 PM</p>
 <p class="name">October Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Webelos</p></a>
 </div>
 
 </div>
@@ -278,6 +280,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 11/3 @  6:30 PM</p>
 <p class="name">November Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Bear</p></a>
 </div>
 
 </div>
@@ -289,6 +292,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 12/8 @  6:30 PM</p>
 <p class="name">December Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Wolf</p></a>
 </div>
 
 </div>
@@ -303,6 +307,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 1/12 @  6:30 PM</p>
 <p class="name">January Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Tiger</p></a>
 </div>
 
 </div>
@@ -314,6 +319,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 2/2 @  6:30 PM</p>
 <p class="name">February Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Lion</p></a>
 </div>
 
 </div>
@@ -325,6 +331,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 3/9 @  6:30 PM</p>
 <p class="name">March Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
 </div>
 
 </div>
@@ -336,6 +343,7 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 4/20 @  6:30 PM</p>
 <p class="name">April Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Webelos</p></a>
 </div>
 
 </div>
@@ -347,4 +355,5 @@ featured_image: about.jpg
 <div class="calendar-card">
 <p class="date">Mon 5/11 @  6:30 PM</p>
 <p class="name">May Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Bear</p></a>
 </div>

@@ -26,7 +26,7 @@ class Integer
 end
 
 class UpcomingPost
-  attr_accessor :url
+  attr_accessor :url, :m
   def initialize(post, meta)
     @p = post
     @m = meta
@@ -120,6 +120,11 @@ module Jekyll
       h << date
       h << name
       h << end_date if end_date
+
+      if p.m && service_den = p.m["service_den"]
+        h << "<a href=\"/docs/service-den\"><p class=\"note\">Service Den: #{service_den}</p></a>"
+      end
+
       h << '</div>'
       h.join("\n")
     end
@@ -172,6 +177,7 @@ module Jekyll
         more_info: "🌐 Link",
         virtual_meeting: "💻 Virtual Meeting",
         contact: "📇 Contact",
+        service_den: "🫡 Service Den",
         photo_download: "📸",
       }
     end
@@ -236,6 +242,8 @@ module Jekyll
         data
       elsif type == :contact && data.is_a?(Hash)
         link(data["name"], "mailto:#{data["email"]}")
+      elsif type == :service_den
+        link(data, "/docs/service-den")
       elsif type == :more_info or type == :virtual_meeting
         if data.is_a?(Hash)
           link(data["title"], data["url"])

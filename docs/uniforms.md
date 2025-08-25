@@ -44,6 +44,6 @@ When purchasing the uniform shirt from the Scout Shop, many of these patches com
     *	Right (3 o’clock): Third rank earned (commonly Wolf)
     *	Bottom (6 o’clock): Fourth rank earned (commonly Bear)
 * Right Pocket
-  * Temporary Patches (usually hung on the button)
+  * Temporary Patches earned on campouts or other activities (usually hung on the button)
 
 See more about exact [patch placement](https://www.scoutshop.org/blog/the_beginners_guide_to_cub_scout_uniform_insignia.html) at the Scout Shop website.

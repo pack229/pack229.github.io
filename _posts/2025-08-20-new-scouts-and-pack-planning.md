@@ -7,21 +7,21 @@ tags: [Planning Meeting, New Parent Info Night, Upcoming]
 uuid: FDBEE97B-D4EE-4FE3-AB21-CFC995766335
 meta:
   - event: Virtual Parent Info Night
-    date: 2025-09-09
+    date: 2025-09-02
     time: 8:30 PM
     duration: 50 minutes
     uuid: 9741FD58-D463-455E-BE88-002F74CC3B66
     virtual_meeting:
       title: Join via Google Meet
-      url: https://meet.google.com/osp-cmpx-qao?hs=224
+      url: https://meet.google.com/osp-cmpx-qao
   - event: Pack Planning Meeting
-    date: 2025-09-10
+    date: 2025-09-03
     time: 8:30 PM
     duration: 50 minutes
     uuid: 4FCEAF13-6A1A-47D4-83E6-26AE7B18FFBF
     virtual_meeting:
       title: Join via Google Meet
-      url: https://meet.google.com/irk-gpcx-xki?hs=224
+      url: https://meet.google.com/irk-gpcx-xki
 ---
 
 # New Parent Info Night

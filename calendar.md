@@ -244,19 +244,19 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="date">Mon 9/8 @  6:30 PM</p></a>
-<a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
-<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
-</div>
-
-<div class="calendar-card">
-<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Tue 9/9 @  8:30 PM</p></a>
+<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Tue 9/2 @  8:30 PM</p></a>
 <a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="name">Virtual Parent Info Night</p></a>
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Wed 9/10 @  8:30 PM</p></a>
+<a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="date">Wed 9/3 @  8:30 PM</p></a>
 <a href="https://hsspack229.org/2025/08/20/new-scouts-and-pack-planning"><p class="name">Pack Planning Meeting</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="date">Mon 9/8 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/08/23/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
 </div>
 
 <div class="calendar-card">

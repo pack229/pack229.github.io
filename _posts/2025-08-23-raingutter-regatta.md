@@ -18,7 +18,7 @@ meta:
 
 It’s time to get out the paint and glue and put on your creative caps for our annual Raingutter Regatta! We'll be starting to build our boats at the [September Pack Meeting](/2025/08/23/september-pack-meeting). If you are unable to make the meeting please [reach out](mailto:djd@davisca.org) to get your regatta boat kit.
 
-Siblings are welcome! We kindly request a $10 donation to cover the cost of the kit and awards for non Scouts.
+Siblings are welcome! We kindly request a $7 donation to cover the cost of the kit and awards for non Scouts.
 
 *Boat Building:* Before the races begin, put on your creative cap and assemble your very own mini sailboat. This hands-on experience encourages problem-solving and craftsmanship. Please come up with a name and [Register Your Boat](https://docs.google.com/spreadsheets/...) before the event.
 

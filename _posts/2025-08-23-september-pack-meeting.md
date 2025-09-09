@@ -4,7 +4,7 @@ title:  September Pack Meeting
 description: Join us for our first meeting of the scouting year. We will show the scouts how to perform a uniform inspection and then start to build the Raingutter Regatta boats.
 date:   2025-08-23
 featured_image: packmeeting.jpg
-tags: [Meetings, Upcoming]
+tags: [Meetings]
 uuid: E30801AF-7C5F-4F30-9CB3-FE4713F7B56A
 meta:
   date: 2025-09-08

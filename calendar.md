@@ -282,8 +282,8 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<p class="date">Mon 10/20 @  6:30 PM</p>
-<p class="name">October Pack Meeting</p>
+<a href="https://hsspack229.org/2025/09/09/october-pack-meeting"><p class="date">Mon 10/20 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/09/09/october-pack-meeting"><p class="name">October Pack Meeting</p></a>
 <a href="/docs/service-den"><p class="note">Service Den: Webelos</p></a>
 </div>
 

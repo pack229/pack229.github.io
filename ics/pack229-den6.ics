@@ -976,6 +976,27 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Courtyard;X-ADDRESS="1198 Redmond A
  ve, San Jose, CA 95120";VALUE=URI:geo:37.228396,-121.873264
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20250909T001635
+UID:f67c60cb-fef3-479e-a49b-4285f0012bd2
+DTSTART;TZID=America/Los_Angeles:20251011T190000
+DTEND;TZID=America/Los_Angeles:20251011T220000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Pack Signup [see link below]\n\nPlease join us on 
+ Saturday\, October 11th at 7pm for the 2025 San Jose Sharks Scout Night! I
+ t’s sure to be a fun-filled night rooting on our hometown Sharks with yo
+ ur fellow Scouts as they take on the Anaheim Ducks! Our Scouts will receiv
+ e a patch and a post-game group photo on the ice.\n\nPlease signup at the 
+ link above so we can gauge interest. Details on how to purchase tickets wi
+ ll be provided soon.\n\nPack Signup: https://docs.google.com/spreadsheets/
+ d/1JfAJgoDX8mZa9PxHoSg_tN9fwfKEXLUnlK_X11eDwkQ/edit?usp=sharing
+LOCATION:SAP Center\n525 W Santa Clara St\, San Jose\, CA 95113
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: SJ Sharks Scout Night
+URL;VALUE=URI:https://hsspack229.org/2025/09/08/sharks-scout-night
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=SAP Center;X-ADDRESS="525 W Santa Clara
+  St, San Jose, CA 95113";VALUE=URI:geo:37.332760,-121.902051
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20250824T035640
 UID:767f8fef-e6e3-48da-9593-c2bbeca42aeb
 DTSTART;TZID=America/Los_Angeles:20251020T183000

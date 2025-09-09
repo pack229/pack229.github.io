@@ -272,6 +272,11 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2025/09/08/sharks-scout-night"><p class="date">Sat 10/11 @  7:00 PM</p></a>
+<a href="https://hsspack229.org/2025/09/08/sharks-scout-night"><p class="name">SJ Sharks Scout Night</p></a>
+</div>
+
+<div class="calendar-card">
 <p class="date">Mon 10/20 @  6:30 PM</p>
 <p class="name">October Pack Meeting</p>
 <a href="/docs/service-den"><p class="note">Service Den: Webelos</p></a>

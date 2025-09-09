@@ -277,6 +277,12 @@ featured_image: about.jpg
 <a href="/docs/service-den"><p class="note">Service Den: Webelos</p></a>
 </div>
 
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/09/08/boo-fest"><p class="date">Fri 10/24 @  5:00 PM</p></a>
+<a href="https://hsspack229.org/2025/09/08/boo-fest"><p class="name">Boo-Fest Family Campout</p></a>
+<a href="https://hsspack229.org/2025/09/08/boo-fest"><p class="end">Until: Sat 10/25 @  5:00 PM</p></a>
+</div>
+
 </div>
 
 ## November

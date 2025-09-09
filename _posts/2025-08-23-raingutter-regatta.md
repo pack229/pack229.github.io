@@ -13,7 +13,7 @@ meta:
   location: HSS Courtyard
   signup:
   - title: Register Your Boat
-    url: https://docs.google.com/spreadsheets/...
+    url: https://docs.google.com/spreadsheets/d/1-ix35xz7fsz3cHJHEt-JiUOZeCQWC5irCgyjvpKwJzk/edit?usp=sharing
 ---
 
 It’s time to get out the paint and glue and put on your creative caps for our annual Raingutter Regatta! We'll be starting to build our boats at the [September Pack Meeting](/2025/08/23/september-pack-meeting). If you are unable to make the meeting please [reach out](mailto:djd@davisca.org) to get your regatta boat kit.

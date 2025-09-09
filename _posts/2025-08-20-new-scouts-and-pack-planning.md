@@ -3,7 +3,7 @@ layout: post
 title: New Parent Info Night & Pack Planning Meeting
 date: 2025-08-20
 featured_image: default.jpg
-tags: [Planning Meeting, New Parent Info Night, Upcoming]
+tags: [Planning Meeting, New Parent Info Night]
 uuid: FDBEE97B-D4EE-4FE3-AB21-CFC995766335
 meta:
   - event: Virtual Parent Info Night

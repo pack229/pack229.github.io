@@ -277,6 +277,11 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2025/09/08/crabbing"><p class="date">Sat 10/18 @ 10:00 AM</p></a>
+<a href="https://hsspack229.org/2025/09/08/crabbing"><p class="name">Crabbing Under the Golden Gate Bridge</p></a>
+</div>
+
+<div class="calendar-card">
 <p class="date">Mon 10/20 @  6:30 PM</p>
 <p class="name">October Pack Meeting</p>
 <a href="/docs/service-den"><p class="note">Service Den: Webelos</p></a>

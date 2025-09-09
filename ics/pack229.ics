@@ -984,7 +984,33 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=SAP Center;X-ADDRESS="525 W Santa Clara
   St, San Jose, CA 95113";VALUE=URI:geo:37.332760,-121.902051
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T035640
+DTSTAMP:20250909T002059
+UID:03ca2b34-8054-4547-97fe-37165fbb4c66
+DTSTART;TZID=America/Los_Angeles:20251018T100000
+DTEND;TZID=America/Los_Angeles:20251018T110000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Venmo @Neschae to reserve your spot once confirmed
+ . and add your name to the Pack Signup [see link below]\n💵 Cost: $49 pe
+ r active participant (assuming 10 paying participants)\n🏁 Deadline: Wed
+ nesday October 9th 2024\n\nSpace is limited so sign up soon!\n\n * Since s
+ pace is limited\, the experience is currently open to Cub Scouts and their
+  siblings in our pack. (For the Lions and Tigers\, we need a 1:1 ratio of 
+ adults and kids.)\n * The event happens on land near the shore\, so there 
+ is no boat involved.\n * Equipment will be provided by Alex who is an expe
+ rt crabber. But bring your bucket so you can take home your crabs to cook 
+ and eat for dinner.\n * We will need a minimum of 6 crabbing participants\
+ , with 16 being the max.\n * Parent Chaperones will not have to pay if the
+ y share a pole with a child or are not participating.\n\nMore information 
+ from our crabber\, Alex…\n\n... [See More On Website]\n\nadd your name t
+ o the Pack Signup: https://docs.google.com/spreadsheets/d/1UvugMBFpKWbh2eC
+ W0vHrHfh_9fKrgwvXTJc9awj6VoI/edit?usp=sharing
+LOCATION:San Francisco
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
+URL;VALUE=URI:https://hsspack229.org/2025/09/08/crabbing
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250909T001828
 UID:767f8fef-e6e3-48da-9593-c2bbeca42aeb
 DTSTART;TZID=America/Los_Angeles:20251020T183000
 DTEND;TZID=America/Los_Angeles:20251020T193000

@@ -20,7 +20,7 @@ It’s time to get out the paint and glue and put on your creative caps for our 
 
 Siblings are welcome! We kindly request a $7 donation to cover the cost of the kit and awards for non Scouts.
 
-*Boat Building:* Before the races begin, put on your creative cap and assemble your very own mini sailboat. This hands-on experience encourages problem-solving and craftsmanship. Please come up with a name and [Register Your Boat](https://docs.google.com/spreadsheets/...) before the event.
+*Boat Building:* Before the races begin, put on your creative cap and assemble your very own mini sailboat. This hands-on experience encourages problem-solving and craftsmanship. Please come up with a name and [Register Your Boat](https://docs.google.com/spreadsheets/d/1-ix35xz7fsz3cHJHEt-JiUOZeCQWC5irCgyjvpKwJzk/edit?usp=sharing) before the event.
 
 *Race Day Excitement:* Watch as your handcrafted sailboat takes to the water in friendly competition! Blow on the sails and navigate your vessel along the rain gutter racetrack. It's a test of precision and strategy.
 

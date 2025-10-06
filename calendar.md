@@ -14,6 +14,13 @@ featured_image: about.jpg
 * <a onclick='navigator.clipboard.writeText("https://hsspack229.org/ics/pack229.ics");alert("Copied to Clipboard")'>Copy Calendar Feed<a/>
   * You can subscribe in Google Calendar, or any other application that supports `.ics` files.
 
+
+
+
+
+
+
+
 <!-- Generated Calendar -->
 
 # 2024

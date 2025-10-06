@@ -12,4 +12,6 @@ meta:
   service_den: Webelos
 ---
 
+We'll prepare for [Boo-fest](/2025/09/08/boo-fest/) and have some spooky holiday fun.
+
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!

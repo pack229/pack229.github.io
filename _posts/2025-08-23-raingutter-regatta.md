@@ -4,7 +4,7 @@ title: Raingutter Regatta
 description: It’s time to get out the paint and glue and put on your creative caps for our annual Raingutter Regatta!
 date: 2025-08-23
 featured_image: raingutter.jpg
-tags: [Raingutter Regatta, Events, Upcoming]
+tags: [Raingutter Regatta, Events]
 uuid: 8D537AF9-F143-4556-A497-D42D0B130B57
 meta:
   date:

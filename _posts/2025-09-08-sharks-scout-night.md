@@ -4,7 +4,7 @@ title:  "SJ Sharks Scout Night"
 description: Come root on our hometown Sharks with your fellow Scouts as they take on the Anaheim Ducks!
 date: 2025-09-08
 featured_image: sharks.jpg
-tags: [Scout Night, Events, Upcoming]
+tags: [Scout Night, Events]
 uuid: F67C60CB-FEF3-479E-A49B-4285F0012BD2
 meta:
   date: 2025-10-11

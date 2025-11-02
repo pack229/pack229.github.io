@@ -13,6 +13,7 @@ meta:
     duration: 3 hours
     uuid: 9741FD58-D463-455E-BE88-002F74CC3B66
   - event: "Scouting for Food: Food Dropoff"
+    location: Holy Spirit Parish
     date: 2025-11-16
     time: 10:30 AM
     duration: 60 minutes

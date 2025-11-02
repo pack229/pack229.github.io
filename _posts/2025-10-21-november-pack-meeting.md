@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  November Pack Meeting
+description: Veterans Day and Christmas in the Park Prep
 date:   2025-10-21
 featured_image: packmeeting.jpg
 tags: [Meetings, Upcoming]
@@ -13,5 +14,7 @@ meta:
 ---
 
 We will be practicing for the Veterans Day assembly at school and making decorations for our [Christmas in the Park](/2025/11/02/christmas-in-the-park) tree.
+
+Remember to distribute door hangers for [Scouting for Food](/2025/11/02/scouting-for-food).
 
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!

@@ -313,6 +313,16 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2025/11/02/scouting-for-food"><p class="date">Sat 11/15 @  9:00 AM</p></a>
+<a href="https://hsspack229.org/2025/11/02/scouting-for-food"><p class="name">Scouting for Food: Neighborhood Pickup</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/11/02/scouting-for-food"><p class="date">Sun 11/16 @ 10:30 AM</p></a>
+<a href="https://hsspack229.org/2025/11/02/scouting-for-food"><p class="name">Scouting for Food: Food Dropoff</p></a>
+</div>
+
+<div class="calendar-card">
 <a href="https://hsspack229.org/2025/11/02/christmas-in-the-park"><p class="date">Mon 11/24 @  4:00 PM</p></a>
 <a href="https://hsspack229.org/2025/11/02/christmas-in-the-park"><p class="name">Christmas in the Park</p></a>
 </div>

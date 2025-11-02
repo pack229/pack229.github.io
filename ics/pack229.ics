@@ -1011,7 +1011,7 @@ SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
 URL;VALUE=URI:https://hsspack229.org/2025/09/08/crabbing
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251102T164932
+DTSTAMP:20251102T192252
 UID:767f8fef-e6e3-48da-9593-c2bbeca42aeb
 DTSTART;TZID=America/Los_Angeles:20251020T183000
 DTEND;TZID=America/Los_Angeles:20251020T193000
@@ -1029,7 +1029,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250910T233110
+DTSTAMP:20251102T192155
 UID:2be5e7e5-9bf9-4b5d-b589-982dd823d3df
 DTSTART;TZID=America/Los_Angeles:20251024T170000
 DTEND;TZID=America/Los_Angeles:20251025T170000
@@ -1076,17 +1076,19 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big
  Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251102T165940
+DTSTAMP:20251102T193338
 UID:b7c8fabc-557a-40d3-8741-de16d40bf976
 DTSTART;TZID=America/Los_Angeles:20251103T183000
 DTEND;TZID=America/Los_Angeles:20251103T193000
 CLASS:PUBLIC
 DESCRIPTION:🫡 Service Den: Bear &amp\; Wolves [see link below]\n\nWe wil
  l be practicing for the Veterans Day assembly at school and making decorat
- ions for our Christmas in the Park [see link below] tree.\n\nScouts at HSS
-  can wear Class A uniforms to school on pack meeting days!\n\nBear & Wolve
- s: https://hsspack229.org/docs/service-den\n\nChristmas in the Park: https
- ://hsspack229.org/2025/11/02/christmas-in-the-park
+ ions for our Christmas in the Park [see link below] tree.\n\nRemember to d
+ istribute door hangers for Scouting for Food [see link below].\n\nScouts a
+ t HSS can wear Class A uniforms to school on pack meeting days!\n\nBear & 
+ Wolves: https://hsspack229.org/docs/service-den\n\nChristmas in the Park: 
+ https://hsspack229.org/2025/11/02/christmas-in-the-park\n\nScouting for Fo
+ od: https://hsspack229.org/2025/11/02/scouting-for-food
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -1095,24 +1097,70 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251102T165944
+DTSTAMP:20251102T193239
+UID:9741fd58-d463-455e-be88-002f74cc3b66
+DTSTART;TZID=America/Los_Angeles:20251115T090000
+DTEND;TZID=America/Los_Angeles:20251115T120000
+CLASS:PUBLIC
+DESCRIPTION:Scouting for Food is an ongoing annual program of the Boy Scout
+ s of America\, begun in 1985 by the Greater Saint Louis Area Council. The 
+ program involves collecting for local food banks. It is organized at the l
+ ocal level throughout the country. Scouting for Food is a project rooted i
+ n the very foundation of the Scouting movement and its dedication to imple
+ ment the Scout Slogan and do a good turn daily.\n\nThis year we will be co
+ llecting for Sacred Heart Community Center.\n\nDoor Hangers\n\nWe handed o
+ ut door hangers at the October Pack meeting. Please get in touch if you ne
+ ed more.\n\nNeighborhood Pickup\n\nThen on Saturday November 15th at 9:00 
+ AM you’ll return to collect any donations that are left out.\n\nFood Dro
+ p Off\n\n * At the Holy Spirit Courtyard by the Church on Sunday\, Novembe
+ r 16th from 10:30 AM to 11:30 AM.\n\nPlease reach out to this year’s org
+ anizer Rosanna Gamez if you can’t make any of these times.
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Scouting for Food: Neighborhood Pickup
+URL;VALUE=URI:https://hsspack229.org/2025/11/02/scouting-for-food
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251102T193239
+UID:4fceaf13-6a1a-47d4-83e6-26ae7b18ffbf
+DTSTART;TZID=America/Los_Angeles:20251116T103000
+DTEND;TZID=America/Los_Angeles:20251116T113000
+CLASS:PUBLIC
+DESCRIPTION:Scouting for Food is an ongoing annual program of the Boy Scout
+ s of America\, begun in 1985 by the Greater Saint Louis Area Council. The 
+ program involves collecting for local food banks. It is organized at the l
+ ocal level throughout the country. Scouting for Food is a project rooted i
+ n the very foundation of the Scouting movement and its dedication to imple
+ ment the Scout Slogan and do a good turn daily.\n\nThis year we will be co
+ llecting for Sacred Heart Community Center.\n\nDoor Hangers\n\nWe handed o
+ ut door hangers at the October Pack meeting. Please get in touch if you ne
+ ed more.\n\nNeighborhood Pickup\n\nThen on Saturday November 15th at 9:00 
+ AM you’ll return to collect any donations that are left out.\n\nFood Dro
+ p Off\n\n * At the Holy Spirit Courtyard by the Church on Sunday\, Novembe
+ r 16th from 10:30 AM to 11:30 AM.\n\nPlease reach out to this year’s org
+ anizer Rosanna Gamez if you can’t make any of these times.
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Scouting for Food: Food Dropoff
+URL;VALUE=URI:https://hsspack229.org/2025/11/02/scouting-for-food
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251102T193429
 UID:b451b6b5-c437-46ff-888c-d08d108cf75f
 DTSTART;TZID=America/Los_Angeles:20251124T160000
 DTEND;TZID=America/Los_Angeles:20251124T170000
 CLASS:PUBLIC
 DESCRIPTION:📋 Signup: Pack Signup [see link below]\n\nPack 229 will agai
- n be decorating a Christmas Tree at the San Jose Christmas in the Park [se
- e link below] event.\n\nJoin us at the November Pack Meeting [see link bel
- ow] to help make ornaments and then on at 11/24 at 4:00 PM at Plaza de Ces
- ar Chavez [see link below] to decorate our tree! Make sure to sign up [see
-  link below] so we know who’s coming.\n\nPack Signup: https://docs.googl
- e.com/spreadsheets/d/1y04UY_P5dCgqA3iRWehcestvSBwYjDPojrl4llWknaM/edit?usp
- =sharing\n\nChristmas in the Park: https://christmasinthepark.com\n\nNovem
- ber Pack Meeting: https://hsspack229.org/2024/11/01/november-pack-meeting/
- \n\nPlaza de Cesar Chavez: https://maps.apple.com/?address=1%20Paseo%20de%
- 20San%20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20States&auid=1260
- 8692531698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christmas%20in%20the
- %20Park
+ n be decorating a Christmas Tree at San Jose’s Christmas in the Park [se
+ e link below].\n\nJoin us at the November Pack Meeting [see link below] to
+  help make ornaments and then on at 11/24 at 4:00 PM at Plaza de Cesar Cha
+ vez [see link below] to decorate our tree! Make sure to sign up [see link 
+ below] so we know who’s coming.\n\nPack Signup: https://docs.google.com/
+ spreadsheets/d/1y04UY_P5dCgqA3iRWehcestvSBwYjDPojrl4llWknaM/edit?usp=shari
+ ng\n\nChristmas in the Park: https://christmasinthepark.com\n\nNovember Pa
+ ck Meeting: https://hsspack229.org/2024/11/01/november-pack-meeting/\n\nPl
+ aza de Cesar Chavez: https://maps.apple.com/?address=1%20Paseo%20de%20San%
+ 20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20States&auid=1260869253
+ 1698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christmas%20in%20the%20Par
+ k
 LOCATION:Christmas in the Park\n194 S Market St\, San Jose\, CA 95113
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Christmas in the Park

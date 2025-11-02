@@ -307,9 +307,14 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 11/3 @  6:30 PM</p>
-<p class="name">November Pack Meeting</p>
-<a href="/docs/service-den"><p class="note">Service Den: Bear</p></a>
+<a href="https://hsspack229.org/2025/10/21/november-pack-meeting"><p class="date">Mon 11/3 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/10/21/november-pack-meeting"><p class="name">November Pack Meeting</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Bear & Wolves</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2025/11/02/christmas-in-the-park"><p class="date">Mon 11/24 @  4:00 PM</p></a>
+<a href="https://hsspack229.org/2025/11/02/christmas-in-the-park"><p class="name">Christmas in the Park</p></a>
 </div>
 
 </div>

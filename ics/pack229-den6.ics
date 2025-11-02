@@ -6,7 +6,7 @@ X-WR-CALNAME:Pack 229 & Den 6
 BEGIN:VTIMEZONE
 TZID:America/Los_Angeles
 BEGIN:DAYLIGHT
-DTSTART:20250309T030000
+DTSTART:20260308T030000
 TZOFFSETFROM:-0800
 TZOFFSETTO:-0700
 RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
@@ -1024,7 +1024,7 @@ SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
 URL;VALUE=URI:https://hsspack229.org/2025/09/08/crabbing
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251006T181846
+DTSTAMP:20251102T164932
 UID:767f8fef-e6e3-48da-9593-c2bbeca42aeb
 DTSTART;TZID=America/Los_Angeles:20251020T183000
 DTEND;TZID=America/Los_Angeles:20251020T193000
@@ -1089,19 +1089,49 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big
  Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250910T233309
+DTSTAMP:20251102T165940
 UID:b7c8fabc-557a-40d3-8741-de16d40bf976
 DTSTART;TZID=America/Los_Angeles:20251103T183000
 DTEND;TZID=America/Los_Angeles:20251103T193000
 CLASS:PUBLIC
-DESCRIPTION:🫡 Service Den: Bear [see link below]\n\nScouts at HSS can we
- ar Class A uniforms to school on pack meeting days!\n\nBear: https://hsspa
- ck229.org/docs/service-den
+DESCRIPTION:🫡 Service Den: Bear &amp\; Wolves [see link below]\n\nWe wil
+ l be practicing for the Veterans Day assembly at school and making decorat
+ ions for our Christmas in the Park [see link below] tree.\n\nScouts at HSS
+  can wear Class A uniforms to school on pack meeting days!\n\nBear & Wolve
+ s: https://hsspack229.org/docs/service-den\n\nChristmas in the Park: https
+ ://hsspack229.org/2025/11/02/christmas-in-the-park
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2025/10/21/november-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251102T165944
+UID:b451b6b5-c437-46ff-888c-d08d108cf75f
+DTSTART;TZID=America/Los_Angeles:20251124T160000
+DTEND;TZID=America/Los_Angeles:20251124T170000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Pack Signup [see link below]\n\nPack 229 will agai
+ n be decorating a Christmas Tree at the San Jose Christmas in the Park [se
+ e link below] event.\n\nJoin us at the November Pack Meeting [see link bel
+ ow] to help make ornaments and then on at 11/24 at 4:00 PM at Plaza de Ces
+ ar Chavez [see link below] to decorate our tree! Make sure to sign up [see
+  link below] so we know who’s coming.\n\nPack Signup: https://docs.googl
+ e.com/spreadsheets/d/1y04UY_P5dCgqA3iRWehcestvSBwYjDPojrl4llWknaM/edit?usp
+ =sharing\n\nChristmas in the Park: https://christmasinthepark.com\n\nNovem
+ ber Pack Meeting: https://hsspack229.org/2024/11/01/november-pack-meeting/
+ \n\nPlaza de Cesar Chavez: https://maps.apple.com/?address=1%20Paseo%20de%
+ 20San%20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20States&auid=1260
+ 8692531698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christmas%20in%20the
+ %20Park
+LOCATION:Christmas in the Park\n194 S Market St\, San Jose\, CA 95113
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Christmas in the Park
+URL;VALUE=URI:https://hsspack229.org/2025/11/02/christmas-in-the-park
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Christmas in the Park;X-ADDRESS="194 S 
+ Market St, San Jose, CA 95113";VALUE=URI:geo:37.333191,-121.890210
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250824T035640

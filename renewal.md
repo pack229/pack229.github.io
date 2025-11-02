@@ -2,7 +2,7 @@
 layout: page
 title: Renewing with Pack 229
 description: How to Renew
-featured_image: renewal.jpg
+featured_image: posts/renewal.jpg
 ---
 
 ### Renew with Scouting America

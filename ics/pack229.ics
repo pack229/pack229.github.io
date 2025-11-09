@@ -1097,7 +1097,28 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251102T200200
+DTSTAMP:20251109T235325
+UID:b0f71096-31fd-4b98-b7ae-9cdc6df0e786
+DTSTART;TZID=America/Los_Angeles:20251111T073000
+DTEND;TZID=America/Los_Angeles:20251111T083000
+CLASS:PUBLIC
+DESCRIPTION:In observance of Veteran’s Day\, the Scouts will be participa
+ ting in a Veteran’s Day assembly on Tuesday\, November 11th at 8:00 AM i
+ n the Holy Spirit Gym. Please have your scout wear their full Class A Unif
+ orms to school this day and arrive in the Gym by 7:40 AM if possible.\n\n 
+ * Please remain with in the gym with your the Pack or Troop for a quick gr
+ oup photo after the assembly.\n * Cub Scout Pack 229 Webelos and Arrow of 
+ Light Dens will form a Color Guard for the Flag Ceremony. Cub Scouts and G
+ irl Scouts in attendance and in uniform will form an honor guard.
+LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Veterans Day Assembly
+URL;VALUE=URI:https://hsspack229.org/2025/11/09/veterans-day-assembly
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
+ n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20251103T184113
 UID:9741fd58-d463-455e-be88-002f74cc3b66
 DTSTART;TZID=America/Los_Angeles:20251115T090000
 DTEND;TZID=America/Los_Angeles:20251115T120000
@@ -1120,7 +1141,7 @@ SUMMARY:Pack 229: Scouting for Food: Neighborhood Pickup
 URL;VALUE=URI:https://hsspack229.org/2025/11/02/scouting-for-food
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251102T200200
+DTSTAMP:20251103T184113
 UID:4fceaf13-6a1a-47d4-83e6-26ae7b18ffbf
 DTSTART;TZID=America/Los_Angeles:20251116T103000
 DTEND;TZID=America/Los_Angeles:20251116T113000
@@ -1183,6 +1204,7 @@ DESCRIPTION:🫡 Service Den: Wolf [see link below]\n\nScouts at HSS can we
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2025/11/04/december-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT

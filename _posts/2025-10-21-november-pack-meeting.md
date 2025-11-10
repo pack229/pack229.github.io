@@ -4,7 +4,7 @@ title:  November Pack Meeting
 description: Veterans Day and Christmas in the Park Prep
 date:   2025-10-21
 featured_image: packmeeting.jpg
-tags: [Meetings, Upcoming]
+tags: [Meetings]
 uuid: B7C8FABC-557A-40D3-8741-DE16D40BF976
 meta:
   date: 2025-11-03

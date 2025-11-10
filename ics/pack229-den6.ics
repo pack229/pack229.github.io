@@ -1089,7 +1089,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big
  Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251102T193338
+DTSTAMP:20251110T003324
 UID:b7c8fabc-557a-40d3-8741-de16d40bf976
 DTSTART;TZID=America/Los_Angeles:20251103T183000
 DTEND;TZID=America/Los_Angeles:20251103T193000
@@ -1110,15 +1110,15 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251109T235325
+DTSTAMP:20251110T003300
 UID:b0f71096-31fd-4b98-b7ae-9cdc6df0e786
-DTSTART;TZID=America/Los_Angeles:20251111T073000
-DTEND;TZID=America/Los_Angeles:20251111T083000
+DTSTART;TZID=America/Los_Angeles:20251111T075000
+DTEND;TZID=America/Los_Angeles:20251111T081000
 CLASS:PUBLIC
 DESCRIPTION:In observance of Veteran’s Day\, the Scouts will be participa
  ting in a Veteran’s Day assembly on Tuesday\, November 11th at 8:00 AM i
  n the Holy Spirit Gym. Please have your scout wear their full Class A Unif
- orms to school this day and arrive in the Gym by 7:40 AM if possible.\n\n 
+ orms to school this day and arrive in the Gym by 7:50 AM if possible.\n\n 
  * Please remain with in the gym with your the Pack or Troop for a quick gr
  oup photo after the assembly.\n * Cub Scout Pack 229 Webelos and Arrow of 
  Light Dens will form a Color Guard for the Flag Ceremony. Cub Scouts and G

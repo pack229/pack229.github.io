@@ -313,7 +313,7 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/11/09/veterans-day-assembly"><p class="date">Tue 11/11 @  7:30 AM</p></a>
+<a href="https://hsspack229.org/2025/11/09/veterans-day-assembly"><p class="date">Tue 11/11 @  7:50 AM</p></a>
 <a href="https://hsspack229.org/2025/11/09/veterans-day-assembly"><p class="name">Veterans Day Assembly</p></a>
 </div>
 

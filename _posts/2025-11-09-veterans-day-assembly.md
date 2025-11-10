@@ -12,7 +12,7 @@ meta:
   location: HSS Gym
 ---
 
-In observance of Veteran’s Day, the Scouts will be participating in a Veteran’s Day assembly on Tuesday, November 11th at 8:00 AM in the Holy Spirit Gym. Please have your scout wear their full Class A Uniforms to school this day and arrive in the Gym by 7:50 AM if possible.
+In observance of Veteran’s Day, the Scouts will be participating in a Veteran’s Day assembly on Tuesday, November 11th at 8:00 AM in the Holy Spirit Gym. Please have your scout wear their *full Class A Uniforms* to school this day and arrive in the Gym by 7:50 AM if possible.
 
 * Cub Scout Pack 229 Webelos and Arrow of Light Dens will form a Color Guard for the Flag Ceremony. Cub Scouts and Girl Scouts in attendance and in uniform will form an honor guard.
 * Please remain with in the gym with your the Pack or Troop for a quick group photo after the assembly.

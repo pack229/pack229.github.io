@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem 'sass-embedded', '~> 1.80'
+
 # This will help ensure the proper Jekyll version is running.
 gem "jekyll", github: "jekyll/jekyll"
 

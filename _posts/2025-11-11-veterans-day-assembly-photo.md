@@ -11,4 +11,4 @@ meta:
 
 We want to thank all our Scouts and the Veterans who took the time to join us today for the Veterans Day Assembly. We are proud to highlight your service to our country.
 
-{% include image_full.html imageurl="/images/events/2024/veterans-day/pack-229-veterans-day-2025.jpg" title="Veterans Day Assembly 2025" caption="Veterans Day Assembly 2025" %}
+{% include image_full.html imageurl="/images/events/2025/veterans-day/pack-229-veterans-day-2025.jpg" title="Veterans Day Assembly 2025" caption="Veterans Day Assembly 2025" %}

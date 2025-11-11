@@ -3,7 +3,7 @@ layout: post
 title:  "Veterans Day Assembly"
 date:   2025-11-09
 featured_image: veterans.jpg
-tags: [Veterans Day, Upcoming]
+tags: [Veterans Day]
 uuid: B0F71096-31FD-4B98-B7AE-9CDC6DF0E786
 meta:
   date: 2025-11-11

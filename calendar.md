@@ -323,7 +323,7 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2025/11/02/scouting-for-food"><p class="date">Sun 11/16 @ 10:30 AM</p></a>
+<a href="https://hsspack229.org/2025/11/02/scouting-for-food"><p class="date">Sun 11/16 @ 10:00 AM</p></a>
 <a href="https://hsspack229.org/2025/11/02/scouting-for-food"><p class="name">Scouting for Food: Food Dropoff</p></a>
 </div>
 

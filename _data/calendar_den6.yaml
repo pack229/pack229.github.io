@@ -5,3 +5,17 @@
     date: 2025-03-24
     time: 3:00 PM
     location: HSS Library
+- title: "Den 6: November Meeting"
+  uuid: 525076FD-3395-4931-A47C-246CF63A6E8B
+  meta:
+    date: 2025-11-24
+    time: 4:00 PM
+    duration: 90 minutes
+    location: Christmas in the Park
+- title: "Den 6: December Meeting"
+  uuid: 86B0CDAA-8490-4A21-B25A-BC57682EF49F
+  meta:
+    date: 2025-12-14
+    time: 4:00 PM
+    duration: 90 minutes
+    location: Willow Street Frank Bramhall Park

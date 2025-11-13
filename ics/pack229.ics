@@ -1118,7 +1118,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251103T184113
+DTSTAMP:20251113T001802
 UID:9741fd58-d463-455e-be88-002f74cc3b66
 DTSTART;TZID=America/Los_Angeles:20251115T090000
 DTEND;TZID=America/Los_Angeles:20251115T120000
@@ -1134,17 +1134,17 @@ DESCRIPTION:Scouting for Food is an ongoing annual program of the Boy Scout
  ed more.\n\nNeighborhood Pickup\n\nThen on Saturday November 15th at 9:00 
  AM you’ll return to collect any donations that are left out.\n\nFood Dro
  p Off\n\n * At the Holy Spirit Courtyard by the Church on Sunday\, Novembe
- r 16th from 10:30 AM to 11:30 AM.\n\nPlease reach out to this year’s org
+ r 16th from 10:00 AM to 12:00 PM.\n\nPlease reach out to this year’s org
  anizer Rosanna Gamez if you can’t make any of these times.
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Scouting for Food: Neighborhood Pickup
 URL;VALUE=URI:https://hsspack229.org/2025/11/02/scouting-for-food
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251103T184113
+DTSTAMP:20251113T001802
 UID:4fceaf13-6a1a-47d4-83e6-26ae7b18ffbf
-DTSTART;TZID=America/Los_Angeles:20251116T103000
-DTEND;TZID=America/Los_Angeles:20251116T113000
+DTSTART;TZID=America/Los_Angeles:20251116T100000
+DTEND;TZID=America/Los_Angeles:20251116T120000
 CLASS:PUBLIC
 DESCRIPTION:Scouting for Food is an ongoing annual program of the Boy Scout
  s of America\, begun in 1985 by the Greater Saint Louis Area Council. The 
@@ -1157,7 +1157,7 @@ DESCRIPTION:Scouting for Food is an ongoing annual program of the Boy Scout
  ed more.\n\nNeighborhood Pickup\n\nThen on Saturday November 15th at 9:00 
  AM you’ll return to collect any donations that are left out.\n\nFood Dro
  p Off\n\n * At the Holy Spirit Courtyard by the Church on Sunday\, Novembe
- r 16th from 10:30 AM to 11:30 AM.\n\nPlease reach out to this year’s org
+ r 16th from 10:00 AM to 12:00 PM.\n\nPlease reach out to this year’s org
  anizer Rosanna Gamez if you can’t make any of these times.
 LOCATION:Holy Spirit Parish\n1200 Redmond Ave\, San Jose\, CA  95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org

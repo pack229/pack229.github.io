@@ -15,8 +15,8 @@ meta:
   - event: "Scouting for Food: Food Dropoff"
     location: Holy Spirit Parish
     date: 2025-11-16
-    time: 10:30 AM
-    duration: 60 minutes
+    time: 10:00 AM
+    duration: 120 minutes
     uuid: 4FCEAF13-6A1A-47D4-83E6-26AE7B18FFBF
 ---
 
@@ -34,6 +34,6 @@ Then on Saturday November 15th at 9:00 AM you'll return to collect any donations
 
 ## Food Drop Off
 
-* At the Holy Spirit Courtyard by the Church on Sunday, November 16th from 10:30 AM to 11:30 AM.
+* At the Holy Spirit Courtyard by the Church on Sunday, November 16th from 10:00 AM to 12:00 PM.
 
 Please reach out to this year's organizer [Rosanna Gamez](mailto:rosannamgamez@gmail.com) if you can't make any of these times.

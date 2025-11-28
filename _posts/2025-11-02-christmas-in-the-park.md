@@ -4,7 +4,7 @@ title:  "Christmas in the Park"
 description: Pack 229 will again be decorating a Christmas Tree at San Jose's Christmas in the Park.
 date: 2025-11-02
 featured_image: christmas.jpg
-tags: [Christmas in the Park, Events, Upcoming]
+tags: [Christmas in the Park, Events]
 uuid: B451B6B5-C437-46FF-888C-D08D108CF75F
 meta:
   date: 2025-11-24

@@ -3,7 +3,7 @@ layout: post
 title:  December Pack Meeting
 date:   2025-11-04
 featured_image: packmeeting.jpg
-tags: [Meetings]
+tags: [Meetings, Upcoming]
 uuid: 3ED877C8-A45E-4FC4-AB2E-90D1441107EC
 meta:
   date: 2025-12-08

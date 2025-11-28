@@ -4,7 +4,7 @@ title:  "Scouting for Food"
 description: Scouting for Food is an ongoing annual program of the Boy Scouts of America, begun in 1985 by the Greater Saint Louis Area Council.
 date: 2025-11-02
 featured_image: food.jpg
-tags: [Scouting for Food, Upcoming]
+tags: [Scouting for Food]
 uuid: D48D9DA5-5B30-4511-9597-67884A993DD6
 meta:
   - event: "Scouting for Food: Neighborhood Pickup"

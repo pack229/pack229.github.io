@@ -33,7 +33,13 @@ end
 posts_dir = cwd.join("../_posts")
 posts = posts_dir.children.map{ |c| c.basename.to_s }.sort.reverse
 term = ARGV.join("-")
-post_name = posts.select{ |p| p.match(term) }.first
+post_names = posts.select{ |p| p.match(term) }
+
+post_names.each_with_index do |post, i|
+  puts "#{i+1}: #{post}"
+end
+choice = STDIN.gets.chomp.to_i
+post_name = post_names[choice-1]
 
 raise "No Post Found" if post_name.nil?
 puts "Found: #{post_name}"

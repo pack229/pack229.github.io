@@ -14,7 +14,7 @@ meta:
     - title: Signup Form
       url: https://docs.google.com/spreadsheets/d/1Y4WolQljqU6bjGLE3FWoV58gE7i6HU8FTKAYhrC5Ubg/edit?gid=0#gid=0
   cost: "Upper Level: $115 per ticket or Cache Creek Club: $200 per ticket (Special Group Ticket Pricing)"
-  deadline: 2024-12-08
+  deadline: 2025-01-18
 ---
 
 We’re excited to announce Scout Day at the Golden State Warriors game! 🏀

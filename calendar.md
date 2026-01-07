@@ -354,8 +354,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 1/12 @  6:30 PM</p>
-<p class="name">January Pack Meeting</p>
+<a href="https://hsspack229.org/2025/12/09/january-pack-meeting"><p class="date">Mon 1/12 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2025/12/09/january-pack-meeting"><p class="name">January Pack Meeting</p></a>
 <a href="/docs/service-den"><p class="note">Service Den: Tiger</p></a>
 </div>
 
@@ -369,6 +369,11 @@ featured_image: about.jpg
 <p class="date">Mon 2/2 @  6:30 PM</p>
 <p class="name">February Pack Meeting</p>
 <a href="/docs/service-den"><p class="note">Service Den: Lion</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/01/06/warriors-scout-day"><p class="date">Sun 2/22 @ 12:30 PM</p></a>
+<a href="https://hsspack229.org/2026/01/06/warriors-scout-day"><p class="name">Golden State Warriors Scout Day 2026</p></a>
 </div>
 
 </div>

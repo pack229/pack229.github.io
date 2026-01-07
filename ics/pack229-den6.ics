@@ -1089,7 +1089,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big
  Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251110T003324
+DTSTAMP:20260107T073822
 UID:b7c8fabc-557a-40d3-8741-de16d40bf976
 DTSTART;TZID=America/Los_Angeles:20251103T183000
 DTEND;TZID=America/Los_Angeles:20251103T193000
@@ -1131,7 +1131,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251113T001802
+DTSTAMP:20251128T220302
 UID:9741fd58-d463-455e-be88-002f74cc3b66
 DTSTART;TZID=America/Los_Angeles:20251115T090000
 DTEND;TZID=America/Los_Angeles:20251115T120000
@@ -1154,7 +1154,7 @@ SUMMARY:Pack 229: Scouting for Food: Neighborhood Pickup
 URL;VALUE=URI:https://hsspack229.org/2025/11/02/scouting-for-food
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251113T001802
+DTSTAMP:20251128T220302
 UID:4fceaf13-6a1a-47d4-83e6-26ae7b18ffbf
 DTSTART;TZID=America/Los_Angeles:20251116T100000
 DTEND;TZID=America/Los_Angeles:20251116T120000
@@ -1180,7 +1180,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
  ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20251102T193429
+DTSTAMP:20251128T220304
 UID:b451b6b5-c437-46ff-888c-d08d108cf75f
 DTSTART;TZID=America/Los_Angeles:20251124T160000
 DTEND;TZID=America/Los_Angeles:20251124T170000
@@ -1219,7 +1219,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Christmas in the Park;X-ADDRESS="194 S
  Market St, San Jose, CA 95113";VALUE=URI:geo:37.333191,-121.890210
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T035640
+DTSTAMP:20260107T073818
 UID:3ed877c8-a45e-4fc4-ab2e-90d1441107ec
 DTSTART;TZID=America/Los_Angeles:20251208T183000
 DTEND;TZID=America/Los_Angeles:20251208T193000
@@ -1250,17 +1250,19 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Willow Street Frank Bramhall Park;X-ADD
  339
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T035640
+DTSTAMP:20260107T072859
 UID:547f3597-c0d3-4075-b413-c5601946c1c1
 DTSTART;TZID=America/Los_Angeles:20260112T183000
 DTEND;TZID=America/Los_Angeles:20260112T193000
 CLASS:PUBLIC
-DESCRIPTION:🫡 Service Den: Tiger [see link below]\n\nScouts at HSS can w
- ear Class A uniforms to school on pack meeting days!\n\nTiger: https://hss
- pack229.org/docs/service-den
+DESCRIPTION:🫡 Service Den: Tiger [see link below]\n\nJoin us for the fir
+ st Pack Meeting of 2026.\n\nScouts at HSS can wear Class A uniforms to sch
+ ool on pack meeting days!\n\nTiger: https://hsspack229.org/docs/service-de
+ n
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2025/12/09/january-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
@@ -1278,6 +1280,38 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260107T073911
+UID:b9f64ab5-ebc8-42a6-bb27-ebe6f87fae79
+DTSTART;TZID=America/Los_Angeles:20260222T123000
+DTEND;TZID=America/Los_Angeles:20260222T153000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Signup Form [see link below]\n💵 Cost: Upper Lev
+ el: $115 per ticket or Cache Creek Club: $200 per ticket (Special Group Ti
+ cket Pricing)\n🏁 Deadline: Sunday December 8th 2024\n\nWe’re excited 
+ to announce Scout Day at the Golden State Warriors game! 🏀\n\nJoin us a
+ s the Warriors take on the Denver Nuggets at Chase Center for an unforgett
+ able experience.\n\n⭐️ Anthem Buddies Opportunity ⭐️\n\nWe also ha
+ ve a very special Scout opportunity this year - each scout attending will 
+ be entered into a drawing to participate in the Anthem Buddies Program\, w
+ here they will stand on the court with the pros representing Pack 229 duri
+ ng the National Anthem. To be eligible for the Anthem Buddies program\, we
+  must purchase a minimum of 70 tickets\, so please feel free to extend thi
+ s special group rate to your friends\, classmates\, family\, and neighbors
+ !\n\nPlease sign up using the Pack Signup Form [see link below]. Once you
+ ’ve signed up\, payment information will be sent to you. Payment is due 
+ by January 18\, 2025.\n\nIf you have any questions\, please reach out to N
+ ikki Nelson at margaret.nelson@me.com or (408) 455-1665.\n\nWe hope you’
+ ll join us for this amazing experience and GO WARRIORS! 💙💛\n\nSignup
+  Form: https://docs.google.com/spreadsheets/d/1Y4WolQljqU6bjGLE3FWoV58gE7i
+ 6HU8FTKAYhrC5Ubg/edit?gid=0#gid=0
+LOCATION:Chase Center\n1 Warriors Way\, San Francisco\, CA 94158
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Golden State Warriors Scout Day 2026
+URL;VALUE=URI:https://hsspack229.org/2026/01/06/warriors-scout-day
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Chase Center;X-ADDRESS="1 Warriors Way,
+  San Francisco, CA 94158";VALUE=URI:geo:37.767829,-122.387426
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20250824T035640

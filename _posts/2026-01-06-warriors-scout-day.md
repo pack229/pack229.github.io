@@ -21,7 +21,7 @@ We’re excited to announce Scout Day at the Golden State Warriors game! 🏀
 
 Join us as the Warriors take on the Denver Nuggets at Chase Center for an unforgettable experience.
 
-###  ⭐️ Anthem Buddies Opportunity ⭐️
+####  ⭐️ Anthem Buddies Opportunity ⭐️
 
 We also have a very special Scout opportunity this year - each scout attending will be entered into a drawing to participate in the Anthem Buddies Program, where they will stand on the court with the pros representing Pack 229 during the National Anthem. To be eligible for the Anthem Buddies program, we must purchase a minimum of 70 tickets, so please feel free to extend this special group rate to your friends, classmates, family, and neighbors!
 

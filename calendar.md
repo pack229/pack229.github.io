@@ -366,8 +366,13 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 2/2 @  6:30 PM</p>
-<p class="name">February Pack Meeting</p>
+<a href="https://hsspack229.org/2026/01/18/scout-day-mass"><p class="date">Sun 2/1 @  9:15 AM</p></a>
+<a href="https://hsspack229.org/2026/01/18/scout-day-mass"><p class="name">Founders Day Scout Mass</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/01/13/february-pack-meeting"><p class="date">Mon 2/2 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/01/13/february-pack-meeting"><p class="name">February Pack Meeting</p></a>
 <a href="/docs/service-den"><p class="note">Service Den: Lion</p></a>
 </div>
 

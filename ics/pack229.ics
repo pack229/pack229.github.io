@@ -1226,20 +1226,20 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260118T200936
+DTSTAMP:20260118T201131
 UID:d78b0fc2-c886-4a24-b8df-3eaf71402e3b
 DTSTART;TZID=America/Los_Angeles:20260201T091500
 DTEND;TZID=America/Los_Angeles:20260201T103000
 CLASS:PUBLIC
 DESCRIPTION:📇 Contact: DJ Davis\n\nAttention all Cub Scouts\, Girl Scout
- s\, and  Scouts BSA: Please join us for our annual Scout Mass on Sunday Fe
- bruary 1st\, at 9:30 AM. Please wear your Scout (Class A) uniform to Mass 
- and plan to arrive 15 minutes early. We will need Greeters\, Bulletin Dist
- ributors\, Readers\, Ushers\, and Gift Presenters. If your son or daughter
-  is interested in helping\, please contact DJ Davis.
+ s\, and  Scouts BSA: Please join us for our annual Scout Sunday Mass on Su
+ nday February 1st\, at 9:30 AM. Please wear your Scout (Class A) uniform t
+ o Mass and plan to arrive 15 minutes early. We will need Greeters\, Reader
+ s\, Ushers\, and Gift Presenters. If your son or daughter is interested in
+  helping\, please contact DJ Davis.
 LOCATION:Holy Spirit Parish\n1200 Redmond Ave\, San Jose\, CA  95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Founders Day Scout Mass
+SUMMARY:Pack 229: Scout Sunday Mass
 URL;VALUE=URI:https://hsspack229.org/2026/01/18/scout-day-mass
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
  ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444

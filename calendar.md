@@ -367,7 +367,7 @@ featured_image: about.jpg
 
 <div class="calendar-card">
 <a href="https://hsspack229.org/2026/01/18/scout-day-mass"><p class="date">Sun 2/1 @  9:15 AM</p></a>
-<a href="https://hsspack229.org/2026/01/18/scout-day-mass"><p class="name">Founders Day Scout Mass</p></a>
+<a href="https://hsspack229.org/2026/01/18/scout-day-mass"><p class="name">Scout Sunday Mass</p></a>
 </div>
 
 <div class="calendar-card">

@@ -1245,14 +1245,15 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
  ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T035640
+DTSTAMP:20260125T023055
 UID:820b4e94-02b8-46a5-ad68-9cc50433c89f
 DTSTART;TZID=America/Los_Angeles:20260202T183000
 DTEND;TZID=America/Los_Angeles:20260202T193000
 CLASS:PUBLIC
-DESCRIPTION:🫡 Service Den: Lion [see link below]\n\nScouts at HSS can we
- ar Class A uniforms to school on pack meeting days!\n\nLion: https://hsspa
- ck229.org/docs/service-den
+DESCRIPTION:🫡 Service Den: Lion [see link below]\n\nWe’ll be designing
+  our Pinewood Derby cars and distributing car kits.\n\nScouts at HSS can w
+ ear Class A uniforms to school on pack meeting days!\n\nLion: https://hssp
+ ack229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
@@ -1336,5 +1337,23 @@ ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260125T024411
+UID:9be2c654-5422-426b-a374-c0eee8be2279
+DTSTART;TZID=America/Los_Angeles:20260605T170000
+DTEND;TZID=America/Los_Angeles:20260607T100000
+CLASS:PUBLIC
+DESCRIPTION:Please save the date for the Spring Family Cub Scout Campout at
+  Joseph Grant County Park on the weekend of June 5th 2026. More informatio
+ n to come as we get closer to the event.
+LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
+ 95140
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Spring Family Campout
+URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
+ 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
+ 891
 END:VEVENT
 END:VCALENDAR

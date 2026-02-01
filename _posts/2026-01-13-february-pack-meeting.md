@@ -12,6 +12,6 @@ meta:
   service_den: Lion
 ---
 
-We'll be designing our Pinewood Derby cars and distributing car kits. 
+We'll be designing our [Pinewood Derby](/2026/02/01/pinewood-derby) cars and distributing car kits. 
 
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!

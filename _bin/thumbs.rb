@@ -20,18 +20,18 @@ end
 
 # Galleries
 
-# events.each_child do |y|
-#   if y.directory?
-#     y.each_child do |e|
-#       if e.directory?
-#         short_name = e.to_s[events.to_s.length..-1]
-#         thumb_d = "#{thumbs}#{short_name}"
-#         FileUtils::Verbose.mkdir_p(thumb_d)
-#         cmd "cd #{e} && sips -Z 880 *.jpg --out #{thumb_d}"
-#       end
-#     end
-#   end
-# end
+events.each_child do |y|
+  if y.directory?
+    y.each_child do |e|
+      if e.directory?
+        short_name = e.to_s[events.to_s.length..-1]
+        thumb_d = "#{thumbs}#{short_name}"
+        FileUtils::Verbose.mkdir_p(thumb_d)
+        cmd "cd #{e} && sips -Z 880 *.jpg --out #{thumb_d}"
+      end
+    end
+  end
+end
 
 # Posts for OG Images
 

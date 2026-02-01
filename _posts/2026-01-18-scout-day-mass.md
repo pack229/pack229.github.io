@@ -3,7 +3,7 @@ layout: post
 title: "Scout Sunday Mass"
 date: 2026-01-18
 featured_image: church.jpg
-tags: [Upcoming,Scout Mass]
+tags: [Scout Mass]
 uuid: D78B0FC2-C886-4A24-B8DF-3EAF71402E3B
 meta:
   date: 2026-02-01

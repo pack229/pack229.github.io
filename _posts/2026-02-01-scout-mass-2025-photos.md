@@ -15,3 +15,4 @@ meta:
 {% include image_thumb.html imageurl="/images/events/2026/scout-mass/2026-scout-mass-4.jpg" title="HSS Scout Mass 2026" caption="HSS Scout Mass 2026" %}
 {% include image_thumb.html imageurl="/images/events/2026/scout-mass/2026-scout-mass-5.jpg" title="HSS Scout Mass 2026" caption="HSS Scout Mass 2026" %}
 {% include image_thumb.html imageurl="/images/events/2026/scout-mass/2026-scout-mass-6.jpg" title="HSS Scout Mass 2026" caption="HSS Scout Mass 2026" %}
+{% include image_thumb.html imageurl="/images/events/2026/scout-mass/2026-scout-mass-7.jpg" title="HSS Scout Mass 2026" caption="HSS Scout Mass 2026" %}

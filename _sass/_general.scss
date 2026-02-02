@@ -580,9 +580,10 @@ figure.thumb {
 
 .calendar-cards {
   display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fill, 208px);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
 }
+
 .calendar-card {
   border: 1px solid black;
   border-radius: 5px;

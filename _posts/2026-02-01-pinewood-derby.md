@@ -57,6 +57,7 @@ Race into fun at our Pinewood Derby! Cub Scouts design and race custom pinewood 
 ### Things to Note
 
  * Please see [rules](/docs/pwd-rules) for weight and size requirements.
+ * This year we assigned [Car Numbers](https://docs.google.com/spreadsheets/d/1HeeVEiLbgU1qx8xTHYtKX66KthoOstPv8CP4iK1Yo78/edit?usp=sharing) before race day. You are encouraged to add this number to your car design either on the top or sides of your car. In either case, please also mark your car number and scout's name on the bottom of the race car.
  * Check in will be from 6:30 PM to 7:30 PM on Friday. Scouts will be allowed one practice run to ensure their car works on the track.
  * Cars must be fully assembled before the event and no adjustments will be allowed after the races start.
 

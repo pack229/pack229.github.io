@@ -1245,7 +1245,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
  ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260201T205857
+DTSTAMP:20260217T172722
 UID:820b4e94-02b8-46a5-ad68-9cc50433c89f
 DTSTART;TZID=America/Los_Angeles:20260202T183000
 DTEND;TZID=America/Los_Angeles:20260202T193000
@@ -1295,7 +1295,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Chase Center;X-ADDRESS="1 Warriors Way,
   San Francisco, CA 94158";VALUE=URI:geo:37.767829,-122.387426
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T035640
+DTSTAMP:20260217T183111
 UID:2f6714d4-a7dc-4e17-ae56-97afe00515af
 DTSTART;TZID=America/Los_Angeles:20260309T183000
 DTEND;TZID=America/Los_Angeles:20260309T193000
@@ -1306,33 +1306,37 @@ DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nScouts at
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2026/02/03/march-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260201T210946
+DTSTAMP:20260217T183030
 UID:38398b36-0f50-4762-b496-118cb91f7f45
 DTSTART;TZID=America/Los_Angeles:20260327T183000
 DTEND;TZID=America/Los_Angeles:20260327T193000
 CLASS:PUBLIC
-DESCRIPTION:🌐 Link: Official Pack 229 PWD Rules [see link below]\n\nRace
-  into fun at our Pinewood Derby! Cub Scouts design and race custom pinewoo
- d cars in this exciting family-friendly event. Join us for a day of creati
- vity\, competition\, and fast-paced thrills! 🏆\n\nTentative Agenda for 
- 3/28\n\n12:30 | 2:30 | Blue &amp\; Gold Banquet\n12:00 | 12:30 | Awards\n1
- 1:30 | 12:00 | Outlaw Races\n10:00 | 11:30 | Official Car Races\n9:00 | 10
- :00 | Voting for Best Design\n8:30 | 9:00 | Late Check-In\n\nThings to Not
- e\n\n * Cars must be fully assembled before the event and no adjustments w
- ill be allowed after the races start.\n * Check in will be from 6:30 PM to
-  7:30 PM on Friday. Scouts will be allowed one practice run to ensure thei
- r car works on the track.\n * Please see rules [see link below] for weight
-  and size requirements.\n\n... [See More On Website]\n\nOfficial Pack 229 
- PWD Rules: https://hsspack229.org/docs/pwd-rules\n\nRSVP for the Blue and 
- Gold Banquet: https://evite.me/fFVxSmVQbJ\n\nplease signup: https://docs.g
- oogle.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit
- ?gid=0#gid=0\n\nplease signup: https://docs.google.com/spreadsheets/d/1GLF
- xVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=134583412
- 8
+DESCRIPTION:🌐 Link: Official Pack 229 PWD Rules [see link below]\n📋 S
+ ignup: RSVP\, Assigned Numbers\, Volunteer to Help [see link below]\n\nRac
+ e into fun at our Pinewood Derby! Cub Scouts design and race custom pinewo
+ od cars in this exciting family-friendly event. Join us for a day of creat
+ ivity\, competition\, and fast-paced thrills! 🏆\n\nTentative Agenda for
+  3/28\n\n12:30 | 2:30 | Blue &amp\; Gold Banquet\n12:00 | 12:30 | Awards\n
+ 11:30 | 12:00 | Outlaw Races\n10:00 | 11:30 | Official Car Races\n9:00 | 1
+ 0:00 | Voting for Best Design\n8:30 | 9:00 | Late Check-In\n\nThings to No
+ te\n\n * Cars must be fully assembled before the event and no adjustments 
+ will be allowed after the races start.\n * Check in will be from 6:30 PM t
+ o 7:30 PM on Friday. Scouts will be allowed one practice run to ensure the
+ ir car works on the track.\n * Please see rules [see link below] for weigh
+ t and size requirements.\n\n... [See More On Website]\n\nOfficial Pack 229
+  PWD Rules: https://hsspack229.org/docs/pwd-rules\n\nRSVP\, Assigned Numbe
+ rs\, Volunteer to Help: https://docs.google.com/spreadsheets/d/1HeeVEiLbgU
+ 1qx8xTHYtKX66KthoOstPv8CP4iK1Yo78/edit?usp=sharing\n\nRSVP for the Blue an
+ d Gold Banquet: https://evite.me/fFVxSmVQbJ\n\nplease signup: https://docs
+ .google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/ed
+ it?gid=0#gid=0\n\nplease signup: https://docs.google.com/spreadsheets/d/1G
+ LFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834
+ 128
 LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Check In
@@ -1341,29 +1345,32 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260201T210946
+DTSTAMP:20260217T183030
 UID:839740b7-4c6d-45a0-9f15-198d739f6d97
 DTSTART;TZID=America/Los_Angeles:20260328T093000
 DTEND;TZID=America/Los_Angeles:20260328T123000
 CLASS:PUBLIC
-DESCRIPTION:🌐 Link: Official Pack 229 PWD Rules [see link below]\n\nRace
-  into fun at our Pinewood Derby! Cub Scouts design and race custom pinewoo
- d cars in this exciting family-friendly event. Join us for a day of creati
- vity\, competition\, and fast-paced thrills! 🏆\n\nTentative Agenda for 
- 3/28\n\n12:30 | 2:30 | Blue &amp\; Gold Banquet\n12:00 | 12:30 | Awards\n1
- 1:30 | 12:00 | Outlaw Races\n10:00 | 11:30 | Official Car Races\n9:00 | 10
- :00 | Voting for Best Design\n8:30 | 9:00 | Late Check-In\n\nThings to Not
- e\n\n * Cars must be fully assembled before the event and no adjustments w
- ill be allowed after the races start.\n * Check in will be from 6:30 PM to
-  7:30 PM on Friday. Scouts will be allowed one practice run to ensure thei
- r car works on the track.\n * Please see rules [see link below] for weight
-  and size requirements.\n\n... [See More On Website]\n\nOfficial Pack 229 
- PWD Rules: https://hsspack229.org/docs/pwd-rules\n\nRSVP for the Blue and 
- Gold Banquet: https://evite.me/fFVxSmVQbJ\n\nplease signup: https://docs.g
- oogle.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit
- ?gid=0#gid=0\n\nplease signup: https://docs.google.com/spreadsheets/d/1GLF
- xVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=134583412
- 8
+DESCRIPTION:📋 Signup: RSVP\, Assigned Numbers\, Volunteer to Help [see l
+ ink below]\n🌐 Link: Official Pack 229 PWD Rules [see link below]\n\nRac
+ e into fun at our Pinewood Derby! Cub Scouts design and race custom pinewo
+ od cars in this exciting family-friendly event. Join us for a day of creat
+ ivity\, competition\, and fast-paced thrills! 🏆\n\nTentative Agenda for
+  3/28\n\n12:30 | 2:30 | Blue &amp\; Gold Banquet\n12:00 | 12:30 | Awards\n
+ 11:30 | 12:00 | Outlaw Races\n10:00 | 11:30 | Official Car Races\n9:00 | 1
+ 0:00 | Voting for Best Design\n8:30 | 9:00 | Late Check-In\n\nThings to No
+ te\n\n * Cars must be fully assembled before the event and no adjustments 
+ will be allowed after the races start.\n * Check in will be from 6:30 PM t
+ o 7:30 PM on Friday. Scouts will be allowed one practice run to ensure the
+ ir car works on the track.\n * Please see rules [see link below] for weigh
+ t and size requirements.\n\n... [See More On Website]\n\nRSVP\, Assigned N
+ umbers\, Volunteer to Help: https://docs.google.com/spreadsheets/d/1HeeVEi
+ LbgU1qx8xTHYtKX66KthoOstPv8CP4iK1Yo78/edit?usp=sharing\n\nOfficial Pack 22
+ 9 PWD Rules: https://hsspack229.org/docs/pwd-rules\n\nRSVP for the Blue an
+ d Gold Banquet: https://evite.me/fFVxSmVQbJ\n\nplease signup: https://docs
+ .google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/ed
+ it?gid=0#gid=0\n\nplease signup: https://docs.google.com/spreadsheets/d/1G
+ LFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834
+ 128
 LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pinewood Derby: Races
@@ -1372,27 +1379,30 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260201T210946
+DTSTAMP:20260217T183030
 UID:969bd8df-f821-48a2-a81a-4ffed5ef0189
 DTSTART;TZID=America/Los_Angeles:20260328T123000
 DTEND;TZID=America/Los_Angeles:20260328T143000
 CLASS:PUBLIC
-DESCRIPTION:Race into fun at our Pinewood Derby! Cub Scouts design and race
-  custom pinewood cars in this exciting family-friendly event. Join us for 
- a day of creativity\, competition\, and fast-paced thrills! 🏆\n\nTentat
- ive Agenda for 3/28\n\n12:30 | 2:30 | Blue &amp\; Gold Banquet\n12:00 | 12
- :30 | Awards\n11:30 | 12:00 | Outlaw Races\n10:00 | 11:30 | Official Car R
- aces\n9:00 | 10:00 | Voting for Best Design\n8:30 | 9:00 | Late Check-In\n
- \nThings to Note\n\n * Cars must be fully assembled before the event and n
- o adjustments will be allowed after the races start.\n * Check in will be 
- from 6:30 PM to 7:30 PM on Friday. Scouts will be allowed one practice run
-  to ensure their car works on the track.\n * Please see rules [see link be
- low] for weight and size requirements.\n\n... [See More On Website]\n\nrul
- es: https://hsspack229.org/docs/pwd-rules\n\nRSVP for the Blue and Gold Ba
- nquet: https://evite.me/fFVxSmVQbJ\n\nplease signup: https://docs.google.c
- om/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=0#
- gid=0\n\nplease signup: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW
- 9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
+DESCRIPTION:📋 Signup: RSVP\, Assigned Numbers\, Volunteer to Help [see l
+ ink below]\n\nRace into fun at our Pinewood Derby! Cub Scouts design and r
+ ace custom pinewood cars in this exciting family-friendly event. Join us f
+ or a day of creativity\, competition\, and fast-paced thrills! 🏆\n\nTen
+ tative Agenda for 3/28\n\n12:30 | 2:30 | Blue &amp\; Gold Banquet\n12:00 |
+  12:30 | Awards\n11:30 | 12:00 | Outlaw Races\n10:00 | 11:30 | Official Ca
+ r Races\n9:00 | 10:00 | Voting for Best Design\n8:30 | 9:00 | Late Check-I
+ n\n\nThings to Note\n\n * Cars must be fully assembled before the event an
+ d no adjustments will be allowed after the races start.\n * Check in will 
+ be from 6:30 PM to 7:30 PM on Friday. Scouts will be allowed one practice 
+ run to ensure their car works on the track.\n * Please see rules [see link
+  below] for weight and size requirements.\n\n... [See More On Website]\n\n
+ RSVP\, Assigned Numbers\, Volunteer to Help: https://docs.google.com/sprea
+ dsheets/d/1HeeVEiLbgU1qx8xTHYtKX66KthoOstPv8CP4iK1Yo78/edit?usp=sharing\n\
+ nrules: https://hsspack229.org/docs/pwd-rules\n\nRSVP for the Blue and Gol
+ d Banquet: https://evite.me/fFVxSmVQbJ\n\nplease signup: https://docs.goog
+ le.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gi
+ d=0#gid=0\n\nplease signup: https://docs.google.com/spreadsheets/d/1GLFxVj
+ MhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
 LOCATION:HSS Gym\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Blue & Gold BBQ

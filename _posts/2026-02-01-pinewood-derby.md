@@ -15,18 +15,18 @@ meta:
     more_info:
       title: Official Pack 229 PWD Rules
       url: /docs/pwd-rules
-    # signup:
-    #   - title: Volunteer to Help
-    #     url: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
+    signup:
+      title: RSVP, Assigned Numbers, Volunteer to Help
+      url: https://docs.google.com/spreadsheets/d/1HeeVEiLbgU1qx8xTHYtKX66KthoOstPv8CP4iK1Yo78/edit?usp=sharing
   - event: "Pinewood Derby: Races"
     date: 2026-03-28
     time: 9:30 AM
     duration: 180 minutes
     location: HSS Gym
     uuid: 839740B7-4C6D-45A0-9F15-198D739F6D97
-    # signup:
-    # - title: Volunteer to Help
-    #   url: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=1345834128#gid=1345834128
+    signup:
+      title: RSVP, Assigned Numbers, Volunteer to Help
+      url: https://docs.google.com/spreadsheets/d/1HeeVEiLbgU1qx8xTHYtKX66KthoOstPv8CP4iK1Yo78/edit?usp=sharing
     more_info:
       title: Official Pack 229 PWD Rules
       url: /docs/pwd-rules
@@ -36,11 +36,9 @@ meta:
     duration: 2 hours
     location: HSS Gym
     uuid: 969BD8DF-F821-48A2-A81A-4FFED5EF0189
-    # signup:
-    #   - title: RSVP by 3/20
-    #     url: https://evite.me/fFVxSmVQbJ
-    #   - title: Potluck Signup & Volunteer to Help
-    #     url: https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=0#gid=0
+    signup:
+      title: RSVP, Assigned Numbers, Volunteer to Help
+      url: https://docs.google.com/spreadsheets/d/1HeeVEiLbgU1qx8xTHYtKX66KthoOstPv8CP4iK1Yo78/edit?usp=sharing
 ---
 
 Race into fun at our Pinewood Derby! Cub Scouts design and race custom pinewood cars in this exciting family-friendly event. Join us for a day of creativity, competition, and fast-paced thrills! 🏆
@@ -52,8 +50,8 @@ Race into fun at our Pinewood Derby! Cub Scouts design and race custom pinewood 
 | 8:30  | 9:00  | Late Check-In |
 | 9:00  | 10:00 | Voting for Best Design |
 | 10:00 | 11:30 | Official Car Races |
-| 11:30 | 12:00 | Outlaw Races |
-| 12:00 | 12:30 | Awards |
+| 11:30 | 12:00 | Awards |
+| 12:00 | 12:30 | Outlaw Races |
 | 12:30 | 2:30  | Blue & Gold Banquet |
 
 ### Things to Note

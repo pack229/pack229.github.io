@@ -388,8 +388,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 3/9 @  6:30 PM</p>
-<p class="name">March Pack Meeting</p>
+<a href="https://hsspack229.org/2026/02/03/march-pack-meeting"><p class="date">Mon 3/9 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/02/03/march-pack-meeting"><p class="name">March Pack Meeting</p></a>
 <a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
 </div>
 

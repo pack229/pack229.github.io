@@ -415,8 +415,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 4/20 @  6:30 PM</p>
-<p class="name">April Pack Meeting</p>
+<a href="https://hsspack229.org/2026/03/10/april-pack-meeting"><p class="date">Mon 4/20 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/03/10/april-pack-meeting"><p class="name">April Pack Meeting</p></a>
 <a href="/docs/service-den"><p class="note">Service Den: Webelos</p></a>
 </div>
 

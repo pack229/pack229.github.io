@@ -28,7 +28,7 @@ We will be using a dynamic scheduling formula supported by GrandPrix Race Manage
 ### Awards
  * There will be two categories of prizes: Fastest Cars and Best Design
  * Awards fastest car will be given for 1st, 2nd, & 3rd place at both the Rank and Pack level.
- * Awards for best design, as voted on by pack members participating in the race, shall be awarded for 1st, 2nd, & 3rd at the Pack level.
+ * Awards for best design, as voted on by pack members participating in the race, shall be awarded for the best Overall Design and the best Outlaw Design at the Pack level.
 
 ### Outlaw Races
-In addition to the official den and pack races, we will run “outlaw races” at the end of official racing and issuing of awards. Outlaw races open to family and friends as well as scouts. There are no prizes for outlaw races or cars. Outlaw cars do not have to comply with the official rules. Any car that can run on the track without damaging the track equipment or interfering with other cars can run in outlaw races. Please refrain from using anything flammable or on fire.
+In addition to the official den and pack races, we will run “outlaw races” at the end of official racing and issuing of awards. Outlaw races open to family and friends as well as scouts. There are no race prizes for outlaw races or cars. Outlaw cars do not have to comply with the official rules. Any car that can run on the track without damaging the track equipment or interfering with other cars can run in outlaw races. Please refrain from using anything flammable or on fire.

@@ -3,7 +3,7 @@ layout: post
 title:  Golden State Warriors Scout Day 2026
 date: 2026-01-06
 featured_image: warriors.jpg
-tags: [Scout Night, Events, Upcoming]
+tags: [Scout Night, Events]
 uuid: B9F64AB5-EBC8-42A6-BB27-EBE6F87FAE79
 meta:
   date: 2026-02-22

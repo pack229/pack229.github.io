@@ -399,12 +399,12 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2026/02/01/pinewood-derby"><p class="date">Sat 3/28 @  9:30 AM</p></a>
+<a href="https://hsspack229.org/2026/02/01/pinewood-derby"><p class="date">Sat 3/28 @  9:00 AM</p></a>
 <a href="https://hsspack229.org/2026/02/01/pinewood-derby"><p class="name">Pinewood Derby: Races</p></a>
 </div>
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2026/02/01/pinewood-derby"><p class="date">Sat 3/28 @ 12:30 PM</p></a>
+<a href="https://hsspack229.org/2026/02/01/pinewood-derby"><p class="date">Sat 3/28 @ 12:00 PM</p></a>
 <a href="https://hsspack229.org/2026/02/01/pinewood-derby"><p class="name">Blue & Gold BBQ</p></a>
 </div>
 

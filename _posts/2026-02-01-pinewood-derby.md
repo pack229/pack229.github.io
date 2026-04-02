@@ -3,7 +3,7 @@ layout: post
 title: "Pinewood Derby & Blue & Gold BBQ"
 date: 2026-02-01
 featured_image: pwd.jpg
-tags: [Upcoming,Pinewood Derby]
+tags: [Pinewood Derby]
 uuid: B3D8F359-6BF5-4B03-A5FE-7504494E4618
 meta:
   - event: "Pinewood Derby: Check In"

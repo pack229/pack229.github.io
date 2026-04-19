@@ -1409,15 +1409,15 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260419T005703
+DTSTAMP:20260419T010401
 UID:36283f78-2766-4529-bc4e-8b4417fc8a49
 DTSTART;TZID=America/Los_Angeles:20260420T183000
 DTEND;TZID=America/Los_Angeles:20260420T193000
 CLASS:PUBLIC
 DESCRIPTION:🫡 Service Den: Webelos [see link below]\n\nWe’ll be workin
- g the America’s 250th Anniversary Challenge and earning a exclusive patc
- h.\n\nScouts at HSS can wear Class A uniforms to school on pack meeting da
- ys!\n\nWebelos: https://hsspack229.org/docs/service-den
+ g the America’s 250th Anniversary Challenge and earning an exclusive pat
+ ch.\n\nScouts at HSS can wear Class A uniforms to school on pack meeting d
+ ays!\n\nWebelos: https://hsspack229.org/docs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting

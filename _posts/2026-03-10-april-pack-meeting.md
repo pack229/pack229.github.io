@@ -12,4 +12,8 @@ meta:
   service_den: Webelos
 ---
 
+We'll be working the **America's 250th Anniversary Challenge** and earning a exclusive patch.
+
+<img src="/images/posts/liberty-in-action-patch.webp" width="300"/>
+
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!

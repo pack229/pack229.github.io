@@ -141,7 +141,10 @@ module Jekyll
         h = ["<ul>"]
         meta_categories.keys.each do |k|
           if i = meta[k.to_s]
-            h << "<li>" + format_meta_item([k.to_s, i], meta) + "</li>"
+            items = [format_meta_item([k.to_s, i], meta)].flatten
+            items.each do |i|
+              h << "<li>" + i + "</li>"
+            end
           end
         end
         h << "</ul>"
@@ -152,7 +155,7 @@ module Jekyll
       if body["meta"]
         body["meta"].map do |i|
           format_meta_item(i, body["meta"]) unless hidden_from_calendar.include?(i[0].to_sym)
-        end.compact.join("\n") + "\n\n"
+        end.flatten.compact.join("\n") + "\n\n"
       end
     end
     def location_map(value)
@@ -204,7 +207,7 @@ module Jekyll
             l
           end
         end.join(" and ")
-      elsif type == :location && location_data = location_map(data)
+      elsif type == :location && location_data = location_map(data.gsub(/\(.*?\)/, '').strip)
         [ link(data, location_data[:site]), link(location_data[:address], location_data[:map]) ].join(" | ")
       elsif type == :date || type == :deadline
         if data.is_a?(Array)
@@ -245,7 +248,11 @@ module Jekyll
       elsif type == :service_den
         link(data, "/docs/service-den")
       elsif type == :more_info or type == :virtual_meeting
-        if data.is_a?(Hash)
+        if data.is_a?(Array)
+          data.map do |d|
+            format_meta_item([type,d], meta)
+          end
+        elsif data.is_a?(Hash)
           link(data["title"], data["url"])
         else
           link("More Info", data)
@@ -256,7 +263,11 @@ module Jekyll
       else
         data
       end
-      "#{title}: #{data}"
+      if data.is_a?(Array)
+        data
+      else
+        "#{title}: #{data}"
+      end
     end
 
     def first_date(date, format)

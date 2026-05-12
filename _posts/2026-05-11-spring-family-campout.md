@@ -9,7 +9,7 @@ meta:
   date:
     - 2026-06-05 5:00 PM
     - 2026-06-07 10:00 AM
-  location: Joseph Grant County Park
+  location: Joseph Grant County Park (Halls Valley Group Site)
   who: All Pack 229 Cub Scouts and their families. We encourage parents, siblings, and guardians to attend! Please note all Scouts must be accompanied by at least 1 parent/guardian.
   signup:
     - title: Campout Signup
@@ -18,8 +18,14 @@ meta:
       url: https://docs.google.com/spreadsheets/d/1QG0SRekzL7ayCMuKxdQ59w74V2fKz9C_pRHlKYLFuuY/edit?gid=1276761986#gid=1276761986
   cost: $30 per person to cover camp fees, meals, and supplies for the weekend. Please pay the <a href="/finances">Pack Treasurer</a>
   more_info:
-    title: Packing List
-    url: /docs/family-campout/packing-list
+    - title: Packing List
+      url: /docs/family-campout/packing-list
+    - title: Medical Forms
+      url: /2026/05/11/spring-family-campout#medical-forms
+    - title: Bring a Cup
+      url: /2026/05/11/spring-family-campout#bring-a-cup
+    - title: Map Link (Take Alum Rock Route To Halls Valley Group Campsite)
+      url: https://www.google.com/maps/d/u/0/edit?mid=1pYHn2LhJmPUfp4aThjAWmFdNYQlJ8hU&usp=sharing
 ---
 
 As we wrap up another great year of Cub Scouting adventures, we’re excited to invite you and your families to our **Spring 2026 Family Campout!** This is a wonderful opportunity to celebrate our Scouts’ achievements, enjoy the outdoors, and make lasting memories together.
@@ -117,7 +123,7 @@ Yes, all attendees (including parents, siblings, and other family members) are r
 #### Additional Information
 
 ##### Will there be restrooms and showers at the campsite?
-Yes, Ed R. Levin County Park has restroom facilities. Showers may be limited, so please plan accordingly.
+Yes, Joseph Grant County Park has restroom facilities. Showers may be limited, so please plan accordingly.
 
 ##### What should I do if I have a question or need assistance during the event?
 Look for Pack 229 leaders in identifiable attire (like t-shirts or hats). Our team will be happy to assist you throughout the weekend.

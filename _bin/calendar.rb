@@ -174,7 +174,7 @@ class PackCalendar
 
     def location_structured
       if loc = @meta["location"]
-        if loc_data = Meta.new.location_map(loc)
+        if loc_data = Meta.new.location_map(loc.gsub(/\(.*?\)/, '').strip)
           params = Rack::Utils.parse_query(URI(loc_data[:map]).query)
           ll =  params["ll"] || params["coordinate"]
           raise "missing ll/coordinate from map" if ll.nil?

@@ -2,7 +2,7 @@
 layout: post
 title: "Spring Family Campout: Save The Date"
 date: 2026-01-24
-tags: [Events,Upcoming,Camping]
+tags: [Events,Camping]
 uuid: 9BE2C654-5422-426B-A374-C0EEE8BE2279
 featured_image: campout.jpg
 meta:

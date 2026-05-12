@@ -12,4 +12,6 @@ meta:
   service_den: Wolf
 ---
 
+Join us for the annual Rank-Up Pack Meeting. Scouts that have finished their requirements will get their next badges, we’ll be seeing our AOL Scouts off to Scouts BSA, and we’ll be talking about the [Spring Family Campout](/2026/05/11/spring-family-campout/).
+
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!

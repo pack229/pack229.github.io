@@ -427,8 +427,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 5/11 @  6:30 PM</p>
-<p class="name">May Pack Meeting</p>
+<a href="https://hsspack229.org/2026/04/21/may-pack-meeting"><p class="date">Mon 5/11 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/04/21/may-pack-meeting"><p class="name">May Pack Meeting</p></a>
 <a href="/docs/service-den"><p class="note">Service Den: Wolf</p></a>
 </div>
 
@@ -437,6 +437,12 @@ featured_image: about.jpg
 ## June
 
 <div class="calendar-cards">
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="date">Fri 6/5 @  5:00 PM</p></a>
+<a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="name">Spring Family Campout</p></a>
+<a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
+</div>
 
 <div class="calendar-card">
 <a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="date">Fri 6/5 @  5:00 PM</p></a>

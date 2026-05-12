@@ -1450,7 +1450,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260419T010401
+DTSTAMP:20260512T053734
 UID:36283f78-2766-4529-bc4e-8b4417fc8a49
 DTSTART;TZID=America/Los_Angeles:20260420T183000
 DTEND;TZID=America/Los_Angeles:20260420T193000
@@ -1467,22 +1467,27 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250824T035640
+DTSTAMP:20260512T054015
 UID:8e4dacb9-bfea-4c6d-bc5d-f4b69cfc2c63
 DTSTART;TZID=America/Los_Angeles:20260511T183000
 DTEND;TZID=America/Los_Angeles:20260511T193000
 CLASS:PUBLIC
-DESCRIPTION:🫡 Service Den: Wolf [see link below]\n\nScouts at HSS can we
- ar Class A uniforms to school on pack meeting days!\n\nWolf: https://hsspa
- ck229.org/docs/service-den
+DESCRIPTION:🫡 Service Den: Wolf [see link below]\n\nJoin us for the annu
+ al Rank-Up Pack Meeting. Scouts that have finished their requirements will
+  get their next badges\, we’ll be seeing our AOL Scouts off to Scouts BS
+ A\, and we’ll be talking about the Spring Family Campout [see link below
+ ].\n\nScouts at HSS can wear Class A uniforms to school on pack meeting da
+ ys!\n\nWolf: https://hsspack229.org/docs/service-den\n\nSpring Family Camp
+ out: https://hsspack229.org/2026/05/11/spring-family-campout/
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2026/04/21/may-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260201T203411
+DTSTAMP:20260512T053901
 UID:9be2c654-5422-426b-a374-c0eee8be2279
 DTSTART;TZID=America/Los_Angeles:20260605T170000
 DTEND;TZID=America/Los_Angeles:20260607T100000
@@ -1495,6 +1500,55 @@ LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Spring Family Campout
 URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
+ 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
+ 891
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T054615
+UID:53653f47-488f-402b-a8fd-ea7e0d897288
+DTSTART;TZID=America/Los_Angeles:20260605T170000
+DTEND;TZID=America/Los_Angeles:20260607T100000
+CLASS:PUBLIC
+DESCRIPTION:👤 Who: All Pack 229 Cub Scouts and their families. We encour
+ age parents\, siblings\, and guardians to attend! Please note all Scouts m
+ ust be accompanied by at least 1 parent/guardian.\n📋 Signup: Campout Si
+ gnup [see link below] and Volunteer to Help [see link below]\n💵 Cost: $
+ 30 per person to cover camp fees\, meals\, and supplies for the weekend. P
+ lease pay the Pack Treasurer [see link below]\n🌐 Link: Packing List [se
+ e link below]\n\nAs we wrap up another great year of Cub Scouting adventur
+ es\, we’re excited to invite you and your families to our Spring 2026 Fa
+ mily Campout! This is a wonderful opportunity to celebrate our Scouts’ a
+ chievements\, enjoy the outdoors\, and make lasting memories together.\n\n
+ We’ll have fun activities\, campfire stories and skits\, and plenty of t
+ ime to relax and connect with fellow Scout families. Whether you’re an e
+ xperienced camper or trying it for the first time\, this will be a fantast
+ ic way to close out the Scout year.\n\nVolunteer Opportunities [see link b
+ elow]: Meal prep\, cleanup\, and activity support are great chances to mee
+ t other families and leaders. Don’t worry if you’re not a master chef 
+ — we’ll guide you through everything.\n\nSaturday Night Campfire: This
+  is one of the highlights of the weekend. We’ll gather for songs\, den s
+ kits\, a campfire story or two\, and of course\, roast marshmallows and ma
+ ke s’mores. It’s a great way to wind down together as a Pack.\n\nPleas
+ e make sure to read through all the FAQs below especially the packing list
+  [see link below]\, campout agenda [see link below]\, the required medical
+  forms [see link below] and the note about bringing a cup [see link below]
+ .\n\n... [See More On Website]\n\nCampout Signup: https://docs.google.com/
+ spreadsheets/d/1QG0SRekzL7ayCMuKxdQ59w74V2fKz9C_pRHlKYLFuuY/edit?usp=shari
+ ng\n\nVolunteer to Help: https://docs.google.com/spreadsheets/d/1QG0SRekzL
+ 7ayCMuKxdQ59w74V2fKz9C_pRHlKYLFuuY/edit?gid=1276761986#gid=1276761986\n\nP
+ ack Treasurer: https://hsspack229.org/finances\n\nPacking List: https://hs
+ spack229.org/docs/family-campout/packing-list\n\ncampout agenda: https://h
+ sspack229.org/docs/family-campout/agenda\n\nmedical forms: https://hsspack
+ 229.org/2026/05/11/spring-family-campout#medical-forms\n\nbringing a cup: 
+ https://hsspack229.org/2026/05/11/spring-family-campout#bring-a-cup\n\nFis
+ h and Wildlife Website: https://wildlife.ca.gov/licenseapp\n\nHealth and M
+ edical Record form: https://www.scouting.org/health-and-safety/ahmr/
+LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
+ 95140
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Spring Family Campout
+URL;VALUE=URI:https://hsspack229.org/2026/05/11/spring-family-campout
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
  05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
  891

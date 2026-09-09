@@ -7,7 +7,7 @@ featured_image: packmeeting.jpg
 tags: [Meetings, Upcoming]
 uuid: 9295FE61-8903-468A-A9DF-E08410E4F104
 meta:
-  date: 2025-09-28
+  date: 2026-09-28
   time: 6:30 PM
   location: HSS Library
   service_den: Arrow of Light

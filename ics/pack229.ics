@@ -962,33 +962,6 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Courtyard;X-ADDRESS="1198 Redmond A
  ve, San Jose, CA 95120";VALUE=URI:geo:37.228396,-121.873264
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260909T042909
-UID:9295fe61-8903-468a-a9df-e08410e4f104
-DTSTART;TZID=America/Los_Angeles:20250928T183000
-DTEND;TZID=America/Los_Angeles:20250928T193000
-CLASS:PUBLIC
-DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nWelcome ba
- ck Scouts! We will be having our first pack meeting of the school year on 
- Monday September 28th at 6:30 PM in the library.\n\nThe Arrow of Light sco
- uts will be our first service den [see link below] for this meeting.\n\nWe
- ’ll start the meeting with a uniform inspection [see link below] for the
-  new scouting year and discussing the Bobcat rank requirements.\n\nWe will
-  be distributing the Raingutter Regatta boat kits and starting to work on 
- them in dens. Scouts will need to finish painting and decorating their boa
- ts at home after the meeting. If you are unable to make the meeting please
-  reach out to get your regatta boat kit.\n\nFinally\, we will work on the 
- first advancement of the year: the Bobcat Adventure.\n\nScouts at HSS can 
- wear Class A uniforms to school on pack meeting days!\n\nArrow of Light: h
- ttps://hsspack229.org/docs/service-den\n\nuniform inspection: https://hssp
- ack229.org/docs/uniforms
-LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Pack Meeting
-URL;VALUE=URI:https://hsspack229.org/2026/09/08/september-pack-meeting
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
- , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20251020T223211
 UID:f67c60cb-fef3-479e-a49b-4285f0012bd2
 DTSTART;TZID=America/Los_Angeles:20251011T190000
@@ -1541,6 +1514,33 @@ URL;VALUE=URI:https://hsspack229.org/2026/05/11/spring-family-campout
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park (Halls Valley 
  Group Site);X-ADDRESS="18405 Mt. Hamilton Road, San Jose, CA 95140";VALUE=
  URI:geo:37.331035,-121.714891
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260909T043614
+UID:9295fe61-8903-468a-a9df-e08410e4f104
+DTSTART;TZID=America/Los_Angeles:20260928T183000
+DTEND;TZID=America/Los_Angeles:20260928T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nWelcome ba
+ ck Scouts! We will be having our first pack meeting of the school year on 
+ Monday September 28th at 6:30 PM in the library.\n\nThe Arrow of Light sco
+ uts will be our first service den [see link below] for this meeting.\n\nWe
+ ’ll start the meeting with a uniform inspection [see link below] for the
+  new scouting year and discussing the Bobcat rank requirements.\n\nWe will
+  be distributing the Raingutter Regatta boat kits and starting to work on 
+ them in dens. Scouts will need to finish painting and decorating their boa
+ ts at home after the meeting. If you are unable to make the meeting please
+  reach out to get your regatta boat kit.\n\nFinally\, we will work on the 
+ first advancement of the year: the Bobcat Adventure.\n\nScouts at HSS can 
+ wear Class A uniforms to school on pack meeting days!\n\nArrow of Light: h
+ ttps://hsspack229.org/docs/service-den\n\nuniform inspection: https://hssp
+ ack229.org/docs/uniforms
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2026/09/08/september-pack-meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260909T043157

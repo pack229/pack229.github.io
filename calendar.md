@@ -272,12 +272,6 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="end">Until: 2:00 PM</p></a>
 </div>
 
-<div class="calendar-card">
-<a href="https://hsspack229.org/2026/09/08/september-pack-meeting"><p class="date">Sun 9/28 @  6:30 PM</p></a>
-<a href="https://hsspack229.org/2026/09/08/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
-<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
-</div>
-
 </div>
 
 ## October
@@ -454,6 +448,18 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="date">Fri 6/5 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="name">Spring Family Campout</p></a>
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
+</div>
+
+</div>
+
+## September
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/09/08/september-pack-meeting"><p class="date">Mon 9/28 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/09/08/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
 </div>
 
 </div>

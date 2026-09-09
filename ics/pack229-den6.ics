@@ -690,7 +690,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Chase Center;X-ADDRESS="1 Warriors Way,
   San Francisco, CA 94158";VALUE=URI:geo:37.767829,-122.387426
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250505T165802
+DTSTAMP:20260512T172556
 UID:84d3c1aa-e0d0-4edc-9f7d-bd778cd770f1
 DTSTART;TZID=America/Los_Angeles:20250502T170000
 DTEND;TZID=America/Los_Angeles:20250504T100000
@@ -973,6 +973,33 @@ SUMMARY:Pack 229: Raingutter Regatta
 URL;VALUE=URI:https://hsspack229.org/2025/08/23/raingutter-regatta
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Courtyard;X-ADDRESS="1198 Redmond A
  ve, San Jose, CA 95120";VALUE=URI:geo:37.228396,-121.873264
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260909T042909
+UID:9295fe61-8903-468a-a9df-e08410e4f104
+DTSTART;TZID=America/Los_Angeles:20250928T183000
+DTEND;TZID=America/Los_Angeles:20250928T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nWelcome ba
+ ck Scouts! We will be having our first pack meeting of the school year on 
+ Monday September 28th at 6:30 PM in the library.\n\nThe Arrow of Light sco
+ uts will be our first service den [see link below] for this meeting.\n\nWe
+ ’ll start the meeting with a uniform inspection [see link below] for the
+  new scouting year and discussing the Bobcat rank requirements.\n\nWe will
+  be distributing the Raingutter Regatta boat kits and starting to work on 
+ them in dens. Scouts will need to finish painting and decorating their boa
+ ts at home after the meeting. If you are unable to make the meeting please
+  reach out to get your regatta boat kit.\n\nFinally\, we will work on the 
+ first advancement of the year: the Bobcat Adventure.\n\nScouts at HSS can 
+ wear Class A uniforms to school on pack meeting days!\n\nArrow of Light: h
+ ttps://hsspack229.org/docs/service-den\n\nuniform inspection: https://hssp
+ ack229.org/docs/uniforms
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2026/09/08/september-pack-meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20251020T223211
@@ -1487,25 +1514,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260512T053901
-UID:9be2c654-5422-426b-a374-c0eee8be2279
-DTSTART;TZID=America/Los_Angeles:20260605T170000
-DTEND;TZID=America/Los_Angeles:20260607T100000
-CLASS:PUBLIC
-DESCRIPTION:Please save the date for the Spring Family Cub Scout Campout at
-  Joseph Grant County Park on the weekend of June 5th 2026. More informatio
- n to come as we get closer to the event.
-LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
- 95140
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Spring Family Campout
-URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
- 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
- 891
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260512T060146
+DTSTAMP:20260512T172606
 UID:53653f47-488f-402b-a8fd-ea7e0d897288
 DTSTART;TZID=America/Los_Angeles:20260605T170000
 DTEND;TZID=America/Los_Angeles:20260607T100000
@@ -1546,9 +1555,8 @@ DESCRIPTION:👤 Who: All Pack 229 Cub Scouts and their families. We encour
  amily-campout#bring-a-cup\n\nMap Link (Take Alum Rock Route To Halls Valle
  y Group Campsite): https://www.google.com/maps/d/u/0/edit?mid=1pYHn2LhJmPU
  fp4aThjAWmFdNYQlJ8hU&usp=sharing\n\ncampout agenda: https://hsspack229.org
- /docs/family-campout/agenda\n\nFish and Wildlife Website: https://wildlife
- .ca.gov/licenseapp\n\nHealth and Medical Record form: https://www.scouting
- .org/health-and-safety/ahmr/
+ /docs/family-campout/agenda\n\nHealth and Medical Record form: https://www
+ .scouting.org/health-and-safety/ahmr/
 LOCATION:Joseph Grant County Park (Halls Valley Group Site)
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Spring Family Campout
@@ -1556,5 +1564,69 @@ URL;VALUE=URI:https://hsspack229.org/2026/05/11/spring-family-campout
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park (Halls Valley 
  Group Site);X-ADDRESS="18405 Mt. Hamilton Road, San Jose, CA 95140";VALUE=
  URI:geo:37.331035,-121.714891
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T053901
+UID:9be2c654-5422-426b-a374-c0eee8be2279
+DTSTART;TZID=America/Los_Angeles:20260605T170000
+DTEND;TZID=America/Los_Angeles:20260607T100000
+CLASS:PUBLIC
+DESCRIPTION:Please save the date for the Spring Family Cub Scout Campout at
+  Joseph Grant County Park on the weekend of June 5th 2026. More informatio
+ n to come as we get closer to the event.
+LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
+ 95140
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Spring Family Campout
+URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
+ 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
+ 891
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260909T043157
+UID:06e4ae8d-6439-420a-8ef7-4def03848de5
+DTSTART;TZID=America/Los_Angeles:20261023T170000
+DTEND;TZID=America/Los_Angeles:20261024T170000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Council Signup [see link below] and Pack Signup [s
+ ee link below]\n💵 Cost: $75 per camper / $25 per adult\n🏁 Deadline: 
+ Sunday October 18th 2026\n🌐 Link: More Info [see link below]\n\nCome jo
+ in us for our annual Halloween campout: trick-or-treat down the haunted na
+ ture trail\, carve pumpkins\, and participate in traditional scout activit
+ ies with a spooky twist!\n\nActivities Include\n\n * Trick or Treat! – E
+ xplore the haunted nature trail and discover some enjoyable treats along t
+ he way.\n * Cracker Barrel – Come have fun themed snacks and socialize w
+ ith folks in your optional costume!\n * Daily Flag Ceremonies – Learn ab
+ out the US flag ceremony and ceremonies!\n * Games – Plenty of tricks to
+  be learned while playing games!\n * Fishing – Catch a fish\, identify f
+ ish\, and tie a fishing knot!\n * Scout Skills – Learn things that help 
+ you care of yourself and others like knots!\n * Arts &amp\; Crafts – Pum
+ pkin carving\, costume decoration\, &amp\; more!\n * Archery &amp\; Air-po
+ wered BB guns - Get out on the range and practice your target skills!\n\nE
+ vening treats\, Breakfast\, &amp\; Lunch included.\n\nPlease eat dinner be
+ fore you arrive on Friday or bring a sack dinner with you.\n\nNo camping g
+ ear will be provided. Please plan on using a hand cart to carry your tent 
+ and supplies to the upper campsites. If you will need assistance please le
+ t us know.\n\nIf you plan to attend you must first signup with the council
+  and then please add your family info here [see link below] for pack plann
+ ing.\n\nImportant\n\nSince this is an official BSA event you’ll need upl
+ oad your health forms on CampDoc a new system that replaces paper forms. I
+ t will walk you through the process and create an account when you registe
+ r.\n\nThere is also an optional BB Device permission form [see link below]
+  to complete and bring should your Scout participate. Please note Cub Scou
+ t Lions are not eligible to participate in shooting activities\, however\,
+  they will be able to enjoy the archery range. I recommend you keep copies
+  of these forms for future events so you do not have to complete them agai
+ n.\n\nCouncil Signup: https://scoutingevent.com/055-BooFest2026\n\nPack Si
+ gnup: https://docs.google.com/spreadsheets/d/1Ycut-iAbZo6yXXbOJBU8xDaDMM4o
+ v2KvO3oJMdoDq7w/edit?usp=sharing\n\nBB Device permission form: https://sco
+ utingevent.com/Download/055131095/OR/2020CALIFORNIABBFormsimplified.pdf
+LOCATION:Camp Cheesebrough\n26005 Big Basin Wy\, Los Gatos\, CA 95033
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Boo-Fest Family Campout
+URL;VALUE=URI:https://hsspack229.org/2026/09/08/boo-fest
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big 
+ Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 END:VCALENDAR

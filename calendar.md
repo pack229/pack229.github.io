@@ -272,6 +272,12 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2025/08/23/raingutter-regatta"><p class="end">Until: 2:00 PM</p></a>
 </div>
 
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/09/08/september-pack-meeting"><p class="date">Sun 9/28 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/09/08/september-pack-meeting"><p class="name">September Pack Meeting</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
+</div>
+
 </div>
 
 ## October
@@ -439,13 +445,25 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="date">Fri 6/5 @  5:00 PM</p></a>
+<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="name">Spring Family Campout: Save The Date</p></a>
+<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
+</div>
+
+<div class="calendar-card">
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="date">Fri 6/5 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="name">Spring Family Campout</p></a>
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
 </div>
 
+</div>
+
+## October
+
+<div class="calendar-cards">
+
 <div class="calendar-card">
-<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="date">Fri 6/5 @  5:00 PM</p></a>
-<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="name">Spring Family Campout: Save The Date</p></a>
-<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
+<a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="date">Fri 10/23 @  5:00 PM</p></a>
+<a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="name">Boo-Fest Family Campout</p></a>
+<a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="end">Until: Sat 10/24 @  5:00 PM</p></a>
 </div>

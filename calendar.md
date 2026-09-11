@@ -469,6 +469,11 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2026/09/10/sharks-scout-night"><p class="date">Sat 10/3 @  7:00 PM</p></a>
+<a href="https://hsspack229.org/2026/09/10/sharks-scout-night"><p class="name">SJ Sharks Scout Night</p></a>
+</div>
+
+<div class="calendar-card">
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="date">Fri 10/23 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="name">Boo-Fest Family Campout</p></a>
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="end">Until: Sat 10/24 @  5:00 PM</p></a>

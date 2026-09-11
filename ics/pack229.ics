@@ -1543,6 +1543,25 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260911T154151
+UID:e71cd36c-4912-4207-944d-b58347d6885b
+DTSTART;TZID=America/Los_Angeles:20261003T190000
+DTEND;TZID=America/Los_Angeles:20261003T220000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Pack Signup [see link below]\n\nPlease join us on 
+ Saturday\, October 3rd at 7pm for the 2025 San Jose Sharks Scout Night! It
+ ’s sure to be a fun-filled night rooting on our hometown Sharks with you
+ r fellow Scouts as they take on the LA Kings! Our Scouts will receive a pa
+ tch and a post-game group photo on the ice.\n\nPack Signup: https://docs.g
+ oogle.com/spreadsheets/d/1rZPE_cxIESNR7vDg1ndTpHJvcYFXCGNx_P1xmbBJFBo/edit
+LOCATION:SAP Center\n525 W Santa Clara St\, San Jose\, CA 95113
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: SJ Sharks Scout Night
+URL;VALUE=URI:https://hsspack229.org/2026/09/10/sharks-scout-night
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=SAP Center;X-ADDRESS="525 W Santa Clara
+  St, San Jose, CA 95113";VALUE=URI:geo:37.332760,-121.902051
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20260909T043157
 UID:06e4ae8d-6439-420a-8ef7-4def03848de5
 DTSTART;TZID=America/Los_Angeles:20261023T170000

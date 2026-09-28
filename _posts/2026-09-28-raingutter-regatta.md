@@ -8,8 +8,8 @@ tags: [Raingutter Regatta, Events, Upcoming]
 uuid: FA7DDE8B-0700-4AAA-9831-B097DF49767C
 meta:
   date:
-    - 2025-10-10 10:00 AM
-    - 2025-10-10 1:00 PM
+    - 2026-10-10 10:00 AM
+    - 2026-10-10 1:00 PM
   location: HSS Courtyard
   signup:
   - title: Register Your Boat

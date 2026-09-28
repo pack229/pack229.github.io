@@ -519,7 +519,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250407T184920
+DTSTAMP:20260928T173658
 UID:38398b36-0f50-4762-b496-118cb91f7f45
 DTSTART;TZID=America/Los_Angeles:20250321T183000
 DTEND;TZID=America/Los_Angeles:20250321T193000
@@ -548,7 +548,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250407T184920
+DTSTAMP:20260928T173658
 UID:839740b7-4c6d-45a0-9f15-198d739f6d97
 DTSTART;TZID=America/Los_Angeles:20250322T093000
 DTEND;TZID=America/Los_Angeles:20250322T123000
@@ -577,7 +577,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Gym;X-ADDRESS="1198 Redmond Ave, Sa
  n Jose, CA 95120";VALUE=URI:geo:37.228102,-121.873524
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20250407T184920
+DTSTAMP:20260928T173658
 UID:969bd8df-f821-48a2-a81a-4ffed5ef0189
 DTSTART;TZID=America/Los_Angeles:20250322T123000
 DTEND;TZID=America/Los_Angeles:20250322T143000
@@ -958,6 +958,51 @@ LOCATION:HSS Courtyard\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Raingutter Regatta
 URL;VALUE=URI:https://hsspack229.org/2025/08/23/raingutter-regatta
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Courtyard;X-ADDRESS="1198 Redmond A
+ ve, San Jose, CA 95120";VALUE=URI:geo:37.228396,-121.873264
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260928T210145
+UID:fa7dde8b-0700-4aaa-9831-b097df49767c
+DTSTART;TZID=America/Los_Angeles:20251010T100000
+DTEND;TZID=America/Los_Angeles:20251010T130000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Register Your Boat [see link below]\n\nIt’s time
+  to get out the paint and glue and put on your creative caps for our annua
+ l Raingutter Regatta! We’ll be starting to build our boats at the Septem
+ ber Pack Meeting [see link below]. If you are unable to make the meeting p
+ lease reach out to get your regatta boat kit.\n\nSiblings are welcome! We 
+ kindly request a $7 donation to cover the cost of the kit and awards for n
+ on Scouts.\n\nBoat Building: Before the races begin\, put on your creative
+  cap and assemble your very own mini sailboat. This hands-on experience en
+ courages problem-solving and craftsmanship. Please come up with a name and
+  Register Your Boat [see link below] before the event.\n\nRace Day Excitem
+ ent: Watch as your handcrafted sailboat takes to the water in friendly com
+ petition! Blow on the sails and navigate your vessel along the rain gutter
+  racetrack. It’s a test of precision and strategy.\n\nRefreshments: Enjo
+ y a Pizza lunch as you mingle with other Scouts and families. It’s a gre
+ at time to share stories and build connections.\n\nWhat to Bring: Please b
+ ring your boat\, a sense of adventure\, and a willingness to have a blast!
+ \n\nFriendly Competition: Compete against fellow Cub Scouts\, families\, a
+ nd friends. Cheering\, encouragement\, and sportsmanship are all part of t
+ he fun.\n\nAwards &amp\; Prizes: Celebrate the winners and recognize the e
+ ffort and creativity that went into boat design. Prizes will be awarded to
+  the top sailors and there will also be awards for best design.\n\nRules: 
+ Please review the Raingutter Regatta Rules [see link below].\n\nDon’t mi
+ ss this opportunity for your Cub Scout to learn about teamwork\, craftsman
+ ship\, and the joy of friendly competition. The Cub Scout Raingutter Regat
+ ta is a family-friendly event that combines fun and learning in a unique a
+ nd exciting way.\n\nWhether you’re a seasoned sailor or a first-time boa
+ t builder\, this event promises memorable moments and a sense of accomplis
+ hment.\n\nCan’t wait to see you all out there!\n\nRegister Your Boat: ht
+ tps://docs.google.com/spreadsheets/d/14_LAA_sXgsM67McU43_ocV7XgvzuflwxtDG1
+ Ng4IOkM/edit?usp=sharing\n\nSeptember Pack Meeting: https://hsspack229.org
+ /2026/09/28/september-pack-meeting\n\nRaingutter Regatta Rules: https://hs
+ spack229.org/docs/raingutter-regatta/rules
+LOCATION:HSS Courtyard\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Raingutter Regatta
+URL;VALUE=URI:https://hsspack229.org/2026/09/28/raingutter-regatta
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Courtyard;X-ADDRESS="1198 Redmond A
  ve, San Jose, CA 95120";VALUE=URI:geo:37.228396,-121.873264
 END:VEVENT
@@ -1446,24 +1491,6 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260512T053901
-UID:9be2c654-5422-426b-a374-c0eee8be2279
-DTSTART;TZID=America/Los_Angeles:20260605T170000
-DTEND;TZID=America/Los_Angeles:20260607T100000
-CLASS:PUBLIC
-DESCRIPTION:Please save the date for the Spring Family Cub Scout Campout at
-  Joseph Grant County Park on the weekend of June 5th 2026. More informatio
- n to come as we get closer to the event.
-LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
- 95140
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Spring Family Campout
-URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
- 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
- 891
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20260512T172606
 UID:53653f47-488f-402b-a8fd-ea7e0d897288
 DTSTART;TZID=America/Los_Angeles:20260605T170000
@@ -1514,6 +1541,24 @@ URL;VALUE=URI:https://hsspack229.org/2026/05/11/spring-family-campout
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park (Halls Valley 
  Group Site);X-ADDRESS="18405 Mt. Hamilton Road, San Jose, CA 95140";VALUE=
  URI:geo:37.331035,-121.714891
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20260512T053901
+UID:9be2c654-5422-426b-a374-c0eee8be2279
+DTSTART;TZID=America/Los_Angeles:20260605T170000
+DTEND;TZID=America/Los_Angeles:20260607T100000
+CLASS:PUBLIC
+DESCRIPTION:Please save the date for the Spring Family Cub Scout Campout at
+  Joseph Grant County Park on the weekend of June 5th 2026. More informatio
+ n to come as we get closer to the event.
+LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
+ 95140
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Spring Family Campout
+URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
+ 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
+ 891
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20260909T043614

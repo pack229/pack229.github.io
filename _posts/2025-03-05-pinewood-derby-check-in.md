@@ -68,7 +68,7 @@ After the races, please join us in celebrating our scouting achievements at our 
 
 Please [RSVP for the Blue and Gold Banquet](https://evite.me/fFVxSmVQbJ) by March 20.
 
-* We ask that you please send $20 per family via Zelle (229@mrhowton.com) to help cover the cost of food.
+* We ask that you please send $20 per family via Zelle to help cover the cost of food.
 * The Pack will supply and cook the main course (hamburgers, hot dogs, veggie burgers) and dessert.
 * We will need families to bring drinks, chips, etc. Please [please signup](https://docs.google.com/spreadsheets/d/1GLFxVjMhbW9TohKuKtmEWGdryNIADK4OD0me7eoGEb4/edit?gid=0#gid=0) to bring something to the pot-luck.
 

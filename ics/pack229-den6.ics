@@ -1603,7 +1603,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=SAP Center;X-ADDRESS="525 W Santa Clara
   St, San Jose, CA 95113";VALUE=URI:geo:37.332760,-121.902051
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20260928T210805
+DTSTAMP:20260928T210934
 UID:fa7dde8b-0700-4aaa-9831-b097df49767c
 DTSTART;TZID=America/Los_Angeles:20261010T100000
 DTEND;TZID=America/Los_Angeles:20261010T130000
@@ -1638,8 +1638,8 @@ DESCRIPTION:📋 Signup: Register Your Boat [see link below]\n\nIt’s time
  hment.\n\nCan’t wait to see you all out there!\n\nRegister Your Boat: ht
  tps://docs.google.com/spreadsheets/d/14_LAA_sXgsM67McU43_ocV7XgvzuflwxtDG1
  Ng4IOkM/edit?usp=sharing\n\nSeptember Pack Meeting: https://hsspack229.org
- /2026/09/28/september-pack-meeting\n\nRaingutter Regatta Rules: https://hs
- spack229.org/docs/raingutter-regatta/rules
+ /2026/09/08/september-pack-meeting/\n\nRaingutter Regatta Rules: https://h
+ sspack229.org/docs/raingutter-regatta/rules
 LOCATION:HSS Courtyard\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Raingutter Regatta

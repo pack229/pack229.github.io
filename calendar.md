@@ -484,3 +484,14 @@ featured_image: about.jpg
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="name">Boo-Fest Family Campout</p></a>
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="end">Until: Sat 10/24 @  5:00 PM</p></a>
 </div>
+
+</div>
+
+## November
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/10/02/crabbing"><p class="date">Sat 11/21 @ 10:00 AM</p></a>
+<a href="https://hsspack229.org/2026/10/02/crabbing"><p class="name">Crabbing Under the Golden Gate Bridge</p></a>
+</div>

@@ -1653,7 +1653,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big
  Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261002T170604
+DTSTAMP:20261002T173348
 UID:2b3e0249-e356-4ce7-b881-e180b582524c
 DTSTART;TZID=America/Los_Angeles:20261121T100000
 DTEND;TZID=America/Los_Angeles:20261121T110000
@@ -1661,19 +1661,19 @@ CLASS:PUBLIC
 DESCRIPTION:📋 Signup: Venmo @Neschae to reserve your spot once confirmed
  . and add your name to the Pack Signup [see link below]\n💵 Cost: ~$50 p
  er active participant (assuming 10 paying participants\, final cost depend
- s on our final number)\n🏁 Deadline: Friday October 9th 2026\n\nSpace is
-  limited so sign up soon!\n\n * Tigers and Lions need a 1:1 adult/child ra
- tio. Older children may attend with another adult from their den. Please n
- ote who the chaperone will be.\n * Since space is limited\, the experience
-  is currently open to Cub Scouts and their siblings in our pack.\n * The e
- vent happens on land near the shore\, so there is no boat involved.\n * Eq
- uipment will be provided by Alex who is an expert crabber. But bring your 
- bucket so you can take home your crabs to cook and eat for dinner.\n * We 
- will need a minimum of 8 crabbing participants\, with 10 being the max.\n 
- * Parent Chaperones will not have to pay if they share a pole with a child
-  or are not participating.\n\n... [See More On Website]\n\nadd your name t
- o the Pack Signup: https://docs.google.com/spreadsheets/d/1_mU30cvZMnoHdRK
- _SGa9jEzCLgVpyn-OrEr08wNtyqw/edit?gid=0#gid=0
+ s on our final number)\n🏁 RSVP by Deadline: Friday October 9th 2026\n\n
+ Space is limited so sign up soon!\n\n * Tigers and Lions need a 1:1 adult/
+ child ratio. Older children may attend with another adult from their den. 
+ Please note who the chaperone will be.\n * Since space is limited\, the ex
+ perience is currently open to Cub Scouts and their siblings in our pack.\n
+  * The event happens on land near the shore\, so there is no boat involved
+ .\n * Equipment will be provided by Alex who is an expert crabber. But bri
+ ng your bucket so you can take home your crabs to cook and eat for dinner.
+ \n * We will need a minimum of 8 crabbing participants\, with 10 being the
+  max.\n * Parent Chaperones will not have to pay if they share a pole with
+  a child or are not participating.\n\n... [See More On Website]\n\nadd you
+ r name to the Pack Signup: https://docs.google.com/spreadsheets/d/1_mU30cv
+ ZMnoHdRK_SGa9jEzCLgVpyn-OrEr08wNtyqw/edit?gid=0#gid=0
 LOCATION:San Francisco
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge

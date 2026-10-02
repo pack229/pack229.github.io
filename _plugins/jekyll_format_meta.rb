@@ -176,6 +176,7 @@ module Jekyll
         signup: "📋 Signup",
         get_tickets: "🎟️ Get Tickets",
         deadline: "🏁 Deadline",
+        rsvp_deadline: "🏁 RSVP by Deadline",
         cost: "💵 Cost",
         more_info: "🌐 Link",
         virtual_meeting: "💻 Virtual Meeting",
@@ -209,7 +210,7 @@ module Jekyll
         end.join(" and ")
       elsif type == :location && location_data = location_map(data.gsub(/\(.*?\)/, '').strip)
         [ link(data, location_data[:site]), link(location_data[:address], location_data[:map]) ].join(" | ")
-      elsif type == :date || type == :deadline
+      elsif type == :date || type == :deadline || type == :rsvp_deadline
         if data.is_a?(Array)
           s = data[0]
           e = data[1]

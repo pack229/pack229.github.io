@@ -480,6 +480,12 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2026/10/10/october-pack-meeting"><p class="date">Mon 10/19 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/10/10/october-pack-meeting"><p class="name">October Pack Meeting</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Bear</p></a>
+</div>
+
+<div class="calendar-card">
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="date">Fri 10/23 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="name">Boo-Fest Family Campout</p></a>
 <a href="https://hsspack229.org/2026/09/08/boo-fest"><p class="end">Until: Sat 10/24 @  5:00 PM</p></a>

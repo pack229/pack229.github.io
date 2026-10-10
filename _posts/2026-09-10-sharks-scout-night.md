@@ -4,7 +4,7 @@ title:  "SJ Sharks Scout Night"
 description: Come root on our hometown Sharks with your fellow Scouts as they take on the LA Kings!
 date: 2026-09-10
 featured_image: sharks.jpg
-tags: [Scout Night, Events, Upcoming]
+tags: [Scout Night, Events,]
 uuid: E71CD36C-4912-4207-944D-B58347D6885B
 meta:
   date: 2026-10-03

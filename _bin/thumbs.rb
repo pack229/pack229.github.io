@@ -39,6 +39,7 @@ posts = base.join("images/posts")
 posts_cropped = base.join("images/posts-cropped")
 posts.each_child do |y|
   next if y.basename.to_s[0] == "."
+  [".webp"].include?(File.extname(y))
   width = cmd("cd #{posts} && sips -g pixelWidth #{y}").match(/pixelWidth: (\d+)/).captures.first.to_i
   height = cmd("cd #{posts} && sips -g pixelHeight #{y}").match(/pixelHeight: (\d+)/).captures.first.to_i
   crop_width = (height.to_f * 1.91).round.to_i

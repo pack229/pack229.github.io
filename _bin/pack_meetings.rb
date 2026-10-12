@@ -31,27 +31,33 @@ end
 # Script
 
 dates = %w[
-2025-09-08
-2025-10-20
-2025-11-03
-2025-12-08
-2026-01-12
-2026-02-02
-2026-03-09
-2026-04-20
-2026-05-11
+  2026-11-2
+  2026-12-7
+  2027-1-25
+  2027-2-8
+  2027-3-8
+  2027-4-19
+  2027-5-17
 ].map{ |d| Date.parse(d) }
 
 service_dens = [
-  "Arrow of Light",
-  "Webelos",
-  "Bear",
   "Wolf",
   "Tiger",
   "Lion",
-  "Arrow of Light",
-  "Webelos",
   "Wolf",
+  "Arrow of Light",
+  "Tiger",
+  "Bear"
+]
+
+topics = [
+  "Ornaments for Christmas in the Park",
+  "Holiday Party",
+  "Pinewood Derby Cars",
+  "Pinewood Derby Prep",
+  "Bridging",
+  "Camping Prep",
+  "Advancement"
 ]
 
 template = <<-END
@@ -69,6 +75,8 @@ meta:
   service_den: {{service_den}}
 ---
 
+Topic: {{topic}}
+
 Scouts at HSS can wear Class A uniforms to school on pack meeting days!
 END
 
@@ -77,8 +85,9 @@ dates.each_with_index do |meeting_date, i|
   title = "#{meeting_date.strftime("%B")} Pack Meeting"
   slug = post_slug(post_date, title)
   service_den = service_dens[i%service_dens.length]
+  topic = topics[i%topics.length]
   
-  puts post = template.sub("{{title}}", title).sub("{{uuid}}", uuid).sub("{{service_den}}", service_den).sub("{{post_date}}", format_date_for_post(post_date)).sub("{{meeting_date}}", format_date_for_post(meeting_date))
+  puts post = template.sub("{{title}}", title).sub("{{topic}}", topic).sub("{{uuid}}", uuid).sub("{{service_den}}", service_den).sub("{{post_date}}", format_date_for_post(post_date)).sub("{{meeting_date}}", format_date_for_post(meeting_date))
 
   filename = root.join("_posts/#{slug}.md")
   filename.write(post)

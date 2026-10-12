@@ -1487,6 +1487,24 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20260512T053901
+UID:9be2c654-5422-426b-a374-c0eee8be2279
+DTSTART;TZID=America/Los_Angeles:20260605T170000
+DTEND;TZID=America/Los_Angeles:20260607T100000
+CLASS:PUBLIC
+DESCRIPTION:Please save the date for the Spring Family Cub Scout Campout at
+  Joseph Grant County Park on the weekend of June 5th 2026. More informatio
+ n to come as we get closer to the event.
+LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
+ 95140
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Spring Family Campout
+URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
+ 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
+ 891
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20260512T172606
 UID:53653f47-488f-402b-a8fd-ea7e0d897288
 DTSTART;TZID=America/Los_Angeles:20260605T170000
@@ -1537,24 +1555,6 @@ URL;VALUE=URI:https://hsspack229.org/2026/05/11/spring-family-campout
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park (Halls Valley 
  Group Site);X-ADDRESS="18405 Mt. Hamilton Road, San Jose, CA 95140";VALUE=
  URI:geo:37.331035,-121.714891
-END:VEVENT
-BEGIN:VEVENT
-DTSTAMP:20260512T053901
-UID:9be2c654-5422-426b-a374-c0eee8be2279
-DTSTART;TZID=America/Los_Angeles:20260605T170000
-DTEND;TZID=America/Los_Angeles:20260607T100000
-CLASS:PUBLIC
-DESCRIPTION:Please save the date for the Spring Family Cub Scout Campout at
-  Joseph Grant County Park on the weekend of June 5th 2026. More informatio
- n to come as we get closer to the event.
-LOCATION:Joseph Grant County Park\n18405 Mt. Hamilton Road\, San Jose\, CA 
- 95140
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Spring Family Campout
-URL;VALUE=URI:https://hsspack229.org/2026/01/24/spring-family-campout-date
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=Joseph Grant County Park;X-ADDRESS="184
- 05 Mt. Hamilton Road, San Jose, CA 95140";VALUE=URI:geo:37.331035,-121.714
- 891
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20261002T212357
@@ -1712,6 +1712,22 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big
  Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
+DTSTAMP:20261012T180937
+UID:0896fb77-76a4-4ca8-8947-5bbbc1884f06
+DTSTART;TZID=America/Los_Angeles:20261102T183000
+DTEND;TZID=America/Los_Angeles:20261102T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Wolf [see link below]\n\nTopic: Ornaments for
+  Christmas in the Park\n\nScouts at HSS can wear Class A uniforms to schoo
+ l on pack meeting days!\n\nWolf: https://hsspack229.org/docs/service-den
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2026/10/12/november-pack-meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
 DTSTAMP:20261002T173700
 UID:2b3e0249-e356-4ce7-b881-e180b582524c
 DTSTART;TZID=America/Los_Angeles:20261121T100000
@@ -1737,5 +1753,95 @@ LOCATION:San Francisco
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
 URL;VALUE=URI:https://hsspack229.org/2026/10/02/crabbing
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261012T180937
+UID:a592ab8a-5056-4542-b331-d68705587b40
+DTSTART;TZID=America/Los_Angeles:20261207T183000
+DTEND;TZID=America/Los_Angeles:20261207T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Tiger [see link below]\n\nTopic: Holiday Part
+ y\n\nScouts at HSS can wear Class A uniforms to school on pack meeting day
+ s!\n\nTiger: https://hsspack229.org/docs/service-den
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261012T180937
+UID:f9b145f5-bcf0-473d-a2f0-366eea94861c
+DTSTART;TZID=America/Los_Angeles:20270125T183000
+DTEND;TZID=America/Los_Angeles:20270125T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Lion [see link below]\n\nTopic: Pinewood Derb
+ y Cars\n\nScouts at HSS can wear Class A uniforms to school on pack meetin
+ g days!\n\nLion: https://hsspack229.org/docs/service-den
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261012T180937
+UID:f0fb2405-5a24-4add-a89e-a709d7a0cd04
+DTSTART;TZID=America/Los_Angeles:20270208T183000
+DTEND;TZID=America/Los_Angeles:20270208T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Wolf [see link below]\n\nTopic: Pinewood Derb
+ y Prep\n\nScouts at HSS can wear Class A uniforms to school on pack meetin
+ g days!\n\nWolf: https://hsspack229.org/docs/service-den
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261012T180937
+UID:8f108ac8-aada-400c-9af7-ebb39f1c8657
+DTSTART;TZID=America/Los_Angeles:20270308T183000
+DTEND;TZID=America/Los_Angeles:20270308T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Arrow of Light [see link below]\n\nTopic: Bri
+ dging\n\nScouts at HSS can wear Class A uniforms to school on pack meeting
+  days!\n\nArrow of Light: https://hsspack229.org/docs/service-den
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261012T180937
+UID:7ccc0998-03d8-4f2b-a0ed-2a3a82ca566c
+DTSTART;TZID=America/Los_Angeles:20270419T183000
+DTEND;TZID=America/Los_Angeles:20270419T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Tiger [see link below]\n\nTopic: Camping Prep
+ \n\nScouts at HSS can wear Class A uniforms to school on pack meeting days
+ !\n\nTiger: https://hsspack229.org/docs/service-den
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261012T180937
+UID:f9b753bd-fbdd-469e-b145-4b20ec28a2bc
+DTSTART;TZID=America/Los_Angeles:20270517T183000
+DTEND;TZID=America/Los_Angeles:20270517T193000
+CLASS:PUBLIC
+DESCRIPTION:🫡 Service Den: Bear [see link below]\n\nTopic: Advancement\n
+ \nScouts at HSS can wear Class A uniforms to school on pack meeting days!\
+ n\nBear: https://hsspack229.org/docs/service-den
+LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Pack Meeting
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
+ , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT
 END:VCALENDAR

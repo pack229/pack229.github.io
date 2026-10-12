@@ -439,15 +439,15 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="date">Fri 6/5 @  5:00 PM</p></a>
-<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="name">Spring Family Campout: Save The Date</p></a>
-<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
-</div>
-
-<div class="calendar-card">
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="date">Fri 6/5 @  5:00 PM</p></a>
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="name">Spring Family Campout</p></a>
 <a href="https://hsspack229.org/2026/05/11/spring-family-campout"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="date">Fri 6/5 @  5:00 PM</p></a>
+<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="name">Spring Family Campout: Save The Date</p></a>
+<a href="https://hsspack229.org/2026/01/24/spring-family-campout-date"><p class="end">Until: Sun 6/7 @ 10:00 AM</p></a>
 </div>
 
 </div>
@@ -498,6 +498,87 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2026/10/12/november-pack-meeting"><p class="date">Mon 11/2 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/10/12/november-pack-meeting"><p class="name">November Pack Meeting</p></a>
+<a href="/docs/service-den"><p class="note">Service Den: Wolf</p></a>
+</div>
+
+<div class="calendar-card">
 <a href="https://hsspack229.org/2026/10/02/crabbing"><p class="date">Sat 11/21 @ 10:00 AM</p></a>
 <a href="https://hsspack229.org/2026/10/02/crabbing"><p class="name">Crabbing Under the Golden Gate Bridge</p></a>
+</div>
+
+</div>
+
+## December
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 12/7 @  6:30 PM</p>
+<p class="name">December Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Tiger</p></a>
+</div>
+
+</div>
+
+# 2027
+
+
+## January
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 1/25 @  6:30 PM</p>
+<p class="name">January Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Lion</p></a>
+</div>
+
+</div>
+
+## February
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 2/8 @  6:30 PM</p>
+<p class="name">February Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Wolf</p></a>
+</div>
+
+</div>
+
+## March
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 3/8 @  6:30 PM</p>
+<p class="name">March Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Arrow of Light</p></a>
+</div>
+
+</div>
+
+## April
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 4/19 @  6:30 PM</p>
+<p class="name">April Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Tiger</p></a>
+</div>
+
+</div>
+
+## May
+
+<div class="calendar-cards">
+
+<div class="calendar-card">
+<p class="date">Mon 5/17 @  6:30 PM</p>
+<p class="name">May Pack Meeting</p>
+<a href="/docs/service-den"><p class="note">Service Den: Bear</p></a>
 </div>

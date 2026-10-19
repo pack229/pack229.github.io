@@ -3,7 +3,7 @@ layout: post
 title:  October Pack Meeting
 date: 2026-10-10
 featured_image: packmeeting-october.jpg
-tags: [Meetings, Upcoming]
+tags: [Meetings]
 uuid: 99BDC6C2-F670-41F9-9C43-F172FBD8950F
 meta:
   date: 2026-10-19

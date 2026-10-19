@@ -5,6 +5,8 @@ description: How to Join
 featured_image: joining.jpg
 ---
 
+🪢 If you are already a member of Pack 229 please see how to [renew](/renewal).
+
 ### About Pack 229
 
 Please read more [about our pack](/about) or [contact us](mailto:contact@hsspack229.org) if you have any questions.
@@ -22,7 +24,6 @@ If your student is ready to sign up as a Scout Member of Pack 229, please follow
 ### Pack Fees
 
 * The remaining fees of $160 will go to Pack 229. Please pay the [Pack Treasurer](/finances).
-* The pack fee reduces to $140 following 1st year with the pack.
 
 ### Uniforms
 
@@ -30,13 +31,13 @@ The students wear their class A uniform shirt on Den and Pack Meeting dates to s
 
 #### What you need to buy:
 
-The class A shirt is the blue button-down cub scout shirt (or Lion rank T-shirt for Kindergarteners). You can purchase it at the Silicon Valley Monterey Bay Council (SVMBC) [Scout Store](https://www.svmbc.org/scout-shop/).
+The class A shirt is the blue button-down cub scout shirt (or Lion rank T-shirt for Kindergarteners, or the khaki button down for Arrow of Light). You can purchase it at the Silicon Valley Monterey Bay Council (SVMBC) [Scout Store](https://www.svmbc.org/scout-shop/).
 
 In addition, you may want to buy the uniform Scout hat and a scout belt for your Scout (Cub Scouts are awarded belt loops when they complete adventures and can wear them on their belt throughout 5th grade.
 
 #### You will be issued:
 
-The leadership will provide you with a neckerchief, and the badges with pack numbers, etc. that are needed to put on the shirt (badges only required for class A shirts).
+The leadership will provide you with a neckerchief, slide, and the badges with pack numbers that are needed to put on the shirt (badges only required for class A button down shirts).
 
 ## Adult Leaders and Committee Members
 

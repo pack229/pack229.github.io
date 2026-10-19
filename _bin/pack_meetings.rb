@@ -51,9 +51,9 @@ service_dens = [
 ]
 
 topics = [
-  "Ornaments for Christmas in the Park",
+  "Decorating Ornaments for Christmas in the Park",
   "Holiday Party",
-  "Pinewood Derby Cars",
+  "Pinewood Derby Car Distrobution",
   "Pinewood Derby Prep",
   "Bridging",
   "Camping Prep",

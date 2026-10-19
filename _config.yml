@@ -37,6 +37,10 @@ navigation:
   url: /about/
 - text: Joining
   url: /joining/
+- text: Renewal
+  url: /renewal/
+- text: Treasurer
+  url: /finances/
 - text: Archives
   url: /tags/
 

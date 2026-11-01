@@ -12,6 +12,8 @@ meta:
   service_den: Wolf
 ---
 
-Topic: Ornaments for Christmas in the Park
+We will be decorating ornaments for our Pack 229 tree at [Christmas in the Park](/2026/11/01/christmas-in-the-park).
 
-Scouts at HSS can wear Class A uniforms to school on pack meeting days!
+Scouts at HSS can wear Class A uniforms to school on pack meeting days! There may even be a surprise uniform inspection.
+
+Additionally we will be talking about the upcoming Scouting for Food drive and distributing door hang tags.

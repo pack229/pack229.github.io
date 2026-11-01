@@ -1180,32 +1180,6 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
  ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261101T183949
-UID:5c8b400f-ca05-4c3d-adab-d2c96a12343d
-DTSTART;TZID=America/Los_Angeles:20251123T110000
-DTEND;TZID=America/Los_Angeles:20251123T120000
-CLASS:PUBLIC
-DESCRIPTION:📋 Signup: Pack Signup [see link below]\n\nPack 229 will agai
- n be decorating a Christmas Tree at San Jose’s Christmas in the Park [se
- e link below].\n\nJoin us at the November Pack Meeting [see link below] to
-  help make ornaments and then on at 11/23 at 11:00 AM at Plaza de Cesar Ch
- avez [see link below] to decorate our tree! Make sure to sign up [see link
-  below] so we know who’s coming.\n\nPack Signup: https://docs.google.com
- /spreadsheets/d/19ALnVDLBXzGYagdJsQm-WoLryAfA3CP9M3pA87zps2U/edit?usp=shar
- ing\n\nChristmas in the Park: https://christmasinthepark.com\n\nNovember P
- ack Meeting: https://hsspack229.org/2026/10/12/november-pack-meeting/\n\nP
- laza de Cesar Chavez: https://maps.apple.com/?address=1%20Paseo%20de%20San
- %20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20States&auid=126086925
- 31698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christmas%20in%20the%20Pa
- rk
-LOCATION:Christmas in the Park\n194 S Market St\, San Jose\, CA 95113
-ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
-SUMMARY:Pack 229: Christmas in the Park
-URL;VALUE=URI:https://hsspack229.org/2026/11/01/christmas-in-the-park
-X-APPLE-STRUCTURED-LOCATION;X-TITLE=Christmas in the Park;X-ADDRESS="194 S 
- Market St, San Jose, CA 95113";VALUE=URI:geo:37.333191,-121.890210
-END:VEVENT
-BEGIN:VEVENT
 DTSTAMP:20251113T002501
 UID:525076fd-3395-4931-a47c-246cf63a6e8b
 DTSTART;TZID=America/Los_Angeles:20251124T160000
@@ -1783,6 +1757,32 @@ LOCATION:San Francisco
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Crabbing Under the Golden Gate Bridge
 URL;VALUE=URI:https://hsspack229.org/2026/10/02/crabbing
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261101T184234
+UID:5c8b400f-ca05-4c3d-adab-d2c96a12343d
+DTSTART;TZID=America/Los_Angeles:20261123T110000
+DTEND;TZID=America/Los_Angeles:20261123T120000
+CLASS:PUBLIC
+DESCRIPTION:📋 Signup: Pack Signup [see link below]\n\nPack 229 will agai
+ n be decorating a Christmas Tree at San Jose’s Christmas in the Park [se
+ e link below].\n\nJoin us at the November Pack Meeting [see link below] to
+  help make ornaments and then on at 11/23 at 11:00 AM at Plaza de Cesar Ch
+ avez [see link below] to decorate our tree! Make sure to sign up [see link
+  below] so we know who’s coming.\n\nPack Signup: https://docs.google.com
+ /spreadsheets/d/19ALnVDLBXzGYagdJsQm-WoLryAfA3CP9M3pA87zps2U/edit?usp=shar
+ ing\n\nChristmas in the Park: https://christmasinthepark.com\n\nNovember P
+ ack Meeting: https://hsspack229.org/2026/10/12/november-pack-meeting/\n\nP
+ laza de Cesar Chavez: https://maps.apple.com/?address=1%20Paseo%20de%20San
+ %20Antonio%0ASan%20Jose\,%20CA%20%2095113%0AUnited%20States&auid=126086925
+ 31698440874&ll=37.333000\,-121.890210&lsp=9902&q=Christmas%20in%20the%20Pa
+ rk
+LOCATION:Christmas in the Park\n194 S Market St\, San Jose\, CA 95113
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Christmas in the Park
+URL;VALUE=URI:https://hsspack229.org/2026/11/01/christmas-in-the-park
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Christmas in the Park;X-ADDRESS="194 S 
+ Market St, San Jose, CA 95113";VALUE=URI:geo:37.333191,-121.890210
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20261012T180937

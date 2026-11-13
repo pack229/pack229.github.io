@@ -1671,7 +1671,7 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Camp Cheesebrough;X-ADDRESS="26005 Big
  Basin Wy, Los Gatos, CA 95033";VALUE=URI:geo:37.248338,-122.145724
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261101T183842
+DTSTAMP:20261103T064638
 UID:0896fb77-76a4-4ca8-8947-5bbbc1884f06
 DTSTART;TZID=America/Los_Angeles:20261102T183000
 DTEND;TZID=America/Los_Angeles:20261102T193000
@@ -1689,6 +1689,55 @@ SUMMARY:Pack 229: Pack Meeting
 URL;VALUE=URI:https://hsspack229.org/2026/10/12/november-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261113T181830
+UID:9741fd58-d463-455e-be88-002f74cc3b66
+DTSTART;TZID=America/Los_Angeles:20261114T090000
+DTEND;TZID=America/Los_Angeles:20261114T120000
+CLASS:PUBLIC
+DESCRIPTION:Scouting for Food is an ongoing annual program of the Boy Scout
+ s of America\, begun in 1985 by the Greater Saint Louis Area Council. The 
+ program involves collecting for local food banks. It is organized at the l
+ ocal level throughout the country. Scouting for Food is a project rooted i
+ n the very foundation of the Scouting movement and its dedication to imple
+ ment the Scout Slogan and do a good turn daily.\n\nThis year we will be co
+ llecting for Sacred Heart Community Center.\n\nDoor Hangers\n\nWe handed o
+ ut door hangers at the November Pack meeting. Please get in touch if you n
+ eed more. Please distribute these in your neighborhood as soon as you can.
+ \n\nNeighborhood Pickup\n\nThen on Saturday November 14th starting at 9:00
+  AM you’ll return to collect any donations that are left out.\n\nFood Dr
+ op Off\n\n * At the Holy Spirit Front Car Line on Sunday\, November 15th f
+ rom 10:30 AM to 11:30 AM.
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Scouting for Food: Neighborhood Pickup
+URL;VALUE=URI:https://hsspack229.org/2026/11/02/scouting-for-food
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20261113T181830
+UID:4fceaf13-6a1a-47d4-83e6-26ae7b18ffbf
+DTSTART;TZID=America/Los_Angeles:20261115T103000
+DTEND;TZID=America/Los_Angeles:20261115T113000
+CLASS:PUBLIC
+DESCRIPTION:Scouting for Food is an ongoing annual program of the Boy Scout
+ s of America\, begun in 1985 by the Greater Saint Louis Area Council. The 
+ program involves collecting for local food banks. It is organized at the l
+ ocal level throughout the country. Scouting for Food is a project rooted i
+ n the very foundation of the Scouting movement and its dedication to imple
+ ment the Scout Slogan and do a good turn daily.\n\nThis year we will be co
+ llecting for Sacred Heart Community Center.\n\nDoor Hangers\n\nWe handed o
+ ut door hangers at the November Pack meeting. Please get in touch if you n
+ eed more. Please distribute these in your neighborhood as soon as you can.
+ \n\nNeighborhood Pickup\n\nThen on Saturday November 14th starting at 9:00
+  AM you’ll return to collect any donations that are left out.\n\nFood Dr
+ op Off\n\n * At the Holy Spirit Front Car Line on Sunday\, November 15th f
+ rom 10:30 AM to 11:30 AM.
+LOCATION:Holy Spirit Parish\n1200 Redmond Ave\, San Jose\, CA  95120
+ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
+SUMMARY:Pack 229: Scouting for Food: Dropoff
+URL;VALUE=URI:https://hsspack229.org/2026/11/02/scouting-for-food
+X-APPLE-STRUCTURED-LOCATION;X-TITLE=Holy Spirit Parish;X-ADDRESS="1200 Redm
+ ond Ave, San Jose, CA  95120";VALUE=URI:geo:37.228816,-121.874444
 END:VEVENT
 BEGIN:VEVENT
 DTSTAMP:20261002T173700
@@ -1744,17 +1793,19 @@ X-APPLE-STRUCTURED-LOCATION;X-TITLE=Christmas in the Park;X-ADDRESS="194 S
  Market St, San Jose, CA 95113";VALUE=URI:geo:37.333191,-121.890210
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20261012T180937
+DTSTAMP:20261113T204032
 UID:a592ab8a-5056-4542-b331-d68705587b40
 DTSTART;TZID=America/Los_Angeles:20261207T183000
 DTEND;TZID=America/Los_Angeles:20261207T193000
 CLASS:PUBLIC
-DESCRIPTION:🫡 Service Den: Tiger [see link below]\n\nTopic: Holiday Part
- y\n\nScouts at HSS can wear Class A uniforms to school on pack meeting day
- s!\n\nTiger: https://hsspack229.org/docs/service-den
+DESCRIPTION:🫡 Service Den: Tiger [see link below]\n\nOur December Pack M
+ eeting will be full of holiday cheer.\n\nScouts at HSS can wear Class A un
+ iforms to school on pack meeting days!\n\nTiger: https://hsspack229.org/do
+ cs/service-den
 LOCATION:HSS Library\n1198 Redmond Ave\, San Jose\, CA 95120
 ORGANIZER;CN=Pack 229:mailto:contact@hsspack229.org
 SUMMARY:Pack 229: Pack Meeting
+URL;VALUE=URI:https://hsspack229.org/2026/11/03/december-pack-meeting
 X-APPLE-STRUCTURED-LOCATION;X-TITLE=HSS Library;X-ADDRESS="1198 Redmond Ave
  , San Jose, CA 95120";VALUE=URI:geo:37.229046,-121.872859
 END:VEVENT

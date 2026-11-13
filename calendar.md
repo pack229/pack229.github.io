@@ -504,6 +504,16 @@ featured_image: about.jpg
 </div>
 
 <div class="calendar-card">
+<a href="https://hsspack229.org/2026/11/02/scouting-for-food"><p class="date">Sat 11/14 @  9:00 AM</p></a>
+<a href="https://hsspack229.org/2026/11/02/scouting-for-food"><p class="name">Scouting for Food: Neighborhood Pickup</p></a>
+</div>
+
+<div class="calendar-card">
+<a href="https://hsspack229.org/2026/11/02/scouting-for-food"><p class="date">Sun 11/15 @ 10:30 AM</p></a>
+<a href="https://hsspack229.org/2026/11/02/scouting-for-food"><p class="name">Scouting for Food: Dropoff</p></a>
+</div>
+
+<div class="calendar-card">
 <a href="https://hsspack229.org/2026/10/02/crabbing"><p class="date">Sat 11/21 @ 10:00 AM</p></a>
 <a href="https://hsspack229.org/2026/10/02/crabbing"><p class="name">Crabbing Under the Golden Gate Bridge</p></a>
 </div>
@@ -520,8 +530,8 @@ featured_image: about.jpg
 <div class="calendar-cards">
 
 <div class="calendar-card">
-<p class="date">Mon 12/7 @  6:30 PM</p>
-<p class="name">December Pack Meeting</p>
+<a href="https://hsspack229.org/2026/11/03/december-pack-meeting"><p class="date">Mon 12/7 @  6:30 PM</p></a>
+<a href="https://hsspack229.org/2026/11/03/december-pack-meeting"><p class="name">December Pack Meeting</p></a>
 <a href="/docs/service-den"><p class="note">Service Den: Tiger</p></a>
 </div>
 

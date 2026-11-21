@@ -515,7 +515,7 @@ featured_image: about.jpg
 
 <div class="calendar-card">
 <a href="https://hsspack229.org/2026/10/02/crabbing"><p class="date">Sat 11/21 @ 10:00 AM</p></a>
-<a href="https://hsspack229.org/2026/10/02/crabbing"><p class="name">Crabbing Under the Golden Gate Bridge</p></a>
+<a href="https://hsspack229.org/2026/10/02/crabbing"><p class="name">Crabbing Under the Golden Gate Bridge [Postponed]</p></a>
 </div>
 
 <div class="calendar-card">
